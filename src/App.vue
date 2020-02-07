@@ -1,13 +1,29 @@
 <template>
   <v-app>
     <v-app-bar app>
-      <div class="d-flex align-center">
-        <span class="logo">KEJK</span>
-      </div>
+      <v-toolbar-title class="logo">KEJK</v-toolbar-title>
       <v-spacer></v-spacer>
       <v-btn @click="toggleTheme" text>
         <v-icon>mdi-invert-colors</v-icon>
       </v-btn>
+      <v-btn 
+          v-for="link in links"
+					:key="`${link.label}--page-link`"
+					class="my-2"
+          text
+					:to="link.url"
+				>
+					{{ link.label }}
+        </v-btn>
+    </v-app-bar>
+    <v-content>
+      <router-view></router-view>
+  </v-content>
+    <v-footer app>
+    <v-row
+      justify="center"
+      no-gutters
+    >
       <v-btn href="mailto:hi@kejk.co" target="_blank" text>
         Email
       </v-btn>
@@ -21,10 +37,8 @@
         target="_blank"
         text>Music
       </v-btn>
-    </v-app-bar>
-    <v-content>
-      <router-view></router-view>
-    </v-content>
+    </v-row>
+  </v-footer>
   </v-app>
 </template>
 
