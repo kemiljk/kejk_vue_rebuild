@@ -57,9 +57,10 @@
         <p class="body-1 mb-3">
           If you want to see the hardware and software I use on a daily basis to get work done, you can check it out.
         </p>
+        <!-- <Uses /> -->
       </v-col>
     </v-row>
-    <v-row>
+    <!-- <v-row>
       <v-col class="mb-5" cols="12">
         <h1 class="display-1 font-weight-bold mb-3">
         Currently thinking.
@@ -68,15 +69,18 @@
           <Links :link="link" />
         </v-card>
       </v-col>
-    </v-row>
+    </v-row> -->
   </v-container>
 </template>
 
 <script>
-import links from './src/data/links.json'
+/* import Links from "./Links"; */
 
 export default {
   name: "About",
+  /* components: {
+    Links
+  }, */
 
   data: () => ({
     //
