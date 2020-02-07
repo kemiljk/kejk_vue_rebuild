@@ -1,7 +1,7 @@
 <template>
   <v-container>
     <v-row class="text-left">
-      <v-col class="mb-4" cols="12">
+      <v-col>
         <h1
           class="display-1 font-weight-bold mb-3"
           aria-label="intro to Karl"
@@ -24,7 +24,7 @@
         </p>
       </v-col>
     </v-row>
-    <v-row>
+    <v-row class="text-left">
       <v-col class="mb-5" cols="12" md="8">
         <h2 class="display font-weight-bold mb-3" aria-label="portfolio content">Portfolio.</h2>
         <p class="body-1 mb-3">
@@ -38,7 +38,7 @@
         >This website was designed and built by me, from scratch, in Vue.js. In some ways, it provides an idea of my personal design aesthetic and development style.</p>
       </v-col>
     </v-row>
-    <v-row>
+    <v-row class="text-left">
       <v-col class="mb-5" cols="12" md="8" aria-label="Karl's other interests">
         <h2 class="display font-weight-bold mb-3">On the side.</h2>
         <p
@@ -51,7 +51,7 @@
         <v-btn href="https://www.kanic.co" target="_blank">Kanic</v-btn>
       </v-col>
     </v-row>
-    <v-row>
+    <v-row class="text-left">
       <v-col class="mb-5" cols="12" md="8">
         <h2 class="display font-weight-bold mb-3" aria-label="Karl's tech setup">Uses.</h2>
         <p
@@ -65,16 +65,12 @@
         >{{ link.label }}</v-btn>
       </v-col>
     </v-row>
-    <!-- <v-row>
+    <v-row class="text-left">
       <v-col class="mb-5" cols="12">
-        <h1 class="display-1 font-weight-bold mb-3">
-        Currently thinking.
-        </h1>
-        <v-card v-for="link in links" :key="`${link.title}`" cols="12">
-          <Links :link="link" />
-        </v-card>
+        <h2 class="display font-weight-bold mb-3" aria-label="Karl's music playlist">Currently playing.</h2>
+        <iframe allow="autoplay *; encrypted-media *;" frameborder="0" height="450" style="width:100%;max-width:900px;overflow:hidden;background:transparent;" sandbox="allow-forms allow-popups allow-same-origin allow-scripts allow-storage-access-by-user-activation allow-top-navigation-by-user-activation" src="https://embed.music.apple.com/gb/playlist/pure-metal/pl.u-jZgo9Tqqaarj"></iframe>
       </v-col>
-    </v-row>-->
+    </v-row>
   </v-container>
 </template>
 
