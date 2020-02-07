@@ -1,7 +1,7 @@
 <template>
   <v-container>
     <v-row class="text-left">
-      <v-col class="mb-4" cols="12" md="8">
+      <v-col>
         <h1 class="display-1 font-weight-bold mb-3">/Uses.</h1>
         <p
           class="body-1 mb-3"
@@ -15,16 +15,20 @@
       </v-col>
     </v-row>
     <v-row class="text-left">
-      <v-col class="mb-4" cols="12" md="8">
+      <v-col class="mb-4" cols="12">
         <h2 class="display font-weight-bold mb-3">Design.</h2>
         <p
           class="body-1 mb-3"
         >My design tools are simple and straightforward. I keep it lean and minimal.</p>
-        <ul
-          class="body-1 mb-3"
-        >
-        <li>Adobe XD is my design tool of choice. Its flexibility as a wireframing, prototyping and full featured design tool make it perfect for my daily needs. 
-          The new collaboration beta is a little funky at the moment, but it's going to make for a solid solution when it's ready.</li>
+        <ul class="body-1 mb-3">
+          <li>
+            <a href="https://www.adobe.com/products/xd.html">Adobe XD</a> is my design tool of choice. Its flexibility as a wireframing, prototyping and full featured design tool make it perfect for my daily needs.
+            The new collaboration beta is a little funky at the moment, but it's going to make for a solid solution when it's ready.
+          </li>
+          <li>
+            <a href="https://overflow.io/">Overflow</a> I sometimes utilise Overflow to create Adobe XD-derived user flows for better visual explanation of page linking and process.
+            Usually this is used if a prototype can't convey the idea (i.e. it's too complex) or the team/client needs a visual depiction of all linkages.
+          </li>
         </ul>
         <p
           class="body-1 mb-3"

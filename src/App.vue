@@ -15,7 +15,9 @@
       >{{ link.label }}</v-btn>
     </v-app-bar>
     <v-content>
-      <router-view></router-view>
+      <v-responsive width="900px">
+        <router-view></router-view>
+      </v-responsive>
     </v-content>
     <v-footer app>
       <v-row justify="center" no-gutters>
