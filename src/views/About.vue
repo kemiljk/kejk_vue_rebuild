@@ -3,7 +3,8 @@
     <v-row class="text-left">
       <v-col class="mb-4" cols="12">
         <h1
-          class="display-1 font-weight-bold mb-3" aria-label="intro to Karl"
+          class="display-1 font-weight-bold mb-3"
+          aria-label="intro to Karl"
         >I'm Karl, a human-centred designer and frontend developer.</h1>
         <h1 class="display-1 font-weight-bold mb-3">I lead design at NeuerEnergy in London, UK.</h1>
       </v-col>
@@ -16,55 +17,52 @@
         <p
           class="body-1 mb-3"
         >I regularly practice mindfulness and meditation, and I’m an art, design and architecture nerd that absolutely loves exploring and learning about how anything is built.</p>
-        <p class="body-1 mb-3">I've also worked for <a href="https://www.cognite.co">Cognite</a>, Incuna and <a href="https://www.apple.com/retail/">Apple</a>.</p>
+        <p class="body-1 mb-3">
+          I've also worked for
+          <a href="https://www.cognite.co">Cognite</a>, Incuna and
+          <a href="https://www.apple.com/retail/">Apple</a>.
+        </p>
       </v-col>
     </v-row>
     <v-row>
       <v-col class="mb-5" cols="12" md="8">
-        <h1 class="display-1 font-weight-bold mb-3" aria-label="portfolio content">
-          Portfolio.
-        </h1>
+        <h2 class="display font-weight-bold mb-3" aria-label="portfolio content">Portfolio.</h2>
         <p class="body-1 mb-3">
-          If you would like to see my portfolio or CV, please send me an <a href="mailto:hi@kejk.co">email</a>. Due to the sensitivity of the projects I've worked on, I'm not permitted to list them here.
+          If you would like to see my portfolio or CV, please send me an
+          <a
+            href="mailto:hi@kejk.co"
+          >email</a>. Due to the sensitivity of the projects I've worked on, I'm not permitted to list them here.
         </p>
-        <p class="body-1 mb-3">
-          This website was designed and built by me, from scratch, in Vue.js. In some ways, it provides an idea of my personal design aesthetic and development style.
-        </p>
+        <p
+          class="body-1 mb-3"
+        >This website was designed and built by me, from scratch, in Vue.js. In some ways, it provides an idea of my personal design aesthetic and development style.</p>
       </v-col>
     </v-row>
     <v-row>
       <v-col class="mb-5" cols="12" md="8" aria-label="Karl's other interests">
-        <h1 class="display-1 font-weight-bold mb-3">
-          On the side.
-        </h1>
-        <p class="body-1 mb-3">
-          I'm the Design Lead for Make Me A Cocktail. We're currently in the process of redesigning and rebuilding the site.
-        </p>
+        <h2 class="display font-weight-bold mb-3">On the side.</h2>
+        <p
+          class="body-1 mb-3"
+        >I'm the Design Lead for Make Me A Cocktail. We're currently in the process of redesigning and rebuilding the site.</p>
         <v-btn href="https://www.makemeacocktail.com/" target="_blank">Make Me A Cocktail</v-btn>
       </v-col>
       <v-col class="mb-5" cols="12" md="8">
-        <p class="body-1 mb-3">
-          I'm also currently building a new startup, Kanic.
-        </p>
+        <p class="body-1 mb-3">I'm also currently building a new startup, Kanic.</p>
         <v-btn href="https://www.kanic.co" target="_blank">Kanic</v-btn>
       </v-col>
     </v-row>
     <v-row>
       <v-col class="mb-5" cols="12" md="8">
-        <h1 class="display-1 font-weight-bold mb-3" aria-label="Karl's tech setup">
-          Uses.
-        </h1>
-        <p class="body-1 mb-3">
-          If you want to see the hardware and software I use on a daily basis to get work done, you can check it out.
-        </p>
-        <v-btn 
+        <h2 class="display font-weight-bold mb-3" aria-label="Karl's tech setup">Uses.</h2>
+        <p
+          class="body-1 mb-3"
+        >If you want to see the hardware and software I use on a daily basis to get work done, you can check it out.</p>
+        <v-btn
           v-for="link in links"
-					:key="`${link.label}--page-link`"
-					class="my-2"
-					:to="link.url"
-				>
-					{{ link.label }}
-        </v-btn>
+          :key="`${link.label}--page-link`"
+          class="my-2"
+          :to="link.url"
+        >{{ link.label }}</v-btn>
       </v-col>
     </v-row>
     <!-- <v-row>
@@ -76,24 +74,23 @@
           <Links :link="link" />
         </v-card>
       </v-col>
-    </v-row> -->
+    </v-row>-->
   </v-container>
 </template>
 
 <script>
-
 export default {
   name: "About",
 
-  data () {
+  data() {
     return {
       links: [
         {
-        label: 'Uses',
-        url: '/uses'
+          label: "Uses",
+          url: "/uses"
         }
       ]
-    }
+    };
   }
 };
 </script>
