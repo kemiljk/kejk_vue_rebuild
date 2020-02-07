@@ -68,7 +68,7 @@
     <v-row class="text-left">
       <v-col class="mb-5" cols="12">
         <h2 class="display font-weight-bold mb-3" aria-label="Karl's music playlist">Currently playing.</h2>
-        <iframe allow="autoplay *; encrypted-media *;" frameborder="0" height="450" style="width:100%;max-width:900px;overflow:hidden;background:transparent;" sandbox="allow-forms allow-popups allow-same-origin allow-scripts allow-storage-access-by-user-activation allow-top-navigation-by-user-activation" src="https://embed.music.apple.com/gb/playlist/pure-metal/pl.u-jZgo9Tqqaarj"></iframe>
+        <iframe allow="autoplay *; encrypted-media *;" frameborder="0" height="450" style="width:100%;max-width:900px;overflow:hidden;background:transparent; border-radius: 8px; box-shadow: 0px 3px 1px -2px rgba(0, 0, 0, 0.2), 0px 2px 2px 0px rgba(0, 0, 0, 0.14), 0px 1px 5px 0px rgba(0, 0, 0, 0.12);" sandbox="allow-forms allow-popups allow-same-origin allow-scripts allow-storage-access-by-user-activation allow-top-navigation-by-user-activation" src="https://embed.music.apple.com/gb/playlist/pure-metal/pl.u-jZgo9Tqqaarj"></iframe>
       </v-col>
     </v-row>
   </v-container>
