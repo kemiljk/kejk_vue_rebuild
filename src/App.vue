@@ -13,13 +13,13 @@
       </div>
       <v-spacer></v-spacer>
       <v-btn href="mailto:hi@kejk.co" target="_blank" text light>
-        <span class="mr-2">Email</span>
+        <span>Email</span>
       </v-btn>
       <v-btn href="https://www.twitter.com/_kejk" target="_blank" text light>
-        <span class="mr-2">Twitter</span>
+        <span>Twitter</span>
       </v-btn>
       <v-btn href="https://github.com/kemiljk" target="_blank" text light>
-        <span class="mr-2">Github</span>
+        <span>Github</span>
       </v-btn>
       <v-btn
         href="https://music.apple.com/gb/album/cornerstone/1300802348"
@@ -27,7 +27,7 @@
         text
         light
       >
-        <span class="mr-2">Music</span>
+        <span>Music</span>
       </v-btn>
     </v-app-bar>
 
