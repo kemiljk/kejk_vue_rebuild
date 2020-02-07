@@ -1,10 +1,14 @@
-/* import Vue from 'vue'
+import Vue from 'vue'
 import VueRouter from 'vue-router'
-import Uses from '../views/Uses.vue'
 
 Vue.use(VueRouter)
 
 const routes = [
+  {
+    path: '/',
+    name: 'About',
+    component: () => import('../views/About.vue')
+  },
   {
     path: '/uses',
     name: 'Uses',
@@ -18,4 +22,4 @@ const router = new VueRouter({
   routes
 })
 
-export default router */ 
+export default router

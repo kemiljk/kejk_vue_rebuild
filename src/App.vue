@@ -9,37 +9,42 @@
         <v-icon>mdi-invert-colors</v-icon>
       </v-btn>
       <v-btn href="mailto:hi@kejk.co" target="_blank" text>
-        <span>Email</span>
+        Email
       </v-btn>
       <v-btn href="https://www.twitter.com/_kejk" target="_blank" text>
-        <span>Twitter</span>
+        Twitter
       </v-btn>
-      <v-btn href="https://github.com/kemiljk" target="_blank" text>
-        <span>Github</span>
+      <v-btn href="https://github.com/kemiljk" target="_blank" text>Github
       </v-btn>
       <v-btn
         href="https://music.apple.com/gb/album/cornerstone/1300802348"
         target="_blank"
-        text
-      
-      >
-        <span>Music</span>
+        text>Music
       </v-btn>
     </v-app-bar>
-
     <v-content>
-      <About />
+      <router-view></router-view>
     </v-content>
   </v-app>
 </template>
 
 <script>
-import About from "./components/About";
 
 export default {
   name: "App",
-  components: {
-    About
+  data() {
+		return {
+			links: [
+				{
+					label: 'About',
+					url: '/'
+				},
+				{
+					label: 'Uses',
+					url: '/uses'
+        }
+      ]
+    }
   },
   methods: {
     toggleTheme() {
@@ -47,8 +52,6 @@ export default {
       this.image
     }
   },
-  data: () => ({
-    //
-  })
 };
+
 </script>

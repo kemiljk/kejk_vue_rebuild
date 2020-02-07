@@ -1,5 +1,13 @@
 <template>
   <v-container>
+      <v-btn 
+          v-for="link in links"
+					:key="`${link.label}--page-link`"
+					class="my-2"
+					:to="link.url"
+				>
+					<v-icon left>mdi-chevron-left</v-icon>{{ link.label }}
+        </v-btn>
     <v-row class="text-left">
       <v-col class="mb-4" cols="12" md="6">
         <h1
@@ -16,9 +24,16 @@
 export default {
     name: "Uses",
 
-    data: () => ({
-    //
-  })
+    data () {
+    return {
+      links: [
+        {
+        label: 'About',
+        url: '/'
+        }
+      ]
+    }
+  }
 };
 
 </script>

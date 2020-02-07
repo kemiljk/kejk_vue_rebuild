@@ -3,25 +3,25 @@
     <v-row class="text-left">
       <v-col class="mb-4" cols="12">
         <h1
-          class="display-1 font-weight-bold mb-3"
+          class="display-1 font-weight-bold mb-3" aria-label="intro to Karl"
         >I'm Karl, a human-centred designer and frontend developer.</h1>
         <h1 class="display-1 font-weight-bold mb-3">I lead design at NeuerEnergy in London, UK.</h1>
       </v-col>
 
       <v-col class="mb-5" cols="12">
-        <p class="body-1 mb-3">
+        <p class="body-1 mb-3" aria-label="about Karl">
           I started out my career with a deep love of psychology and a Masters in Fine Art creating behaviour-influencing sculptures and digital installations.
           Now, having spent 6 years bringing design thinking practices to rare diseases, I lead a design team delivering elegant human-centric solutions to change the face of renewable energy.
         </p>
         <p
           class="body-1 mb-3"
         >I regularly practice mindfulness and meditation, and I’m an art, design and architecture nerd that absolutely loves exploring and learning about how anything is built.</p>
-        <p class="body-1 mb-3">I've also worked for Cognite, Incuna and Apple.</p>
+        <p class="body-1 mb-3">I've also worked for <a href="https://www.cognite.co">Cognite</a>, Incuna and <a href="https://www.apple.com/retail/">Apple</a>.</p>
       </v-col>
     </v-row>
     <v-row>
       <v-col class="mb-5" cols="12" md="8">
-        <h1 class="display-1 font-weight-bold mb-3">
+        <h1 class="display-1 font-weight-bold mb-3" aria-label="portfolio content">
           Portfolio.
         </h1>
         <p class="body-1 mb-3">
@@ -33,7 +33,7 @@
       </v-col>
     </v-row>
     <v-row>
-      <v-col class="mb-5" cols="12" md="8">
+      <v-col class="mb-5" cols="12" md="8" aria-label="Karl's other interests">
         <h1 class="display-1 font-weight-bold mb-3">
           On the side.
         </h1>
@@ -51,13 +51,20 @@
     </v-row>
     <v-row>
       <v-col class="mb-5" cols="12" md="8">
-        <h1 class="display-1 font-weight-bold mb-3">
+        <h1 class="display-1 font-weight-bold mb-3" aria-label="Karl's tech setup">
           Uses.
         </h1>
         <p class="body-1 mb-3">
           If you want to see the hardware and software I use on a daily basis to get work done, you can check it out.
         </p>
-        <!-- <Uses /> -->
+        <v-btn 
+          v-for="link in links"
+					:key="`${link.label}--page-link`"
+					class="my-2"
+					:to="link.url"
+				>
+					{{ link.label }}
+        </v-btn>
       </v-col>
     </v-row>
     <!-- <v-row>
@@ -74,16 +81,19 @@
 </template>
 
 <script>
-/* import Links from "./Links"; */
 
 export default {
   name: "About",
-  /* components: {
-    Links
-  }, */
 
-  data: () => ({
-    //
-  })
+  data () {
+    return {
+      links: [
+        {
+        label: 'Uses',
+        url: '/uses'
+        }
+      ]
+    }
+  }
 };
 </script>
