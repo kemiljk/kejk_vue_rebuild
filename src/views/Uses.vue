@@ -20,7 +20,7 @@
         <p
           class="body-1 mb-3"
         >My design tools are simple and straightforward. I keep it lean and minimal.</p>
-        <ul class="body-1 mb-3">
+        <ul class="body-1 mb-6">
           <li>
             <a href="https://www.adobe.com/products/xd.html" target="_blank">Adobe XD</a> is my design tool of choice. Its flexibility as a wireframing, prototyping and full featured design tool make it perfect for my daily needs.
             The new collaboration beta is a little funky at the moment, but it's going to make for a solid solution when it's ready.
@@ -38,7 +38,7 @@
         <p
           class="body-1 mb-3"
         >Like with design, I keep my development toolset minimal but have a few more pieces of software I need.</p>
-        <ul class="body-1 mb-3">
+        <ul class="body-1 mb-6">
           <li>
             <strong>Languages:</strong> HTML, CSS/SASS/SCSS, JavaScript and a small amount of PHP
           </li>
@@ -62,7 +62,7 @@
           target="_blank"
           class="mb-3"
         >Download JSON File</v-btn>
-        <ul class="body-1 mb-3">
+        <ul class="body-1 mb-6">
           <li>
             <a href="https://hyper.is" target="_blank">Hyper</a> is my terminal of choice with JetBrains Mono set as my font of choice as well as some custom colour rules.
           </li>
@@ -72,7 +72,7 @@
           target="_blank"
           class="mb-3"
         >Download JS File</v-btn>
-        <ul class="body-1 mb-3">
+        <ul class="body-1 mb-6">
           <li>
             <a href="https://ohmyz.sh" target="_blank">ZSH</a> is my default terminal shell
             in Hyper with a basic custom theme set.
@@ -99,7 +99,7 @@
         <p
           class="body-1 mb-3"
         >I don't use a lot of hardware, and it varies if I'm travelling but here's my common EDC.</p>
-        <ul class="body-1 mb-3">
+        <ul class="body-1 mb-6">
           <li>
             <a href="https://www.apple.com/shop/buy-iphone/iphone-xr" target="_blank">
               iPhone
