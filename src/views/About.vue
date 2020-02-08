@@ -60,6 +60,9 @@
         <p class="body-1 mb-3">I'm also currently building a new startup, Kanic.</p>
         <v-btn href="https://www.kanic.co" target="_blank">Kanic</v-btn>
       </v-col>
+      <v-col class="mb-5" cols="12" md="4">
+        <v-img width="300px" alt="Kanic logo visual" src="../assets/kanic.png" class="rounded-img"></v-img>
+      </v-col>
     </v-row>
     <v-row class="text-left">
       <v-col class="mb-5" cols="12" md="8">
