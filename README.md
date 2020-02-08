@@ -1,4 +1,6 @@
-# kejk
+# KEJK
+
+[![Netlify Status](https://api.netlify.com/api/v1/badges/086e79f0-91fa-4597-9c8a-96bc3081f88e/deploy-status)](https://app.netlify.com/sites/kejk/deploys)
 
 ## Project setup
 ```
