@@ -12,6 +12,7 @@
           <a
             href="https://www.neuerenergy.com"
             class="orange--text"
+            target="_blank"
           >NeuerEnergy</a> in London, UK.
         </h2>
       </v-col>
