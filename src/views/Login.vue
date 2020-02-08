@@ -22,7 +22,7 @@
           color="blue--text" 
           v-for="link in links"
           :key="`${link.label}--portfolio-link`"
-          class="my-2"
+          class="my-2 mx-auto"
           text
           :to="link.url"
           disabled
