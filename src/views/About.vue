@@ -7,7 +7,9 @@
           class="display-1 font-weight-bold mb-3"
           aria-label="intro to Karl"
         >I'm a designer and frontend developer.</h1>
-        <h1 class="display-1 font-weight-bold mb-3">I lead design at NeuerEnergy in London, UK.</h1>
+        <h1
+          class="display-1 font-weight-bold mb-3"
+        >I lead design and frontend development at NeuerEnergy in London, UK.</h1>
       </v-col>
       <v-col class="mb-5" cols="12">
         <p class="body-1 mb-3" aria-label="about Karl">
@@ -45,6 +47,14 @@
           class="body-1 mb-3"
         >I'm the Design Lead for Make Me A Cocktail. We're currently in the process of redesigning and rebuilding the site.</p>
         <v-btn href="https://www.makemeacocktail.com/" target="_blank">Make Me A Cocktail</v-btn>
+      </v-col>
+      <v-col class="mb-5" cols="12" md="4">
+        <v-img
+          width="300px"
+          alt="Make Me A Cocktail visual"
+          src="../assets/mmac.png"
+          class="rounded-img"
+        ></v-img>
       </v-col>
       <v-col class="mb-5" cols="12" md="8">
         <p class="body-1 mb-3">I'm also currently building a new startup, Kanic.</p>
