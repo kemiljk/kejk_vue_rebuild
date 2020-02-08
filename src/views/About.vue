@@ -51,7 +51,7 @@
         <p
           class="body-1 mb-3"
         >I'm the Design Lead for Make Me A Cocktail. We're currently in the process of redesigning and rebuilding the site.</p>
-        <v-btn href="https://www.makemeacocktail.com/" target="_blank">Make Me A Cocktail</v-btn>
+        <v-btn href="https://makemeacocktail.com/" target="_blank">Make Me A Cocktail</v-btn>
       </v-col>
       <v-col class="mb-5" cols="12" md="4">
         <v-img
