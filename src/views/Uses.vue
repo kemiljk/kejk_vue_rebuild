@@ -2,7 +2,7 @@
   <v-container>
     <v-row class="text-left">
       <v-col>
-        <h1 class="display-1 font-weight-bold mb-3">/Uses.</h1>
+        <h1 class="display-2 font-weight-bold mb-3 mt-10">/Uses.</h1>
         <p
           class="body-1 mb-3"
         >I use a variety of tools to get my work done on a daily basis. Being a designer and frontend developer, I have to switch between two very different but complimentary workflows.</p>
@@ -225,7 +225,10 @@
           </li>
           <li>
             MacBook Pro 15" (2019) in silver [no longer sold] with the
-            <a href="https://www.apple.com/apple-watch-series-5/" target="_blank">
+            <a
+              href="https://www.apple.com/apple-watch-series-5/"
+              target="_blank"
+            >
               Logitech
               K380 keyboard
             </a>,

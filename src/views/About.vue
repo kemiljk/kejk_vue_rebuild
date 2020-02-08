@@ -2,10 +2,11 @@
   <v-container>
     <v-row class="text-left">
       <v-col>
+        <h1 class="display-2 font-weight-bold mb-3 mt-10" aria-label="intro to Karl">Karl Koch.</h1>
         <h1
           class="display-1 font-weight-bold mb-3"
           aria-label="intro to Karl"
-        >I'm Karl, a human-centred designer and frontend developer.</h1>
+        >I'm a designer and frontend developer.</h1>
         <h1 class="display-1 font-weight-bold mb-3">I lead design at NeuerEnergy in London, UK.</h1>
       </v-col>
 
@@ -56,19 +57,23 @@
         <h2 class="display font-weight-bold mb-3" aria-label="Karl's tech setup">Uses.</h2>
         <p
           class="body-1 mb-3"
-        >If you want to see the hardware and software I use on a daily basis to get work done, you can check it out.</p>
-        <v-btn
-          v-for="link in links"
-          :key="`${link.label}--page-link`"
-          class="my-2"
-          :to="link.url"
-        >{{ link.label }}</v-btn>
+        >If you want to see the hardware and software I use on a daily basis to get work done, you can check it out on the Uses tab at the top.</p>
       </v-col>
     </v-row>
     <v-row class="text-left">
       <v-col class="mb-5" cols="12">
-        <h2 class="display font-weight-bold mb-3" aria-label="Karl's music playlist">Currently playing.</h2>
-        <iframe allow="autoplay *; encrypted-media *;" frameborder="0" height="450" style="width:100%;max-width:900px;overflow:hidden;background:transparent; border-radius: 8px; box-shadow: 0px 3px 1px -2px rgba(0, 0, 0, 0.2), 0px 2px 2px 0px rgba(0, 0, 0, 0.14), 0px 1px 5px 0px rgba(0, 0, 0, 0.12);" sandbox="allow-forms allow-popups allow-same-origin allow-scripts allow-storage-access-by-user-activation allow-top-navigation-by-user-activation" src="https://embed.music.apple.com/gb/playlist/pure-metal/pl.u-jZgo9Tqqaarj"></iframe>
+        <h2
+          class="display font-weight-bold mb-3"
+          aria-label="Karl's music playlist"
+        >Currently playing.</h2>
+        <iframe
+          allow="autoplay *; encrypted-media *;"
+          frameborder="0"
+          height="450"
+          style="width:100%;max-width:900px;overflow:hidden;background:transparent; border-radius: 8px; box-shadow: 0px 3px 1px -2px rgba(0, 0, 0, 0.2), 0px 2px 2px 0px rgba(0, 0, 0, 0.14), 0px 1px 5px 0px rgba(0, 0, 0, 0.12);"
+          sandbox="allow-forms allow-popups allow-same-origin allow-scripts allow-storage-access-by-user-activation allow-top-navigation-by-user-activation"
+          src="https://embed.music.apple.com/gb/playlist/pure-metal/pl.u-jZgo9Tqqaarj"
+        ></iframe>
       </v-col>
     </v-row>
   </v-container>
