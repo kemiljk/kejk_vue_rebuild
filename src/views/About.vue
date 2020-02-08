@@ -6,7 +6,7 @@
           class="display-1 font-weight-bold mb-3"
           aria-label="intro to Karl"
         >I'm Karl, a human-centred designer and frontend developer.</h1>
-        <h1 class="display-1 font-weight-bold mb-3">I lead design at NeuerEnergy in London, UK.</h1>
+        <h1 class="display-1 font-weight-bold mb-3">I lead design and frontend development at NeuerEnergy in London, UK.</h1>
       </v-col>
 
       <v-col class="mb-5" cols="12">
