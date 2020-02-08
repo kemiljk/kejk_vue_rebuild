@@ -26,8 +26,8 @@
         >I regularly practice mindfulness and meditation, and I’m an art, design and architecture nerd that absolutely loves exploring and learning about how anything is built.</p>
         <p class="body-1 mb-3">
           I've also worked for
-          <a href="https://www.cognite.co">Cognite</a>, Incuna and
-          <a href="https://www.apple.com/retail/">Apple</a>.
+          <a href="https://www.cognite.co" class="teal--text">Cognite</a>, Incuna and
+          <a href="https://www.apple.com/retail/" class="teal--text">Apple</a>.
         </p>
       </v-col>
     </v-row>
@@ -37,8 +37,8 @@
         <p class="body-1 mb-3">
           If you would like to see my portfolio or CV, please send me an
           <a
-            href="mailto:hi@kejk.co"
-          >email</a>. Due to the sensitivity of the projects I've worked on, I'm not permitted to list them here.
+            href="mailto:hi@kejk.co" class="teal--text"
+          >email</a>. Due to the sensitivity of the projects I've worked on, I'm not permitted to list them here. I'll be adding a way to access this online soon, behind the Login section.
         </p>
         <p
           class="body-1 mb-3"
@@ -51,7 +51,7 @@
         <p
           class="body-1 mb-3"
         >I'm the Design Lead for Make Me A Cocktail. We're currently in the process of redesigning and rebuilding the site.</p>
-        <v-btn href="https://makemeacocktail.com/" target="_blank">Make Me A Cocktail</v-btn>
+        <v-btn href="https://makemeacocktail.com/" target="_blank" class="teal--text font-weight-bold">Make Me A Cocktail</v-btn>
       </v-col>
       <v-col class="mb-5" cols="12" sm="6" md="6" lg="4">
         <v-img
@@ -62,7 +62,7 @@
       </v-col>
       <v-col class="mb-5" cols="12" md="8">
         <p class="body-1 mb-3">I'm also currently building something new with some great people.</p>
-        <v-btn href="https://www.kanic.co" target="_blank">Kanic</v-btn>
+        <v-btn href="https://www.kanic.co" target="_blank" class="teal--text font-weight-bold">Kanic</v-btn>
       </v-col>
       <v-col class="mb-5" cols="12" sm="6" md="6" lg="4">
         <v-img alt="Kanic logo visual" src="../assets/kanic.png" class="rounded-img"></v-img>

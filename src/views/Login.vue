@@ -32,8 +32,8 @@
     </v-card>
     <v-row>
         <v-col>
-            <h1 class="display-2 font-weight-bold mb-3 mt-10 mx-auto" aria-label="intro to Karl">Coming soon.
-            </h1>
+            <h2 class="display-1 font-weight-bold mb-3 mt-10 mx-auto" aria-label="intro to Karl">Coming soon.
+            </h2>
         </v-col>
     </v-row>
   </v-container>
