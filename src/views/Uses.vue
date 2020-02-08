@@ -21,11 +21,11 @@
           class="body-1 mb-3"
         >My design tools are simple and straightforward. I keep it lean and minimal.</p>
         <ul class="body-1 mb-6">
-          <li>
+          <li class="mb-3">
             <a href="https://www.adobe.com/products/xd.html" target="_blank">Adobe XD</a> is my design tool of choice. Its flexibility as a wireframing, prototyping and full featured design tool make it perfect for my daily needs.
             The new collaboration beta is a little funky at the moment, but it's going to make for a solid solution when it's ready.
           </li>
-          <li>
+          <li class="mb-3">
             <a href="https://overflow.io/" target="_blank">Overflow</a> I sometimes utilise Overflow to create Adobe XD-derived user flows for better visual explanation of page linking and process.
             Usually this is used if a prototype can't convey the idea (i.e. it's too complex) or the team/client needs a visual depiction of all linkages.
           </li>
@@ -39,13 +39,13 @@
           class="body-1 mb-3"
         >Like with design, I keep my development toolset minimal but have a few more pieces of software I need.</p>
         <ul class="body-1 mb-6">
-          <li>
+          <li class="mb-3">
             <strong>Languages:</strong> HTML, CSS/SASS/SCSS, JavaScript and a small amount of PHP
           </li>
-          <li>
+          <li class="mb-3">
             <strong>Frameworks / Libraries / Tools:</strong> Material-UI/Veutify, Git, Vue.js
           </li>
-          <li>
+          <li class="mb-3">
             <a href="https://www.adobe.com/products/xd.html" target="_blank">VSCode</a> is my editor of choice. I currently use the
             <a
               href="https://marketplace.visualstudio.com/items?itemName=bobsparadox.seti-black"
@@ -60,28 +60,28 @@
         <v-btn
           href="https://res.cloudinary.com/kejk/raw/upload/v1581160468/settings.json_engjvv.zip"
           target="_blank"
-          class="mb-3"
+          class="mb-6"
         >Download JSON File</v-btn>
         <ul class="body-1 mb-6">
-          <li>
+          <li class="mb-3">
             <a href="https://hyper.is" target="_blank">Hyper</a> is my terminal of choice with JetBrains Mono set as my font of choice as well as some custom colour rules.
           </li>
         </ul>
         <v-btn
           href="https://res.cloudinary.com/kejk/raw/upload/v1581160309/hyper.js_wyc9e6.zip"
           target="_blank"
-          class="mb-3"
+          class="mb-6"
         >Download JS File</v-btn>
         <ul class="body-1 mb-6">
-          <li>
+          <li class="mb-3">
             <a href="https://ohmyz.sh" target="_blank">ZSH</a> is my default terminal shell
             in Hyper with a basic custom theme set.
           </li>
-          <li>
+          <li class="mb-3">
             <a href="https://numi.app" target="_blank">Numi</a> is an extended custom
             calculator that I use to perform arithmetic and conversions.
           </li>
-          <li>
+          <li class="mb-3">
             <a
               href="https://www.mozilla.org/en-GB/firefox/developer/"
               target="_blank"
@@ -100,19 +100,19 @@
           class="body-1 mb-3"
         >I don't use a lot of hardware, and it varies if I'm travelling but here's my common EDC.</p>
         <ul class="body-1 mb-6">
-          <li>
+          <li class="mb-3">
             <a href="https://www.apple.com/shop/buy-iphone/iphone-xr" target="_blank">
               iPhone
               XR
             </a> in black.
           </li>
-          <li>
+          <li class="mb-3">
             <a
               href="https://www.amazon.co.uk/gp/product/B07FB33XWT/ref=ppx_yo_dt_b_search_asin_title?ie=UTF8&psc=1"
               target="_blank"
             >Apple Watch Series 5</a> in Space Grey.
           </li>
-          <li>
+          <li class="mb-3">
             iPad 9.7" (2018) in Space Grey [no longer sold] with the
             <a
               href="https://www.amazon.co.uk/gp/product/B07FB33XWT/ref=ppx_yo_dt_b_search_asin_title?ie=UTF8&psc=1"
@@ -123,7 +123,7 @@
               target="_blank"
             >first generation Apple Pencil</a>.
           </li>
-          <li>
+          <li class="mb-3">
             MacBook Pro 15" (2019) in silver [no longer sold] with the
             <a
               href="https://www.apple.com/apple-watch-series-5/"
