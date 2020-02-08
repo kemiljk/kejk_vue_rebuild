@@ -3,13 +3,13 @@
     <v-row class="text-left">
       <v-col>
         <h1 class="display-2 font-weight-bold mb-3 mt-10" aria-label="intro to Karl">Karl Koch.</h1>
-        <h1
+        <h2
           class="display-1 font-weight-bold mb-3"
           aria-label="intro to Karl"
-        >I'm a designer and frontend developer.</h1>
-        <h1
+        >I'm a designer and frontend developer.</h2>
+        <h2
           class="display-1 font-weight-bold mb-3"
-        >I lead design and frontend development at NeuerEnergy in London, UK.</h1>
+        >I lead design and frontend development at NeuerEnergy in London, UK.</h2>
       </v-col>
       <v-col class="mb-5" cols="12">
         <p class="body-1 mb-3" aria-label="about Karl">
