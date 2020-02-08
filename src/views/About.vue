@@ -9,7 +9,6 @@
         >I'm a designer and frontend developer.</h1>
         <h1 class="display-1 font-weight-bold mb-3">I lead design at NeuerEnergy in London, UK.</h1>
       </v-col>
-
       <v-col class="mb-5" cols="12">
         <p class="body-1 mb-3" aria-label="about Karl">
           I started out my career with a deep love of psychology and a Masters in Fine Art creating behaviour-influencing sculptures and digital installations.
