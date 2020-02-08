@@ -55,7 +55,6 @@
       </v-col>
       <v-col class="mb-5" cols="12" md="4">
         <v-img
-          width="300px"
           alt="Make Me A Cocktail visual"
           src="../assets/mmac.png"
           class="rounded-img"
@@ -66,7 +65,7 @@
         <v-btn href="https://www.kanic.co" target="_blank">Kanic</v-btn>
       </v-col>
       <v-col class="mb-5" cols="12" md="4">
-        <v-img width="300px" alt="Kanic logo visual" src="../assets/kanic.png" class="rounded-img"></v-img>
+        <v-img alt="Kanic logo visual" src="../assets/kanic.png" class="rounded-img"></v-img>
       </v-col>
     </v-row>
     <v-row class="text-left">
