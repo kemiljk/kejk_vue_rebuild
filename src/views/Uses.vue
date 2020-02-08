@@ -134,7 +134,7 @@
               href="https://smile.amazon.co.uk/gp/product/B07W6JG6Z7/ref=ppx_yo_dt_b_search_asin_title?ie=UTF8&psc=1"
               target="_blank" class="teal--text"
             >Logitech MX Master 3 mouse</a> and the TwelveSouth Ghost
-            Stand (no longer sold).
+            Stand [no longer sold].
           </li>
         </ul>
       </v-col>
