@@ -102,12 +102,7 @@ export default {
 
   data() {
     return {
-      links: [
-        {
-          label: "Uses",
-          url: "/uses"
-        }
-      ]
+      //
     };
   }
 };

@@ -47,6 +47,10 @@ export default {
         {
           label: "Uses",
           url: "/uses"
+        },
+        {
+          label: "Login",
+          url: "/login"
         }
       ]
     };
