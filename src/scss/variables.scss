@@ -12,6 +12,12 @@ $heading-font-family: "Karla";
   }
 }
 
+@media only screen and (max-width: 375px) { 
+  .logo {
+    font-size: 1rem;
+  }
+}
+
 .rounded-img {
   border-radius: 8px;
 }
