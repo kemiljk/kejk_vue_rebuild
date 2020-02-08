@@ -7,9 +7,13 @@
           class="display-1 font-weight-bold mb-3"
           aria-label="intro to Karl"
         >I'm a designer and frontend developer.</h2>
-        <h2
-          class="display-1 font-weight-bold mb-3"
-        >I lead design and frontend development at NeuerEnergy in London, UK.</h2>
+        <h2 class="display-1 font-weight-bold mb-3">
+          I lead design and frontend development at
+          <a
+            href="https://www.neuerenergy.com"
+            class="orange--text"
+          >NeuerEnergy</a> in London, UK.
+        </h2>
       </v-col>
       <v-col class="mb-5" cols="12">
         <p class="body-1 mb-3" aria-label="about Karl">
