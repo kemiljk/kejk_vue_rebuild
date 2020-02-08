@@ -62,7 +62,9 @@
         ></v-img>
       </v-col>
       <v-col class="mb-5" cols="12" md="8">
-        <p class="body-1 mb-3">I'm also currently building a new startup, Kanic.</p>
+        <p
+          class="body-1 mb-3"
+        >I'm also currently building something new with some great people, called Kanic.</p>
         <v-btn href="https://www.kanic.co" target="_blank">Kanic</v-btn>
       </v-col>
       <v-col class="mb-5" cols="12" md="4">
