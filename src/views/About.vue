@@ -53,7 +53,7 @@
         >I'm the Design Lead for Make Me A Cocktail. We're currently in the process of redesigning and rebuilding the site.</p>
         <v-btn href="https://makemeacocktail.com/" target="_blank">Make Me A Cocktail</v-btn>
       </v-col>
-      <v-col class="mb-5" cols="12" md="4">
+      <v-col class="mb-5" cols="12" sm="6" md="6" lg="4">
         <v-img
           alt="Make Me A Cocktail visual"
           src="../assets/mmac.png"
@@ -64,7 +64,7 @@
         <p class="body-1 mb-3">I'm also currently building something new with some great people.</p>
         <v-btn href="https://www.kanic.co" target="_blank">Kanic</v-btn>
       </v-col>
-      <v-col class="mb-5" cols="12" md="4">
+      <v-col class="mb-5" cols="12" sm="6" md="6" lg="4">
         <v-img alt="Kanic logo visual" src="../assets/kanic.png" class="rounded-img"></v-img>
       </v-col>
     </v-row>
