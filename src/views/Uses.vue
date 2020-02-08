@@ -103,8 +103,7 @@
           <li class="mb-3">
             <a href="https://www.apple.com/shop/buy-iphone/iphone-xr" target="_blank" class="teal--text">
               iPhone
-              XR
-            </a> in black.
+              XR</a> in black.
           </li>
           <li class="mb-3">
             <a
@@ -130,8 +129,7 @@
               target="_blank" class="teal--text"
             >
               Logitech
-              K380 keyboard
-            </a>,
+              K380 keyboard</a>,
             <a
               href="https://smile.amazon.co.uk/gp/product/B07W6JG6Z7/ref=ppx_yo_dt_b_search_asin_title?ie=UTF8&psc=1"
               target="_blank" class="teal--text"
