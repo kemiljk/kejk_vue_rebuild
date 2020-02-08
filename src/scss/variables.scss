@@ -6,6 +6,12 @@ $heading-font-family: "Karla";
   font-size: 3rem;
 }
 
+@media only screen and (max-width: 414px) { 
+  .logo {
+    font-size: 1.5rem;
+  }
+}
+
 .rounded-img {
   border-radius: 8px;
 }
