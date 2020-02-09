@@ -16,12 +16,12 @@ export default {
   data() {
     return {
       links: [
-        {
-          label: "Portfolio",
-          url: "/portfolio"
-        },
-      ]
-    };
-  }
+                {
+                label: "Portfolio",
+                url: "/portfolio"
+                }
+            ],
+        };
+    }
 };
 </script>
