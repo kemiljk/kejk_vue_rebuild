@@ -59,9 +59,9 @@ export default {
     toggleTheme() {
       this.$vuetify.theme.dark = !this.$vuetify.theme.dark;
 
-      const prefersDark = window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches;
+     /*  const prefersDark = window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches;
 
-      if(prefersDark) toggleTheme();
+      if(prefersDark) toggleTheme(); */
     },
   }
 };
