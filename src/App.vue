@@ -58,8 +58,17 @@ export default {
   methods: {
     toggleTheme() {
       this.$vuetify.theme.dark = !this.$vuetify.theme.dark;
-      this.image;
-    }
+    },
+    setColorScheme() {
+      const prefersDark = window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches
+
+      if(prefersDark) {
+        this.$vuetify.theme.dark;
+      }
+      else {
+        this.$vuetify.theme.dark = !this.$vuetify.theme.dark;
+      }
+    },
   }
 };
 </script>
