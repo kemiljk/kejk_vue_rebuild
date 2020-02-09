@@ -68,17 +68,17 @@
         <v-img alt="Kanic logo visual" src="../assets/kanic.png" class="rounded-img"></v-img>
       </v-col>
     </v-row>
-      <v-row class="ml-1 mr-1">
-        <h2 class="display font-weight-bold mb-3" aria-label="Karl's posts">Posts.</h2>
-          <v-row>
-              <v-col 
-                v-for="post in posts"
-                :key="`${post.title}`"
-                cols="12" md="6">
-                <Posts :post="post" class="justify-center" />
-              </v-col>
-          </v-row>
-      </v-row>
+    <v-row class="ml-1 mr-1">
+      <h2 class="display font-weight-bold mb-3" aria-label="Karl's posts">Posts.</h2>
+        <v-row>
+            <v-col 
+              v-for="post in posts"
+              :key="`${post.id}`"
+              cols="12" md="6">
+              <Posts :post="post" class="justify-center" />
+            </v-col>
+        </v-row>
+    </v-row>
     <v-row class="text-left">
       <v-col class="mb-5" cols="12" md="8">
         <h2 class="display font-weight-bold mb-3" aria-label="Karl's tech setup">Uses.</h2>
@@ -86,6 +86,17 @@
           class="body-1 mb-3"
         >If you want to see the hardware and software I use on a daily basis to get work done, you can check it out on the Uses tab at the top.</p>
       </v-col>
+    </v-row>
+    <v-row class="ml-1 mr-1">
+      <h2 class="display font-weight-bold mb-3" aria-label="Karl's posts">Currently reading.</h2>
+        <v-row>
+            <v-col 
+              v-for="book in books"
+              :key="`${book.id}`"
+              cols="6" md="3">
+              <Books :book="book" />
+            </v-col>
+        </v-row>
     </v-row>
     <v-row class="text-left">
       <v-col class="mb-5" cols="12">
@@ -109,15 +120,19 @@
 <script>
 import Posts from '../components/Posts'
 import postsData from '../data/posts.json'
+import Books from '../components/Books'
+import booksData from '../data/books.json'
 
 export default {
   name: "About",
   components: {
-            Posts
+            Posts,
+            Books
           },
   data() {
     return {
       posts: postsData,
+      books: booksData,
           }
       }
 };
