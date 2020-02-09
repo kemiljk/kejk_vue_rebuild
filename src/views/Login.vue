@@ -18,8 +18,7 @@
       </v-card-text>
       <v-divider></v-divider>
       <v-card-actions>
-          <v-btn 
-          color="teal--text" 
+          <v-btn
           v-for="link in links"
           :key="`${link.label}--portfolio-link`"
           class="my-2 mx-auto"
