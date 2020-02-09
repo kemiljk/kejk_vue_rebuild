@@ -46,7 +46,7 @@
       </v-col>
     </v-row>
     <v-row class="text-left">
-      <v-col class="mb-5" cols="12" md="8" aria-label="Karl's other interests">
+      <v-col class="mb-5" cols="12" lg="8" md="6" sm="6" aria-label="Karl's other interests">
         <h2 class="display font-weight-bold mb-3">On the side.</h2>
         <p
           class="body-1 mb-3"
@@ -60,7 +60,7 @@
           class="rounded-img"
         ></v-img>
       </v-col>
-      <v-col class="mb-5" cols="12" md="8">
+      <v-col class="mb-5" cols="12" lg="8" md="6" sm="6">
         <p class="body-1 mb-3">I'm also currently building something new with some great people.</p>
         <v-btn href="https://www.kanic.co" target="_blank" class="teal--text font-weight-bold">Kanic</v-btn>
       </v-col>
