@@ -22,3 +22,8 @@ $heading-font-family: "Karla";
   border-radius: 8px;
   box-shadow: 0px 2px 1px rgba(0, 0, 0, 0.25);
 }
+
+.v-card__text, .v-card__title {
+  word-break: normal !important; /* maybe !important  */
+  text-align: left !important;
+}

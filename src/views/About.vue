@@ -68,26 +68,17 @@
         <v-img alt="Kanic logo visual" src="../assets/kanic.png" class="rounded-img"></v-img>
       </v-col>
     </v-row>
-    <v-container fluid>
-      <v-row>
-        <v-col class="mb-5" cols="12">
-              <h2 class="display font-weight-bold mb-3 text-left" aria-label="Karl's posts">Posts.</h2>
-        </v-col>
-                <v-col class="mb-5" md="6">
-                  <v-card 
-                      v-for="post in posts"
-                      :key="`${post.title}--post-title`"
-                      class="mx-auto mb-5"
-                      hover
-                      :href="`${post.url}`"
-                      target="_blank">
-                      <v-card-title>
-                        {{ post.title }}
-                      </v-card-title>
-                  </v-card>
-                </v-col>
+      <v-row class="ml-1 mr-1">
+        <h2 class="display font-weight-bold mb-3" aria-label="Karl's posts">Posts.</h2>
+          <v-row>
+              <v-col 
+                v-for="post in posts"
+                :key="`${post.title}`"
+                cols="12" md="6">
+                <Posts :post="post" class="justify-center" />
+              </v-col>
+          </v-row>
       </v-row>
-    </v-container>
     <v-row class="text-left">
       <v-col class="mb-5" cols="12" md="8">
         <h2 class="display font-weight-bold mb-3" aria-label="Karl's tech setup">Uses.</h2>
@@ -116,30 +107,18 @@
 </template>
 
 <script>
+import Posts from '../components/Posts'
+import postsData from '../data/posts.json'
+
 export default {
   name: "About",
-
+  components: {
+            Posts
+          },
   data() {
     return {
-      posts: [
-                {
-                    title: "The argument for human-centricity",
-                    url: "https://link.medium.com/BKdeCupVWU",
-                },
-                {
-                    title: "What type of reality will help your story break through?",
-                    url: "https://cognite.co/what-reality-help-story-break-through/",
-                },
-                {
-                    title: "AI and rare disease",
-                    url: "https://cognite.co/ai-and-rare-disease/",
-                },
-                {
-                    title: "The consumer platform war",
-                    url: "https://medium.com/@_kejk/the-consumer-platform-war-2b54c100d079",
-                },
-            ]
-          };
+      posts: postsData,
+          }
       }
 };
 </script>
