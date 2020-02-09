@@ -2,7 +2,7 @@
   <v-container>
     <v-row class="text-left">
       <v-col>
-        <h1 class="display-2 font-weight-bold mb-3 mt-10" aria-label="intro to Karl">Karl Koch.</h1>
+        <h1 class="display-2 font-weight-bold mb-3 mt-10" aria-label="intro to Karl">Karl Emil James Koch.</h1>
         <h2
           class="display-1 font-weight-bold mb-3"
           aria-label="intro to Karl"
