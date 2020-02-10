@@ -6,8 +6,9 @@
       </v-card-title>
       <v-card-text>
         <v-form>
-          <v-text-field label="Username" prepend-icon="mdi-account-circle" />
+          <v-text-field label="Username" prepend-icon="mdi-account-circle" color="teal" />
           <v-text-field
+            color="teal"
             :type="showPassword ? 'text' : 'password'"
             label="Password"
             prepend-icon="mdi-lock"
