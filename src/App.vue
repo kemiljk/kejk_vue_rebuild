@@ -22,7 +22,7 @@
     <v-footer app
     >
       <v-col
-        class="text-center"
+        class="text-left"
         cols="12"
       >
       <v-row justify="end" no-gutters>
