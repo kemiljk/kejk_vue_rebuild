@@ -20,18 +20,63 @@
       </v-responsive>
     </v-content>
     <v-footer app>
-      <v-btn absolute  fab top right color="orange" href="mailto:hi@kejk.co">
-        <v-icon>mdi-email</v-icon>
-      </v-btn>
-      <v-row justify="center" no-gutters>
-        <v-btn href="mailto:hi@kejk.co" target="_blank" text>Email</v-btn>
-        <v-btn href="https://www.twitter.com/_kejk" target="_blank" text>Twitter</v-btn>
+      <v-row justify="end" no-gutters>
+        <!-- <v-btn href="https://www.twitter.com/_kejk" target="_blank" text>Twitter</v-btn>
         <v-btn href="https://github.com/kemiljk" target="_blank" text>Github</v-btn>
         <v-btn
           href="https://music.apple.com/gb/album/cornerstone/1300802348"
           target="_blank"
           text
-        >Music</v-btn>
+        >Music</v-btn> -->
+      <v-speed-dial
+      v-model="fab"
+      :top="top"
+      :bottom="bottom"
+      :right="right"
+      :left="left"
+      :direction="direction"
+      :transition="transition"
+    >
+      <template v-slot:activator>
+        <v-btn
+          v-model="fab"
+          color="orange"
+          fab
+        >
+          <v-icon v-if="fab">mdi-close</v-icon>
+          <v-icon v-else>mdi-account-circle</v-icon>
+        </v-btn>
+      </template>
+      <v-btn
+        fab
+        dark
+        small
+        color="teal"
+        href="mailto:hi@kejk.co"
+      >
+        <v-icon>mdi-email</v-icon>
+      </v-btn>
+      <v-btn
+        fab
+        dark
+        small
+        color="light-blue"
+        href="https://www.twitter.com/_kejk"
+        target="_blank"
+      >
+        <v-icon>mdi-twitter</v-icon>
+      </v-btn>
+      <v-btn
+        fab
+        dark
+        small
+        color="red"
+        href="https://music.apple.com/gb/album/cornerstone/1300802348"
+        target="_blank"
+      >
+        <v-icon>mdi-music</v-icon>
+      </v-btn>
+    </v-speed-dial>
       </v-row>
     </v-footer>
   </v-app>
