@@ -20,6 +20,9 @@
       </v-responsive>
     </v-content>
     <v-footer app>
+      <v-btn absolute  fab top right color="orange" href="mailto:hi@kejk.co">
+        <v-icon>mdi-email</v-icon>
+      </v-btn>
       <v-row justify="center" no-gutters>
         <v-btn href="mailto:hi@kejk.co" target="_blank" text>Email</v-btn>
         <v-btn href="https://www.twitter.com/_kejk" target="_blank" text>Twitter</v-btn>
