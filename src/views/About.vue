@@ -2,7 +2,10 @@
   <v-container>
     <v-row class="text-left">
       <v-col>
-        <h1 class="display-2 font-weight-bold mb-3 mt-10" aria-label="intro to Karl">Karl Emil James Koch.</h1>
+        <h1
+          class="display-2 font-weight-bold mb-3 mt-10"
+          aria-label="intro to Karl"
+        >Karl Emil James Koch.</h1>
         <h2
           class="display-1 font-weight-bold mb-3"
           aria-label="intro to Karl"
@@ -37,7 +40,8 @@
         <p class="body-1 mb-3">
           If you would like to see my portfolio or CV, please send me an
           <a
-            href="mailto:hi@kejk.co" class="teal--text"
+            href="mailto:hi@kejk.co"
+            class="teal--text"
           >email</a>. Due to the sensitivity of the projects I've worked on, I'm not permitted to list them here. I'll be adding a way to access this online soon, behind the Login section.
         </p>
         <p
@@ -51,14 +55,14 @@
         <p
           class="body-1 mb-3"
         >I'm the Design Lead for Make Me A Cocktail. We're currently in the process of redesigning and rebuilding the site.</p>
-        <v-btn href="https://makemeacocktail.com/" target="_blank" class="teal--text font-weight-bold">Make Me A Cocktail</v-btn>
+        <v-btn
+          href="https://makemeacocktail.com/"
+          target="_blank"
+          class="teal--text font-weight-bold"
+        >Make Me A Cocktail</v-btn>
       </v-col>
       <v-col class="mb-5" cols="12" sm="6" md="6" lg="4">
-        <v-img
-          alt="Make Me A Cocktail visual"
-          src="../assets/mmac.png"
-          class="rounded-img"
-        ></v-img>
+        <v-img alt="Make Me A Cocktail visual" src="../assets/mmac.png" class="rounded-img"></v-img>
       </v-col>
       <v-col class="mb-5" cols="12" lg="8" md="6" sm="6">
         <p class="body-1 mb-3">I'm also currently building something new with some great people.</p>
@@ -70,14 +74,11 @@
     </v-row>
     <v-row class="ml-1 mr-1">
       <h2 class="display font-weight-bold mb-3" aria-label="Karl's posts">Posts.</h2>
-        <v-row>
-            <v-col 
-              v-for="post in posts"
-              :key="`${post.id}`"
-              cols="12" md="6">
-              <Posts :post="post" class="justify-center" />
-            </v-col>
-        </v-row>
+      <v-row>
+        <v-col v-for="post in posts" :key="`${post.id}`" cols="12" md="6">
+          <Posts :post="post" class="justify-center" />
+        </v-col>
+      </v-row>
     </v-row>
     <v-row class="text-left">
       <v-col class="mb-5" cols="12" md="8">
@@ -89,14 +90,14 @@
     </v-row>
     <v-row class="ml-1 mr-1">
       <h2 class="display font-weight-bold mb-3" aria-label="Karl's posts">Currently reading.</h2>
-        <v-row>
-            <v-col 
-              v-for="book in books"
-              :key="`${book.id}`"
-              cols="6" md="3">
-              <Books :book="book" />
-            </v-col>
-        </v-row>
+      <p
+        class="body-1 mb-3 text-left"
+      >I don't make any money from these links, but if you buy a book through one of the Amazon links then a portion of your purchase goes to charity.</p>
+      <v-row>
+        <v-col v-for="book in books" :key="`${book.id}`" cols="6" md="3">
+          <Books :book="book" />
+        </v-col>
+      </v-row>
     </v-row>
     <v-row class="text-left">
       <v-col class="mb-5" cols="12">
@@ -118,22 +119,22 @@
 </template>
 
 <script>
-import Posts from '../components/Posts'
-import postsData from '../data/posts.json'
-import Books from '../components/Books'
-import booksData from '../data/books.json'
+import Posts from "../components/Posts";
+import postsData from "../data/posts.json";
+import Books from "../components/Books";
+import booksData from "../data/books.json";
 
 export default {
   name: "About",
   components: {
-            Posts,
-            Books
-          },
+    Posts,
+    Books
+  },
   data() {
     return {
       posts: postsData,
-      books: booksData,
-          }
-      }
+      books: booksData
+    };
+  }
 };
 </script>
