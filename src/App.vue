@@ -63,7 +63,7 @@
           </v-btn>
         </v-speed-dial>
       </v-row>
-        {{ new Date().getFullYear() }} — <strong>© Karl Koch</strong>
+        {{ new Date().getFullYear() }} — <strong>Made with <img src="https://res.cloudinary.com/kejk/image/upload/c_scale,w_50/v1581367539/75FDFFBF-1AC9-4DF5-AD77-2D5BF730C584_jvn8tp.png"> by Karl Koch</strong>
       </v-col>
     </v-footer>
   </v-app>
