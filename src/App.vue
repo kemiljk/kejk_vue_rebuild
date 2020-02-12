@@ -63,7 +63,7 @@
           </v-btn>
         </v-speed-dial>
       </v-row>
-        <strong>Made with <img src="https://res.cloudinary.com/kejk/image/upload/c_scale,w_15/v1581367539/75FDFFBF-1AC9-4DF5-AD77-2D5BF730C584_jvn8tp.png"> in London, UK.</strong>
+        <strong>Made with <v-icon>mdi-vuetify</v-icon> in London, UK.</strong>
       </v-col>
     </v-footer>
   </v-app>
