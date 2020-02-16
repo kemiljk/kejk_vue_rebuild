@@ -63,7 +63,7 @@
         <v-btn
           href="https://res.cloudinary.com/kejk/raw/upload/v1581160468/settings.json_engjvv.zip"
           target="_blank"
-          class="mb-6"
+          class="mb-6 ml-5"
         >Download JSON File</v-btn>
         <ul class="body-1 mb-6">
           <li class="mb-3">
@@ -73,7 +73,7 @@
         <v-btn
           href="https://res.cloudinary.com/kejk/raw/upload/v1581160309/hyper.js_wyc9e6.zip"
           target="_blank"
-          class="mb-6"
+          class="mb-6 ml-5"
         >Download JS File</v-btn>
         <ul class="body-1 mb-6">
           <li class="mb-3">
