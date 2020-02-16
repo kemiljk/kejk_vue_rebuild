@@ -32,32 +32,32 @@
             <v-btn fab dark small color="teal" href="mailto:hi@kejk.co">
               <v-icon>mdi-email</v-icon>
             </v-btn>
-          <v-btn fab dark small color="teal" href="mailto:hi@kejk.co">
-            <v-icon>mdi-email</v-icon>
-          </v-btn>
-          <v-btn
-            fab
-            dark
-            small
-            color="light-blue"
-            href="https://www.twitter.com/_kejk"
-            target="_blank"
-          >
-            <v-icon>mdi-twitter</v-icon>
-          </v-btn>
-          <v-btn
-            fab
-            dark
-            small
-            color="red"
-            href="https://music.apple.com/gb/album/cornerstone/1300802348"
-            target="_blank"
-          >
-            <v-icon>mdi-music</v-icon>
-          </v-btn>
-        </v-speed-dial>
-      </v-row>
-        <strong>Made with <v-icon>mdi-vuetify</v-icon> in London.</strong>
+            <v-btn
+              fab
+              dark
+              small
+              color="light-blue"
+              href="https://www.twitter.com/_kejk"
+              target="_blank"
+            >
+              <v-icon>mdi-twitter</v-icon>
+            </v-btn>
+            <v-btn
+              fab
+              dark
+              small
+              color="red"
+              href="https://music.apple.com/gb/album/cornerstone/1300802348"
+              target="_blank"
+            >
+              <v-icon>mdi-music</v-icon>
+            </v-btn>
+          </v-speed-dial>
+        </v-row>
+        <strong>
+          Made with
+          <v-icon>mdi-vuetify</v-icon>in London.
+        </strong>
       </v-col>
     </v-footer>
   </v-app>

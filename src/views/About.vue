@@ -7,11 +7,11 @@
           aria-label="intro to Karl"
         >Karl Emil James Koch.</h1>
         <h2
-          class="display-1 font-weight-bold mb-3"
+          class="display-1 font-weight-bold mt-12 mb-3"
           aria-label="intro to Karl"
-        >I'm a designer and frontend developer.</h2>
+        >I'm a frontend designer.</h2>
         <h2 class="display-1 font-weight-bold mb-3">
-          I lead design and frontend development at
+          I lead solutions development at
           <a
             href="https://www.neuerenergy.com"
             class="orange--text"
@@ -22,7 +22,7 @@
       <v-col class="mb-5" cols="12">
         <p class="body-1 mb-3" aria-label="about Karl">
           I started out my career with a deep love of psychology and a Masters in Fine Art creating behaviour-influencing sculptures and digital installations.
-          Now, having spent 6 years bringing design thinking practices to rare diseases, I lead a design team delivering elegant human-centric solutions to change the face of renewable energy.
+          Now, having spent 6 years bringing design thinking practices to rare diseases, I lead a frontend design team delivering elegant persona-driven solutions to change the face of renewable energy.
         </p>
         <p
           class="body-1 mb-3"

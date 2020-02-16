@@ -1,22 +1,22 @@
 [
     {
         "id": 1,
-        "title": "The argument for human-centricity",
-        "url": "https://link.medium.com/BKdeCupVWU"
+        "title": "From regular designer to frontend designer",
+        "url": "https://write.as/kejk/from-regular-designer-to-frontend-designer"
     },
     {
         "id": 2,
+        "title": "The argument for human-centricity",
+        "url": "https://write.as/kejk/why-we-should-replace-the-term-user-with-human"
+    },
+    {
+        "id": 3,
         "title": "What type of reality will help your story break through?",
         "url": "https://cognite.co/what-reality-help-story-break-through/"
     },
     {
-        "id": 3,
+        "id": 4,
         "title": "AI and rare disease",
         "url": "https://cognite.co/ai-and-rare-disease/"
-    },
-    {
-        "id": 4,
-        "title": "The consumer platform war",
-        "url": "https://medium.com/@_kejk/the-consumer-platform-war-2b54c100d079"
     }
 ]
