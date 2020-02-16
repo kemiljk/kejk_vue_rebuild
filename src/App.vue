@@ -63,7 +63,8 @@
           </v-btn>
         </v-speed-dial>
       </v-row>
-        <strong>Made with <v-icon>mdi-vuetify</v-icon> in London, UK.</strong>
+        <strong>Made with <v-icon>mdi-vuetify</v-icon> in London,
+        .</strong>
       </v-col>
     </v-footer>
   </v-app>
