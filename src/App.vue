@@ -11,8 +11,7 @@
         :key="`${link.label}--page-link`"
         class="my-2"
         text
-        :to="link.url"
-      >{{ link.label }}</v-btn>
+      ><router-link :to="link.url">{{ link.label }}</router-link></v-btn>
     </v-app-bar>
     <v-content>
       <v-responsive width="900px">
