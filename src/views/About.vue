@@ -62,9 +62,9 @@
       <v-col class="mb-3 py-0" cols="12" sm="6" md="4" lg="4">
         <v-card href="https://www.makemeacocktail.com/" target="_blank">
           <v-img alt="Make Me A Cocktail visual" src="../assets/mmac.png"></v-img>
-          <v-card-text class="teal--text font-weight-bold">
+          <v-card-text class="subtitle-1 font-weight-bold">
             Make Me A Cocktail
-            <v-icon style="float: right" color="teal">mdi-open-in-new</v-icon>
+            <v-icon style="float: right">mdi-open-in-new</v-icon>
           </v-card-text>
         </v-card>
       </v-col>
@@ -75,9 +75,9 @@
       <v-col class="mb-6 py-0" cols="12" sm="6" md="4" lg="4">
         <v-card href="https://www.kanic.co/" target="_blank">
           <v-img alt="Kanic logo visual" src="../assets/kanic.png"></v-img>
-          <v-card-text class="teal--text font-weight-bold">
+          <v-card-text class="subtitle-1 font-weight-bold">
             Kanic
-            <v-icon style="float: right" color="teal">mdi-open-in-new</v-icon>
+            <v-icon style="float: right">mdi-open-in-new</v-icon>
           </v-card-text>
         </v-card>
       </v-col>
