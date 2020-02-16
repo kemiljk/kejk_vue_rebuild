@@ -63,8 +63,7 @@
           </v-btn>
         </v-speed-dial>
       </v-row>
-        <strong>Made with <v-icon>mdi-vuetify</v-icon> in London,
-        .</strong>
+        <strong>Made with <v-icon>mdi-vuetify</v-icon> in London.</strong>
       </v-col>
     </v-footer>
   </v-app>
@@ -82,11 +81,11 @@ export default {
         },
         {
           label: "Uses",
-          url: "https://www.kejk.co/uses"
+          url: "/uses"
         },
         {
           label: "Login",
-          url: "https://www.kejk.co/login"
+          url: "/login"
         }
       ]
     };
