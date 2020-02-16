@@ -97,7 +97,7 @@
       </v-col>
     </v-row>
     <v-row class="text-left">
-      <v-col class="mb-5" cols="12" md="8">
+      <v-col class="mb-5 mt-6" cols="12" md="8">
         <h2 class="display font-weight-bold mb-3" aria-label="Karl's tech setup">
           Uses.
           <v-btn text class="ml-4" to="/uses">
