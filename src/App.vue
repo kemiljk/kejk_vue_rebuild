@@ -4,7 +4,7 @@
       <v-toolbar-title class="logo d-none d-sm-block">KEJK</v-toolbar-title>
       <v-toolbar-title class="logo d-sm-none">K.</v-toolbar-title>
       <v-spacer></v-spacer>
-      <v-btn @click="toggleTheme" text>
+      <v-btn @click="toggleTheme" text class="mr-1">
         <v-icon>mdi-invert-colors</v-icon>
       </v-btn>
       <v-btn
@@ -75,12 +75,12 @@ export default {
           url: "/"
         },
         {
-          label: "Uses",
-          url: "/uses"
-        },
-        {
           label: "Posts",
           url: "/posts"
+        },
+        {
+          label: "Uses",
+          url: "/uses"
         }
       ]
     };
