@@ -2,7 +2,9 @@
   <v-container>
     <v-row class="text-left">
       <v-col cols="12">
-        <v-btn outlined :to="'/posts'"><v-icon class="mr-2">mdi-chevron-left</v-icon>Back</v-btn>
+        <v-btn :to="'/posts'">
+          <v-icon class="mr-2">mdi-chevron-left</v-icon>Back
+        </v-btn>
         <h1
           class="display-2 font-weight-bold mb-3 mt-10"
         >From Regular Designer to Frontend Designer.</h1>
@@ -26,8 +28,18 @@
           <li>You can increase your output at your company, enabling developers to focus on the heavy lifting whilst you manipulate the styling in production code</li>
           <li>You can improve your ability to work independently on client projects as a freelancer</li>
         </ol>
-        <p>The idea of the Frontend Designer <a href="https://bradfrost.com/blog/post/frontend-design/" target="_blank" class="teal--text">isn't new</a> but it certainly isn't widespread either. I strongly believe that this hybrid role is the future of design and with powerful frameworks like Vue, React and Angular enabling better component-driven design, Designers understanding code is going to be more important than ever.</p>
-        <p>If you're looking to evolve beyond HTML and CSS as a designer, but find JavaScript scary as hell (like I did) then check out <a href="https://vuejs.org/" target="_blank" class="teal--text">Vue</a> and follow their extremely powerful and easy to follow documentation.</p>
+        <p>
+          The idea of the Frontend Designer
+          <a
+            href="https://bradfrost.com/blog/post/frontend-design/"
+            target="_blank"
+            class="teal--text"
+          >isn't new</a> but it certainly isn't widespread either. I strongly believe that this hybrid role is the future of design and with powerful frameworks like Vue, React and Angular enabling better component-driven design, Designers understanding code is going to be more important than ever.
+        </p>
+        <p>
+          If you're looking to evolve beyond HTML and CSS as a designer, but find JavaScript scary as hell (like I did) then check out
+          <a href="https://vuejs.org/" target="_blank" class="teal--text">Vue</a> and follow their extremely powerful and easy to follow documentation.
+        </p>
       </v-col>
     </v-row>
   </v-container>
@@ -35,6 +47,6 @@
 
 <script>
 export default {
-  name: "Frontend Designer",
+  name: "Frontend Designer"
 };
 </script>

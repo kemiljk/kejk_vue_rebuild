@@ -100,7 +100,7 @@
         <h2 class="display font-weight-bold mb-3" aria-label="Karl's tech setup">
           Uses.
           <v-btn text class="ml-4" to="/uses">
-            Check it out
+            My setup
             <v-icon class="ml-2">mdi-arrow-right</v-icon>
           </v-btn>
         </h2>

@@ -2,13 +2,13 @@
   <v-container>
     <v-row class="text-left">
       <v-col cols="12">
-        <v-btn outlined :to="'/posts'"><v-icon class="mr-2">mdi-chevron-left</v-icon>Back</v-btn>
+        <v-btn :to="'/posts'">
+          <v-icon class="mr-2">mdi-chevron-left</v-icon>Back
+        </v-btn>
         <h1
           class="display-2 font-weight-bold mb-3 mt-10"
         >Why we should replace the term ‘user’ with human.</h1>
-        <h2
-          class="headline font-weight-bold mb-3 mt-10"
-        >Design is about people.</h2>
+        <h2 class="headline font-weight-bold mb-3 mt-10">Design is about people.</h2>
       </v-col>
     </v-row>
     <v-row class="text-left">
@@ -20,13 +20,13 @@
         <p>Numbers are important, we need to keep an eye on those analytics reports and the statistics from audience feedback, but that needn’t draw away from the very humans that we are affecting. Sometimes, decisions that may seem bad statistically, are actually right ethically. Making decisions that directly impact on the humans using your product are often some of the hardest and most important. Losing sight of those real people that you’re affecting with every slight change of pixels on a UI, removal of ‘old’ functionality or choice of distribution platform, can have lasting effects on their respect for your company and the values you represent.</p>
         <p>So think carefully about every decision you make as a brand and contemplate the impact on the humans you’re working for, because no matter what you believe, the other humans of this earth are the people you’re helping and those humans need you to care about them first. You work for them, whether it feels like it or not.</p>
         <p>Humans are not users, users are humans.</p>
-        </v-col>
+      </v-col>
     </v-row>
   </v-container>
 </template>
 
 <script>
 export default {
-  name: "Human Centricity",
+  name: "Human Centricity"
 };
 </script>
