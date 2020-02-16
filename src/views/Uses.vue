@@ -12,6 +12,9 @@
         <p
           class="body-1 mb-3"
         >I'm primarily a designer first but I learned the fundamentals of web development by hacking other peoples' MySpace pages back when that was a real thing.</p>
+        <p
+          class="body-1 mb-3"
+        >Now, I'm exploring building frontends in <a href="http://vuejs.org" target="_blank" class="teal--text">Vue.js</a> and utilising the amazing <a href="http://vuetifyjs.com" target="_blank" class="teal--text">Vuetify</a> library. As a developer who started with bare HTML and CSS, I couldn't recommend Vue more to designers who're looking to code. The semantic structuring of the DOM elements whilst leveraging the power of JavaScript make it a one of a kind language that just makes sense.</p>
       </v-col>
     </v-row>
     <v-row class="text-left">
@@ -43,7 +46,7 @@
             <strong>Languages:</strong> HTML, CSS/SASS/SCSS, JavaScript and a small amount of PHP
           </li>
           <li class="mb-3">
-            <strong>Frameworks / Libraries / Tools:</strong> Material-UI/Veutify, Git, Vue.js
+            <strong>Frameworks / Libraries / Tools:</strong>Vue.js, Veutify, Git, Web Components 
           </li>
           <li class="mb-3">
             <a href="https://www.adobe.com/products/xd.html" target="_blank" class="teal--text">VSCode</a> is my editor of choice. I currently use the
