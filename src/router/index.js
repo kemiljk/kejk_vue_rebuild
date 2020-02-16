@@ -18,12 +18,22 @@ const routes = [
     path: '/login',
     name: 'Login',
     component: () => import('../views/Login.vue')
-  },/* 
+  },
   {
-    path: '/posts/{ post.id }',
-    name: 'Posts',
-    component: () => import('../views/posts/.vue')
-  }, */
+    path: '/posts',
+    name: 'Currently Thinking',
+    component: () => import('../views/Posts.vue')
+  },
+  { 
+    path: '/posts/frontend-designer',
+    name: 'Frontend Designer',
+    component: () => import('../views/posts/frontend-designer.vue')
+  },
+  {
+    path: '/posts/human-centricity',
+    name: 'Human Centricity',
+    component: () => import('../views/posts/human-centricity.vue')
+  },
   {
     path: '/portfolio',
     name: 'Portfolio',

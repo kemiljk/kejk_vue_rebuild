@@ -55,34 +55,40 @@
         <p
           class="body-1 mb-3"
         >I'm the Design Lead for Make Me A Cocktail. We're currently in the process of redesigning and rebuilding the site.</p>
-        <v-btn
-          href="https://makemeacocktail.com/"
-          target="_blank"
-          class="teal--text font-weight-bold"
-        >Make Me A Cocktail</v-btn>
       </v-col>
       <v-col class="mb-5" cols="12" sm="6" md="6" lg="4">
-        <v-img alt="Make Me A Cocktail visual" src="../assets/mmac.png" class="rounded-img"></v-img>
+        <v-card href="https://www.makemeacocktail.com/" target="_blank">
+          <v-img
+            alt="Make Me A Cocktail visual"
+            src="../assets/mmac.png"
+          ></v-img>
+          <v-card-text class="teal--text font-weight-bold">Make Me A Cocktail <v-icon style="float: right" color="teal">mdi-open-in-new</v-icon></v-card-text>
+        </v-card>
       </v-col>
       <v-col class="mb-5" cols="12" lg="8" md="6" sm="6">
         <p class="body-1 mb-3">I'm also currently building something new with some great people.</p>
-        <v-btn href="https://www.kanic.co" target="_blank" class="teal--text font-weight-bold">Kanic</v-btn>
       </v-col>
       <v-col class="mb-5" cols="12" sm="6" md="6" lg="4">
-        <v-img alt="Kanic logo visual" src="../assets/kanic.png" class="rounded-img"></v-img>
+         <v-card href="https://www.kanic.co/" target="_blank">
+          <v-img
+            alt="Kanic logo visual"
+            src="../assets/kanic.png"
+          ></v-img>
+          <v-card-text class="teal--text font-weight-bold">Kanic <v-icon style="float: right" color="teal">mdi-open-in-new</v-icon></v-card-text>
+        </v-card>
       </v-col>
     </v-row>
     <v-row class="ml-1 mr-1">
-      <h2 class="display font-weight-bold mb-3" aria-label="Karl's posts">Posts.</h2>
-      <v-row>
-        <v-col v-for="post in posts" :key="`${post.id}`" cols="12" md="6">
-          <Posts :post="post" class="justify-center" />
-        </v-col>
-      </v-row>
+      <h2 class="display font-weight-bold mb-3" aria-label="Karl's posts">Latest Posts. <v-btn text class="ml-4" to="/posts">More <v-icon class="ml-2">mdi-arrow-right</v-icon></v-btn></h2>
+    </v-row>
+    <v-row class="mt-3">
+      <v-col v-for="post in posts.slice(0, 2)" :key="`${post.id}`" cols="12" md="6">
+        <Posts :post="post" class="justify-center" />
+      </v-col>
     </v-row>
     <v-row class="text-left">
       <v-col class="mb-5" cols="12" md="8">
-        <h2 class="display font-weight-bold mb-3" aria-label="Karl's tech setup">Uses.</h2>
+        <h2 class="display font-weight-bold mb-3" aria-label="Karl's tech setup">Uses. <v-btn text class="ml-4" to="/uses">Check it out <v-icon class="ml-2">mdi-arrow-right</v-icon></v-btn></h2>
         <p
           class="body-1 mb-3"
         >If you want to see the hardware and software I use on a daily basis to get work done, you can check it out on the Uses tab at the top.</p>

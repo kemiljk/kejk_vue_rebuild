@@ -2,9 +2,14 @@
     <v-card
         hover
         :href="`${post.url}`"
-        target="_blank">
+        >
+        <v-img
+        :src="`${post.img}`"
+        >
+        </v-img>
         <v-card-title
-        class="body-2">
+        class="body-2"
+        >
         {{ post.title }}
         </v-card-title>
     </v-card>

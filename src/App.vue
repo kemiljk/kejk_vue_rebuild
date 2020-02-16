@@ -9,7 +9,7 @@
       <v-btn
         v-for="link in links"
         :key="`${link.label}--page-link`"
-        class="my-2"
+        class="my-2 mx-1"
         text
         :to="link.url"
       >{{ link.label }}</v-btn>
@@ -78,8 +78,8 @@ export default {
           url: "/uses"
         },
         {
-          label: "Login",
-          url: "/login"
+          label: "Posts",
+          url: "/posts"
         }
       ]
     };
