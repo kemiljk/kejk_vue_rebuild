@@ -50,13 +50,14 @@
       </v-col>
     </v-row>
     <v-row class="text-left">
-      <v-col class="mb-5" cols="12" lg="8" md="6" sm="6" aria-label="Karl's other interests">
+      <v-col cols="12" aria-label="Karl's other interests">
         <h2 class="display font-weight-bold mb-3">On the side.</h2>
-        <p
-          class="body-1 mb-3"
+      </v-col>
+      <v-col cols="12" lg="8" md="8" sm="6">
+        <p class="body-1"
         >I'm the Design Lead for Make Me A Cocktail. We're currently in the process of redesigning and rebuilding the site.</p>
       </v-col>
-      <v-col class="mb-5" cols="12" sm="6" md="6" lg="4">
+      <v-col class="mb-3 py-0" cols="12" sm="6" md="4" lg="4">
         <v-card href="https://www.makemeacocktail.com/" target="_blank">
           <v-img alt="Make Me A Cocktail visual" src="../assets/mmac.png"></v-img>
           <v-card-text class="teal--text font-weight-bold">
@@ -65,10 +66,10 @@
           </v-card-text>
         </v-card>
       </v-col>
-      <v-col class="mb-5" cols="12" lg="8" md="6" sm="6">
-        <p class="body-1 mb-3">I'm also currently building something new with some great people.</p>
+      <v-col cols="12" lg="8" md="8" sm="6">
+        <p class="body-1">I'm also currently building something new with some great people.</p>
       </v-col>
-      <v-col class="mb-5" cols="12" sm="6" md="6" lg="4">
+      <v-col class="mb-6 py-0" cols="12" sm="6" md="4" lg="4">
         <v-card href="https://www.kanic.co/" target="_blank">
           <v-img alt="Kanic logo visual" src="../assets/kanic.png"></v-img>
           <v-card-text class="teal--text font-weight-bold">
