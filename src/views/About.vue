@@ -42,7 +42,7 @@
           <a
             href="mailto:hi@kejk.co"
             class="teal--text"
-          >email</a>. Due to the sensitivity of the projects I've worked on, I'm not permitted to list them here. I'll be adding a way to access this online soon, behind the Login section.
+          >email</a>. Due to the sensitivity of the projects I've worked on, I'm not permitted to list them here. I'll be adding a way to access this online soon, behind a login.
         </p>
         <p
           class="body-1 mb-3"
@@ -55,7 +55,8 @@
       </v-col>
       <v-col cols="12" lg="8" md="8" sm="6">
         <h3 class="mb-3">Make Me A Cocktail</h3>
-        <p class="body-1"
+        <p
+          class="body-1"
         >I'm the Design Lead for Make Me A Cocktail. We're currently in the process of redesigning and rebuilding the site.</p>
       </v-col>
       <v-col class="mb-3 py-0" cols="12" sm="6" md="4" lg="4">
