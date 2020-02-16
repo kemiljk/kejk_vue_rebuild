@@ -46,7 +46,7 @@
         </p>
         <p
           class="body-1 mb-3"
-        >This website was designed and built by me, from scratch, in Vue.js. In some ways, it provides an idea of my personal design aesthetic and development style.</p>
+        >This website was designed and built by me in Vue.js. In some ways, it provides an idea of my personal design aesthetic and development style.</p>
       </v-col>
     </v-row>
     <v-row class="text-left">
