@@ -54,6 +54,7 @@
         <h2 class="display font-weight-bold mb-3">On the side.</h2>
       </v-col>
       <v-col cols="12" lg="8" md="8" sm="6">
+        <h3 class="mb-3">Make Me A Cocktail</h3>
         <p class="body-1"
         >I'm the Design Lead for Make Me A Cocktail. We're currently in the process of redesigning and rebuilding the site.</p>
       </v-col>
@@ -67,6 +68,7 @@
         </v-card>
       </v-col>
       <v-col cols="12" lg="8" md="8" sm="6">
+        <h3 class="mb-3">Kanic</h3>
         <p class="body-1">I'm also currently building something new with some great people.</p>
       </v-col>
       <v-col class="mb-6 py-0" cols="12" sm="6" md="4" lg="4">
