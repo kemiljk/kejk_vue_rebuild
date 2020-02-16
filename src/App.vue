@@ -11,7 +11,7 @@
         :key="`${link.label}--page-link`"
         class="my-2"
         text
-        :to="link.url"
+        :href="link.url"
       >{{ link.label }}</v-btn>
     </v-app-bar>
     <v-content>
