@@ -81,11 +81,11 @@ export default {
         },
         {
           label: "Uses",
-          url: "/uses"
+          url: "https://www.kejk.co/uses"
         },
         {
           label: "Login",
-          url: "/login"
+          url: "https://www.kejk.co/login"
         }
       ]
     };
