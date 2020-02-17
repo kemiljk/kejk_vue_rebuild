@@ -93,12 +93,6 @@
             Although colour rendering is very different when compared with Safari or Chrome, the dev
             tools alone make it the best fit for me.
           </li>
-          <li class="mb-3">
-            This site is deployed via <a
-              href="https://zeit.co/"
-              target="_blank" class="teal--text"
-            >Zeit Now</a>. Blazingly fast deployments and performance via a massive global CDN.
-          </li>
         </ul>
       </v-col>
     </v-row>
