@@ -94,7 +94,7 @@
       </h2>
     </v-row>
     <v-row class="mt-3">
-      <v-col v-for="post in posts.slice(0, 2)" :key="`${post.id}`" cols="12" md="6">
+      <v-col v-for="post in posts.slice(0, 2)" :key="`${post.id}`" cols="12" sm="6">
         <Posts :post="post" class="justify-center" />
       </v-col>
     </v-row>
