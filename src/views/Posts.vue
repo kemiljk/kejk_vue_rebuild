@@ -14,7 +14,7 @@
     </v-row>
     <v-row class="ml-1 mr-1">
       <v-row>
-        <v-col v-for="post in posts" :key="`${post.id}`" cols="12" md="6">
+        <v-col v-for="post in posts" :key="`${post.id}`" cols="12" sm="6">
           <Posts :post="post" class="justify-center" />
         </v-col>
       </v-row>
