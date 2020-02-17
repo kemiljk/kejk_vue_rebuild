@@ -49,9 +49,10 @@
         >This website was designed and built by me in Vue.js. In some ways, it provides an idea of my personal design aesthetic and development style.</p>
       </v-col>
     </v-row>
+    <v-divider />
     <v-row class="text-left">
       <v-col cols="12" aria-label="Karl's other interests">
-        <h2 class="display font-weight-bold mb-3">On the side.</h2>
+        <h2 class="display font-weight-bold mb-3 mt-6">On the side.</h2>
       </v-col>
       <v-col cols="12" lg="8" md="8" sm="6">
         <h3 class="mb-3">Make Me A Cocktail</h3>
@@ -82,8 +83,9 @@
         </v-card>
       </v-col>
     </v-row>
+    <v-divider />
     <v-row class="ml-1 mr-1">
-      <h2 class="display font-weight-bold mb-3" aria-label="Karl's posts">
+      <h2 class="display font-weight-bold mb-3 mt-10" aria-label="Karl's posts">
         Latest Posts.
         <v-btn text class="ml-4" to="/posts">
           More
@@ -97,7 +99,7 @@
       </v-col>
     </v-row>
     <v-row class="text-left">
-      <v-col class="mb-5 mt-6" cols="12" md="8">
+      <v-col class="mb-5 mt-10" cols="12" md="8">
         <h2 class="display font-weight-bold mb-3" aria-label="Karl's tech setup">
           Uses.
           <v-btn text class="ml-4" to="/uses">
@@ -110,8 +112,9 @@
         >If you want to see the hardware and software I use on a daily basis to get work done, you can check it out on the Uses tab at the top.</p>
       </v-col>
     </v-row>
+    <v-divider />
     <v-row class="ml-1 mr-1">
-      <h2 class="display font-weight-bold mb-3" aria-label="Karl's posts">Currently reading.</h2>
+      <h2 class="display font-weight-bold mb-3 mt-10" aria-label="Karl's posts">Currently reading.</h2>
       <p
         class="body-1 mb-3 text-left"
       >I don't make any money from these links, but if you buy a book through one of the Amazon links then a portion of your purchase goes to charity.</p>
