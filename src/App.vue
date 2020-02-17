@@ -57,7 +57,7 @@
         </v-row>
         <strong>
           Made with
-          <v-icon>mdi-vuetify</v-icon>in London.
+          <v-icon>mdi-vuejs</v-icon>in London.
         </strong>
       </v-col>
     </v-footer>
