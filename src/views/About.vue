@@ -87,7 +87,7 @@
     <v-row class="ml-1 mr-1">
       <h2 class="display font-weight-bold mb-3 mt-10" aria-label="Karl's posts">
         Latest Posts.
-        <v-btn text class="ml-4 mb-2" to="/posts">
+        <v-btn text class="ml-4 mb-4" to="/posts">
           More
           <v-icon class="ml-2">mdi-arrow-right</v-icon>
         </v-btn>
@@ -103,7 +103,7 @@
       <v-col class="mb-5" cols="12" md="8">
         <h2 class="display font-weight-bold mb-3" aria-label="Karl's tech setup">
           Uses.
-          <v-btn text class="ml-4 mb-2" to="/uses">
+          <v-btn text class="ml-4 mb-4" to="/uses">
             My setup
             <v-icon class="ml-2">mdi-arrow-right</v-icon>
           </v-btn>
