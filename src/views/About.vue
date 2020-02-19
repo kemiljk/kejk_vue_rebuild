@@ -93,13 +93,14 @@
         </v-btn>
       </h2>
     </v-row>
-    <v-row class="mt-3">
+    <v-row class="mt-3 mb-5">
       <v-col v-for="post in posts.slice(0, 2)" :key="`${post.id}`" cols="12" sm="6">
         <Posts :post="post" class="justify-center" />
       </v-col>
     </v-row>
-    <v-row class="text-left">
-      <v-col class="mb-5 mt-10" cols="12" md="8">
+    <v-divider />
+    <v-row class="text-left mt-10">
+      <v-col class="mb-5 " cols="12" md="8">
         <h2 class="display font-weight-bold mb-3" aria-label="Karl's tech setup">
           Uses.
           <v-btn text class="ml-4" to="/uses">
@@ -153,6 +154,10 @@
               href="https://zeit.co/"
               target="_blank" class="teal--text"
             >Zeit Now</a>.</p>
+        <p class="body-1">This site uses <a
+              href="https://tribby.com/fonts/barlow/"
+              target="_blank" class="teal--text"
+            >Barlow</a> by Jeremy Tribby. Many thanks to him for making it available open-source.</p>
       </v-col>
     </v-row>
   </v-container>
