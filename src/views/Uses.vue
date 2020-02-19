@@ -46,7 +46,7 @@
             <strong>Languages:</strong> HTML, CSS/SASS/SCSS, JavaScript and a small amount of PHP
           </li>
           <li class="mb-3">
-            <strong>Frameworks / Libraries / Tools:</strong>Vue.js, Veutify, Git, Web Components 
+            <strong>Frameworks / Libraries / Tools:</strong> Vue.js, Veutify, Git, Web Components 
           </li>
           <li class="mb-3">
             <a href="https://www.adobe.com/products/xd.html" target="_blank" class="teal--text">VSCode</a> is my editor of choice. I currently use the
