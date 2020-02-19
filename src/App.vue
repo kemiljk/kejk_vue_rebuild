@@ -48,7 +48,7 @@
               dark
               small
               color="light-grey"
-              href="https://www.github.com/kemiljk"
+              href="https://www.github.com/kemiljk/"
               target="_blank"
             >
               <v-icon>mdi-github</v-icon>
