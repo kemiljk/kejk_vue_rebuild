@@ -107,7 +107,7 @@
     <v-row class="text-left mt-10">
       <v-col cols="6">
         
-        <h2 class="display font-weight-bold mb-3" aria-label="Karl's tech setup">
+        <h2 class="display font-weight-bold" aria-label="Karl's tech setup">
           Uses.
         </h2>
       </v-col>
