@@ -85,17 +85,17 @@
     </v-row>
     <v-divider />
     <v-row class="ml-1 mr-1">
-      <v-col cols="12">
-      <h2 class="display font-weight-bold mb-3 mt-10" aria-label="Karl's posts">
-        Latest Posts.
-      </h2>
+      <v-col cols="6">
+        <h2 class="text-left display font-weight-bold mb-3 mt-10" aria-label="Karl's posts">
+          Latest Posts.
+        </h2>
       </v-col>
-      <v-spacer />
-      <v-col>
-        <v-btn text class="ml-4 mb-2" to="/posts">
-          More
-          <v-icon class="ml-2">mdi-arrow-right</v-icon>
-        </v-btn>
+        <v-spacer />
+        <v-col cols="6" class="text-right mb-2">
+          <v-btn text class="mt-10 ml-4 mb-2" to="/posts">
+            More
+            <v-icon class="ml-2">mdi-arrow-right</v-icon>
+          </v-btn>
       </v-col>
     </v-row>
     <v-row class="mt-3 mb-5">
@@ -105,18 +105,20 @@
     </v-row>
     <v-divider />
     <v-row class="text-left mt-10">
-      <v-col class="mb-5" cols="12">
+      <v-col class="mb-5" cols="6">
+        
         <h2 class="display font-weight-bold mb-3" aria-label="Karl's tech setup">
           Uses.
         </h2>
-        </v-col>
+      </v-col>
         <v-spacer />
-        <v-col>
+        <v-col cols="6" class="text-right mb-2">
           <v-btn text class="ml-4 mb-2" to="/uses">
             My setup
             <v-icon class="ml-2">mdi-arrow-right</v-icon>
           </v-btn>
-        
+      </v-col>
+      <v-col cols="12">
         <p
           class="body-1 mb-3"
         >If you want to see the hardware and software I use on a daily basis to get work done, you can check it out on the Uses tab at the top.</p>
