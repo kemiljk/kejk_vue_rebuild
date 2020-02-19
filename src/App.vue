@@ -45,13 +45,13 @@
             </v-btn>
             <v-btn
               fab
-              dark
+              light
               small
-              color="grey"
+              color="white"
               href="https://www.github.com/kemiljk/"
               target="_blank"
             >
-              <v-icon>mdi-github</v-icon>
+              <v-icon>mdi-git</v-icon>
             </v-btn>
             <v-btn
               fab
