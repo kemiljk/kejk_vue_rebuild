@@ -105,7 +105,7 @@
     </v-row>
     <v-divider />
     <v-row class="text-left mt-10">
-      <v-col class="mb-5" cols="6">
+      <v-col cols="6">
         
         <h2 class="display font-weight-bold mb-3" aria-label="Karl's tech setup">
           Uses.
@@ -121,7 +121,7 @@
       <v-col cols="12">
         <p
           class="body-1 mb-3"
-        >If you want to see the hardware and software I use on a daily basis to get work done, you can check it out on the Uses tab at the top.</p>
+        >As a frontend designer, I use a variety of things to stay productive. Check out my hardware and software setup and get in touch if you have any questions.</p>
       </v-col>
     </v-row>
     <v-divider />
