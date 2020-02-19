@@ -3,7 +3,7 @@
     <v-row class="text-left">
       <v-col>
         <h1
-          class="display-2 font-weight-bold mb-3 mt-10"
+          class="display-3 font-weight-bold mb-3 mt-10"
           aria-label="intro to Karl"
         >Karl Emil James Koch.</h1>
         <h2
