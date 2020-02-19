@@ -11,7 +11,7 @@
           aria-label="intro to Karl"
         >I'm a frontend designer.</h2>
         <h2 class="display-1 font-weight-medium mb-3">
-          I lead solutions development at
+          I lead frontend design at
           <a
             href="https://www.neuerenergy.com"
             class="orange--text"
@@ -100,7 +100,7 @@
     </v-row>
     <v-divider />
     <v-row class="text-left mt-10">
-      <v-col class="mb-5 " cols="12" md="8">
+      <v-col class="mb-5" cols="12" md="8">
         <h2 class="display font-weight-bold mb-3" aria-label="Karl's tech setup">
           Uses.
           <v-btn text class="ml-4" to="/uses">
@@ -144,20 +144,16 @@
     <v-divider />
     <v-row class="text-left">
       <v-col cols="12" class="mt-5 mb-5">
-        <p class="body-1">This site was built in <a
-              href="https://vuejs.org/"
-              target="_blank" class="teal--text"
-            >Vue</a> utilising the <a
-              href="https://vuetifyjs.com"
-              target="_blank" class="teal--text"
-            >Vuetify</a> library and is deployed via <a
-              href="https://zeit.co/"
-              target="_blank" class="teal--text"
-            >Zeit Now</a>.</p>
-        <p class="body-1">This site uses <a
-              href="https://tribby.com/fonts/barlow/"
-              target="_blank" class="teal--text"
-            >Barlow</a> by Jeremy Tribby. Many thanks to him for making it available open-source.</p>
+        <p class="body-1">
+          This site was built in
+          <a href="https://vuejs.org/" target="_blank" class="teal--text">Vue</a> utilising the
+          <a href="https://vuetifyjs.com" target="_blank" class="teal--text">Vuetify</a> library and is deployed via
+          <a href="https://zeit.co/" target="_blank" class="teal--text">Zeit Now</a>.
+        </p>
+        <p class="body-1">
+          This site uses
+          <a href="https://tribby.com/fonts/barlow/" target="_blank" class="teal--text">Barlow</a> by Jeremy Tribby. Many thanks to him for making it available open-source.
+        </p>
       </v-col>
     </v-row>
   </v-container>
