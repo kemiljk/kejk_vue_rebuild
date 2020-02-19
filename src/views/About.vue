@@ -7,10 +7,10 @@
           aria-label="intro to Karl"
         >Karl Emil James Koch.</h1>
         <h2
-          class="display-1 font-weight-bold mt-12 mb-6"
+          class="display-1 font-weight-medium mt-12 mb-6"
           aria-label="intro to Karl"
         >I'm a frontend designer.</h2>
-        <h2 class="display-1 font-weight-bold mb-3">
+        <h2 class="display-1 font-weight-medium mb-3">
           I lead solutions development at
           <a
             href="https://www.neuerenergy.com"

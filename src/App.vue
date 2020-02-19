@@ -13,7 +13,7 @@
         class="my-2 mx-1"
         text
         :to="link.url"
-      >{{ link.label }}</v-btn>
+      ><v-text class="font-weight-bold">{{ link.label }}</v-text></v-btn>
     </v-app-bar>
     <v-content>
       <v-responsive width="900px">
@@ -47,11 +47,11 @@
               fab
               dark
               small
-              color="light-grey"
+              color="grey"
               href="https://www.github.com/kemiljk/"
               target="_blank"
             >
-              <v-icon>mdi-microsoft-github</v-icon>
+              <v-icon>mdi-github</v-icon>
             </v-btn>
             <v-btn
               fab
