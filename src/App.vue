@@ -47,6 +47,16 @@
               fab
               dark
               small
+              color="light-grey"
+              href="https://www.github.com/kemiljk"
+              target="_blank"
+            >
+              <v-icon>mdi-github</v-icon>
+            </v-btn>
+            <v-btn
+              fab
+              dark
+              small
               color="red"
               href="https://music.apple.com/gb/album/cornerstone/1300802348"
               target="_blank"
