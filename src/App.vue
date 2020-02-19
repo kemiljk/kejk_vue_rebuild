@@ -51,7 +51,7 @@
               href="https://www.github.com/kemiljk/"
               target="_blank"
             >
-              <v-icon>mdi-github</v-icon>
+              <v-icon>mdi-microsoft-github</v-icon>
             </v-btn>
             <v-btn
               fab
