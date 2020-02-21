@@ -38,6 +38,6 @@
 
 <script>
 export default {
-  name: "Sales Sales Sales"
+  name: "Getting to yes"
 };
 </script>
