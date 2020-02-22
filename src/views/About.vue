@@ -14,9 +14,12 @@
           I currently lead frontend design at
           <a
             href="https://www.neuerenergy.com"
-            class="orange--text"
+            class="orange--text font-weight-bold"
             target="_blank"
-          >NeuerEnergy</a> in London, UK.
+          >NeuerEnergy</a>
+          <sup>
+            <v-icon class="orange--text" small>mdi-open-in-new</v-icon>
+          </sup> in London, UK.
         </h2>
       </v-col>
       <v-col class="mb-5" cols="12">
@@ -66,10 +69,11 @@
       <v-col class="mb-3 py-0" cols="12" sm="6" md="4" lg="4">
         <v-card href="https://www.makemeacocktail.com/" target="_blank">
           <v-img alt="Make Me A Cocktail visual" src="../assets/mmac.png"></v-img>
-          <v-card-text class="subtitle-1 font-weight-bold">
+          <v-card-title class="subtitle-1">
             Make Me A Cocktail
-            <v-icon style="float: right">mdi-open-in-new</v-icon>
-          </v-card-text>
+            <v-spacer />
+            <v-icon class="ml-4">mdi-open-in-new</v-icon>
+          </v-card-title>
         </v-card>
       </v-col>
       <v-col cols="12" lg="8" md="8" sm="6">
@@ -79,10 +83,11 @@
       <v-col class="mb-6 py-0" cols="12" sm="6" md="4" lg="4">
         <v-card href="https://www.kanic.co/" target="_blank">
           <v-img alt="Kanic logo visual" src="../assets/kanic.png"></v-img>
-          <v-card-text class="subtitle-1 font-weight-bold">
+          <v-card-title class="subtitle-1">
             Kanic
-            <v-icon style="float: right">mdi-open-in-new</v-icon>
-          </v-card-text>
+            <v-spacer />
+            <v-icon class="ml-4">mdi-open-in-new</v-icon>
+          </v-card-title>
         </v-card>
       </v-col>
     </v-row>
