@@ -1,5 +1,5 @@
 <template>
-  <v-card hover :href="`${music.url}`" :target="`${music.ext}`">
+  <v-card hover :href="`${music.url}`" :target="`${music.ext}`" rel="noreferrer">
     <v-img :src="`${music.img}`"></v-img>
     <v-card-title class="subtitle-1">
       {{ music.title }}

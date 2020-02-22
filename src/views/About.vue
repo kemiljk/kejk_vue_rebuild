@@ -16,6 +16,7 @@
             href="https://www.neuerenergy.com"
             class="orange--text font-weight-bold"
             target="_blank"
+            rel="noreferrer"
           >NeuerEnergy</a>&nbsp;
           <sup>
             <v-icon class="orange--text" small>mdi-open-in-new</v-icon>
@@ -34,9 +35,16 @@
           Previously, I've also worked for
           <a
             href="https://www.cognite.co"
+            target="_blank"
+            rel="noreferrer"
             class="teal--text"
           >Cognite</a>, Incuna and
-          <a href="https://www.apple.com/retail/" class="teal--text">Apple</a>.
+          <a
+            href="https://www.apple.com/retail/"
+            target="_blank"
+            rel="noreferrer"
+            class="teal--text"
+          >Apple</a>.
         </p>
       </v-col>
     </v-row>
@@ -67,7 +75,7 @@
         >I'm the Design Lead for Make Me A Cocktail. We're currently in the process of redesigning and rebuilding the site.</p>
       </v-col>
       <v-col class="mb-3 py-0" cols="12" sm="6" md="4" lg="4">
-        <v-card href="https://www.makemeacocktail.com/" target="_blank">
+        <v-card href="https://www.makemeacocktail.com/" target="_blank" rel="noreferrer">
           <v-img alt="Make Me A Cocktail visual" src="../assets/mmac.webp"></v-img>
           <v-card-title class="subtitle-1">
             Make Me A Cocktail
@@ -81,7 +89,7 @@
         <p class="body-1">I'm also currently building something new with some great people.</p>
       </v-col>
       <v-col class="mb-6 py-0" cols="12" sm="6" md="4" lg="4">
-        <v-card href="https://www.kanic.co/" target="_blank">
+        <v-card href="https://www.kanic.co/" target="_blank" rel="noreferrer">
           <v-img alt="Kanic logo visual" src="../assets/kanic.webp"></v-img>
           <v-card-title class="subtitle-1">
             Kanic
@@ -148,7 +156,7 @@
           class="display font-weight-bold mb-3"
           aria-label="Karl's music playlist"
         >Currently playing.</h2>
-          <v-row>
+        <v-row>
           <v-col v-for="music in musics" :key="`${music.id}`" cols="12" md="6">
             <Musics :music="music" />
           </v-col>
@@ -160,11 +168,11 @@
       <v-col cols="12" class="mt-5 mb-5">
         <p class="body-1">
           This site was built in
-          <a href="https://vuejs.org/" target="_blank" class="teal--text">Vue</a> utilising the
-          <a href="https://vuetifyjs.com" target="_blank" class="teal--text">Vuetify</a> library and is deployed via
+          <a href="https://vuejs.org/" target="_blank" rel="noreferrer" class="teal--text">Vue</a> utilising the
+          <a href="https://vuetifyjs.com" target="_blank" rel="noreferrer" class="teal--text">Vuetify</a> library and is deployed via
           <a
             href="https://zeit.co/"
-            target="_blank"
+            target="_blank" rel="noreferrer"
             class="teal--text"
           >Zeit Now</a>.
         </p>
@@ -172,7 +180,7 @@
           This site uses
           <a
             href="https://tribby.com/fonts/barlow/"
-            target="_blank"
+            target="_blank" rel="noreferrer"
             class="teal--text"
           >Barlow</a> by Jeremy Tribby. Many thanks to him for making it available open-source.
         </p>
