@@ -11,7 +11,7 @@
           aria-label="intro to Karl"
         >I'm a frontend designer.</h2>
         <h2 class="display-1 font-weight-medium mb-3">
-          I lead frontend design at
+          I currently lead frontend design at
           <a
             href="https://www.neuerenergy.com"
             class="orange--text"
@@ -28,7 +28,7 @@
           class="body-1 mb-3"
         >I regularly practice mindfulness and meditation, and I’m an art, design and architecture nerd that absolutely loves exploring and learning about how anything is built.</p>
         <p class="body-1 mb-3">
-          I've also worked for
+          Previously, I've also worked for
           <a href="https://www.cognite.co" class="teal--text">Cognite</a>, Incuna and
           <a href="https://www.apple.com/retail/" class="teal--text">Apple</a>.
         </p>
