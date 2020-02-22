@@ -16,7 +16,7 @@
             href="https://www.neuerenergy.com"
             class="orange--text font-weight-bold"
             target="_blank"
-          >NeuerEnergy</a>
+          >NeuerEnergy</a>&nbsp;
           <sup>
             <v-icon class="orange--text" small>mdi-open-in-new</v-icon>
           </sup> in London, UK.
