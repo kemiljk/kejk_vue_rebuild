@@ -29,7 +29,10 @@
         >I regularly practice mindfulness and meditation, and I’m an art, design and architecture nerd that absolutely loves exploring and learning about how anything is built.</p>
         <p class="body-1 mb-3">
           Previously, I've also worked for
-          <a href="https://www.cognite.co" class="teal--text">Cognite</a>, Incuna and
+          <a
+            href="https://www.cognite.co"
+            class="teal--text"
+          >Cognite</a>, Incuna and
           <a href="https://www.apple.com/retail/" class="teal--text">Apple</a>.
         </p>
       </v-col>
@@ -86,16 +89,17 @@
     <v-divider />
     <v-row class="ml-1 mr-1">
       <v-col cols="6">
-        <h2 class="text-left display font-weight-bold mb-3 mt-10" aria-label="Karl's posts">
-          Latest Posts.
-        </h2>
+        <h2
+          class="text-left display font-weight-bold mb-3 mt-10"
+          aria-label="Karl's posts"
+        >Latest Posts.</h2>
       </v-col>
-        <v-spacer />
-        <v-col cols="6" class="text-right mb-2">
-          <v-btn text class="mt-10 ml-4 mb-2" to="/posts">
-            More
-            <v-icon class="ml-2">mdi-arrow-right</v-icon>
-          </v-btn>
+      <v-spacer />
+      <v-col cols="6" class="text-right mb-2">
+        <v-btn text class="mt-10 ml-4 mb-2" to="/posts">
+          More
+          <v-icon class="ml-2">mdi-arrow-right</v-icon>
+        </v-btn>
       </v-col>
     </v-row>
     <v-row class="mt-3 mb-5">
@@ -106,17 +110,14 @@
     <v-divider />
     <v-row class="text-left mt-10">
       <v-col cols="6">
-        
-        <h2 class="display font-weight-bold" aria-label="Karl's tech setup">
-          Uses.
-        </h2>
+        <h2 class="display font-weight-bold" aria-label="Karl's tech setup">Uses.</h2>
       </v-col>
-        <v-spacer />
-        <v-col cols="6" class="text-right mb-2">
-          <v-btn text class="ml-4 mb-2" to="/uses">
-            My setup
-            <v-icon class="ml-2">mdi-arrow-right</v-icon>
-          </v-btn>
+      <v-spacer />
+      <v-col cols="6" class="text-right mb-2">
+        <v-btn text class="ml-4 mb-2" to="/uses">
+          My setup
+          <v-icon class="ml-2">mdi-arrow-right</v-icon>
+        </v-btn>
       </v-col>
       <v-col cols="12">
         <p
@@ -159,11 +160,19 @@
           This site was built in
           <a href="https://vuejs.org/" target="_blank" class="teal--text">Vue</a> utilising the
           <a href="https://vuetifyjs.com" target="_blank" class="teal--text">Vuetify</a> library and is deployed via
-          <a href="https://zeit.co/" target="_blank" class="teal--text">Zeit Now</a>.
+          <a
+            href="https://zeit.co/"
+            target="_blank"
+            class="teal--text"
+          >Zeit Now</a>.
         </p>
         <p class="body-1">
           This site uses
-          <a href="https://tribby.com/fonts/barlow/" target="_blank" class="teal--text">Barlow</a> by Jeremy Tribby. Many thanks to him for making it available open-source.
+          <a
+            href="https://tribby.com/fonts/barlow/"
+            target="_blank"
+            class="teal--text"
+          >Barlow</a> by Jeremy Tribby. Many thanks to him for making it available open-source.
         </p>
       </v-col>
     </v-row>

@@ -3,7 +3,7 @@
         "id": 5,
         "title": "Getting to yes",
         "url": "/posts/getting-to-yes",
-        "img": "https://res.cloudinary.com/kejk/image/upload/v1582304335/Sales_kxj2pj.png",
+        "img": "https://res.cloudinary.com/kejk/image/upload/v1582375441/Sales_ietnnm.png",
         "ext": "",
         "extTrue": false
     },
@@ -11,7 +11,7 @@
         "id": 1,
         "title": "From designer to frontend designer",
         "url": "/posts/frontend-designer",
-        "img": "https://res.cloudinary.com/kejk/image/upload/v1581877431/Frontend_Designer_ztw5dk.png",
+        "img": "https://res.cloudinary.com/kejk/image/upload/v1582375441/Frontend_Designer_kowygn.png",
         "ext": "",
         "extTrue": false
     },
@@ -19,7 +19,7 @@
         "id": 2,
         "title": "The argument for human-centricity",
         "url": "/posts/human-centricity",
-        "img": "https://res.cloudinary.com/kejk/image/upload/v1581885709/Human_Centricity_vyv0eg.png",
+        "img": "https://res.cloudinary.com/kejk/image/upload/v1582375441/Human_Centricity_nlvuwi.png",
         "ext": "",
         "extTrue": false
     },
@@ -27,7 +27,7 @@
         "id": 3,
         "title": "VR vs. MR vs. AR",
         "url": "https://cognite.co/what-reality-help-story-break-through/",
-        "img": "https://res.cloudinary.com/kejk/image/upload/v1581886111/Reality_lr17nq.png",
+        "img": "https://res.cloudinary.com/kejk/image/upload/v1582375441/Reality_z1lprf.png",
         "ext": "_blank",
         "extTrue": true
     },
@@ -35,7 +35,7 @@
         "id": 4,
         "title": "AI and rare disease",
         "url": "https://cognite.co/ai-and-rare-disease/",
-        "img": "https://res.cloudinary.com/kejk/image/upload/v1581886111/AI_x3zpog.png",
+        "img": "https://res.cloudinary.com/kejk/image/upload/v1582375441/AI_kr26ax.png",
         "ext": "_blank",
         "extTrue": true
     }
