@@ -57,6 +57,17 @@
             >
               <v-icon>mdi-git</v-icon>
             </v-btn>
+                        <v-btn
+              fab
+              light
+              small
+              color="blue"
+              href="https://www.linkedin.com/in/karlemilkoch/"
+              target="_blank"
+              alt="Karl's LinkedIn"
+            >
+              <v-icon>mdi-linkedin</v-icon>
+            </v-btn>
             <v-btn
               fab
               dark
