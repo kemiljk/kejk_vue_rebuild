@@ -68,7 +68,7 @@
       </v-col>
       <v-col class="mb-3 py-0" cols="12" sm="6" md="4" lg="4">
         <v-card href="https://www.makemeacocktail.com/" target="_blank">
-          <v-img alt="Make Me A Cocktail visual" src="../assets/mmac.png"></v-img>
+          <v-img alt="Make Me A Cocktail visual" src="../assets/mmac.webp"></v-img>
           <v-card-title class="subtitle-1">
             Make Me A Cocktail
             <v-spacer />
@@ -82,7 +82,7 @@
       </v-col>
       <v-col class="mb-6 py-0" cols="12" sm="6" md="4" lg="4">
         <v-card href="https://www.kanic.co/" target="_blank">
-          <v-img alt="Kanic logo visual" src="../assets/kanic.png"></v-img>
+          <v-img alt="Kanic logo visual" src="../assets/kanic.webp"></v-img>
           <v-card-title class="subtitle-1">
             Kanic
             <v-spacer />
@@ -148,14 +148,11 @@
           class="display font-weight-bold mb-3"
           aria-label="Karl's music playlist"
         >Currently playing.</h2>
-        <iframe
-          allow="autoplay *; encrypted-media *;"
-          frameborder="0"
-          height="450"
-          style="width:100%;max-width:900px;overflow:hidden;background:transparent; border-radius: 8px; box-shadow: 0px 3px 1px -2px rgba(0, 0, 0, 0.2), 0px 2px 2px 0px rgba(0, 0, 0, 0.14), 0px 1px 5px 0px rgba(0, 0, 0, 0.12);"
-          sandbox="allow-forms allow-popups allow-same-origin allow-scripts allow-storage-access-by-user-activation allow-top-navigation-by-user-activation"
-          src="https://embed.music.apple.com/gb/playlist/pure-metal/pl.u-jZgo9Tqqaarj"
-        ></iframe>
+          <v-row>
+          <v-col v-for="music in musics" :key="`${music.id}`" cols="12" md="6">
+            <Musics :music="music" />
+          </v-col>
+        </v-row>
       </v-col>
     </v-row>
     <v-divider />
@@ -189,17 +186,21 @@ import Posts from "../components/Posts";
 import postsData from "../data/posts.json";
 import Books from "../components/Books";
 import booksData from "../data/books.json";
+import Musics from "../components/Musics";
+import musicsData from "../data/musics.json";
 
 export default {
   name: "About",
   components: {
     Posts,
-    Books
+    Books,
+    Musics
   },
   data() {
     return {
       posts: postsData,
-      books: booksData
+      books: booksData,
+      musics: musicsData
     };
   }
 };

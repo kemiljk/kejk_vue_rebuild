@@ -1,8 +1,8 @@
 <template>
   <v-app :dark="$isDark">
     <v-app-bar app>
-      <v-toolbar-title class="logo d-none d-sm-block">KEJK</v-toolbar-title>
-      <v-toolbar-title class="logo d-sm-none">K.</v-toolbar-title>
+      <v-toolbar-title class="logo d-none d-sm-block font-weight-black">KEJK</v-toolbar-title>
+      <v-toolbar-title class="logo d-sm-none font-weight-black">K.</v-toolbar-title>
       <v-spacer></v-spacer>
       <v-btn @click="toggleTheme" text class="mr-1">
         <v-icon>mdi-invert-colors</v-icon>
