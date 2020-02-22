@@ -59,10 +59,10 @@
             </v-btn>
                         <v-btn
               fab
-              light
+              dark
               small
               color="blue"
-              href="https://www.linkedin.com/in/karlemilkoch/"
+              href="https://www.linkedin.com/in/kejk"
               target="_blank"
               alt="Karl's LinkedIn"
             >
