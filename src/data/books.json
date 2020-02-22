@@ -1,13 +1,13 @@
 [
     {
         "id": 4,
-        "img": "https://res.cloudinary.com/kejk/image/upload/v1581374054/3FB8AF9D-8ADD-472D-AE91-06B7F3498B2E_ba5d8b.jpg",
+        "img": "https://res.cloudinary.com/kejk/image/upload/v1581374054/3FB8AF9D-8ADD-472D-AE91-06B7F3498B2E_ba5d8b.png",
         "url": "https://smile.amazon.co.uk/dp/9063695438/",
         "color": "#1e1e1e"
     },
     {
         "id": 3,
-        "img": "https://res.cloudinary.com/kejk/image/upload/v1581274485/9200000118791734_wlaumh.jpg",
+        "img": "https://res.cloudinary.com/kejk/image/upload/v1581274485/9200000118791734_wlaumh.png",
         "url": "https://smile.amazon.co.uk/Mindf-Inside-Cambridge-Analyticas-Break/dp/1788164997/",
         "color": "#1e1e1e"
     }
