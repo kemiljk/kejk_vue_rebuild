@@ -151,7 +151,7 @@
       </v-row>
     </v-row>
     <v-row class="text-left">
-      <v-col class="mb-5" cols="12">
+      <v-col class="mb-5" cols="6">
         <h2
           class="display font-weight-bold mb-3"
           aria-label="Karl's music playlist"
