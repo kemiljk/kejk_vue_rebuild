@@ -151,13 +151,13 @@
       </v-row>
     </v-row>
     <v-row class="text-left">
-      <v-col class="mb-5" cols="6">
+      <v-col class="mb-5">
         <h2
           class="display font-weight-bold mb-3"
           aria-label="Karl's music playlist"
         >Currently playing.</h2>
         <v-row>
-          <v-col v-for="music in musics" :key="`${music.id}`" cols="12" md="6">
+          <v-col v-for="music in musics" :key="`${music.id}`" cols="6">
             <Musics :music="music" />
           </v-col>
         </v-row>
