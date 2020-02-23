@@ -184,6 +184,8 @@
             class="teal--text"
           >Barlow</a> by Jeremy Tribby. Many thanks to him for making it available open-source.
         </p>
+        <p class="body-1">This website doesn't use cookies because I don't need to track you. It does use localstorage to save session state though for faster re-loading.</p>
+        <p class="body-1">I also don't use any tracking tools for analytics, again, because I don't want to invade your privacy.</p>
       </v-col>
     </v-row>
   </v-container>
