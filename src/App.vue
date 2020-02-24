@@ -32,7 +32,7 @@
                 <v-icon v-else>mdi-account-circle</v-icon>
               </v-btn>
             </template>
-            <v-btn fab dark small color="teal" href="mailto:hi@kejk.co" alt="Email Karl">
+            <v-btn fab dark small color="teal" href="mailto:karlemilkoch@me.com" alt="Email Karl">
               <v-icon>mdi-email</v-icon>
             </v-btn>
             <v-btn
@@ -57,7 +57,7 @@
             >
               <v-icon>mdi-git</v-icon>
             </v-btn>
-                        <v-btn
+            <v-btn
               fab
               dark
               small
@@ -102,11 +102,11 @@ export default {
         },
         {
           label: "Posts",
-          url: "/posts"
+          url: "/posts/"
         },
         {
           label: "Uses",
-          url: "/uses"
+          url: "/uses/"
         }
       ]
     };
