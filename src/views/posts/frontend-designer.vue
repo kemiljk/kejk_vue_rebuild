@@ -34,7 +34,11 @@
             href="https://bradfrost.com/blog/post/frontend-design/"
             target="_blank"
             class="teal--text"
-          >isn't new</a> but it certainly isn't widespread either. I strongly believe that this hybrid role is the future of design and with powerful frameworks like Vue, React and Angular enabling better component-driven design, Designers understanding code is going to be more important than ever.
+          >isn't new</a> but it certainly isn't widespread either. I strongly believe that this hybrid role is the future of design and, with the flexibility of           <a
+            href="https://www.webcomponents.org/"
+            target="_blank"
+            class="teal--text"
+          >Web  Components</a> and powerful frameworks like Vue, React and Angular enabling better component-driven design, Designers understanding code is going to be more important than ever.
         </p>
         <p>
           If you're looking to evolve beyond HTML and CSS as a designer, but find JavaScript scary as hell (like I did) then check out
