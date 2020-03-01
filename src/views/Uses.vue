@@ -14,8 +14,18 @@
         >I'm primarily a designer first but I learned the fundamentals of web development by hacking other peoples' MySpace pages back when that was a real thing.</p>
         <p class="body-1 mb-3">
           Now, I'm exploring building frontends in
-          <a href="http://vuejs.org" target="_blank" rel="noreferrer" class="teal--text">Vue.js</a> and utilising the amazing
-          <a href="http://vuetifyjs.com" target="_blank" rel="noreferrer" class="teal--text">Vuetify</a> library. As a developer who started with bare HTML and CSS and stayed that way for a while, I couldn't recommend Vue more to designers who're looking to code. Primarily building your application in semantic HTML whilst leveraging the power of JavaScript make it a one of a kind language that just makes sense.
+          <a
+            href="http://vuejs.org"
+            target="_blank"
+            rel="noreferrer"
+            class="teal--text"
+          >Vue.js</a> and utilising the amazing
+          <a
+            href="http://vuetifyjs.com"
+            target="_blank"
+            rel="noreferrer"
+            class="teal--text"
+          >Vuetify</a> library. As a developer who started with bare HTML and CSS and stayed that way for a while, I couldn't recommend Vue more to designers who're looking to code. Primarily building your application in semantic HTML whilst leveraging the power of JavaScript make it a one of a kind language that just makes sense.
         </p>
       </v-col>
     </v-row>
@@ -72,7 +82,7 @@
               target="_blank"
               rel="noreferrer"
               class="teal--text"
-            >Seti Black</a> theme with a custom set of background colours to create a pure black environment along with
+            >Tomorrow Night Bright Operator Mono</a> theme with a custom set of background colours to create a pure black environment along with
             <a
               href="https://www.typography.com/blog/introducing-operator"
               target="_blank"
@@ -82,7 +92,7 @@
           </li>
         </ul>
         <v-btn
-          href="https://res.cloudinary.com/kejk/raw/upload/v1583061526/settings_bftylc.json"
+          href="https://res.cloudinary.com/kejk/raw/upload/v1583082695/settings_bftylc_xd2sif.json"
           target="_blank"
           rel="noreferrer"
           class="mb-6 ml-5"
