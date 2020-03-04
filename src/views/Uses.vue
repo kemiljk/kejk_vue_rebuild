@@ -78,7 +78,7 @@
               class="teal--text"
             >VSCode</a> is my editor of choice. I currently use the
             <a
-              href="https://marketplace.visualstudio.com/items?itemName=bobsparadox.seti-black"
+              href="https://marketplace.visualstudio.com/items?itemName=ms-vscode.Theme-TomorrowKit"
               target="_blank"
               rel="noreferrer"
               class="teal--text"
@@ -151,7 +151,7 @@
           </li>
           <li class="mb-3">
             <a
-              href="https://smile.amazon.co.uk/gp/product/B07FB33XWT/ref=ppx_yo_dt_b_search_asin_title?ie=UTF8&psc=1"
+              href="https://www.apple.com/apple-watch-series-5/"
               target="_blank"
               rel="noreferrer"
               class="teal--text"
@@ -175,7 +175,7 @@
           <li class="mb-3">
             MacBook Pro 15" (2019) in silver [no longer sold] with the
             <a
-              href="https://www.apple.com/apple-watch-series-5/"
+              href="https://smile.amazon.co.uk/Logitech-Multi-Device-Bluetooth-Keyboard-Windows/dp/B013SL1YXO/ref=sr_1_3?crid=3OF4YGQV1S2HK&keywords=logitech+k380&qid=1583311518&sprefix=logitec+%2Caps%2C175&sr=8-3"
               target="_blank"
               rel="noreferrer"
               class="teal--text"
