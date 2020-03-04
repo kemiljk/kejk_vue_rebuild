@@ -25,7 +25,7 @@
             target="_blank"
             rel="noreferrer"
             class="teal--text"
-          >Vuetify</a> library. As a developer who started with bare HTML and CSS and stayed that way for a while, I couldn't recommend Vue more to designers who're looking to code. Primarily building your application in semantic HTML whilst leveraging the power of JavaScript make it a one of a kind language that just makes sense.
+          >Vuetify</a> library. As a developer who started with bare HTML and CSS and stayed that way for a while, I couldn't recommend Vue more to designers who're looking to code. Primarily building your application in semantic HTML whilst leveraging the power of JavaScript makes it a one of a kind framework that allows me to write fast, performant code.
         </p>
       </v-col>
     </v-row>
