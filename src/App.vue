@@ -72,6 +72,17 @@
               fab
               dark
               small
+              color="#6670f9"
+              href="https://dev.to/_kejk"
+              target="_blank"
+              alt="Karl's LinkedIn"
+            >
+              <v-icon>mdi-dev-to</v-icon>
+            </v-btn>
+            <v-btn
+              fab
+              dark
+              small
               color="red"
               href="https://music.apple.com/gb/album/cornerstone/1300802348"
               target="_blank"
