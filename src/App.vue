@@ -116,8 +116,8 @@ export default {
           url: "/posts/"
         },
         {
-          label: "Uses",
-          url: "/uses/"
+          label: "Login",
+          url: "/login"
         }
       ]
     };
