@@ -9,7 +9,7 @@
           class="display-2 font-weight-bold mb-3 mt-10"
         >Enel Dashboard.</h1>
         <h2
-          class="headline font-weight-bold mb-3 mt-10"
+          class="headline mb-3 mt-2"
         >Subtitle.</h2>
       </v-col>
     </v-row>
