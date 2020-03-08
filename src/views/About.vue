@@ -56,7 +56,7 @@
           <a
             href="mailto:karlemilkoch@me.com"
             class="teal--text"
-          >email</a>. Due to the sensitivity of the projects I've worked on, I'm not permitted to list them here. I'll be adding a way to access this online soon, behind a login.
+          >email</a>. Due to the sensitivity of the projects I've worked on, I'm not permitted to list them here. I'll provide you with login access when required.
         </p>
         <p
           class="body-1 mb-3"
