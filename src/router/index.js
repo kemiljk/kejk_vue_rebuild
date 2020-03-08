@@ -43,6 +43,36 @@ const routes = [
     path: '/portfolio',
     name: 'Portfolio',
     component: () => import('../views/Portfolio.vue')
+  },
+  {
+    path: '/portfolio/neuerenergy',
+    name: 'NeuerEnergy',
+    component: () => import('../views/portfolio/NeuerEnergy.vue')
+  },
+  {
+    path: '/portfolio/duchenne-and-me',
+    name: 'Duchenne and Me',
+    component: () => import('../views/portfolio/DandMe.vue')
+  },
+  {
+    path: '/portfolio/make-me-a-cocktail',
+    name: 'Make Me A Cocktail',
+    component: () => import('../views/portfolio/MakeMeACocktail.vue')
+  },
+  {
+    path: '/portfolio/santen-dyed',
+    name: 'Dyed',
+    component: () => import('../views/portfolio/Dyed.vue')
+  },
+  {
+    path: '/portfolio/enel-battery-storage',
+    name: 'Enel',
+    component: () => import('../views/portfolio/Enel.vue')
+  },
+  {
+    path: '/portfolio/kejk-update',
+    name: 'KEJK',
+    component: () => import('../views/portfolio/KEJK.vue')
   }
 ]
 

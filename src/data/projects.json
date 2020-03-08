@@ -1,0 +1,38 @@
+[
+    {
+        "id": 1,
+        "title": "NeuerEnergy product development",
+        "url": "/portfolio/neuerenergy",
+        "img": "https://res.cloudinary.com/kejk/image/upload/v1583672284/NeuerEnergy_nvfpjn.png"
+    },
+    {
+        "id": 2,
+        "title": "Duchenne and Me app",
+        "url": "/portfolio/duchenne-and-me",
+        "img": "https://res.cloudinary.com/kejk/image/upload/v1583670503/D_Me_zboxsg.png"
+    },
+    {
+        "id": 3,
+        "title": "Make Me A Cocktail site update",
+        "url": "/portfolio/make-me-a-cocktail",
+        "img": "https://res.cloudinary.com/kejk/image/upload/v1583672284/MMAC_fvjjn6.png"
+    },
+    {
+        "id": 4,
+        "title": "Dyed app project",
+        "url": "/portfolio/santen-dyed",
+        "img": "https://res.cloudinary.com/kejk/image/upload/v1583670503/Dyed_eaf6df.png"
+    },
+    {
+        "id": 5,
+        "title": "Enel battery storage dashboard",
+        "url": "/portfolio/enel-battery-storage",
+        "img": "https://res.cloudinary.com/kejk/image/upload/v1583670906/Enel_lw991f.png"
+    },
+    {
+        "id": 6,
+        "title": "KEJK site update",
+        "url": "/portfolio/kejk-update",
+        "img": "https://res.cloudinary.com/kejk/image/upload/v1583671277/KEJK_fpcxpx.png"
+    }
+]

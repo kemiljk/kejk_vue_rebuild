@@ -7,7 +7,7 @@
         </v-btn>
         <h1
           class="display-2 font-weight-bold mb-3 mt-10"
-        >Duchenne and Me.</h1>
+        >Make Me A Cocktail.</h1>
         <h2
           class="headline font-weight-bold mb-3 mt-10"
         >Subtitle.</h2>
@@ -23,6 +23,6 @@
 
 <script>
 export default {
-  name: "Duchenne and Me"
+  name: "Make Me A Cocktail"
 };
 </script>
