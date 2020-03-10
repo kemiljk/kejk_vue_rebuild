@@ -1,0 +1,34 @@
+[
+    {
+        "id": 0,
+        "img": "https://res.cloudinary.com/kejk/image/upload/v1583875248/Dashboard_-_empty_state_gr4wpa.png"
+    },
+    {
+        "id": 1,
+        "img": "https://res.cloudinary.com/kejk/image/upload/v1583875081/Analysis_-_Sites_mkfx3t.png"
+    },
+    {
+        "id": 2,
+        "img": "https://res.cloudinary.com/kejk/image/upload/v1583875093/Analysis_-_Analyse_avyk1y.png"
+    },
+    {
+        "id": 3,
+        "img": "https://res.cloudinary.com/kejk/image/upload/v1583875102/Analyse_-_Project_q9fa5j.png"
+    },
+    {
+        "id": 4,
+        "img": "https://res.cloudinary.com/kejk/image/upload/v1583875101/Analyse_-_Tasks_flzmde.png"
+    },
+    {
+        "id": 5,
+        "img": "https://res.cloudinary.com/kejk/image/upload/v1583875105/Analyse_-_People_zuxltp.png"
+    },
+    {
+        "id": 6,
+        "img": "https://res.cloudinary.com/kejk/image/upload/v1583875109/Analyse_-_Gantt_hwfhxd.png"
+    },
+    {
+        "id": 7,
+        "img": "https://res.cloudinary.com/kejk/image/upload/v1583875114/Dashboard_-_Filled_State_-_CSR_t5gwmg.png"
+    }
+]

@@ -19,18 +19,24 @@
     },
     {
         "id": 4,
+        "title": "Project Nimbus",
+        "url": "/portfolio/project-nimbus",
+        "img": "https://res.cloudinary.com/kejk/image/upload/v1564639804/Nimbus_d3cfig.png"
+    },
+    {
+        "id": 5,
         "title": "Dyed app project",
         "url": "/portfolio/santen-dyed",
         "img": "https://res.cloudinary.com/kejk/image/upload/v1583670503/Dyed_eaf6df.png"
     },
     {
-        "id": 5,
+        "id": 6,
         "title": "Enel battery storage dashboard",
         "url": "/portfolio/enel-battery-storage",
         "img": "https://res.cloudinary.com/kejk/image/upload/v1583688403/Enel_wygcff.png"
     },
     {
-        "id": 6,
+        "id": 7,
         "title": "KEJK site update",
         "url": "/portfolio/kejk-update",
         "img": "https://res.cloudinary.com/kejk/image/upload/v1583671277/KEJK_fpcxpx.png"

@@ -45,7 +45,7 @@
                 Following an approach from our client about creating something that would provide a service to medicine, we ran a workshop with key advocates in the Duchenne field to identify the potential needs of a tool to help in their day to day experiences.
             </p>
             <p>
-                The research led to the idea of an app which we ideated in the session via paper prototypes (you can find these below) and subsequently drew up a development plan that we used to inform the relevant project phases moving forwards.
+                The research led to the idea of an app which we ideated in the session via paper prototypes and subsequently drew up a development plan that we used to inform the relevant project phases moving forwards.
             </p>
             <p>
                 The app we created was a huge success despite several challenging moments throughout its process (almost resulting in it not going live in time for Rare Disease Day!) and has gone on to receive commendation for its value by the PM Society's digital product

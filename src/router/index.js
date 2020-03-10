@@ -70,6 +70,11 @@ const routes = [
     component: () => import('../views/portfolio/Enel.vue')
   },
   {
+    path: '/portfolio/project-nimbus',
+    name: 'Nimbus',
+    component: () => import('../views/portfolio/Nimbus.vue')
+  },
+  {
     path: '/portfolio/kejk-update',
     name: 'KEJK',
     component: () => import('../views/portfolio/KEJK.vue')
