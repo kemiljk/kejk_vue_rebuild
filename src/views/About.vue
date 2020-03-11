@@ -7,7 +7,7 @@
           class="display-3 font-weight-bold mb-10"
           aria-label="intro to Karl"
         >Karl Emil James Koch.</h1>
-        <h2 class="display-1 font-weight-medium mt-6 mb-3">
+        <h2 class="display-1 font-weight-medium pt-10 mb-3">
           I currently lead frontend design at
           <a
             href="https://www.neuerenergy.com"
