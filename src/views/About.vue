@@ -54,7 +54,7 @@
         <p class="body-1 mb-3">
           If you would like to see my portfolio or CV, please send me an
           <a
-            href="mailto:karlemilkoch@me.com"
+            href="mailto:karl@kejk.tech"
             class="teal--text"
           >email</a>. Due to the sensitivity of the projects I've worked on, I'm not permitted to list them here. I'll provide you with login access when required.
         </p>

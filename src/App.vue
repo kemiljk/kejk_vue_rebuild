@@ -32,7 +32,7 @@
                 <v-icon v-else>mdi-account-circle</v-icon>
               </v-btn>
             </template>
-            <v-btn fab dark small color="teal" href="mailto:karlemilkoch@me.com" alt="Email Karl">
+            <v-btn fab dark small color="teal" href="mailto:karl@kejk.tech" alt="Email Karl">
               <v-icon>mdi-email</v-icon>
             </v-btn>
             <v-btn

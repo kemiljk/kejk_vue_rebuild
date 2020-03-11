@@ -28,7 +28,7 @@
       <v-divider />
       <v-card-actions @submit.prevent="submit">
         <v-spacer />
-        <v-btn href="mailto:karlemilkoch@me.com" class="mr-2">Request access</v-btn>
+        <v-btn href="mailto:karl@kejk.tech" class="mr-2">Request access</v-btn>
         <div v-if="password === correctPassword && username === correctUsername">
         <v-btn color="orange black--text" v-for="link in links" :key="`${link.label}`" :to="`${link.url}`" type="submit">Login</v-btn>
         </div>
