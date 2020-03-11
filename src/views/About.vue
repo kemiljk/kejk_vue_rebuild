@@ -2,9 +2,9 @@
   <v-container>
     <v-row class="text-left">
       <v-col>
-        <p class="text-uppercase mt-10">Senior frontend designer<br />at NeuerEnergy</p>
+        <p class="text-uppercase title mt-10">Senior frontend designer<br />at NeuerEnergy</p>
         <h1
-          class="display-3 font-weight-bold mb-3"
+          class="display-3 font-weight-bold mb-8"
           aria-label="intro to Karl"
         >Karl Emil James Koch.</h1>
         <h2 class="display-1 font-weight-medium mb-3">
