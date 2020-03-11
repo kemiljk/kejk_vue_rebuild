@@ -17,10 +17,10 @@
     <v-row class="text-left">
       <v-col cols="12">
         <v-btn href="https://www.neuerenergy.com" color="orange black--text" target="_blank">NeuerEnergy</v-btn>
-        <h3 class="mb-4 mt-4">What is it?</h3>
+        <h3 class="mb-4 mt-8">What is it?</h3>
           <p>
-              NeuerEnergy brings your business together with a simplified marketplace of established renewable energy providers and exciting new eco-friendly projects.
-              Using sophisticated AI-driven automation, our seamless cloud-based platform helps you diversify an energy mix tailored for your individual business needs – aggregating local suppliers with side-by-side pricing structures and automating complex multi-provider Power Purchase Agreements (PPAs) for you. The user-friendly performance dashboard then helps you keep track of your total CO2 reduction, perform cost benefit analysis and effortlessly port agreements to new suppliers. 
+              NeuerEnergy brings businesses together with a simplified marketplace of established renewable energy providers and exciting new eco-friendly projects.
+              Using sophisticated AI-driven automation, the seamless cloud-based platform helps businesses diversify an energy mix tailored for their individual business needs – aggregating local suppliers with side-by-side pricing structures and automating complex multi-provider Power Purchase Agreements (PPAs) for them. The user-friendly performance dashboard then helps customers keep track of their total CO<sub>2</sub> reduction, perform cost benefit analysis and effortlessly port agreements to new suppliers. 
           </p>
           <h4 class="mb-4">My role</h4>
           <p>We are a small team of eight, working to deliver a comprehensive and powerful product for corporate and industrial customers.
@@ -35,8 +35,8 @@
                 <li>Creation of initial prototype in HTML, CSS & JS</li>
                 <li>Creation of second prototype in Vue.js</li>
                 <li>Design and frontend development leadership</li>
-                <li>Project planning and setup / sprint planning and retrospectives</li>
-                <li>Some production-ready development in CSS and Web Components using lit-element</li>
+                <li>Project planning and setup/sprint planning and retrospectives</li>
+                <li>Production-ready development in CSS and Web Components using lit-element</li>
             </ul>
           </p>
           <section aria-label="summary">
