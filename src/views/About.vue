@@ -2,6 +2,7 @@
   <v-container>
     <v-row class="text-left">
       <v-col>
+        <p class="text-uppercase">Senior frontend designer<br />at NeuerEnergy</p>
         <h1
           class="display-3 font-weight-bold mb-3 mt-10"
           aria-label="intro to Karl"
