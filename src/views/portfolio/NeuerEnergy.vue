@@ -16,7 +16,7 @@
     </v-row>
     <v-row class="text-left">
       <v-col cols="12">
-        <v-btn href="https://www.neuerenergy.com" color="orange black--text" target="_blank">NeuerEnergy</v-btn>
+        <v-btn href="https://www.neuerenergy.com" color="orange black--text" target="_blank">NeuerEnergy<v-icon class="ml-2">mdi-open-in-new</v-icon></v-btn>
         <h3 class="mb-4 mt-8">What is it?</h3>
           <p>
               NeuerEnergy brings businesses together with a simplified marketplace of established renewable energy providers and exciting new eco-friendly projects.
