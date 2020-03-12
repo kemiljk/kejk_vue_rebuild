@@ -21,8 +21,7 @@
               The Enel internal dashboard was developed as a product to help our client validate and promote a pioneering new approach to predictive maintenance in energy storage systems. The dashboard's sole intention was to receive datasets, ingest the data and be parsed through a machine learning algorithm that populated the dashboard with estimated predictions of battery downtime based on historic datasets.
           </p>
           <h4 class="mb-4">My role</h4>
-          <p>
-            My role consisted of the following:
+            <p class="mt-4">My role consisted of the following:</p>
             <ul>
                 <li>In-person interview with the end client</li>
                 <li>Planning and paper prototyping</li>
@@ -33,9 +32,8 @@
                 <li>Provision of files to development</li>
                 <li>Some minor frontend development in lit-element/Web Components</li>
             </ul>
-          </p>
           <section aria-label="summary">
-            <h4 class="mb-4">Summary</h4>
+            <h4 class="mb-4 mt-4">Summary</h4>
             <p>
                 We were approached by Enel to develop a dashboard capable of predicting battery downtime in renewable energy production plants. Having been provided with a clear goal of developing an internal dashboard capable of supporting our client's requirement to sell his vision to his boss.
             </p>

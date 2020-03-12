@@ -34,8 +34,7 @@
           <p>
               During my website assessment, I noticed a glaring need for refining and updating the website design system to create a more unified and modern look and feel without losing the existing design language.
           </p>
-          <p>
-            My role consisted of the following:
+          <p class="mt-4">My role consisted of the following:</p>
             <ul>
                 <li>Working with the site owner to identify current pain points and opportunities for improvement</li>
                 <li>Identification and consolidation of core requirements</li>
@@ -45,9 +44,8 @@
                 <li>Creation of full designs, including a new design system and component set</li>
                 <li>Provision of files to development</li>
             </ul>
-          </p>
           <section aria-label="summary">
-            <h4 class="mb-4">Summary</h4>
+            <h4 class="mb-4 mt-4">Summary</h4>
             <p>
                 Make Me A Cocktail is a very successful website that caters to a wide audience of cocktail lovers, providing a much needed single source of truth when looking for cocktail recipes.
             </p>

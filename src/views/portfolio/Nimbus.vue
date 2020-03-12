@@ -22,8 +22,7 @@
               <code>Dev > Staging > Live</code>. This website aims to democratise the process of website capture and deployment so that Project Managers are able to do staged deploys without requiring dev support.
           </p>
           <h4 class="mb-4">My role</h4>
-          <p>
-            My role consisted of the following:
+          <p class="mt-4">My role consisted of the following:</p>
             <ul>
                 <li>Research based on stakeholder whiteboard session</li>
                 <li>Identification and consolidation of core requirements spec</li>
@@ -34,9 +33,8 @@
                 <li>Creation of full designs, including a design system and component set</li>
                 <li>Provision of files and functional spec to development</li>
             </ul>
-          </p>
           <section aria-label="summary">
-            <h4 class="mb-4">Summary</h4>
+            <h4 class="mb-4 mt-4">Summary</h4>
             <p>
                 Our internal project teams regularly had to screenshot entire websites, including all popups and modal information to create a consolidated PDF that captures the state of the site at the point of approval. This is a legal and compliance issue for thei clients and is an absolute requirement of all digital jobs due to the fluidity of development.
             </p>

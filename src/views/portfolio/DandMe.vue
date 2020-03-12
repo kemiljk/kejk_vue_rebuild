@@ -26,8 +26,7 @@
               architecture, user interface and management of rollout. We performed significant user testing throughout, working closely with one particular parent of a child with Duchenne and made major revisions to the interface based on
               this continuous feedback.
           </p>
-          <p>
-            My role consisted of the following:
+            <p class="mt-4">My role consisted of the following:</p>
             <ul>
                 <li>In-person interviews/group session</li>
                 <li>Planning and paper prototyping</li>
@@ -38,9 +37,8 @@
                 <li>Beta test setup and second round research/feedback</li>
                 <li>Some minor development</li>
             </ul>
-          </p>
           <section aria-label="summary">
-            <h4 class="mb-4">Summary</h4>
+            <h4 class="mb-4 mt-4">Summary</h4>
             <p>
                 Following an approach from our client about creating something that would provide a service to medicine, we ran a workshop with key advocates in the Duchenne field to identify the potential needs of a tool to help in their day to day experiences.
             </p>

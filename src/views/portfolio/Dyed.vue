@@ -25,8 +25,7 @@
           <p>
             I was involved in many aspects of the DyeD project, from conception of technology and interface, through to defining the machine learning model and interface for the app.
           </p>
-          <p>
-            My role consisted of the following:
+            <p class="mt-4">My role consisted of the following:</p>
             <ul>
                 <li>Skype-based interviews</li>
                 <li>Development of sitemap and information architecture</li>
@@ -37,9 +36,8 @@
                 <li>Alpha and beta test guides and research script writing</li>
                 <li>Expert interviews to evaluate stakeholder feedback</li>
             </ul>
-          </p>
           <section aria-label="summary">
-            <h4 class="mb-4">Summary</h4>
+            <h4 class="mb-4 mt-4">Summary</h4>
             <p>
                 We were approached by our client to think about how to create a tool that might help general practitioners to capture images of Fluoroscene dyed eyes and grade them accordingly based on the industry recognised Oxford Rating Scale.
             </p>
@@ -74,7 +72,7 @@ export default {
   data() {
     return {
       images: dyedImages,
-      hero: "https://res.cloudinary.com/kejk/image/upload/v1563370103/iphone-xs-with-a-journal-on-the-right-side_afo3ki.jpg",
+      hero: "https://res.cloudinary.com/kejk/image/upload/v1584049333/iphone-xs-with-a-journal-on-the-right-side_afo3ki.jpg",
     }
   }
 };

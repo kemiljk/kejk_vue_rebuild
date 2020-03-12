@@ -25,8 +25,7 @@
           <h4 class="mb-4">My role</h4>
           <p>We are a small team of eight, working to deliver a comprehensive and powerful product for corporate and industrial customers.
           </p>
-          <p>
-            My role consisted of the following:
+            <p>My role consisted of the following:</p>
             <ul>
                 <li>Requirement gathering and planning sessions with the product owner</li>
                 <li>Planning and paper prototyping</li>
@@ -38,9 +37,13 @@
                 <li>Product management (sprint planning and retrospectives)</li>
                 <li>Some production-ready development in CSS and Web Components using lit-element</li>
             </ul>
-          </p>
+            <p class="mt-4">Role beyond product development:</p>
+            <ul>
+              <li>Brand development and ownership</li>
+              <li>Social media planning and execution</li>
+            </ul>
           <section aria-label="summary">
-            <h4 class="mb-4">Summary</h4>
+            <h4 class="mb-4 mt-4">Summary</h4>
             <p>
                 NeuerEnergy is a first-of-its-kind product, providing a seamless and connected experience for corporate and industrial customers to manage their carbon reduction targets through long-term PPAs. Generator partners are integrated into the platform to obtain access to these customers whilst also benefiting from comprehensive predictive maintenance and plant planning toolsets.
             </p>
