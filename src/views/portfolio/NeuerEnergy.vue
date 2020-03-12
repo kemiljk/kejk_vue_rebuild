@@ -16,11 +16,11 @@
     </v-row>
     <v-row class="text-left">
       <v-col cols="12">
-        <v-btn href="https://www.neuerenergy.com" color="orange black--text" target="_blank">NeuerEnergy</v-btn>
-        <h3 class="mb-4 mt-4">What is it?</h3>
+        <v-btn href="https://www.neuerenergy.com" color="orange black--text" target="_blank">NeuerEnergy<v-icon class="ml-2">mdi-open-in-new</v-icon></v-btn>
+        <h3 class="mb-4 mt-8">What is it?</h3>
           <p>
-              NeuerEnergy brings your business together with a simplified marketplace of established renewable energy providers and exciting new eco-friendly projects.
-              Using sophisticated AI-driven automation, our seamless cloud-based platform helps you diversify an energy mix tailored for your individual business needs – aggregating local suppliers with side-by-side pricing structures and automating complex multi-provider Power Purchase Agreements (PPAs) for you. The user-friendly performance dashboard then helps you keep track of your total CO2 reduction, perform cost benefit analysis and effortlessly port agreements to new suppliers. 
+              NeuerEnergy brings businesses together with a simplified marketplace of established renewable energy providers and exciting new eco-friendly projects.
+              Using sophisticated AI-driven automation, the seamless cloud-based platform helps businesses diversify an energy mix tailored for their individual business needs – aggregating local suppliers with side-by-side pricing structures and automating complex multi-provider Power Purchase Agreements (PPAs) for them. The user-friendly performance dashboard then helps customers keep track of their total CO<sub>2</sub> reduction, perform cost benefit analysis and effortlessly port agreements to new suppliers. 
           </p>
           <h4 class="mb-4">My role</h4>
           <p>We are a small team of eight, working to deliver a comprehensive and powerful product for corporate and industrial customers.
@@ -48,7 +48,7 @@
                 During its development, NeuerEnergy has had many iterations. The product-market fit has been clear from day one, but the intended output has always been tricky to pin down. This project is still in active development and is currently nearing its alpha production launch.
             </p>
             <p>
-                We're building the application using lit-element and the Web Components standard to ensure interoperability across all browsers and platforms, without relying on the heaviness of a framework. We've also developed the application to be an single-page app with server side rendering through Azure functions. 
+                We're building the application using lit-element and the Web Components standard to ensure interoperability across all browsers and platforms, without relying on the heaviness of a framework. We've also developed the application to be an single-page app and a serverless architecture through Azure Functions. 
             </p>
             <p>
                 The app relies heavily on our team maintaining a tight relationship from Data Science (writing machine learning algorithms and data APIs in Python), to backend development (working in C# and Azure Functions), to frontend development (working in lit-element and Web Components). Across all of this sits my immediate team, working through Customer Experience, User/platform Experience, User Interface and some additional frontend development support. 

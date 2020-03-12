@@ -2,15 +2,12 @@
   <v-container>
     <v-row class="text-left">
       <v-col>
+        <p class="text-uppercase title mt-10">Senior frontend designer<br />at NeuerEnergy</p>
         <h1
-          class="display-3 font-weight-bold mb-3 mt-10"
+          class="display-3 font-weight-bold mb-10"
           aria-label="intro to Karl"
         >Karl Emil James Koch.</h1>
-        <h2
-          class="display-1 font-weight-medium mt-12 mb-6"
-          aria-label="intro to Karl"
-        >I'm a frontend designer.</h2>
-        <h2 class="display-1 font-weight-medium mb-3">
+        <h2 class="display-1 font-weight-medium pt-10 mb-3">
           I currently lead frontend design at
           <a
             href="https://www.neuerenergy.com"
