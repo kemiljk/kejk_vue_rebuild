@@ -35,7 +35,7 @@
                 <li>Creation of initial prototype in HTML, CSS & JS</li>
                 <li>Creation of second prototype in Vue.js</li>
                 <li>Design and frontend development leadership</li>
-                <li>Project planning and setup / sprint planning and retrospectives</li>
+                <li>Product management (sprint planning and retrospectives)</li>
                 <li>Some production-ready development in CSS and Web Components using lit-element</li>
             </ul>
           </p>
