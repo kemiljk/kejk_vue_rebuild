@@ -7,7 +7,10 @@
     :color="book.color"
     alt="Books Karl is reading"
   >
-    <v-img :src="`${book.img}`" max-width="220px"></v-img>
+    <v-img
+      :src="`${book.img}`"
+      max-width="220px"
+    />
   </v-card>
 </template>
 

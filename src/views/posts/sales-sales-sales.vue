@@ -3,12 +3,18 @@
     <v-row class="text-left">
       <v-col cols="12">
         <v-btn :to="'/posts'">
-          <v-icon class="mr-2">mdi-chevron-left</v-icon>Back
+          <v-icon class="mr-2">
+            mdi-chevron-left
+          </v-icon>Back
         </v-btn>
-        <h1 class="display-2 font-weight-bold mb-3 mt-10">Getting to yes.</h1>
+        <h1 class="display-2 font-weight-bold mb-3 mt-10">
+          Getting to yes.
+        </h1>
         <h2
           class="headline font-weight-bold mb-3 mt-10"
-        >Why designers and developers should learn the basics of sales.</h2>
+        >
+          Why designers and developers should learn the basics of sales.
+        </h2>
       </v-col>
     </v-row>
     <v-row class="text-left">
@@ -38,6 +44,6 @@
 
 <script>
 export default {
-  name: "Getting to yes"
+  name: "GettingToYes"
 };
 </script>

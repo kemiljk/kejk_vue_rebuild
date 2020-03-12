@@ -1,39 +1,63 @@
 <template>
   <v-container>
-    <v-card width="400" class="mx-auto mt-5">
+    <v-card
+      width="400"
+      class="mx-auto mt-5"
+    >
       <v-card-title class="pb-0">
-        <h1 class="mb-6">Login</h1>
+        <h1 class="mb-6">
+          Login
+        </h1>
       </v-card-title>
       <v-card-text>
         <v-form>
           <v-text-field
+            v-model="username"
             label="Username"
             prepend-icon="mdi-account-circle"
-            v-model="username"
             :rules="usernameRules"
             color="teal"
           />
           <v-text-field
+            v-model="password"
             :type="showPassword ? 'text' : 'password'"
             label="Password"
             prepend-icon="mdi-lock"
             :append-icon="showPassword ? 'mdi-eye' : 'mdi-eye-off'"
-            @click:append="showPassword = !showPassword"
-            v-model="password"
             :rules="passwordRules"
             color="teal"
+            @click:append="showPassword = !showPassword"
           />
         </v-form>
       </v-card-text>
       <v-divider />
       <v-card-actions @submit.prevent="submit">
         <v-spacer />
-        <v-btn href="mailto:karl@kejk.tech" class="mr-2">Request access</v-btn>
+        <v-btn
+          href="mailto:karl@kejk.tech"
+          class="mr-2"
+        >
+          Request access
+        </v-btn>
         <div v-if="password === correctPassword && username === correctUsername">
-        <v-btn color="orange black--text" v-for="link in links" :key="`${link.label}`" :to="`${link.url}`" type="submit">Login</v-btn>
+          <v-btn
+            v-for="link in links"
+            :key="`${link.label}`"
+            color="orange black--text"
+            :to="`${link.url}`"
+            type="submit"
+          >
+            Login
+          </v-btn>
         </div>
         <div v-else>
-        <v-btn type="submit" text :disabled="submitStatus">Login</v-btn>
+          <v-btn
+            type="submit"
+            text
+            :disabled="submitStatus"
+          >
+            Login
+          </v-btn>
         </div>
         <v-spacer />
       </v-card-actions>
