@@ -85,7 +85,11 @@
             target="_blank"
             alt="link to app store"
           >
-            Make Me A Cocktail<v-icon class="ml-2">
+            Make Me A Cocktail
+            <v-icon 
+              class="ml-2"
+              small
+            >
               mdi-open-in-new
             </v-icon>
           </v-btn>

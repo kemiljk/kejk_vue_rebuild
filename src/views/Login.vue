@@ -37,16 +37,26 @@
           href="mailto:karl@kejk.tech"
           class="mr-2"
         >
+          <v-icon
+            class="mr-2"
+          >
+            mdi-email
+          </v-icon>
           Request access
         </v-btn>
         <div v-if="password === correctPassword && username === correctUsername">
           <v-btn
             v-for="link in links"
             :key="`${link.label}`"
-            color="orange black--text"
+            color="teal"
             :to="`${link.url}`"
             type="submit"
           >
+            <v-icon
+              class="mr-2"
+            >
+              mdi-lock-open
+            </v-icon>
             Login
           </v-btn>
         </div>
@@ -56,6 +66,11 @@
             text
             :disabled="submitStatus"
           >
+            <v-icon
+              class="mr-2"
+            >
+              mdi-lock
+            </v-icon>
             Login
           </v-btn>
         </div>

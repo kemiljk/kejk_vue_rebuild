@@ -28,10 +28,14 @@
       <v-col cols="12">
         <v-btn
           href="https://www.neuerenergy.com"
-          color="orange black--text"
+          color="teal"
           target="_blank"
         >
-          NeuerEnergy<v-icon class="ml-2">
+          NeuerEnergy
+          <v-icon 
+            class="ml-2" 
+            small
+          >
             mdi-open-in-new
           </v-icon>
         </v-btn>

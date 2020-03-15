@@ -14,7 +14,8 @@
         alt="Toggle colour theme"
         @click="toggleTheme"
       >
-        <v-icon>mdi-invert-colors</v-icon>
+        <v-icon v-if="this.$vuetify.theme.dark">mdi-brightness-5</v-icon>
+        <v-icon v-else>mdi-brightness-3</v-icon>
       </v-btn>
       <v-btn
         v-for="link in links"
@@ -52,7 +53,7 @@
             <template v-slot:activator>
               <v-btn
                 v-model="fab"
-                color="orange"
+                color="teal"
                 fab
               >
                 <v-icon v-if="fab">

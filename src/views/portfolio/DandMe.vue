@@ -81,7 +81,11 @@
             target="_blank"
             alt="link to app store"
           >
-            Duchenne and Me<v-icon class="ml-2">
+            Duchenne and Me
+            <v-icon 
+              class="ml-2"
+              small  
+            >
               mdi-open-in-new
             </v-icon>
           </v-btn>
