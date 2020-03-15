@@ -84,7 +84,18 @@
         <p
           class="body-1 mt-3 mb-3"
         >
-          This website was designed and built by me in Vue.js. In some ways, it provides an idea of my personal design aesthetic and development style.
+          This website was designed and built by me in <a
+            href="https://vuejs.org/"
+            target="_blank"
+            rel="noreferrer"
+            class="teal--text"
+          >Vue</a> utilising the
+          <a
+            href="https://vuetifyjs.com"
+            target="_blank"
+            rel="noreferrer"
+            class="teal--text"
+          >Vuetify</a> library. It's a good indicator of my personal design aesthetic and approach to development.
         </p>
       </v-col>
     </v-row>
@@ -110,7 +121,7 @@
         <p
           class="body-1"
         >
-          I'm the Design Lead for Make Me A Cocktail. We're currently in the process of redesigning and rebuilding the site.
+          I'm the Design Lead for Make Me A Cocktail. We're currently in the process of redesigning and rebuilding the site but many of my designs are now implemented across the core screens.
         </p>
       </v-col>
       <v-col
