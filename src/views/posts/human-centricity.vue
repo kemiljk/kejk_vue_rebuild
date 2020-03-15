@@ -3,12 +3,18 @@
     <v-row class="text-left">
       <v-col cols="12">
         <v-btn :to="'/posts'">
-          <v-icon class="mr-2">mdi-chevron-left</v-icon>Back
+          <v-icon class="mr-2">
+            mdi-chevron-left
+          </v-icon>Back
         </v-btn>
         <h1
           class="display-2 font-weight-bold mb-3 mt-10"
-        >Why we should replace the term ‘user’ with human.</h1>
-        <h2 class="headline font-weight-bold mb-3 mt-10">Design is about people.</h2>
+        >
+          Why we should replace the term ‘user’ with human.
+        </h1>
+        <h2 class="headline font-weight-bold mb-3 mt-10">
+          Design is about people.
+        </h2>
       </v-col>
     </v-row>
     <v-row class="text-left">
@@ -27,6 +33,6 @@
 
 <script>
 export default {
-  name: "Human Centricity"
+  name: "HumanCentricity"
 };
 </script>

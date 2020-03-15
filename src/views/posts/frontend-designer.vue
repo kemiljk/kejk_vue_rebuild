@@ -3,14 +3,20 @@
     <v-row class="text-left">
       <v-col cols="12">
         <v-btn :to="'/posts'">
-          <v-icon class="mr-2">mdi-chevron-left</v-icon>Back
+          <v-icon class="mr-2">
+            mdi-chevron-left
+          </v-icon>Back
         </v-btn>
         <h1
           class="display-2 font-weight-bold mb-3 mt-10"
-        >From Regular Designer to Frontend Designer.</h1>
+        >
+          From Regular Designer to Frontend Designer.
+        </h1>
         <h2
           class="headline font-weight-bold mb-3 mt-10"
-        >What learning Vue has taught me about the future of design.</h2>
+        >
+          What learning Vue has taught me about the future of design.
+        </h2>
       </v-col>
     </v-row>
     <v-row class="text-left">
@@ -42,7 +48,11 @@
         </p>
         <p>
           If you're looking to evolve beyond HTML and CSS as a designer, but find JavaScript scary as hell (like I did) then check out
-          <a href="https://vuejs.org/" target="_blank" class="teal--text">Vue</a> and follow their extremely powerful and easy to follow documentation.
+          <a
+            href="https://vuejs.org/"
+            target="_blank"
+            class="teal--text"
+          >Vue</a> and follow their extremely powerful and easy to follow documentation.
         </p>
       </v-col>
     </v-row>
@@ -51,6 +61,6 @@
 
 <script>
 export default {
-  name: "Frontend Designer"
+  name: "FrontendDesigner"
 };
 </script>

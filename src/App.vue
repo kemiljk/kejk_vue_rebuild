@@ -1,10 +1,19 @@
 <template>
   <v-app :dark="$isDark">
     <v-app-bar app>
-      <v-toolbar-title class="logo d-none d-sm-block font-weight-black">KEJK</v-toolbar-title>
-      <v-toolbar-title class="logo d-sm-none font-weight-black">K.</v-toolbar-title>
-      <v-spacer></v-spacer>
-      <v-btn @click="toggleTheme" text class="mr-1" alt="Toggle colour theme">
+      <v-toolbar-title class="logo d-none d-sm-block font-weight-black">
+        KEJK
+      </v-toolbar-title>
+      <v-toolbar-title class="logo d-sm-none font-weight-black">
+        K.
+      </v-toolbar-title>
+      <v-spacer />
+      <v-btn
+        text
+        class="mr-1"
+        alt="Toggle colour theme"
+        @click="toggleTheme"
+      >
         <v-icon>mdi-invert-colors</v-icon>
       </v-btn>
       <v-btn
@@ -14,25 +23,54 @@
         text
         :to="link.url"
       >
-        <v-text class="font-weight-bold">{{ link.label }}</v-text>
+        <v-text class="font-weight-bold">
+          {{ link.label }}
+        </v-text>
       </v-btn>
     </v-app-bar>
     <v-content>
       <v-responsive width="900px">
-        <router-view></router-view>
+        <router-view />
       </v-responsive>
     </v-content>
     <v-footer app>
-      <v-col class="text-left" cols="12">
-        <v-row justify="end" no-gutters>
-          <v-speed-dial v-model="fab" absolute bottom right alt="Contact Karl">
+      <v-col
+        class="text-left"
+        cols="12"
+      >
+        <v-row
+          justify="end"
+          no-gutters
+        >
+          <v-speed-dial
+            v-model="fab"
+            absolute
+            bottom
+            right
+            alt="Contact Karl"
+          >
             <template v-slot:activator>
-              <v-btn v-model="fab" color="orange" fab>
-                <v-icon v-if="fab">mdi-close</v-icon>
-                <v-icon v-else>mdi-account-circle</v-icon>
+              <v-btn
+                v-model="fab"
+                color="orange"
+                fab
+              >
+                <v-icon v-if="fab">
+                  mdi-close
+                </v-icon>
+                <v-icon v-else>
+                  mdi-account-circle
+                </v-icon>
               </v-btn>
             </template>
-            <v-btn fab dark small color="teal" href="mailto:karl@kejk.tech" alt="Email Karl">
+            <v-btn
+              fab
+              dark
+              small
+              color="teal"
+              href="mailto:karl@kejk.tech"
+              alt="Email Karl"
+            >
               <v-icon>mdi-email</v-icon>
             </v-btn>
             <v-btn
