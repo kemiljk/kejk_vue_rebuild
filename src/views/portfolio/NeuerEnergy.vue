@@ -30,10 +30,11 @@
           href="https://www.neuerenergy.com"
           color="teal"
           target="_blank"
+          class="white--text"
         >
           NeuerEnergy
           <v-icon 
-            class="ml-2" 
+            class="ml-2 white--text" 
             small
           >
             mdi-open-in-new

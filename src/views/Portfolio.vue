@@ -14,7 +14,7 @@
         >
           A sample collection of my work.
         </h2>
-        <v-btn color="teal" class="mt-4" href="https://res.cloudinary.com/kejk/image/upload/v1584313703/Karl_Koch_CV_2020_gwzx9d.pdf" target="_blank" ref="noreferrer"><v-icon class="mr-2" small>mdi-file-document-outline</v-icon>Resumé</v-btn>
+        <v-btn color="teal" class="mt-4" href="https://res.cloudinary.com/kejk/image/upload/v1584313703/Karl_Koch_CV_2020_gwzx9d.pdf" target="_blank" ref="noreferrer"><v-icon class="mr-2 white--text" small>mdi-file-document-outline</v-icon>Resumé</v-btn>
       </v-col>
     </v-row>
     <v-row class="mt-3 mb-5">

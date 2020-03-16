@@ -56,10 +56,10 @@
                 color="teal"
                 fab
               >
-                <v-icon v-if="fab">
+                <v-icon v-if="fab" class="white--text">
                   mdi-close
                 </v-icon>
-                <v-icon v-else>
+                <v-icon v-else class="white--text">
                   mdi-account-circle
                 </v-icon>
               </v-btn>
