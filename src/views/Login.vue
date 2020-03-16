@@ -67,7 +67,7 @@
             :disabled="submitStatus"
           >
             <v-icon
-              class="mr-2"
+              class="mr-2" small
             >
               mdi-lock
             </v-icon>
