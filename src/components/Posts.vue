@@ -1,7 +1,7 @@
 <template>
   <v-card
     hover
-    :href="`${post.url}`"
+    :to="`${post.url}`"
     :target="`${post.ext}`"
     rel="noreferrer"
   >

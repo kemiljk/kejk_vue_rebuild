@@ -1,7 +1,7 @@
 <template>
   <v-card
     hover
-    :href="`${project.url}`"
+    :to="`${project.url}`"
     rel="noreferrer"
   >
     <v-img :src="`${project.img}`" />
