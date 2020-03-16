@@ -14,7 +14,7 @@
         alt="Toggle colour theme"
         @click="toggleTheme"
       >
-        <v-icon v-if="this.$vuetify.theme.dark">mdi-brightness-5</v-icon>
+        <v-icon v-if="this.$vuetify.theme.dark">mdi-white-balance-sunny</v-icon>
         <v-icon v-else>mdi-brightness-3</v-icon>
       </v-btn>
       <v-btn
