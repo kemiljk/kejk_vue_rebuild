@@ -23,7 +23,7 @@ export default {
     project: {
       type: String
     }
-  }
+  },
   methods: { 
     scrollToTop() {
      window.scrollTo(0,0);

@@ -33,7 +33,7 @@ export default {
     post: {
       type: String
     }
-  }
+  },
   methods: { 
     scrollToTop() {
      window.scrollTo(0,0);
