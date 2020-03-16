@@ -3,7 +3,6 @@
     hover
     :to="`${project.url}`"
     rel="noreferrer"
-    @click.native="$scrollToTop"
   >
     <v-img :src="`${project.img}`" />
     <v-card-title class="subtitle-1">
@@ -22,11 +21,6 @@ export default {
   props: {
     project: {
       type: String
-    }
-  },
-  methods: { 
-    scrollToTop() {
-     window.scrollTo(0,0);
     }
   }
 };

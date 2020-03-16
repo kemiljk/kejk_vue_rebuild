@@ -4,7 +4,6 @@
     :to="`${post.url}`"
     :target="`${post.ext}`"
     rel="noreferrer"
-    @click.native="$scrollToTop"
   >
     <v-img :src="`${post.img}`" />
     <v-card-title class="subtitle-1">
@@ -32,11 +31,6 @@ export default {
   props: {
     post: {
       type: String
-    }
-  },
-  methods: { 
-    scrollToTop() {
-     window.scrollTo(0,0);
     }
   }
 };
