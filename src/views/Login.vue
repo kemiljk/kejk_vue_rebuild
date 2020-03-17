@@ -38,7 +38,7 @@
           class="mr-2"
         >
           <v-icon
-            class="mr-2"
+            class="mr-2" small
           >
             mdi-email
           </v-icon>
@@ -51,9 +51,10 @@
             color="teal"
             :to="`${link.url}`"
             type="submit"
+            class="white--text"
           >
             <v-icon
-              class="mr-2"
+              class="mr-2 white-text" small
             >
               mdi-lock-open
             </v-icon>
@@ -67,7 +68,7 @@
             :disabled="submitStatus"
           >
             <v-icon
-              class="mr-2"
+              class="mr-2" small
             >
               mdi-lock
             </v-icon>

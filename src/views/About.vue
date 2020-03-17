@@ -14,12 +14,12 @@
           I currently lead frontend design at
           <a
             href="https://www.neuerenergy.com"
-            class="orange--text font-weight-bold"
+            class="teal--text font-weight-bold"
             target="_blank"
             rel="noreferrer"
           >NeuerEnergy</a>&nbsp;
           <sup>
-            <v-icon class="orange--text" small>mdi-open-in-new</v-icon>
+            <v-icon class="teal--text" small>mdi-open-in-new</v-icon>
           </sup> in London, UK.
         </h2>
       </v-col>
@@ -59,9 +59,9 @@
           >email</a>. Due to the sensitivity of the projects I've worked on, I'm not permitted to list them here. I'll provide you with login access when required.
         </p>
         <p>If you want to book some time to have a chat, you can book a slot.</p>
-        <v-btn href="https://calendly.com/kejk/60min" color="teal" target="_blank" rel="noreferrer">
+        <v-btn href="https://calendly.com/kejk/60min" color="teal" class="white--text" target="_blank" rel="noreferrer">
           Book
-          <v-icon class="ml-2" small>mdi-open-in-new</v-icon>
+          <v-icon class="ml-2 white--text" small>mdi-open-in-new</v-icon>
         </v-btn>
         <p class="body-1 mt-3 mb-3">
           This website was designed and built by me in
