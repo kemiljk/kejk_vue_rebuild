@@ -55,7 +55,7 @@
                 v-model="fab"
                 color="teal"
                 fab
-              >
+            >
                 <v-icon v-if="fab" class="white--text">
                   mdi-close
                 </v-icon>
