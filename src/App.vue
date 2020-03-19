@@ -5,7 +5,7 @@
         KEJK
       </v-toolbar-title>
       <v-toolbar-title class="logo d-sm-none font-weight-black">
-        K.
+        KK.
       </v-toolbar-title>
       <v-spacer />
       <v-btn
