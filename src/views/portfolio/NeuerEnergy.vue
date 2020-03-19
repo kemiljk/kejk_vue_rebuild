@@ -68,7 +68,7 @@ export default {
     return {
       images: neuerEnergyImages,
       hero:
-        "https://res.cloudinary.com/kejk/image/upload/v1584552363/NeuerEnergy_Header_tj8biu.png"
+        "https://res.cloudinary.com/kejk/image/upload/v1584611043/NeuerEnergy_Header_vvhysz.png"
     };
   }
 };
