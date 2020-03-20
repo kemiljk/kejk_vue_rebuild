@@ -1,11 +1,11 @@
 [
     {
         "id": 0,
-        "img": "https://res.cloudinary.com/kejk/image/upload/v1584707766/Dashboard_-_empty_state_blw5a2.png"
+        "img": "https://res.cloudinary.com/kejk/image/upload/v1584722683/Dashboard_-_empty_state_mmjoax.png"
     },
     {
         "id": 1,
-        "img": "https://res.cloudinary.com/kejk/image/upload/v1584707723/Analysis_-_Sites_tvu18d.png"
+        "img": "https://res.cloudinary.com/kejk/image/upload/v1584722682/Analysis_-_Sites_mfftcr.png"
     },
     {
         "id": 2,
@@ -13,22 +13,22 @@
     },
     {
         "id": 3,
-        "img": "https://res.cloudinary.com/kejk/image/upload/v1584707723/Analyse_-_Gantt_sludjw.png"
+        "img": "https://res.cloudinary.com/kejk/image/upload/v1584722682/Analyse_-_Gantt_sbwxti.png"
     },
     {
         "id": 4,
-        "img": "https://res.cloudinary.com/kejk/image/upload/v1584708183/Analyse_-_Tasks_n9cq2r.png"
+        "img": "https://res.cloudinary.com/kejk/image/upload/v1584722682/Analyse_-_Tasks_i1mlyz.png"
     },
     {
         "id": 5,
-        "img": "https://res.cloudinary.com/kejk/image/upload/v1584708183/Analyse_-_People_k8iz4o.png"
+        "img": "https://res.cloudinary.com/kejk/image/upload/v1584722682/Analyse_-_People_mfu6ti.png"
     },
     {
         "id": 6,
-        "img": "https://res.cloudinary.com/kejk/image/upload/v1584708184/Analyse_-_Project_bevmvh.png"
+        "img": "https://res.cloudinary.com/kejk/image/upload/v1584722682/Analyse_-_Project_wdsmxr.png"
     },
     {
         "id": 7,
-        "img": "https://res.cloudinary.com/kejk/image/upload/v1584707724/Dashboard_-_Filled_State_-_CSR_zh9nsw.png"
+        "img": "https://res.cloudinary.com/kejk/image/upload/v1584722683/Dashboard_-_Filled_State_-_CSR_curway.png"
     }
 ]
