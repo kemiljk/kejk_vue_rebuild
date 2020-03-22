@@ -26,13 +26,16 @@
       <v-col class="mb-5" cols="12">
         <p class="body-1 mb-3" aria-label="about Karl">
           I started out my career with a deep love of psychology and a Masters in Fine Art creating behaviour-influencing sculptures and digital installations.
-          Now, having spent 6 years bringing design thinking practices to rare diseases, I lead a frontend design team delivering elegant persona-driven solutions to change the face of renewable energy.
         </p>
-        <p
-          class="body-1 mb-3"
-        >I regularly practice mindfulness and meditation, and I’m an art, design and architecture nerd that absolutely loves exploring and learning about how anything is built.</p>
+        <p class="body-1 mb-3">Now, having spent 6 years bringing design thinking practices to rare diseases, I lead a frontend design team delivering elegant persona-driven solutions to change the face of renewable energy.
+        </p>
+        <p class="body-1 mb-3">I regularly practice mindfulness and meditation, and I’m an art, design and architecture nerd that absolutely loves exploring and learning about how anything is built.
+        </p>
+        <p class=body-1 mb-3">
+        I closely follow Dieter Rams' Ten Principles Of Good Design, using these as a wayfinder when planning and executing on any design decision or implementation detail. As true as they were in the 1970's, the declarations are even more relevant today in a world of complexity and abundance.
+        </p>
         <p class="body-1 mb-3">
-          Previously, I've also worked for
+          Previously, I've worked for
           <a
             href="https://www.cognite.co"
             target="_blank"
