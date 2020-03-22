@@ -31,7 +31,7 @@
         </p>
         <p class="body-1 mb-3">I regularly practice mindfulness and meditation, and I’m an art, design and architecture nerd that absolutely loves exploring and learning about how anything is built.
         </p>
-        <p class=body-1 mb-3">
+        <p class="body-1 mb-3">
         I closely follow Dieter Rams' Ten Principles Of Good Design, using these as a wayfinder when planning and executing on any design decision or implementation detail. As true as they were in the 1970's, the declarations are even more relevant today in a world of complexity and abundance.
         </p>
         <p class="body-1 mb-3">
