@@ -73,7 +73,7 @@
           </v-icon>
           Request access
         </v-btn>
-        <p>If you want to book some time to have a chat, you can book a slot.</p>
+        <p class="mt-3">If you want to book some time to have a chat, you can book a slot.</p>
         <v-btn href="https://calendly.com/kejk/60min" color="teal" class="white--text" target="_blank" rel="noreferrer">
           Book
           <v-icon class="ml-2 white--text" small>mdi-open-in-new</v-icon>
