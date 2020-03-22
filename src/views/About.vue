@@ -54,7 +54,7 @@
     <v-divider />
     <v-row class="text-left">
       <v-col class="mb-5" cols="12" md="8">
-        <h2 class="display font-weight-bold mb-3" aria-label="portfolio content">Portfolio.</h2>
+        <h2 class="display font-weight-bold mb-3 mt-6" aria-label="portfolio content">Portfolio.</h2>
         <p class="body-1 mb-3">
           If you would like to see my portfolio or CV, please send me an
           <a
