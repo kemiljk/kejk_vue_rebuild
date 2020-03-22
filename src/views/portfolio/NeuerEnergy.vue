@@ -30,18 +30,18 @@
         <ul>
           <li>Requirement gathering and planning sessions with the product owner</li>
           <li>Planning and paper prototyping</li>
-          <li>Creation of block frames and high-fidelity wireframes</li>
+          <li>Creation of block frames</li>
           <li>Creation of final UI in Adobe XD</li>
           <li>Creation of initial prototype in HTML, CSS & JS</li>
-          <li>Creation of second prototype in Vue.js</li>
+          <li>Creation of second prototype/project scaffold in Vue.js</li>
           <li>Design and frontend development leadership</li>
-          <li>Product management (sprint planning and retrospectives)</li>
-          <li>Some production-ready development in CSS and Web Components using lit-element</li>
+          <li>Production-ready code in CSS and Web Components using lit-element</li>
         </ul>
         <p class="mt-4">Role beyond product development:</p>
         <ul>
           <li>Brand development and ownership</li>
           <li>Social media planning and execution</li>
+          <li>Sprint planning and retrospectives</li>
         </ul>
         <section aria-label="summary">
           <h4 class="mb-4 mt-4">Summary</h4>
