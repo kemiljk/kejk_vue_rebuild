@@ -53,31 +53,56 @@
     </v-row>
     <v-divider />
     <v-row class="text-left">
-      <v-col class="mb-5" cols="12" md="8">
-        <h2 class="display font-weight-bold mb-3 mt-6" aria-label="portfolio content">Portfolio.</h2>
-        <p class="body-1 mb-3">
-          If you would like to see my portfolio or CV, please 
-          <a
-            href="mailto:karl@kejk.tech"
-            class="teal--text"
-          >request access</a>. Due to the sensitivity of the projects I've worked on, I'm not permitted to list them here. I'll provide you with login access when required.
+      <v-col cols="6">
+        <h2
+          class="text-left display font-weight-bold mb-3 mt-10"
+          aria-label="Karl's portfolio"
+        >Portfolio.</h2>
+      </v-col>
+      <v-spacer />
+      <v-col cols="6" class="text-right mb-2">
+        <v-btn text class="mt-10 ml-4 mb-2" to="/login">
+          Login
+          <v-icon class="ml-2" small>mdi-lock</v-icon>
+        </v-btn>
+      </v-col>
+    </v-row>
+    <v-row class="text-left">
+        <v-col cols="12" lg="8" md="8" sm="6">
+        <p
+          class="body-1"
+        >If you would like to see my portfolio or CV, you can request access by clicking the request access card. Due to the sensitivity of the projects I've worked on, I'm not permitted to list them here so I'll provide you with login access as required.
         </p>
-        <v-btn
-          href="mailto:karl@kejk.tech"
-          color="teal" class="white--text"
-        >
-          <v-icon
-            class="mr-2" small
-          >
-            mdi-email
-          </v-icon>
-          Request access
-        </v-btn>
-        <p class="mt-3">If you want to book some time to have a chat, you can book a slot.</p>
-        <v-btn href="https://calendly.com/kejk/60min" color="teal" class="white--text" target="_blank" rel="noreferrer">
-          Book
-          <v-icon class="ml-2 white--text" small>mdi-open-in-new</v-icon>
-        </v-btn>
+      </v-col>
+      <v-col class="mb-3 py-0" cols="12" sm="6" md="4" lg="4">
+        <v-card href="mailto:karl@kejk.tech">
+          <v-img alt="Portfolio visual" src="../assets/portfolio.webp" />
+          <v-card-title class="subtitle-1">
+            Request access
+            <v-spacer />
+            <v-icon class="ml-4">mdi-email</v-icon>
+          </v-card-title>
+        </v-card>
+       </v-col>
+        <v-col cols="12" lg="8" md="8" sm="6">
+        <p
+          class="body-1"
+        >If you want to book some time to have a chat, you can book a slot.
+        </p>
+      </v-col>
+      <v-col class="mb-3 py-0" cols="12" sm="6" md="4" lg="4">
+        <v-card href="https://calendly.com/kejk/60min" target="_blank" rel="noreferrer">
+          <v-img alt="Portfolio visual" src="../assets/calendly.webp" />
+          <v-card-title class="subtitle-1">
+            Book
+            <v-spacer />
+            <v-icon class="ml-4">mdi-calendar-clock</v-icon>
+          </v-card-title>
+        </v-card>
+       </v-col>
+        </v-row>
+        <v-row class="text-left">
+          <v-col cols="12">
         <p class="body-1 mt-3 mb-3">
           This website was designed and built by me in
           <a
