@@ -92,9 +92,9 @@
       </v-col>
       <v-col class="mb-3 py-0" cols="12" sm="6" md="4" lg="4">
         <v-card href="https://calendly.com/kejk/60min" target="_blank" rel="noreferrer">
-          <v-img alt="Portfolio visual" src="../assets/calendly.webp" />
+          <v-img alt="Calendar visual" src="../assets/calendly.webp" />
           <v-card-title class="subtitle-1">
-            Book
+            Book an appointment
             <v-spacer />
             <v-icon class="ml-4">mdi-calendar-clock</v-icon>
           </v-card-title>
