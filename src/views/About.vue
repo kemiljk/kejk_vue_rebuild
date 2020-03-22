@@ -56,12 +56,23 @@
       <v-col class="mb-5" cols="12" md="8">
         <h2 class="display font-weight-bold mb-3 mt-6" aria-label="portfolio content">Portfolio.</h2>
         <p class="body-1 mb-3">
-          If you would like to see my portfolio or CV, please send me an
+          If you would like to see my portfolio or CV, please 
           <a
             href="mailto:karl@kejk.tech"
             class="teal--text"
-          >email</a>. Due to the sensitivity of the projects I've worked on, I'm not permitted to list them here. I'll provide you with login access when required.
+          >request access</a>. Due to the sensitivity of the projects I've worked on, I'm not permitted to list them here. I'll provide you with login access when required.
         </p>
+        <v-btn
+          href="mailto:karl@kejk.tech"
+          color="teal" class="white--text"
+        >
+          <v-icon
+            class="mr-2" small
+          >
+            mdi-email
+          </v-icon>
+          Request access
+        </v-btn>
         <p>If you want to book some time to have a chat, you can book a slot.</p>
         <v-btn href="https://calendly.com/kejk/60min" color="teal" class="white--text" target="_blank" rel="noreferrer">
           Book
