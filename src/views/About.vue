@@ -255,7 +255,7 @@
         </p>
         <p
           class="body-1"
-        >This website doesn't use cookies because I don't need to track you. It does use localstorage to save session state though for faster re-loading. I also don't use any tracking tools for analytics, again, because I don't want to invade your privacy.</p>
+        >This website doesn't use cookies or analytics scripts because I don't need to track you. All it does is use localstorage to save session state for faster re-loading.</p>
       </v-col>
     </v-row>
   </v-container>
