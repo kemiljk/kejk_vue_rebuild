@@ -22,7 +22,7 @@
 
 <p>Selecting the right energy mix to meet a businesses sustainability goals without impacting their business operations can be an enormous, resource-heavy burden.</p>
 
-<p>Whether they're a C-level executive, financial, legal or social responsibility officer, NeuerEnergy revolutionises their sustainability journey, using groundbreaking AI to offer an earth-saving zero-impact pathway today.</p>
+<p>Whether they're a C-level executive, financial, legal or social responsibility officer, NeuerEnergy revolutionises their sustainability journey, using groundbreaking AI to offer an earth-saving zero-impact pathway today.
         </p>
         <h4 class="mb-4">My role</h4>
         <p>We are a small team of eight, working to deliver a comprehensive and powerful product for corporate and industrial customers.</p>
