@@ -18,9 +18,11 @@
         </v-btn>
         <h3 class="mb-4 mt-8">What is it?</h3>
         <p>
-          NeuerEnergy brings businesses together with a simplified marketplace of established renewable energy providers and exciting new eco-friendly projects.
-          Using sophisticated AI-driven automation, the seamless cloud-based platform helps businesses diversify an energy mix tailored for their individual business needs – aggregating local suppliers with side-by-side pricing structures and automating complex multi-provider Power Purchase Agreements (PPAs) for them. The user-friendly performance dashboard then helps customers keep track of their total CO
-          <sub>2</sub> reduction, perform cost benefit analysis and effortlessly port agreements to new suppliers.
+          NeuerEnergy transforms businesses carbon footprint in a single step.</p>
+
+<p>Selecting the right energy mix to meet a businesses sustainability goals without impacting their business operations can be an enormous, resource-heavy burden.</p>
+
+<p>Whether they're a C-level executive, financial, legal or social responsibility officer, NeuerEnergy revolutionises their sustainability journey, using groundbreaking AI to offer an earth-saving zero-impact pathway today.</p>
         </p>
         <h4 class="mb-4">My role</h4>
         <p>We are a small team of eight, working to deliver a comprehensive and powerful product for corporate and industrial customers.</p>
