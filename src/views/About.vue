@@ -51,6 +51,7 @@
         </p>
       </v-col>
     </v-row>
+    <v-divider />
     <v-row class="text-left">
       <v-col class="mb-5" cols="12" md="8">
         <h2 class="display font-weight-bold mb-3" aria-label="portfolio content">Portfolio.</h2>
