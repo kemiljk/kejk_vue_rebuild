@@ -9,8 +9,8 @@
         >A sample collection of my work.</h2>
         <v-btn
           ref="noreferrer"
-          href="https://res.cloudinary.com/kejk/image/upload/v1585149809/Karl_Koch_CV_2020_t2qvdp.pdf"
           color="teal"
+          href="https://res.cloudinary.com/kejk/image/upload/v1585149809/Karl_Koch_CV_2020_t2qvdp.pdf"
           class="mt-4 white--text"
           target="_blank"
         >
