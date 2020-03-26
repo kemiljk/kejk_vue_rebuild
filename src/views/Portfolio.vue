@@ -10,8 +10,8 @@
         <v-btn
           ref="noreferrer"
           color="teal"
+          href="https://res.cloudinary.com/kejk/image/upload/v1585243265/Karl_Koch_CV_2020_gij0pt.pdf"
           class="mt-4 white--text"
-          href="https://res.cloudinary.com/kejk/image/upload/v1584996697/Karl_Koch_CV_2020_hjieay.pdf"
           target="_blank"
         >
           <v-icon class="mr-2 white--text" small>mdi-file-document-outline</v-icon>Resumé
