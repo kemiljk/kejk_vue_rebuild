@@ -96,16 +96,10 @@
           We could talk about:
         </p>
         <ul>
-          <li>User experience</li>
-          <li>User interface</li>
-          <li>HTML, CSS/SCSS, Vue.js</li>
-          <li>Git</li>
-          <li>Design leadership</li>
-          <li>Minimalism</li>
-          <li>Meditation</li>
-          <li>Mindfulness</li>
-          <li>Guitars</li>
-          <li>Metal or Post Rock</li>
+          <li>User experience, user interface, design leadership</li>
+          <li>HTML, CSS/SCSS, Vue.js, Git</li>
+          <li>Minimalism, meditation, mindfulness</li>
+          <li>Guitars, metal or post rock</li>
         </ul>
       </v-col>
       <v-col class="mb-3 py-0" cols="12" sm="6" md="4" lg="4">
