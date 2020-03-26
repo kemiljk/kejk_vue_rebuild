@@ -2,8 +2,8 @@
   <v-container>
     <v-row class="text-left">
       <v-col>
-        <p class="text-uppercase title mt-10">
-          Senior frontend designer
+        <p class="text-uppercase title mt-10 mb-2">
+          Senior UX/UI Designer
           <br />at NeuerEnergy
         </p>
         <h1
@@ -11,13 +11,16 @@
           aria-label="intro to Karl"
         >Karl Emil James Koch.</h1>
         <h2 class="display-1 font-weight-medium pt-10 mb-3">
-          I currently lead frontend design at
+          I currently lead product design at
           <a
             href="https://www.neuerenergy.com"
             class="teal--text font-weight-bold"
             target="_blank"
             rel="noreferrer"
-          >NeuerEnergy</a>&nbsp;
+          >
+            NeuerEnergy
+          </a>
+            &nbsp;
           <sup>
             <v-icon class="teal--text" small>mdi-open-in-new</v-icon>
           </sup> in London, UK.
@@ -27,12 +30,12 @@
         <p class="body-1 mb-3" aria-label="about Karl">
           I started out my career with a deep love of psychology and a Masters in Fine Art creating behaviour-influencing sculptures and digital installations.
         </p>
-        <p class="body-1 mb-3">Now, having spent 6 years bringing design thinking practices to rare diseases, I lead a frontend design team delivering elegant persona-driven solutions to change the face of renewable energy.
+        <p class="body-1 mb-3">Now, having spent 6 years bringing design thinking practices to rare diseases, I lead a product design team delivering elegant persona-driven solutions to change the face of renewable energy.
         </p>
         <p class="body-1 mb-3">I regularly practice mindfulness and meditation, and I’m an art, design and architecture nerd that absolutely loves exploring and learning about how anything is built.
         </p>
         <p class="body-1 mb-3">
-        I closely follow Dieter Rams' Ten Principles Of Good Design, using these as a wayfinder when planning and executing on any design decision or implementation detail. As true as they were in the 1970's, the declarations are even more relevant today in a world of complexity and abundance.
+        I closely follow Dieter Rams' Ten Principles Of Good Design, using these as a wayfinder when planning and executing on any design or development decision and any implementation detail. As true as they were in the 1970's, these declarations are even more relevant today in a world of complexity and abundance.
         </p>
         <p class="body-1 mb-3">
           Previously, I've worked for
@@ -87,7 +90,24 @@
         <v-col cols="12" lg="8" md="8" sm="6">
         <p
           class="body-1"
-        >If you want to book some time to have a chat, you can book a slot.
+        >If you want to book some time to have a chat, you can book a slot. I'll always make myself available for questions, advice or mentorship if I can. 
+        </p>
+        <p class="body-1">
+          We could talk about:
+        </p>
+        <ul>
+          <li>User experience</li>
+          <li>User interface</li>
+          <li>HTML</li>
+          <li>CSS/SCSS</li>
+          <li>Vue.js</li>
+          <li>Git</li>
+          <li>Design leadership</li>
+          <li>Guitars</li>
+          <li>Metal or Post Rock</li>
+        </ul>
+         <p class="body-1">
+          To name a few.
         </p>
       </v-col>
       <v-col class="mb-3 py-0" cols="12" sm="6" md="4" lg="4">
