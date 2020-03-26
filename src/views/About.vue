@@ -98,17 +98,15 @@
         <ul>
           <li>User experience</li>
           <li>User interface</li>
-          <li>HTML</li>
-          <li>CSS/SCSS</li>
-          <li>Vue.js</li>
+          <li>HTML, CSS/SCSS, Vue.js</li>
           <li>Git</li>
           <li>Design leadership</li>
+          <li>Minimalism</li>
+          <li>Meditation</li>
+          <li>Mindfulness</li>
           <li>Guitars</li>
           <li>Metal or Post Rock</li>
         </ul>
-         <p class="body-1">
-          To name a few.
-        </p>
       </v-col>
       <v-col class="mb-3 py-0" cols="12" sm="6" md="4" lg="4">
         <v-card href="https://calendly.com/kejk/60min" target="_blank" rel="noreferrer">
