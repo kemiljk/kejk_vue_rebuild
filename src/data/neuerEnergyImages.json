@@ -9,26 +9,30 @@
     },
     {
         "id": 2,
-        "img": "https://res.cloudinary.com/kejk/image/upload/v1585157511/Analysis_-_Analyse_Evolution_Electricity-Power_VPPA_uqgzw5.png"
+        "img": "https://res.cloudinary.com/kejk/image/upload/v1585224186/Analysis_-_Analyse_Evolution_Electricity-Power_SPPA_dif5vd.png"
     },
     {
         "id": 3,
-        "img": "https://res.cloudinary.com/kejk/image/upload/v1585155077/Analyse_-_Project_f5c4fj.png"
+        "img": "https://res.cloudinary.com/kejk/image/upload/v1585224185/Analysis_-_Analyse_Evolution_Electricity-Power_VPPA_dyzejq.png"
     },
     {
         "id": 4,
-        "img": "https://res.cloudinary.com/kejk/image/upload/v1585129285/Analyse_-_Gantt_ra03yd.png"
+        "img": "https://res.cloudinary.com/kejk/image/upload/v1585155077/Analyse_-_Project_f5c4fj.png"
     },
     {
         "id": 5,
-        "img": "https://res.cloudinary.com/kejk/image/upload/v1584986351/Analyse_-_Tasks_v8c2y4.png"
+        "img": "https://res.cloudinary.com/kejk/image/upload/v1585129285/Analyse_-_Gantt_ra03yd.png"
     },
     {
         "id": 6,
-        "img": "https://res.cloudinary.com/kejk/image/upload/v1584986351/Analyse_-_People_ljgp2z.png"
+        "img": "https://res.cloudinary.com/kejk/image/upload/v1584986351/Analyse_-_Tasks_v8c2y4.png"
     },
     {
         "id": 7,
+        "img": "https://res.cloudinary.com/kejk/image/upload/v1584986351/Analyse_-_People_ljgp2z.png"
+    },
+    {
+        "id": 8,
         "img": "https://res.cloudinary.com/kejk/image/upload/v1584722683/Dashboard_-_Filled_State_-_CSR_curway.png"
     }
 ]
