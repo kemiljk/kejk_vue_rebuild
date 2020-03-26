@@ -47,7 +47,8 @@
             class="white--text"
           >
             <v-icon
-              class="mr-2 white-text" small
+              class="mr-2 white-text" 
+              small
             >
               mdi-lock-open
             </v-icon>
@@ -61,7 +62,8 @@
             :disabled="submitStatus"
           >
             <v-icon
-              class="mr-2" small
+              class="mr-2" 
+              small
             >
               mdi-lock
             </v-icon>

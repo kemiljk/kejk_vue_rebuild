@@ -14,7 +14,7 @@
           class="mt-4 white--text"
           target="_blank"
         >
-          <v-icon class="mr-2 white--text" small>mdi-file-document-outline</v-icon>Resumé
+          <v-icon class="mr-2 white--text" small>mdi-file-document-outline</v-icon>Résumé
         </v-btn>
       </v-col>
     </v-row>
