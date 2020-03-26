@@ -10,7 +10,7 @@
         <v-btn
           ref="noreferrer"
           color="teal"
-          href="https://res.cloudinary.com/kejk/image/upload/v1585243265/Karl_Koch_CV_2020_gij0pt.pdf"
+          href="hhttps://res.cloudinary.com/kejk/image/upload/v1585261635/Karl_Koch_CV_2020_qeobyw.pdf"
           class="mt-4 white--text"
           target="_blank"
         >
