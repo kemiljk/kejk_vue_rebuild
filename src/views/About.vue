@@ -2,7 +2,7 @@
   <v-container>
     <v-row class="text-left">
       <v-col>
-        <p class="text-uppercase title mt-10 mb-6" style="line-height: 1pt">
+        <p class="text-uppercase title mt-10 mb-6" style="line-height: 16pt">
           Senior UX/UI Designer
           <br />at NeuerEnergy
         </p>
