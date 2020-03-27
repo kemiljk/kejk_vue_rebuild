@@ -12,13 +12,6 @@
       <v-card-text>
         <v-form>
           <v-text-field
-            v-model="username"
-            label="Username"
-            prepend-icon="mdi-account-circle"
-            :rules="usernameRules"
-            color="teal"
-          />
-          <v-text-field
             v-model="password"
             :type="showPassword ? 'text' : 'password'"
             label="Password"
@@ -44,7 +37,7 @@
           </v-icon>
           Request access
         </v-btn>
-        <div v-if="password === correctPassword && username === correctUsername">
+        <div v-if="password === correctPassword">
           <v-btn
             v-for="link in links"
             :key="`${link.label}`"
@@ -54,7 +47,8 @@
             class="white--text"
           >
             <v-icon
-              class="mr-2 white-text" small
+              class="mr-2 white-text" 
+              small
             >
               mdi-lock-open
             </v-icon>
@@ -68,7 +62,8 @@
             :disabled="submitStatus"
           >
             <v-icon
-              class="mr-2" small
+              class="mr-2" 
+              small
             >
               mdi-lock
             </v-icon>
@@ -97,21 +92,12 @@ export default {
           url: "/portfolio"
         }
       ],
-      username: "",
-      usernameRules: [
-        value =>
-          value.includes("portfolio") || "Username must be the one provided"
-      ],
       password: "",
       passwordRules: [
         value => value.includes("portfolio-access-granted") || "Password must be the one provided",
       ],
-      correctUsername: "portfolio",
       correctPassword: "portfolio-access-granted",
       validations: {
-        email: {
-          required
-        },
         password: {
           required
         }

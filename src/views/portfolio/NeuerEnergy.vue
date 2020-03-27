@@ -22,7 +22,7 @@
 
 <p>Selecting the right energy mix to meet a businesses sustainability goals without impacting their business operations can be an enormous, resource-heavy burden.</p>
 
-<p>Whether they're a C-level executive, financial, legal or social responsibility officer, NeuerEnergy revolutionises their sustainability journey, using groundbreaking AI to offer an earth-saving zero-impact pathway today.</p>
+<p>Whether they're a C-level executive, financial, legal or social responsibility officer, NeuerEnergy revolutionises their sustainability journey, using groundbreaking AI to offer an earth-saving zero-impact pathway today.
         </p>
         <h4 class="mb-4">My role</h4>
         <p>We are a small team of eight, working to deliver a comprehensive and powerful product for corporate and industrial customers.</p>
@@ -46,8 +46,8 @@
         <section aria-label="summary">
           <h4 class="mb-4 mt-4">Summary</h4>
           <p>NeuerEnergy is a first-of-its-kind product, providing a seamless and connected experience for corporate and industrial customers to manage their carbon reduction targets through long-term PPAs. Generator partners are integrated into the platform to obtain access to these customers whilst also benefiting from comprehensive predictive maintenance and plant planning toolsets.</p>
-          <p>During its development, NeuerEnergy has had many iterations. The product-market fit has been clear from day one, but the intended output has always been tricky to pin down. This project is still in active development and is currently nearing its alpha production launch.</p>
-          <p>We're building the application using lit-element and the Web Components standard to ensure interoperability across all browsers and platforms, without relying on the heaviness of a framework. We've also developed the application to be an single-page app and a serverless architecture through Azure Functions.</p>
+          <p>During its development, NeuerEnergy has had many iterations. The product-market fit has been clear from day one, but the intended output has always been tricky to pin down. This project is still in active development and is currently nearing its alpha launch.</p>
+          <p>We're building the application using lit-element and the Web Components standard to ensure interoperability across all browsers and platforms, without relying on the heaviness of a framework. We've also developed the product to be a single-page app and utilise a serverless architecture through Azure Functions.</p>
           <p>The app relies heavily on our team maintaining a tight relationship from Data Science (writing machine learning algorithms and data APIs in Python), to backend development (working in C# and Azure Functions), to frontend development (working in lit-element and Web Components). Across all of this sits my immediate team, working through Customer Experience, User/platform Experience, User Interface and some additional frontend development support.</p>
           <p>The project is still in active development but is nearing its alpha launch.</p>
         </section>
@@ -70,7 +70,7 @@ export default {
     return {
       images: neuerEnergyImages,
       hero:
-        "https://res.cloudinary.com/kejk/image/upload/v1584611043/NeuerEnergy_Header_vvhysz.png"
+        "https://res.cloudinary.com/kejk/image/upload/v1585237295/NeuerEnergy_Header_tx70q5.png"
     };
   }
 };
