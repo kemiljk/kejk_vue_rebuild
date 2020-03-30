@@ -1,34 +1,38 @@
 [
     {
         "id": 0,
-        "img": "https://res.cloudinary.com/kejk/image/upload/v1584722683/Dashboard_-_empty_state_mmjoax.png"
+        "img": "https://res.cloudinary.com/kejk/image/upload/v1585584193/Dashboard_-_empty_state_zwapar.png"
     },
     {
         "id": 1,
-        "img": "https://res.cloudinary.com/kejk/image/upload/v1585328542/Analysis_-_Sites_Expanded_hguok5.png"
+        "img": "https://res.cloudinary.com/kejk/image/upload/v1585584163/Analysis_-_Sites_jampos.png"
     },
     {
         "id": 2,
-        "img": "https://res.cloudinary.com/kejk/image/upload/v1585328085/Analysis_-_Analyse_Evolution_Electricity-Power_SPPA_Expanded_pa4rlm.png"
+        "img": "https://res.cloudinary.com/kejk/image/upload/v1585584163/Analysis_-_Analysis_-_Filled_State_Expanded_row_jshpa8.png"
     },
     {
         "id": 3,
-        "img": "https://res.cloudinary.com/kejk/image/upload/v1585557617/Analysis_-_Analyse_Evolution_Electricity-Power_VPPA_e9yl2m.png"
+        "img": "https://res.cloudinary.com/kejk/image/upload/v1585584164/Analysis_-_Analyse_Evolution_Electricity-Power_SPPA_Expanded_b3nc93.png"
     },
     {
         "id": 4,
-        "img": "https://res.cloudinary.com/kejk/image/upload/v1585557615/Analyse_-_Project_-_Expanded_amwic2.png"
+        "img": "https://res.cloudinary.com/kejk/image/upload/v1585584164/Analysis_-_Analyse_Evolution_Electricity-Power_VPPA_ivt0tj.png"
     },
     {
         "id": 5,
-        "img": "https://res.cloudinary.com/kejk/image/upload/v1585324680/Analyse_-_Gantt_kfigab.png"
+        "img": "https://res.cloudinary.com/kejk/image/upload/v1585584163/Analyse_-_Project_-_Expanded_jabcl3.png"
     },
     {
         "id": 6,
-        "img": "https://res.cloudinary.com/kejk/image/upload/v1585324680/Analyse_-_Tasks_kwwofo.png"
+        "img": "https://res.cloudinary.com/kejk/image/upload/v1585584162/Analyse_-_Gantt_lkyqvx.png"
     },
     {
         "id": 7,
-        "img": "https://res.cloudinary.com/kejk/image/upload/v1585324681/Analyse_-_People_calzra.png"
+        "img": "https://res.cloudinary.com/kejk/image/upload/v1585584162/Analyse_-_Tasks_icdhy2.png"
+    },
+    {
+        "id": 8,
+        "img": "https://res.cloudinary.com/kejk/image/upload/v1585584162/Analyse_-_People_rzfxtl.png"
     }
 ]
