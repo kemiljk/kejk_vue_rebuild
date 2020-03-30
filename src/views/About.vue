@@ -257,8 +257,7 @@
           >Zeit Now</a>.
         </p>
         <p class="body-1">
-          This site uses
-          <a
+          The font rendered throughout is <a
             href="https://tribby.com/fonts/barlow/"
             target="_blank"
             rel="noreferrer"
