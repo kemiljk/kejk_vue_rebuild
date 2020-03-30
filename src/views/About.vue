@@ -2,12 +2,12 @@
   <v-container>
     <v-row class="text-left">
       <v-col>
-        <p class="text-uppercase title mt-10 mb-2">
+        <p class="text-uppercase title mt-10" style="line-height: 16pt">
           Senior UX/UI Designer
-          <br />at NeuerEnergy
+          <br />at <strong>NeuerEnergy</strong>
         </p>
         <h1
-          class="display-3 font-weight-bold mb-10"
+          class="display-3 font-weight-bold mb-10 pt-10"
           aria-label="intro to Karl"
         >Karl Emil James Koch.</h1>
         <h2 class="display-1 font-weight-medium pt-10 mb-3">
