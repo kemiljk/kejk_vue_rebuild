@@ -106,7 +106,7 @@
           We could talk about:
         </p>
         <ul>
-          <li>User experience, user interface, design leadership</li>
+          <li>User experience, user interface, ally, design leadership</li>
           <li>HTML, CSS/SCSS, Vue.js, Git</li>
           <li>Minimalism, meditation, mindfulness</li>
           <li>Guitars, metal or post rock</li>
@@ -212,7 +212,12 @@
       <h2 class="display font-weight-bold mb-3 mt-10" aria-label="Karl's posts">Currently reading.</h2>
       <p
         class="body-1 mb-3 text-left"
-      >I don't make any money from these links, but if you buy a book through one of the Amazon links then a portion of your purchase goes to charity.</p>
+      >I don't make any money from these links, but if you buy a book through one of the Amazon links then a portion of your purchase goes to charity thanks to <a
+            href="https://smile.amazon.com"
+            target="_blank"
+            rel="noreferrer"
+            class="teal--text"
+          >Amazon Smile</a>.</p>
       <v-row>
         <v-col v-for="book in books" :key="`${book.id}`" cols="6" md="3">
           <Books :book="book" />
@@ -257,8 +262,7 @@
           >Zeit Now</a>.
         </p>
         <p class="body-1">
-          This site uses
-          <a
+          The font rendered throughout is <a
             href="https://tribby.com/fonts/barlow/"
             target="_blank"
             rel="noreferrer"
