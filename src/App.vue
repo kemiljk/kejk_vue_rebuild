@@ -15,7 +15,7 @@
         text
         :to="link.url"
       >
-        <v-text class="font-weight-bold letter-spacing">{{ link.label }}</v-text>
+        <v-text class="font-weight-bold">{{ link.label }}</v-text>
       </v-btn>
     </v-app-bar>
     <v-content>
