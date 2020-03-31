@@ -70,7 +70,7 @@ export default {
     return {
       images: neuerEnergyImages,
       hero:
-        "https://res.cloudinary.com/kejk/image/upload/v1585237295/NeuerEnergy_Header_tx70q5.png"
+        "https://res.cloudinary.com/kejk/image/upload/v1585674713/NeuerEnergy_Header_gd1kj1.png"
     };
   }
 };
