@@ -46,7 +46,7 @@
             target="_blank"
             rel="noreferrer"
             class="teal--text"
-          >Cognite</a>, Incuna and
+          >Cognite</a>, Incuna (R.I.P.) and
           <a
             href="https://www.apple.com/retail/"
             target="_blank"
