@@ -168,7 +168,7 @@
         <p class="body-1">I'm also currently building something new with some great people.</p>
       </v-col>
       <v-col class="mb-6 py-0" cols="12" sm="6" md="4" lg="4">
-        <v-card href="https://res.cloudinary.com/kejk/raw/upload/v1585898930/Lazy_PDF.zip" 
+        <v-card href="https://res.cloudinary.com/kejk/raw/upload/v1585911201/Lazy_PDF.zip" 
                 target="_blank" 
                 rel="noreferrer">
           <v-img alt="Kanic logo visual" 
