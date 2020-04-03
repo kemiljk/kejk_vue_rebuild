@@ -6,14 +6,15 @@
         <h2
           class="display font-weight-bold mb-3 mt-10"
           aria-label="Karl's posts"
-        >Simplifying the PDF process.</h2>
+        >
+          Effortless and interfaceless PDF creation.
+        </h2>
       </v-col>
     </v-row>
     <v-row class="text-left">
       <v-col class="mt-3 mb-6 py-0" cols="12" sm="6" md="4" lg="4">
         <v-card
           href="https://res.cloudinary.com/kejk/raw/upload/v1585911201/Lazy_PDF.zip"
-          target="_blank"
           rel="noreferrer"
         >
           <v-img alt="Kanic logo visual" src="../assets/lazyPDF.webp" />

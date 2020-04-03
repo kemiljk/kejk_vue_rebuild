@@ -154,10 +154,9 @@
       <v-col class="mb-3 py-0" cols="12" sm="6" md="4" lg="4">
         <v-card
           href="https://res.cloudinary.com/kejk/raw/upload/v1585911201/Lazy_PDF.zip"
-          target="_blank"
           rel="noreferrer"
         >
-          <v-img alt="Kanic logo visual" src="../assets/lazyPDF.webp" />
+          <v-img alt="Lazy PDF logo visual" src="../assets/lazyPDF.webp" />
           <v-card-title class="subtitle-1">
             Lazy PDF
             <v-spacer />
@@ -174,7 +173,6 @@
         </p>
         <v-btn
           to="/lazy-pdf"
-          target="_blank"
           alt="link to url"
         >
           Lazy PDF
