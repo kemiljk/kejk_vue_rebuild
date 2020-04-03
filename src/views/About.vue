@@ -151,20 +151,6 @@
           class="body-1"
         >I'm the Design Lead for Make Me A Cocktail. We're currently in the process of redesigning and rebuilding the site but many of my designs are now implemented across the core screens.</p>
       </v-col>
-      <v-col class="mb-3 py-0" cols="12" sm="6" md="4" lg="4">
-        <v-card href="https://www.kanic.co/" target="_blank" rel="noreferrer">
-          <v-img alt="Kanic logo visual" src="../assets/kanic.webp" />
-          <v-card-title class="subtitle-1">
-            Kanic
-            <v-spacer />
-            <v-icon class="ml-4">mdi-open-in-new</v-icon>
-          </v-card-title>
-        </v-card>
-      </v-col>
-      <v-col cols="12" lg="8" md="8" sm="6">
-        <h3 class="mb-3">Kanic</h3>
-        <p class="body-1">I'm also currently building something new with some great people.</p>
-      </v-col>
       <v-col class="mb-6 py-0" cols="12" sm="6" md="4" lg="4">
         <v-card
           href="https://res.cloudinary.com/kejk/raw/upload/v1585911201/Lazy_PDF.zip"
@@ -183,7 +169,21 @@
         <h3 class="mb-3">Lazy PDF</h3>
         <p
           class="body-1"
-        >I wrote a little free macOS utility that allows you to effortlessly create a PDF from a set of selected images. It's interfaceless and relies only on a Finder selection UI. This is desiged to be simple and have a low overhead to make it easier to grab a set of design files and throw them together into a PDF. It'll listen to your logical file order, so number your files if you want to order in sequence, otherwise, you can move them around afterwards in Preview. Lazy PDF respects your image sizes so doesn't try to compress everything to printable sizes, ideal for sharing work to teammates and management.</p>
+        >A free interfaceless macOS utility that allows you to effortlessly create a PDF from a set of selected images.</p>
+      </v-col>
+      <v-col class="mb-3 py-0" cols="12" sm="6" md="4" lg="4">
+        <v-card href="https://www.kanic.co/" target="_blank" rel="noreferrer">
+          <v-img alt="Kanic logo visual" src="../assets/kanic.webp" />
+          <v-card-title class="subtitle-1">
+            Kanic
+            <v-spacer />
+            <v-icon class="ml-4">mdi-open-in-new</v-icon>
+          </v-card-title>
+        </v-card>
+      </v-col>
+      <v-col cols="12" lg="8" md="8" sm="6">
+        <h3 class="mb-3">Kanic</h3>
+        <p class="body-1">I'm also currently building something new with some great people.</p>
       </v-col>
     </v-row>
     <v-divider />
