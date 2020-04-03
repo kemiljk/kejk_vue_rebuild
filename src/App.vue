@@ -2,7 +2,7 @@
   <v-app :dark="$isDark">
     <v-app-bar app>
       <v-toolbar-title class="logo d-none d-sm-block font-weight-black">KEJK</v-toolbar-title>
-      <v-toolbar-title class="logo d-sm-none font-weight-black">KK.</v-toolbar-title>
+      <v-toolbar-title class="logo d-sm-none font-weight-black">K</v-toolbar-title>
       <v-spacer />
       <v-btn icon class="mr-1" alt="Toggle colour theme" @click="toggleTheme">
         <v-icon v-if="this.$vuetify.theme.dark">mdi-white-balance-sunny</v-icon>
