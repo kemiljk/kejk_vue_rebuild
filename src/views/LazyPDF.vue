@@ -52,26 +52,8 @@
 </template>
 
 <script>
-import Posts from "../components/Posts";
-import postsData from "../data/posts.json";
-import Books from "../components/Books";
-import booksData from "../data/books.json";
-import Musics from "../components/Musics";
-import musicsData from "../data/musics.json";
 
 export default {
   name: "About",
-  components: {
-    Posts,
-    Books,
-    Musics
-  },
-  data() {
-    return {
-      posts: postsData,
-      books: booksData,
-      musics: musicsData
-    };
-  }
 };
 </script>

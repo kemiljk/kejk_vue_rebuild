@@ -113,8 +113,8 @@ export default {
           url: "/"
         },
         {
-          label: "Posts",
-          url: "/posts/"
+          label: "Lazy PDF",
+          url: "/lazy-pdf/"
         },
         {
           label: "Login",
