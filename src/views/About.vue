@@ -4,7 +4,8 @@
       <v-col>
         <p class="text-uppercase title mt-10" style="line-height: 16pt">
           Senior UX/UI Designer
-          <br />at <strong>NeuerEnergy</strong>
+          <br />at
+          <strong>NeuerEnergy</strong>
         </p>
         <h1
           class="display-3 font-weight-bold mb-10 pt-10"
@@ -17,26 +18,27 @@
             class="teal--text font-weight-bold"
             target="_blank"
             rel="noreferrer"
-          >
-            NeuerEnergy
-          </a>
-            &nbsp;
+          >NeuerEnergy</a>
+          &nbsp;
           <sup>
             <v-icon class="teal--text" small>mdi-open-in-new</v-icon>
           </sup> in London, UK.
         </h2>
       </v-col>
       <v-col class="mb-5" cols="12">
-        <p class="body-1 mb-3" aria-label="about Karl">
-          I started out my career with a deep love of psychology and a Masters in Fine Art creating behaviour-influencing sculptures and digital installations.
-        </p>
-        <p class="body-1 mb-3">Now, having spent 6 years bringing design thinking practices to rare diseases, I lead a product design team delivering elegant persona-driven solutions to change the face of renewable energy.
-        </p>
-        <p class="body-1 mb-3">I regularly practice mindfulness and meditation, and I’m an art, design and architecture nerd that absolutely loves exploring and learning about how anything is built.
-        </p>
-        <p class="body-1 mb-3">
-        I closely follow Dieter Rams' Ten Principles Of Good Design, using these as a wayfinder when planning and executing on any design or development decision and any implementation detail. As true as they were in the 1970's, these declarations are even more relevant today in a world of complexity and abundance.
-        </p>
+        <p
+          class="body-1 mb-3"
+          aria-label="about Karl"
+        >I started out my career with a deep love of psychology and a Masters in Fine Art creating behaviour-influencing sculptures and digital installations.</p>
+        <p
+          class="body-1 mb-3"
+        >Now, having spent 6 years bringing design thinking practices to rare diseases, I lead a product design team delivering elegant persona-driven solutions to change the face of renewable energy.</p>
+        <p
+          class="body-1 mb-3"
+        >I regularly practice mindfulness and meditation, and I’m an art, design and architecture nerd that absolutely loves exploring and learning about how anything is built.</p>
+        <p
+          class="body-1 mb-3"
+        >I closely follow Dieter Rams' Ten Principles Of Good Design, using these as a wayfinder when planning and executing on any design or development decision and any implementation detail. As true as they were in the 1970's, these declarations are even more relevant today in a world of complexity and abundance.</p>
         <p class="body-1 mb-3">
           Previously, I've worked for
           <a
@@ -80,12 +82,11 @@
             <v-icon class="ml-4">mdi-email</v-icon>
           </v-card-title>
         </v-card>
-       </v-col>
-        <v-col cols="12" lg="8" md="8" sm="6">
+      </v-col>
+      <v-col cols="12" lg="8" md="8" sm="6">
         <p
           class="body-1"
-        >If you would like to see my portfolio or CV, you can request access by clicking the request access card. Due to the sensitivity of the projects I've worked on, I'm not permitted to list them here so I'll provide you with login access as required.
-        </p>
+        >If you would like to see my portfolio or CV, you can request access by clicking the request access card. Due to the sensitivity of the projects I've worked on, I'm not permitted to list them here so I'll provide you with login access as required.</p>
       </v-col>
       <v-col class="mb-3 py-0" cols="12" sm="6" md="4" lg="4">
         <v-card href="https://calendly.com/kejk/60min" target="_blank" rel="noreferrer">
@@ -96,15 +97,12 @@
             <v-icon class="ml-4">mdi-calendar-clock</v-icon>
           </v-card-title>
         </v-card>
-       </v-col>
-        <v-col cols="12" lg="8" md="8" sm="6">
+      </v-col>
+      <v-col cols="12" lg="8" md="8" sm="6">
         <p
           class="body-1"
-        >If you want to book some time to have a chat, you can book a slot. I'll always make myself available for questions, advice or mentorship if I can. 
-        </p>
-        <p class="body-1">
-          We could talk about:
-        </p>
+        >If you want to book some time to have a chat, you can book a slot. I'll always make myself available for questions, advice or mentorship if I can.</p>
+        <p class="body-1">We could talk about:</p>
         <ul>
           <li>User experience, user interface, ally, design leadership</li>
           <li>HTML, CSS/SCSS, Vue.js, Git</li>
@@ -112,9 +110,9 @@
           <li>Guitars, metal or post rock</li>
         </ul>
       </v-col>
-        </v-row>
-        <v-row class="text-left">
-          <v-col cols="12">
+    </v-row>
+    <v-row class="text-left">
+      <v-col cols="12">
         <p class="body-1 mt-3 mb-3">
           This website was designed and built by me in
           <a
@@ -168,11 +166,12 @@
         <p class="body-1">I'm also currently building something new with some great people.</p>
       </v-col>
       <v-col class="mb-6 py-0" cols="12" sm="6" md="4" lg="4">
-        <v-card href="https://res.cloudinary.com/kejk/raw/upload/v1585911201/Lazy_PDF.zip" 
-                target="_blank" 
-                rel="noreferrer">
-          <v-img alt="Kanic logo visual" 
-                src="../assets/lazyPDF.webp" />
+        <v-card
+          href="https://res.cloudinary.com/kejk/raw/upload/v1585911201/Lazy_PDF.zip"
+          target="_blank"
+          rel="noreferrer"
+        >
+          <v-img alt="Kanic logo visual" src="../assets/lazyPDF.webp" />
           <v-card-title class="subtitle-1">
             Lazy PDF
             <v-spacer />
@@ -182,7 +181,9 @@
       </v-col>
       <v-col cols="12" lg="8" md="8" sm="6">
         <h3 class="mb-3">Lazy PDF</h3>
-        <p class="body-1">I wrote a little Mac utility that allows you to effortlessly create a PDF from a set of selected images. It's interfaceless and relies only on a Finder selection UI. This is desiged to be simple and have a low overhead to make it easier to grab a set of design files and throw them together into a PDF. It'll listen to your logical file order, so number your files if you want to order in sequence, otherwise, you can move them around afterwards in Preview. Lazy PDF respects your image sizes so doesn't try to compress everything to printable sizes, ideal for sharing work to teammates and management.</p>
+        <p
+          class="body-1"
+        >I wrote a little free macOS utility that allows you to effortlessly create a PDF from a set of selected images. It's interfaceless and relies only on a Finder selection UI. This is desiged to be simple and have a low overhead to make it easier to grab a set of design files and throw them together into a PDF. It'll listen to your logical file order, so number your files if you want to order in sequence, otherwise, you can move them around afterwards in Preview. Lazy PDF respects your image sizes so doesn't try to compress everything to printable sizes, ideal for sharing work to teammates and management.</p>
       </v-col>
     </v-row>
     <v-divider />
@@ -227,14 +228,15 @@
     <v-divider />
     <v-row class="ml-1 mr-1">
       <h2 class="display font-weight-bold mb-3 mt-10" aria-label="Karl's posts">Currently reading.</h2>
-      <p
-        class="body-1 mb-3 text-left"
-      >I don't make any money from these links, but if you buy a book through one of the Amazon links then a portion of your purchase goes to charity thanks to <a
-            href="https://smile.amazon.com"
-            target="_blank"
-            rel="noreferrer"
-            class="teal--text"
-          >Amazon Smile</a>.</p>
+      <p class="body-1 mb-3 text-left">
+        I don't make any money from these links, but if you buy a book through one of the Amazon links then a portion of your purchase goes to charity thanks to
+        <a
+          href="https://smile.amazon.com"
+          target="_blank"
+          rel="noreferrer"
+          class="teal--text"
+        >Amazon Smile</a>.
+      </p>
       <v-row>
         <v-col v-for="book in books" :key="`${book.id}`" cols="6" md="3">
           <Books :book="book" />
@@ -279,7 +281,8 @@
           >Zeit Now</a>.
         </p>
         <p class="body-1">
-          The font rendered throughout is <a
+          The font rendered throughout is
+          <a
             href="https://tribby.com/fonts/barlow/"
             target="_blank"
             rel="noreferrer"

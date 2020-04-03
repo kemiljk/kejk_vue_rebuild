@@ -24,12 +24,12 @@ const routes = [
     name: 'Posts',
     component: () => import('../views/Posts.vue')
   },
-  { 
+  {
     path: '/posts/getting-to-yes',
     name: 'Getting to yes',
     component: () => import('../views/posts/sales-sales-sales.vue')
   },
-  { 
+  {
     path: '/posts/frontend-designer',
     name: 'Frontend Designer',
     component: () => import('../views/posts/frontend-designer.vue')
@@ -43,6 +43,11 @@ const routes = [
     path: '/portfolio',
     name: 'Portfolio',
     component: () => import('../views/Portfolio.vue')
+  },
+  {
+    path: '/lazy-pdf',
+    name: 'Lazy PDF',
+    component: () => import('../views/LazyPDF.vue')
   },
   {
     path: '/portfolio/neuerenergy',
@@ -86,8 +91,8 @@ const router = new VueRouter({
   base: process.env.BASE_URL,
   routes,
   scrollBehavior() {
-        document.getElementById('app').scrollIntoView();
-    }
+    document.getElementById('app').scrollIntoView();
+  }
 })
 
 export default router
