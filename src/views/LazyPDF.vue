@@ -46,7 +46,8 @@ export default {
   name: "LazyPDF",
   data() {
     return {
-      images: lazyPDF
+      images: lazyPDF,
+      url: "https://res.cloudinary.com/kejk/raw/upload/v1585911201/Lazy_PDF.zip"
     };
   }
 };

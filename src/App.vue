@@ -4,7 +4,7 @@
       <v-toolbar-title class="logo d-none d-sm-block font-weight-black">KEJK</v-toolbar-title>
       <v-toolbar-title class="logo d-sm-none font-weight-black">KK.</v-toolbar-title>
       <v-spacer />
-      <v-btn text class="mr-1" alt="Toggle colour theme" @click="toggleTheme">
+      <v-btn icon class="mr-1" alt="Toggle colour theme" @click="toggleTheme">
         <v-icon v-if="this.$vuetify.theme.dark">mdi-white-balance-sunny</v-icon>
         <v-icon v-else>mdi-brightness-3</v-icon>
       </v-btn>
