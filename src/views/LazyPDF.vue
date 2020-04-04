@@ -2,13 +2,23 @@
   <v-container>
     <v-row class="text-left">
       <v-col>
-        <h1 class="display-2 font-weight-bold mb-3 mt-10" aria-label="intro to Karl">/Lazy-PDF.</h1>
+        <h1 
+          class="display-2 font-weight-bold mb-3 mt-10" 
+          aria-label="Lazy PDF product"
+        >
+          /Lazy-PDF.
+        </h1>
         <h2
           class="display font-weight-bold mb-3 mt-10"
           aria-label="Karl's posts"
         >
           Effortless and interfaceless PDF creation.
         </h2>
+        <v-img
+          :src="`${hero}`"
+          class="mt-10 img"
+          alt="image of Lazy PDF app in use"
+        />
       </v-col>
     </v-row>
     <v-row class="text-left">
@@ -48,6 +58,7 @@ export default {
   data() {
     return {
       images: lazyPDF,
+      hero: "https://res.cloudinary.com/kejk/image/upload/v1585992488/macbook-pro-space-gray-on-the-wooden-table_e6bu8w.jpg",
       url: "https://res.cloudinary.com/kejk/raw/upload/v1585911201/Lazy_PDF.zip"
     };
   }
