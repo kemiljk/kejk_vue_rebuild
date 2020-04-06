@@ -63,14 +63,14 @@
           class="my-2 mx-1"
           width="250px"
           height="55px"
-          color="#fff"
-          light
-          href="https://res.cloudinary.com/kejk/raw/upload/v1585911201/Lazy_PDF.zip"
+          style="border-radius: 10px;"
+          target="_blank"
+          href="https://www.lazypdf.tech/"
         >
           <v-text class="font-weight-bold title">
-            Download
-            <v-icon class="ml-4">
-              mdi-download
+            Visit website
+            <v-icon class="ml-4 mb-1">
+              mdi-open-in-new
             </v-icon>
           </v-text>
         </v-btn> 

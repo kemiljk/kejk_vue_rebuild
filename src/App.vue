@@ -114,7 +114,7 @@ export default {
         },
         {
           label: "Lazy PDF",
-          url: "https://www.lazypdf.tech/"
+          url: "/lazy-pdf/"
         },
         {
           label: "Login",
