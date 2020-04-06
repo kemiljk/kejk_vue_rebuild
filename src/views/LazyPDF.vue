@@ -2,44 +2,32 @@
   <v-container>
     <v-row class="text-left">
       <v-col>
-        <h1 
-          class="display-2 font-weight-bold mb-3 mt-10" 
-          aria-label="Lazy PDF product"
-        >
-          /Lazy-PDF.
-        </h1>
+        <h1 class="display-2 font-weight-bold mb-3 mt-10" aria-label="Lazy PDF product">/Lazy-PDF.</h1>
         <h2
           class="display font-weight-bold mb-3 mt-10"
           aria-label="Karl's posts"
-        >
-          Effortless and interfaceless PDF creation.
-        </h2>
-        <v-img
-          :src="`${hero}`"
-          class="mt-10 img"
-          alt="image of Lazy PDF app in use"
-        />
+        >Effortless and interfaceless PDF creation.</h2>
+        <v-img :src="`${hero}`" class="mt-10 img" alt="image of Lazy PDF app in use" />
       </v-col>
     </v-row>
     <v-row class="text-left">
       <v-col class="mt-3 mb-6 py-0" cols="12" sm="6" md="4" lg="4">
-        <v-card
-          href="https://res.cloudinary.com/kejk/raw/upload/v1585911201/Lazy_PDF.zip"
-          rel="noreferrer"
-          class="mb-3"
-        >
-          <v-img 
-            alt="Kanic logo visual" 
-            src="../assets/lazyPDF.webp" />
+        <v-card href="https://www.lazypdf.tech" target="_blank" rel="noreferrer" class="mb-3">
+          <v-img alt="Lazy PDF logo visual" src="../assets/lazyPDF.webp" />
           <v-card-title class="subtitle-1">
             Lazy PDF
             <v-spacer />
-            <v-icon class="ml-4">mdi-download</v-icon>
+            <v-icon class="ml-4">
+              mdi-open-in-new
+            </v-icon>
           </v-card-title>
         </v-card>
+      </v-col>
+      <v-col cols="6">
         <a 
           href="https://www.producthunt.com/posts/lazy-pdf?utm_source=badge-featured&utm_medium=badge&utm_souce=badge-lazy-pdf" 
-          target="_blank" 
+          target="_blank"
+          class="my-2 mx-1 v-btn v-btn--contained"
         >
           <img 
             src="https://api.producthunt.com/widgets/embed-image/v1/featured.svg?post_id=191366&theme=light" 
@@ -49,6 +37,26 @@
             height="54px" 
           >
         </a>
+      </v-col>
+      <v-spacer />
+      <v-col 
+        cols="6" 
+        class="text-right">
+        <v-btn
+          class="my-2 mx-1"
+          width="250px"
+          height="55px"
+          color="#fff"
+          light
+          href="https://res.cloudinary.com/kejk/raw/upload/v1585911201/Lazy_PDF.zip"
+        >
+          <v-text class="font-weight-bold title">
+            Download
+            <v-icon class="ml-4">
+              mdi-download
+            </v-icon>
+          </v-text>
+        </v-btn> 
       </v-col>
       <v-col cols="12" lg="8" md="8" sm="6">
         <h3 class="mb-3">Lazy PDF</h3>
@@ -73,7 +81,8 @@ export default {
   data() {
     return {
       images: lazyPDF,
-      hero: "https://res.cloudinary.com/kejk/image/upload/v1585992488/macbook-pro-space-gray-on-the-wooden-table_e6bu8w.jpg",
+      hero:
+        "https://res.cloudinary.com/kejk/image/upload/v1585992488/macbook-pro-space-gray-on-the-wooden-table_e6bu8w.jpg",
       url: "https://res.cloudinary.com/kejk/raw/upload/v1585911201/Lazy_PDF.zip"
     };
   }
