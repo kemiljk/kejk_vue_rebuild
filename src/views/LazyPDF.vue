@@ -11,7 +11,13 @@
       </v-col>
     </v-row>
     <v-row class="text-left">
-      <v-col class="mt-3 mb-6 py-0" cols="12" sm="6" md="4" lg="4">
+      <v-col 
+        class="mt-3 mb-6 py-0" 
+        cols="12" 
+        sm="6" 
+        md="4" 
+        lg="4"
+      >
         <v-card href="https://www.lazypdf.tech" target="_blank" rel="noreferrer" class="mb-3">
           <v-img alt="Lazy PDF logo visual" src="../assets/lazyPDF.webp" />
           <v-card-title class="subtitle-1">
@@ -23,7 +29,11 @@
           </v-card-title>
         </v-card>
       </v-col>
-      <v-col cols="12" lg="8" md="8" sm="6">
+      <v-col 
+        cols="12" 
+        lg="8" 
+        md="8" 
+        sm="6">
         <h3 class="mb-3">Lazy PDF</h3>
         <p
           class="body-1"
@@ -47,7 +57,8 @@
       <v-spacer />
       <v-col 
         cols="6" 
-        class="text-right">
+        class="text-right"
+      >
         <v-btn
           class="my-2 mx-1"
           width="250px"
