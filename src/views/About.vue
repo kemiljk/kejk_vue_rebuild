@@ -152,15 +152,14 @@
         >I'm the Design Lead for Make Me A Cocktail. We're currently in the process of redesigning and rebuilding the site but many of my designs are now implemented across the core screens.</p>
       </v-col>
       <v-col class="mb-3 py-0" cols="12" sm="6" md="4" lg="4">
-        <v-card
-          href="https://res.cloudinary.com/kejk/raw/upload/v1585911201/Lazy_PDF.zip"
-          rel="noreferrer"
-        >
+       <v-card href="https://www.lazypdf.tech" target="_blank" rel="noreferrer" class="mb-3">
           <v-img alt="Lazy PDF logo visual" src="../assets/lazyPDF.webp" />
           <v-card-title class="subtitle-1">
             Lazy PDF
             <v-spacer />
-            <v-icon class="ml-4">mdi-download</v-icon>
+            <v-icon class="ml-4">
+              mdi-open-in-new
+            </v-icon>
           </v-card-title>
         </v-card>
       </v-col>
@@ -171,18 +170,6 @@
         >
           A free interfaceless macOS utility that allows you to effortlessly create a PDF from a set of selected images.
         </p>
-        <v-btn
-          to="/lazy-pdf"
-          alt="link to url"
-        >
-          Lazy PDF
-          <v-icon 
-            class="ml-2"
-            small  
-          >
-            mdi-arrow-right
-          </v-icon>
-        </v-btn>
       </v-col>
       <v-col class="mb-3 py-0" cols="12" sm="6" md="4" lg="4">
         <v-card href="https://www.kanic.co/" target="_blank" rel="noreferrer">
