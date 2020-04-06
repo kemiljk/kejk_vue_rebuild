@@ -26,14 +26,29 @@
         <v-card
           href="https://res.cloudinary.com/kejk/raw/upload/v1585911201/Lazy_PDF.zip"
           rel="noreferrer"
+          class="mb-3"
         >
-          <v-img alt="Kanic logo visual" src="../assets/lazyPDF.webp" />
+          <v-img 
+            alt="Kanic logo visual" 
+            src="../assets/lazyPDF.webp" />
           <v-card-title class="subtitle-1">
             Lazy PDF
             <v-spacer />
             <v-icon class="ml-4">mdi-download</v-icon>
           </v-card-title>
         </v-card>
+        <a 
+          href="https://www.producthunt.com/posts/lazy-pdf?utm_source=badge-featured&utm_medium=badge&utm_souce=badge-lazy-pdf" 
+          target="_blank" 
+        >
+          <img 
+            src="https://api.producthunt.com/widgets/embed-image/v1/featured.svg?post_id=191366&theme=light" 
+            alt="Lazy PDF - Effortless and interfaceless PDF creation | Product Hunt Embed" 
+            style="width: 250px; height: 54px;" 
+            width="250px" 
+            height="54px" 
+          >
+        </a>
       </v-col>
       <v-col cols="12" lg="8" md="8" sm="6">
         <h3 class="mb-3">Lazy PDF</h3>
