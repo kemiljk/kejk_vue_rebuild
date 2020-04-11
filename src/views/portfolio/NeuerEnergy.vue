@@ -17,34 +17,39 @@
           <v-icon class="ml-2 white--text" small>mdi-open-in-new</v-icon>
         </v-btn>
         <h3 class="mb-4 mt-8">What is it?</h3>
-        <p>
-          NeuerEnergy transforms businesses carbon footprint in a single step.</p>
+        <p>NeuerEnergy transforms businesses carbon footprint in a single step.</p>
 
-<p>Selecting the right energy mix to meet a businesses sustainability goals without impacting their business operations can be an enormous, resource-heavy burden.</p>
+        <p>Selecting the right energy mix to meet a businesses sustainability goals without impacting their business operations can be an enormous, resource-heavy burden.</p>
 
-<p>Whether they're a C-level executive, financial, legal or social responsibility officer, NeuerEnergy revolutionises their sustainability journey, using groundbreaking AI to offer an earth-saving zero-impact pathway today.
-        </p>
-        <h4 class="mb-4">My role</h4>
+        <p>Whether they're a C-level executive, financial, legal or social responsibility officer, NeuerEnergy revolutionises their sustainability journey, using groundbreaking AI to offer an earth-saving zero-impact pathway today.</p>
+        <h4 class="mb-4">
+          My role
+        </h4>
         <p>We are a small team of eight, working to deliver a comprehensive and powerful product for corporate and industrial customers.</p>
-        <p>My role consisted of the following:</p>
+        <p>My role consists of the following:</p>
         <ul>
           <li>Requirement gathering and planning sessions with the product owner</li>
           <li>Planning and paper prototyping</li>
-          <li>Creation of block frames</li>
+          <li>Creation of blockframes</li>
           <li>Creation of final UI in Adobe XD</li>
           <li>Creation of initial prototype in HTML, CSS & JS</li>
           <li>Creation of second prototype/project scaffold in Vue.js</li>
-          <li>Design and frontend development leadership</li>
+          <li>Design and frontend development contribution and leadership</li>
+          <li>Data visualisation design (in collaboration with Data Science)</li>
           <li>Production-ready code in CSS and Web Components using lit-element</li>
         </ul>
-        <p class="mt-4">Role beyond product development:</p>
+        <p class="mt-4">
+          Role beyond product development:
+        </p>
         <ul>
           <li>Brand development and ownership</li>
           <li>Social media planning and execution</li>
           <li>Sprint planning and retrospectives</li>
         </ul>
         <section aria-label="summary">
-          <h4 class="mb-4 mt-4">Summary</h4>
+          <h4 class="mb-4 mt-4">
+            Summary
+          </h4>
           <p>NeuerEnergy is a first-of-its-kind product, providing a seamless and connected experience for corporate and industrial customers to manage their carbon reduction targets through long-term PPAs. Generator partners are integrated into the platform to obtain access to these customers whilst also benefiting from comprehensive predictive maintenance and plant planning toolsets.</p>
           <p>During its development, NeuerEnergy has had many iterations. The product-market fit has been clear from day one, but the intended output has always been tricky to pin down. This project is still in active development and is currently nearing its alpha launch.</p>
           <p>We're building the application using lit-element and the Web Components standard to ensure interoperability across all browsers and platforms, without relying on the heaviness of a framework. We've also developed the product to be a single-page app and utilise a serverless architecture through Azure Functions.</p>
