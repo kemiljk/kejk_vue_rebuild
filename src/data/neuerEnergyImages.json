@@ -9,34 +9,46 @@
     },
     {
         "id": 1,
-        "img": "https://res.cloudinary.com/kejk/image/upload/v1585839346/Analysis_-_Sites_Expanded_bfdtbg.png"
+        "img": "https://res.cloudinary.com/kejk/image/upload/v1586611070/Analysis_-_Sites_Expanded_cipizj.png"
     },
     {
         "id": 3,
-        "img": "https://res.cloudinary.com/kejk/image/upload/v1585839350/Analysis_-_Analyse_Electricity-Power_SPPA_Expanded_zlc7l4.png"
+        "img": "https://res.cloudinary.com/kejk/image/upload/v1586611072/Analysis_-_Analyse_Electricity-Power_SPPA_Expanded_ycz25h.png"
     },
     {
         "id": 4,
-        "img": "https://res.cloudinary.com/kejk/image/upload/v1585839347/Analysis_-_Analyse_Approval_dqdnbz.png"
+        "img": "https://res.cloudinary.com/kejk/image/upload/v1586611072/Analysis_-_Analyse_Electricity-Power_VPPA_vh9rtk.png"
     },
     {
         "id": 5,
-        "img": "https://res.cloudinary.com/kejk/image/upload/v1585839348/Analyse_-_Project_-_Expanded_xnxdot.png"
+        "img": "https://res.cloudinary.com/kejk/image/upload/v1586611070/Analysis_-_Analyse_Approval_Slipped_History_Alternate_q2epvm.png"
     },
     {
         "id": 6,
-        "img": "https://res.cloudinary.com/kejk/image/upload/v1585839339/Analyse_-_Gantt_xzihmy.png"
+        "img": "https://res.cloudinary.com/kejk/image/upload/v1586611070/Analyse_-_Project_-_Expanded_tcwqfa.png"
     },
     {
         "id": 7,
-        "img": "https://res.cloudinary.com/kejk/image/upload/v1585839343/Analyse_-_Tasks_aclilt.png"
+        "img": "https://res.cloudinary.com/kejk/image/upload/v1586611068/Analyse_-_Gantt_wcpfex.png"
     },
     {
         "id": 8,
-        "img": "https://res.cloudinary.com/kejk/image/upload/v1585839342/Analyse_-_People_obdrsk.png"
+        "img": "https://res.cloudinary.com/kejk/image/upload/v1586611068/Analyse_-_Tasks_Detail_jxzanp.png"
     },
     {
         "id": 9,
-        "img": "https://res.cloudinary.com/kejk/image/upload/v1585839351/Procure_-_Summary_-_Expanded_nnrkpg.png"
+        "img": "https://res.cloudinary.com/kejk/image/upload/v1586611068/Analyse_-_People_ltindk.png"
+    },
+    {
+        "id": 10,
+        "img": "https://res.cloudinary.com/kejk/image/upload/v1586611073/Procure_-_Summary_jfjfkh.png"
+    },
+    {
+        "id": 11,
+        "img": "https://res.cloudinary.com/kejk/image/upload/v1586611071/Procure_-_List_of_contracts_nfvgtr.png"
+    },
+    {
+        "id": 12,
+        "img": "https://res.cloudinary.com/kejk/image/upload/v1586611072/Dashboard_-_Filled_State_-_CSR_j3qw9y.png"
     }
 ]
