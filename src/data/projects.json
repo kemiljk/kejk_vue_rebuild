@@ -3,7 +3,7 @@
         "id": 1,
         "title": "NeuerEnergy product development",
         "url": "/portfolio/neuerenergy",
-        "img": "https://res.cloudinary.com/kejk/image/upload/v1585674711/NeuerEnergy_tgdluw.png"
+        "img": "https://res.cloudinary.com/kejk/image/upload/v1586612974/NeuerEnergy_kxpj4z.png"
     },
     {
         "id": 3,
@@ -12,10 +12,10 @@
         "img": "https://res.cloudinary.com/kejk/image/upload/v1585330459/MMAC_2_vbym6l.png"
     },
     {
-    "id": 2,
-    "title": "Duchenne and Me app",
-    "url": "/portfolio/duchenne-and-me",
-    "img": "https://res.cloudinary.com/kejk/image/upload/v1585330461/D_Me_1_nmyck1.png"
+        "id": 2,
+        "title": "Duchenne and Me app",
+        "url": "/portfolio/duchenne-and-me",
+        "img": "https://res.cloudinary.com/kejk/image/upload/v1585330461/D_Me_1_nmyck1.png"
     },
     {
         "id": 6,
