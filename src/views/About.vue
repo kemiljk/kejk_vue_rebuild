@@ -104,7 +104,7 @@
         >If you want to book some time to have a chat, you can book a slot. I'll always make myself available for questions, advice or mentorship if I can.</p>
         <p class="body-1">We could talk about:</p>
         <ul>
-          <li>User experience, user interface, ally, design leadership</li>
+          <li>User experience, user interface, a11y, design leadership</li>
           <li>HTML, CSS/SCSS, Vue.js, Git</li>
           <li>Minimalism, meditation, mindfulness</li>
           <li>Guitars, metal or post rock</li>
