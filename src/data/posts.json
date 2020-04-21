@@ -1,5 +1,13 @@
 [
     {
+        "id": 6,
+        "title": "Ten Principles for Good Design",
+        "url": "/posts/ten-principles-wallpaper",
+        "img": "https://res.cloudinary.com/kejk/image/upload/v1587500427/tenprinciples_cqzyt8.png",
+        "ext": "",
+        "extTrue": false
+    },
+    {
         "id": 5,
         "title": "Getting to yes",
         "url": "/posts/getting-to-yes",

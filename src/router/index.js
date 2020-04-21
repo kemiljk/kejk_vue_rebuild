@@ -40,6 +40,11 @@ const routes = [
     component: () => import('../views/posts/human-centricity.vue')
   },
   {
+    path: '/posts/ten-principles-wallpaper',
+    name: 'Ten Principles Wallpaper',
+    component: () => import('../views/posts/ten-principles-wallpaper.vue')
+  },
+  {
     path: '/portfolio',
     name: 'Portfolio',
     component: () => import('../views/Portfolio.vue')
