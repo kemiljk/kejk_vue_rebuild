@@ -24,7 +24,7 @@
             class="teal--text"
           >Kickstarter.</a>
         </p>
-        <p>One of the perks was to get a letterpress of the ten principles on card. This was set in a beautiful monospace font that I wanted to reimagine for the digital screen as a reminder of the principles I follow closely to ensure my designs are refined and focus on delivering maximum value in a minimal form.</p>
+        <p>One of the perks was to get a letterpress of the ten principles on card. This was set in a beautiful monospace font that I wanted to reimagine for the digital screen as a reminder of the principles. This allowed me to have a constant reminder to ensure my designs are always refined and focus on delivering maximum value in a minimal form.</p>
         <p>I've made this wallpaper available to download in three sizes for mobile, tablet and desktop. You can grab them below.</p>
       </v-col>
       <v-btn
