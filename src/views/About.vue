@@ -274,11 +274,11 @@
             class="teal--text"
           >Vuetify</a> library and is deployed via
           <a
-            href="https://zeit.co/"
+            href="https://vercel.com/"
             target="_blank"
             rel="noreferrer"
             class="teal--text"
-          >Zeit Now</a>.
+          >Vercel Now</a>.
         </p>
         <p class="body-1">
           The font rendered throughout is
