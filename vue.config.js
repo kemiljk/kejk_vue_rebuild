@@ -17,6 +17,9 @@ module.exports = {
   pwa: {
     name: 'KEJK',
     themeColor: '#272727',
-    msTileColor: '#272727'
+    msTileColor: '#272727',
+    workboxOptions: {
+      skipWaiting: true
+    }
   }
 }
