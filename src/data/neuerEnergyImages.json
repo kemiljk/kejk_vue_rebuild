@@ -45,10 +45,14 @@
     },
     {
         "id": 11,
-        "img": "https://res.cloudinary.com/kejk/image/upload/v1587142503/Procure_-_Summary_-_Expanded_gc4ggi.png"
+        "img": "https://res.cloudinary.com/kejk/image/upload/v1587656057/Procure_-_Summary_bhu43c.png"
     },
     {
         "id": 12,
+        "img": "https://res.cloudinary.com/kejk/image/upload/v1587656057/Procure_-_Shortlist_-_Risk_Management_tz8ysh.png"
+    },
+    {
+        "id": 13,
         "img": "https://res.cloudinary.com/kejk/image/upload/v1587142501/Procure_-_List_of_contracts_xke4it.png"
     }
 ]
