@@ -1,0 +1,23 @@
+[
+  {
+    "id": 1,
+    "label": "About",
+    "url": "/",
+    "ext": "",
+    "extTrue": false
+  },
+  {
+    "id": 2,
+    "label": "LazyPDF",
+    "url": "https://www.lazypdf.tech",
+    "ext": "_blank",
+    "extTrue": true
+  },
+  {
+  "id": 3,
+  "label": "Login",
+  "url": "/login",
+  "ext": "",
+  "extTrue": false
+  }
+]

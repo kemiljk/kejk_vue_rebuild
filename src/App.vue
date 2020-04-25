@@ -8,15 +8,11 @@
         <v-icon v-if="this.$vuetify.theme.dark">mdi-white-balance-sunny</v-icon>
         <v-icon v-else>mdi-brightness-3</v-icon>
       </v-btn>
-      <v-btn
-        v-for="link in links"
-        :key="`${link.label}--page-link`"
-        class="my-2 mx-1"
-        text
-        :to="link.url"
-      >
-        <v-text class="font-weight-bold">{{ link.label }}</v-text>
-      </v-btn>
+      <Nav
+        v-for="nav in navs"
+        :key="`${nav.id}`"
+        :nav="nav"
+      />
     </v-app-bar>
     <v-content>
       <v-responsive width="900px">
@@ -103,24 +99,18 @@
 </template>
 
 <script>
+import Nav from "./components/Nav.vue"
+import navLinks from "./data/nav.json"
+
 export default {
   name: "App",
+  components: {
+    Nav
+  },
   data() {
     return {
-      links: [
-        {
-          label: "About",
-          url: "/"
-        },
-        {
-          label: "Lazy PDF",
-          url: "/lazy-pdf/"
-        },
-        {
-          label: "Login",
-          url: "/login"
-        }
-      ]
+      navs: 
+        navLinks,
     };
   },
   methods: {
