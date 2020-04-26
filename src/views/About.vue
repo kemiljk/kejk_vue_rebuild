@@ -149,7 +149,9 @@
         <h3 class="mb-3">Make Me A Cocktail</h3>
         <p
           class="body-1"
-        >I'm the Design Lead for Make Me A Cocktail. We're currently in the process of redesigning and rebuilding the site but many of my designs are now implemented across the core screens.</p>
+        >
+          I'm the Chief Designer for Make Me A Cocktail. We're currently in the process of redesigning and rebuilding the site from the ground up but many of my designs are now implemented across the core screens.
+        </p>
       </v-col>
       <v-col class="mb-3 py-0" cols="12" sm="6" md="4" lg="4">
        <v-card href="https://www.lazypdf.tech" target="_blank" rel="noreferrer" class="mb-3">

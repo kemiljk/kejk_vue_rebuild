@@ -1,5 +1,10 @@
 <template>
   <v-container>
+    <!-- <v-img 
+      src="../assets/portfolio.webp" 
+      class="mt-10 img cropped" 
+      alt="Portfolio overview on mobile devices" 
+    /> -->
     <v-card
       width="400"
       class="mx-auto mt-5"

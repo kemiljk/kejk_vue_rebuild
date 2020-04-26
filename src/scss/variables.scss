@@ -29,3 +29,8 @@ $line-height-root: 1.75;
 .img {
   border-radius: 8px;
 }
+
+.cropped {
+  height: 300px;
+  object-fit: cover;
+}
