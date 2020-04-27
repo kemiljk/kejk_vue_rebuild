@@ -1,25 +1,17 @@
 <template>
   <v-container>
     <v-row class="text-left">
-      <v-col>
-        <h1 class="display-2 font-weight-bold mb-12 mt-10">
-          /Uses.
-        </h1>
+      <v-col class="mb-4">
+        <h1 class="display-2 font-weight-bold mb-12 mt-10">/Uses.</h1>
         <p
           class="body-1 mb-3"
-        >
-          I use a variety of tools to get my work done on a daily basis. Being a designer and frontend developer, I have to switch between two very different but complimentary workflows.
-        </p>
+        >I use a variety of tools to get my work done on a daily basis. Being a designer and frontend developer, I have to switch between two very different but complimentary workflows.</p>
         <p
           class="body-1 mb-3"
-        >
-          As much as possible, I try to integrate these two workflows to reduce cognitive load and improve productivity.
-        </p>
+        >As much as possible, I try to integrate these two workflows to reduce cognitive load and improve productivity.</p>
         <p
           class="body-1 mb-3"
-        >
-          I'm primarily a designer first but I learned the fundamentals of web development by hacking other peoples' MySpace pages back when that was a real thing.
-        </p>
+        >I'm primarily a designer first but I learned the fundamentals of web development by hacking other peoples' MySpace pages back when that was a real thing.</p>
         <p class="body-1 mb-3">
           Now, I'm exploring building frontends in
           <a
@@ -37,20 +29,14 @@
         </p>
       </v-col>
     </v-row>
+    <v-divider />
     <v-row class="text-left">
-      <v-col
-        class="mb-4"
-        cols="12"
-      >
-        <h2 class="display font-weight-bold mb-3">
-          Design.
-        </h2>
+      <v-col class="mb-4 mt-4" cols="12">
+        <h2 class="display font-weight-bold mb-3">Design.</h2>
         <p
           class="body-1 mb-3"
-        >
-          My design tools are simple and straightforward. I keep it lean and minimal.
-        </p>
-        <ul class="body-1 mb-6">
+        >My design tools are simple and straightforward. I keep it lean and minimal.</p>
+        <ul class="body-1 mb-4">
           <li class="mb-3">
             <a
               href="https://www.adobe.com/products/xd.html"
@@ -60,7 +46,7 @@
             >Adobe XD</a> is my design tool of choice. Its flexibility as a wireframing, prototyping and full featured design tool make it perfect for my daily needs.
             The new collaboration beta is a little funky at the moment, but it's going to make for a solid solution when it's ready.
           </li>
-          <li class="mb-3">
+          <li>
             <a
               href="https://overflow.io/"
               target="_blank"
@@ -72,20 +58,14 @@
         </ul>
       </v-col>
     </v-row>
+    <v-divider />
     <v-row class="text-left">
-      <v-col
-        class="mb-4"
-        cols="12"
-      >
-        <h2 class="display font-weight-bold mb-3">
-          Development.
-        </h2>
+      <v-col class="mb-4 mt-4" cols="12">
+        <h2 class="display font-weight-bold mb-3">Development.</h2>
         <p
           class="body-1 mb-3"
-        >
-          Like with design, I keep my development toolset minimal but have a few more pieces of software I need.
-        </p>
-        <ul class="body-1 mb-6">
+        >Like with design, I keep my development toolset minimal but have a few more pieces of software I need.</p>
+        <ul class="body-1 mb-4">
           <li class="mb-3">
             <strong>Languages:</strong> HTML, CSS/SASS/SCSS, JavaScript and a small amount of PHP
           </li>
@@ -118,17 +98,10 @@
           target="_blank"
           rel="noreferrer"
           class="mb-6 ml-5"
-        >
-          Download JSON File
-        </v-btn>
+        >Download JSON File</v-btn>
         <ul class="body-1 mb-6">
           <li class="mb-3">
-            <a
-              href="https://hyper.is"
-              target="_blank"
-              rel="noreferrer"
-              class="teal--text"
-            >Hyper</a> is my terminal of choice with Operator set as my font of choice as well as some custom colour rules.
+            <a href="https://hyper.is" target="_blank" rel="noreferrer" class="teal--text">Hyper</a> is my terminal of choice with Operator set as my font of choice as well as some custom colour rules.
           </li>
         </ul>
         <v-btn
@@ -136,29 +109,13 @@
           target="_blank"
           rel="noreferrer"
           class="mb-6 ml-5"
-        >
-          Download JS File
-        </v-btn>
+        >Download JS File</v-btn>
         <ul class="body-1 mb-6">
           <li class="mb-3">
-            <a
-              href="https://ohmyz.sh"
-              target="_blank"
-              rel="noreferrer"
-              class="teal--text"
-            >ZSH</a> is my default terminal shell
+            <a href="https://ohmyz.sh" target="_blank" rel="noreferrer" class="teal--text">ZSH</a> is my default terminal shell
             in Hyper with a basic custom theme set.
           </li>
-          <li class="mb-3">
-            <a
-              href="https://numi.app"
-              target="_blank"
-              rel="noreferrer"
-              class="teal--text"
-            >Numi</a> is an extended custom
-            calculator that I use to perform arithmetic and conversions.
-          </li>
-          <li class="mb-3">
+          <li>
             <a
               href="https://www.mozilla.org/en-GB/firefox/developer/"
               target="_blank"
@@ -172,19 +129,13 @@
         </ul>
       </v-col>
     </v-row>
+    <v-divider />
     <v-row class="text-left">
-      <v-col
-        class="mb-4"
-        cols="12"
-      >
-        <h2 class="display font-weight-bold mb-3">
-          Hardware.
-        </h2>
+      <v-col class="mb-4 mt-4" cols="12">
+        <h2 class="display font-weight-bold mb-3">Hardware.</h2>
         <p
           class="body-1 mb-3"
-        >
-          I don't use a lot of hardware, and it varies if I'm travelling but here's my common EDC.
-        </p>
+        >I don't use a lot of hardware, and it varies if I'm travelling but here's my common EDC.</p>
         <ul class="body-1 mb-6">
           <li class="mb-3">
             <a
@@ -223,14 +174,11 @@
           <li class="mb-3">
             MacBook Pro 15" (2019) in silver [no longer sold] with the
             <a
-              href="https://smile.amazon.co.uk/Logitech-Multi-Device-Bluetooth-Keyboard-Windows/dp/B013SL1YXO/ref=sr_1_3?crid=3OF4YGQV1S2HK&keywords=logitech+k380&qid=1583311518&sprefix=logitec+%2Caps%2C175&sr=8-3"
+              href="https://www.keychron.com/pages/k6"
               target="_blank"
               rel="noreferrer"
               class="teal--text"
-            >
-              Logitech
-              K380 keyboard
-            </a>,
+            >Keychron K6 keyboard</a>,
             <a
               href="https://smile.amazon.co.uk/gp/product/B07W6JG6Z7/ref=ppx_yo_dt_b_search_asin_title?ie=UTF8&psc=1"
               target="_blank"
