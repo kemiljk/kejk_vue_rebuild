@@ -5,7 +5,7 @@
     },
     {
         "id": 1,
-        "img": "https://res.cloudinary.com/kejk/image/upload/v1587476807/Sites_Expanded_xz0olj.png"
+        "img": "https://res.cloudinary.com/kejk/image/upload/v1588092369/Sites_Collapsed_1_zuyxm0.png"
     },
     {
         "id": 2,
@@ -13,7 +13,7 @@
     },
     {
         "id": 3,
-        "img": "https://res.cloudinary.com/kejk/image/upload/v1587722127/Analysis_-_Analyse_Electricity-Power_SPPA_Expanded_2_l6a6l5.png"
+        "img": "https://res.cloudinary.com/kejk/image/upload/v1588092229/Analysis_-_Analyse_Electricity-Power_SPPA_Expanded_5_wj3cji.png"
     },
     {
         "id": 4,
@@ -29,19 +29,19 @@
     },
     {
         "id": 7,
-        "img": "https://res.cloudinary.com/kejk/image/upload/v1587724594/Analyse_-_Project_-_Expanded_su6knt.png"
+        "img": "https://res.cloudinary.com/kejk/image/upload/v1588092441/Analyse_-_Project_1_euhr8m.png"
     },
     {
         "id": 8,
-        "img": "https://res.cloudinary.com/kejk/image/upload/v1587389557/Analyse_-_Gantt_ikg59x.png"
+        "img": "https://res.cloudinary.com/kejk/image/upload/v1588092367/Analyse_-_Gantt_1_viaxlp.png"
     },
     {
         "id": 9,
-        "img": "https://res.cloudinary.com/kejk/image/upload/v1587389557/Analyse_-_Tasks_Detail_mciuwd.png"
+        "img": "https://res.cloudinary.com/kejk/image/upload/v1588092369/Analyse_-_Tasks_1_fd1irk.png"
     },
     {
         "id": 10,
-        "img": "https://res.cloudinary.com/kejk/image/upload/v1587389557/Analyse_-_People_geb0ve.png"
+        "img": "https://res.cloudinary.com/kejk/image/upload/v1588092368/Analyse_-_People_1_g0ylp6.png"
     },
     {
         "id": 11,
@@ -54,5 +54,9 @@
     {
         "id": 13,
         "img": "https://res.cloudinary.com/kejk/image/upload/v1587142501/Procure_-_List_of_contracts_xke4it.png"
+    },
+    {
+        "id": 14,
+        "img": "https://res.cloudinary.com/kejk/image/upload/v1588092507/Dashboard_-_Filled_State_-_CSR_1_jcddri.png"
     }
 ]
