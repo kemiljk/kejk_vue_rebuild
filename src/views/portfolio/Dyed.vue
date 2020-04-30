@@ -46,7 +46,8 @@
           <li>Skype-based interviews</li>
           <li>Development of sitemap and information architecture</li>
           <li>Creation of high-fidelity wireframes and prototype</li>
-          <li>Conception and delivery of iconography and interface</li>
+          <li>Conceptulisation and development of final brand identity and marque</li>
+          <li>Conception and delivery of interface</li>
           <li>Provision of files and functional spec to development</li>
           <li>Vision for phase 2</li>
           <li>Alpha and beta test guides and research script writing</li>
