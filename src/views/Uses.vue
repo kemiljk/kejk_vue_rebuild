@@ -43,9 +43,16 @@
               target="_blank"
               rel="noreferrer"
               class="teal--text"
-            >Adobe XD</a> is my design tool of choice. Its flexibility as a wireframing, prototyping and full featured design tool make it perfect for my daily needs.
+            >Adobe XD</a> is my design tool for work projects. Its flexibility as a wireframing, prototyping and full featured design tool make it work for our needs.
             The new collaboration beta is a little funky at the moment, but it's going to make for a solid solution when it's ready.
           </li>
+          <li class="mb-3">
+            <a
+              href="https://www.figma.com"
+              target="_blank"
+              rel="noreferrer"
+              class="teal--text"
+            >Figma</a> is my design tool for personal projects. Its constantly updated and has such a flexible and vast ecosystem of plugins that I can't see myself using anything else. Eventually, I'll be transitioning our work toolkit to Figma too.</li>
           <li>
             <a
               href="https://overflow.io/"
