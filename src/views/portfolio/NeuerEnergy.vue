@@ -43,6 +43,7 @@
         </p>
         <ul>
           <li>Brand development and ownership</li>
+          <li>Conceptulisation and development of final brand identity and marque</li>
           <li>Social media planning and execution</li>
           <li>Sprint planning and retrospectives</li>
         </ul>

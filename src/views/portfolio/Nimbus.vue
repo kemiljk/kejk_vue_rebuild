@@ -46,6 +46,7 @@
           <li>Development of information architecture</li>
           <li>Creation of low-fidelity wireframes</li>
           <li>Creation of high-fidelity wireframes and prototype</li>
+          <li>Conceptulisation and development of final brand identity and marque</li>
           <li>Creation of full designs, including a design system and component set</li>
           <li>Provision of files and functional spec to development</li>
         </ul>

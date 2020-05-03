@@ -49,6 +49,7 @@
           <li>Planning and paper prototyping</li>
           <li>Development of sitemap and information architecture</li>
           <li>Creation of high-fidelity wireframes and prototype in InVision</li>
+          <li>Conceptulisation and development of final brand identity and marque</li>
           <li>Creation of final UI in Sketch</li>
           <li>Provision of files and functional spec to development</li>
           <li>Beta test setup and second round research/feedback</li>
