@@ -7,7 +7,7 @@
     },
     {
         "id": 3,
-        "title": "Make Me A Cocktail site update",
+        "title": "Make Me A Cocktail website",
         "url": "/portfolio/make-me-a-cocktail",
         "img": "https://res.cloudinary.com/kejk/image/upload/v1585330459/MMAC_2_vbym6l.png"
     },
@@ -19,7 +19,7 @@
     },
     {
         "id": 6,
-        "title": "Enel battery storage dashboard",
+        "title": "Enel AI battery storage dashboard",
         "url": "/portfolio/enel-battery-storage",
         "img": "https://res.cloudinary.com/kejk/image/upload/v1585330457/Enel_1_il7vqp.png"
     },
@@ -31,7 +31,7 @@
     },
     {
         "id": 5,
-        "title": "Dyed app project",
+        "title": "Dyed app",
         "url": "/portfolio/santen-dyed",
         "img": "https://res.cloudinary.com/kejk/image/upload/v1585330460/DyeD_1_o7cnx2.png"
     }
