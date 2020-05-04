@@ -69,14 +69,14 @@
           </p>
           <p>
             I was approached to provide guidance on the user experience and final design of several new pages following a major version 5 update. It was important for me to maintain the existing design language but I was given creative license to adapt and advance
-            the existing platform. During the design stage I felt it necessary to start to think about developing a new design system, one that create greater harmony to the elements on a page, one that unified the interface language
+            the existing platform. During the design stage I felt it necessary to start to think about developing a new design system, one that created greater harmony to the elements on a page, one that unified the interface language
             through consistent use of a bespoke icon set, one that ensured the most optimal experience across desktop and mobile.
           </p>
           <p>
             The success of these three page updates has led to me securing an ongoing agreement to support further development of the site from both an advisory and designer's perspective.
           </p>
           <p>
-            Version 5 is in the process of rolling out.
+            Version 6 is now in the process of rolling out and I am now officially the Chief Designer at Make Me A Cocktail on the side.
           </p>
         </section>
         <section class="mt-8">
