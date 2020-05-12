@@ -52,7 +52,13 @@
               target="_blank"
               rel="noreferrer"
               class="teal--text"
-            >Figma</a> is my design tool for personal projects. Its constantly updated and has such a flexible and vast ecosystem of plugins that I can't see myself using anything else. Eventually, I'll be transitioning our work toolkit to Figma too.
+            >Figma</a> is my design tool for personal projects. Its constantly updated and has such a flexible and vast ecosystem of plugins that I can't see myself using anything else. You can find me over at
+            <a
+              href="https://www.figma.com/@_kejk"
+              target="_blank"
+              rel="noreferrer"
+              class="teal--text"
+            >@_kejk</a>.
           </li>
           <li>
             <a
