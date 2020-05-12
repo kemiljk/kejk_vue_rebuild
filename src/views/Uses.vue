@@ -86,13 +86,13 @@
               target="_blank"
               rel="noreferrer"
               class="teal--text"
-            >VSCode</a> is my editor of choice. I currently use the
+            >VSCode</a> is my editor of choice. I currently use GitHub's new
             <a
               href="https://marketplace.visualstudio.com/items?itemName=GitHub.github-vscode-theme"
               target="_blank"
               rel="noreferrer"
               class="teal--text"
-            >Github's new GitHub</a> theme with a custom set of a few background colours to create a pure black environment along with
+            >GitHub</a> theme with a custom set of a few background colours to create a pure black environment along with
             <a
               href="https://www.jetbrains.com/lp/mono/"
               target="_blank"
