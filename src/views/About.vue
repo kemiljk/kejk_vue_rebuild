@@ -173,20 +173,6 @@
           A free interfaceless macOS utility that allows you to effortlessly create a PDF from a set of selected images.
         </p>
       </v-col>
-      <v-col class="mb-3 py-0" cols="12" sm="6" md="4" lg="4">
-        <v-card href="https://www.kanic.co/" target="_blank" rel="noreferrer">
-          <v-img alt="Kanic logo visual" src="../assets/kanic.webp" />
-          <v-card-title class="subtitle-1">
-            Kanic
-            <v-spacer />
-            <v-icon class="ml-4">mdi-open-in-new</v-icon>
-          </v-card-title>
-        </v-card>
-      </v-col>
-      <v-col cols="12" lg="8" md="8" sm="6">
-        <h3 class="mb-3">Kanic</h3>
-        <p class="body-1">I'm also currently building something new with some great people.</p>
-      </v-col>
     </v-row>
     <v-divider />
     <v-row class="ml-1 mr-1">
