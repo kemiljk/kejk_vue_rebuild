@@ -52,7 +52,14 @@
               target="_blank"
               rel="noreferrer"
               class="teal--text"
-            >Figma</a> is my design tool for personal projects. Its constantly updated and has such a flexible and vast ecosystem of plugins that I can't see myself using anything else. Eventually, I'll be transitioning our work toolkit to Figma too.</li>
+            >Figma</a> is my design tool for personal projects. Its constantly updated and has such a flexible and vast ecosystem of plugins that I can't see myself using anything else. You can find me over at
+            <a
+              href="https://www.figma.com/@_kejk"
+              target="_blank"
+              rel="noreferrer"
+              class="teal--text"
+            >@_kejk</a>.
+          </li>
           <li>
             <a
               href="https://overflow.io/"
@@ -85,38 +92,26 @@
               target="_blank"
               rel="noreferrer"
               class="teal--text"
-            >VSCode</a> is my editor of choice. I currently use the
+            >VSCode</a> is my editor of choice. I currently use GitHub's new
             <a
-              href="https://marketplace.visualstudio.com/items?itemName=ms-vscode.Theme-TomorrowKit"
+              href="https://marketplace.visualstudio.com/items?itemName=GitHub.github-vscode-theme"
               target="_blank"
               rel="noreferrer"
               class="teal--text"
-            >Tomorrow Night Bright Operator Mono</a> theme with a custom set of background colours to create a pure black environment along with
+            >GitHub</a> theme with a custom set of a few background colours to create a pure black environment along with
             <a
-              href="https://www.typography.com/blog/introducing-operator"
+              href="https://www.jetbrains.com/lp/mono/"
               target="_blank"
               rel="noreferrer"
               class="teal--text"
-            >Operator</a> as my default code font with ligatures set to true.
+            >JetBrains Mono</a> as my default code font with ligatures set to true.
           </li>
         </ul>
-        <v-btn
-          href="https://res.cloudinary.com/kejk/raw/upload/v1583082695/settings_bftylc_xd2sif.json"
-          target="_blank"
-          rel="noreferrer"
-          class="mb-6 ml-5"
-        >Download JSON File</v-btn>
         <ul class="body-1 mb-6">
           <li class="mb-3">
             <a href="https://hyper.is" target="_blank" rel="noreferrer" class="teal--text">Hyper</a> is my terminal of choice with Operator set as my font of choice as well as some custom colour rules.
           </li>
         </ul>
-        <v-btn
-          href="https://res.cloudinary.com/kejk/raw/upload/v1583061612/hyper_hvzhmn.js"
-          target="_blank"
-          rel="noreferrer"
-          class="mb-6 ml-5"
-        >Download JS File</v-btn>
         <ul class="body-1 mb-6">
           <li class="mb-3">
             <a href="https://ohmyz.sh" target="_blank" rel="noreferrer" class="teal--text">ZSH</a> is my default terminal shell
@@ -131,7 +126,7 @@
             >Firefox Developer Edition</a> is the dev browser I tend to use. It offers
             an extremely powerful set of dev tools whilst maintaining the privacy I want to have online.
             Although colour rendering is very different when compared with Safari or Chrome, the dev
-            tools alone make it the best fit for me.
+            tools alone make it the best fit for me. I do still use Chrome from time to time though, always safer to use multiple!
           </li>
         </ul>
       </v-col>

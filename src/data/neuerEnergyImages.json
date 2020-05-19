@@ -1,62 +1,18 @@
 [
     {
         "id": 0,
-        "img": "https://res.cloudinary.com/kejk/image/upload/v1586967489/Dashboard_-_empty_state_vjtatc.png"
+        "img": "https://res.cloudinary.com/kejk/image/upload/v1588515440/mobile-signup_6_xlpwst.png"
     },
     {
         "id": 1,
-        "img": "https://res.cloudinary.com/kejk/image/upload/v1588092369/Sites_Collapsed_1_zuyxm0.png"
+        "img": "https://res.cloudinary.com/kejk/image/upload/v1588835891/mobile-signup_7_dfqlmo.png"
     },
     {
         "id": 2,
-        "img": "https://res.cloudinary.com/kejk/image/upload/v1587732102/Analysis_-_Analyse_Electricity-Power_SPPA_Expanded_1_ddllv5.png"
-    },
-    {
-        "id": 3,
-        "img": "https://res.cloudinary.com/kejk/image/upload/v1588092229/Analysis_-_Analyse_Electricity-Power_SPPA_Expanded_5_wj3cji.png"
-    },
-    {
-        "id": 4,
-        "img": "https://res.cloudinary.com/kejk/image/upload/v1587657236/Analysis_-_Analyse_Electricity-Power_SPPA_Expanded_3_bw2642.png"
-    },
-    {
-        "id": 5,
-        "img": "https://res.cloudinary.com/kejk/image/upload/v1587401713/Analysis_-_Analyse_Programme_Approval_History_Active_Context_menu_tkolcc.png"
-    },
-    {
-        "id": 6,
-        "img": "https://res.cloudinary.com/kejk/image/upload/v1587476630/Analyse_-_Programme_Overview_Filtered_istjqt.png"
-    },
-    {
-        "id": 7,
-        "img": "https://res.cloudinary.com/kejk/image/upload/v1588092441/Analyse_-_Project_1_euhr8m.png"
-    },
-    {
-        "id": 8,
-        "img": "https://res.cloudinary.com/kejk/image/upload/v1588092367/Analyse_-_Gantt_1_viaxlp.png"
-    },
-    {
-        "id": 9,
-        "img": "https://res.cloudinary.com/kejk/image/upload/v1588092369/Analyse_-_Tasks_1_fd1irk.png"
-    },
-    {
-        "id": 10,
-        "img": "https://res.cloudinary.com/kejk/image/upload/v1588092368/Analyse_-_People_1_g0ylp6.png"
-    },
-    {
-        "id": 11,
-        "img": "https://res.cloudinary.com/kejk/image/upload/v1587657201/Procure_-_Summary_-_Expanded_burzta.png"
-    },
-    {
-        "id": 12,
-        "img": "https://res.cloudinary.com/kejk/image/upload/v1587656057/Procure_-_Shortlist_-_Risk_Management_tz8ysh.png"
-    },
-    {
-        "id": 13,
-        "img": "https://res.cloudinary.com/kejk/image/upload/v1587142501/Procure_-_List_of_contracts_xke4it.png"
+        "img": "https://res.cloudinary.com/kejk/image/upload/v1588835891/mobile-signup_8_qn8wtp.png"
     },
     {
         "id": 14,
-        "img": "https://res.cloudinary.com/kejk/image/upload/v1588092507/Dashboard_-_Filled_State_-_CSR_1_jcddri.png"
+        "img": "https://res.cloudinary.com/kejk/image/upload/v1588835891/mobile-signup_9_vwpx0t.png"
     }
 ]
