@@ -8,11 +8,7 @@
         <v-icon v-if="this.$vuetify.theme.dark">mdi-white-balance-sunny</v-icon>
         <v-icon v-else>mdi-brightness-3</v-icon>
       </v-btn>
-      <Nav
-        v-for="nav in navs"
-        :key="`${nav.id}`"
-        :nav="nav"
-      />
+      <Nav v-for="nav in navs" :key="`${nav.id}`" :nav="nav" />
     </v-app-bar>
     <v-content>
       <v-responsive width="900px">
@@ -52,7 +48,18 @@
               target="_blank"
               alt="Karl's GitHub"
             >
-              <v-icon>mdi-git</v-icon>
+              <v-icon>mdi-github</v-icon>
+            </v-btn>
+            <v-btn
+              fab
+              dark
+              small
+              color="#ea4c89"
+              href="https://dribbble.com/_kejk"
+              target="_blank"
+              alt="Karl's Dribbble"
+            >
+              <v-icon>mdi-basketball</v-icon>
             </v-btn>
             <v-btn
               fab
@@ -64,17 +71,6 @@
               alt="Karl's LinkedIn"
             >
               <v-icon>mdi-linkedin</v-icon>
-            </v-btn>
-            <v-btn
-              fab
-              dark
-              small
-              color="#6670f9"
-              href="https://dev.to/_kejk"
-              target="_blank"
-              alt="Karl's LinkedIn"
-            >
-              <v-icon>mdi-dev-to</v-icon>
             </v-btn>
             <v-btn
               fab
@@ -99,8 +95,8 @@
 </template>
 
 <script>
-import Nav from "./components/Nav.vue"
-import navLinks from "./data/nav.json"
+import Nav from "./components/Nav.vue";
+import navLinks from "./data/nav.json";
 
 export default {
   name: "App",
@@ -109,8 +105,7 @@ export default {
   },
   data() {
     return {
-      navs: 
-        navLinks,
+      navs: navLinks
     };
   },
   methods: {
