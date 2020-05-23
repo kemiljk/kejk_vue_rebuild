@@ -4,9 +4,9 @@ $border-radius-root: 8px !default;
 $line-height-root: 1.75;
 
 @font-face {
-    font-family: 'archia-bold-webfont';
-    src: url('/src/assets/archia-bold-webfont.woff2') format('woff2'),
-         url('/src/assets/archia-bold-webfont.woff') format('woff');
+    font-family: 'Archia';
+    src: url('/assets/archia.woff2') format('woff2'),
+         url('/assets/archia.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 }
