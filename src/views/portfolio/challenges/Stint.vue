@@ -20,6 +20,7 @@
           <v-col cols="12" sm="2">
             <h3 class="mb-4 mt-8">Time</h3>
             <p><em>6 hours.</em></p>
+            
           </v-col>
         </v-row>
 
