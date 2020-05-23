@@ -33,17 +33,34 @@
         <Projects :project="project" class="justify-center" />
       </v-col>
     </v-row>
+    <v-divider />
+    <v-row class="text-left">
+      <v-col cols="12">
+        <h2
+          class="display font-weight-bold mb-3 mt-10"
+          aria-label="Karl's projects"
+        >Design tasks I've completed.</h2>
+      </v-col>
+    </v-row>
+    <v-row class="mt-3 mb-5">
+      <v-col v-for="challenge in challenges" :key="`${challenge.id}`" cols="12" sm="6">
+        <Challenges :challenge="challenge" class="justify-center" />
+      </v-col>
+    </v-row>
   </v-container>
 </template>
 
 <script>
 import Projects from "../components/Projects";
+import Challenges from "../components/Challenges";
 import projectsData from "../data/projects.json";
+import challengesData from "../data/challenges.json";
 
 export default {
   name: "Portfolio",
   components: {
-    Projects
+    Projects,
+    Challenges
   },
   data() {
     return {
@@ -53,7 +70,8 @@ export default {
           url: "/portfolio"
         }
       ],
-      projects: projectsData
+      projects: projectsData,
+      challenges: challengesData
     };
   }
 };

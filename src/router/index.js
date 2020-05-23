@@ -88,6 +88,21 @@ const routes = [
     path: '/portfolio/kejk-update',
     name: 'KEJK',
     component: () => import('../views/portfolio/KEJK.vue')
+  },
+  {
+    path: '/portfolio/truelayer-challenge',
+    name: 'TrueLayer',
+    component: () => import('../views/portfolio/challenges/TrueLayer.vue')
+  },
+  {
+    path: '/portfolio/cmc-challenge',
+    name: 'CMC',
+    component: () => import('../views/portfolio/challenges/CMC.vue')
+  },
+  {
+    path: '/portfolio/stint-challenge',
+    name: 'Stint',
+    component: () => import('../views/portfolio/challenges/Stint.vue')
   }
 ]
 
