@@ -5,12 +5,22 @@ $line-height-root: 1.75;
 
 @font-face {
     font-family: 'Archia';
-    src: url('/assets/archia.woff2') format('woff2'),
-         url('/assets/archia.woff') format('woff'),
-         url('/assets/archia-regular.ttf')  format('truetype'),
-         url('/assets/archia-medium.ttf')  format('truetype'),
-         url('/assets/archia-semibold.ttf')  format('truetype'),
-         url('/assets/archia-bold.ttf')  format('truetype');
+    src: 
+      url('/src/fonts/archia-regular.eot'),
+      url('/src/fonts/archia-medium.eot'),
+      url('/src/fonts/archia-semibold.eot'),
+      url('/src/fonts/archia-bold.eot');
+    src: 
+      url('/src/fonts/archia.woff2') format('woff2'),
+      url('/src/fonts/archia.woff') format('woff'),
+      url('/src/fonts/archia-regular.ttf')  format('truetype'),
+      url('/src/fonts/archia-medium.ttf')  format('truetype'),
+      url('/src/fonts/archia-semibold.ttf')  format('truetype'),
+      url('/src/fonts/archia-bold.ttf')  format('truetype')
+      url('/src/fonts/archia-regular.svg#archia-regular')  format('svg'),
+      url('/src/fonts/archia-medium.svg#archia-medium')  format('svg'),
+      url('/src/fonts/archia-semibold.svg#archia-semibold')  format('svg'),
+      url('/src/fonts/archia-bold.svg#archia-bold')  format('svg');
     font-weight: normal;
     font-style: normal;
 }
