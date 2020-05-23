@@ -1,18 +1,26 @@
 [
     {
         "id": 0,
-        "img": "https://res.cloudinary.com/kejk/image/upload/v1590261348/CMC_ukz4wj.png"
+        "img": "https://res.cloudinary.com/kejk/image/upload/v1590265082/CMC_cvaera.png"
     },
     {
         "id": 1,
-        "img": "https://res.cloudinary.com/kejk/image/upload/v1590261349/CMC-1_vxvyln.png"
+        "img": "https://res.cloudinary.com/kejk/image/upload/v1590265082/CMC-1_pxggsu.png"
     },
     {
         "id": 2,
-        "img": "https://res.cloudinary.com/kejk/image/upload/v1590261349/CMC-2_gojho4.png"
+        "img": "https://res.cloudinary.com/kejk/image/upload/v1590265055/CMC_tmgd1c.png"
     },
     {
         "id": 3,
-        "img": "https://res.cloudinary.com/kejk/image/upload/v1590261348/CMC-3_cb2srt.png"
+        "img": "https://res.cloudinary.com/kejk/image/upload/v1590265053/CMC-1_lug6rr.png"
+    },
+    {
+        "id": 4,
+        "img": "https://res.cloudinary.com/kejk/image/upload/v1590265053/CMC-2_y4r2nq.png"
+    },
+    {
+        "id": 5,
+        "img": "https://res.cloudinary.com/kejk/image/upload/v1590265054/CMC-3_at5irz.png"
     }
 ]

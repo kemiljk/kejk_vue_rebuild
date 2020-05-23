@@ -22,9 +22,13 @@
             <p><em>3 hours.</em></p>
           </v-col>
         </v-row>
-
         <h3 class="mb-4">Feature selection</h3>
         <p class="mb-4">Microsoft Azure DevOps – the contextual nature of the mysterious plus symbol at the top of the vertical side navigation.</p>
+        <v-row class="text-left">
+          <v-col v-for="image in images.slice(0, 2)" :key="`${image.id}`" cols="12">
+            <v-img :src="`${image.img}`" class="img" />
+          </v-col>
+        </v-row>
         <h4 class="mb-4">My process</h4>
         <p class="mb-4">The current plus button has a consistent but confusing behaviour that often leads to a lot of forgetfulness on how to access the features hidden behind it. This is an ongoing issue across my current team at NeuerEnergy. The button also doesn’t provide any simple queues or affordances to explain its featureset to a user, particularly a new user.</p>
         <h4 class="mb-4">Expectation</h4>
@@ -44,7 +48,7 @@
       </v-col>
     </v-row>
     <v-row class="text-left">
-      <v-col v-for="image in images" :key="`${image.id}`" cols="12">
+      <v-col v-for="image in images.slice(2, 6)" :key="`${image.id}`" cols="12">
         <v-img :src="`${image.img}`" class="img" />
       </v-col>
     </v-row>

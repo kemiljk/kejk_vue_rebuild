@@ -1,10 +1,18 @@
 [
     {
         "id": 0,
-        "img": "https://res.cloudinary.com/kejk/image/upload/v1590259516/Stint_axhrk5.png"
+        "img": "https://res.cloudinary.com/kejk/image/upload/v1590263896/Stint_amo6zf.png"
     },
     {
         "id": 1,
+        "img": "https://res.cloudinary.com/kejk/image/upload/v1590263897/Stint-1_x7kznk.png"
+    },
+    {
+        "id": 2,
+        "img": "https://res.cloudinary.com/kejk/image/upload/v1590259516/Stint_axhrk5.png"
+    },
+    {
+        "id": 3,
         "img": "https://res.cloudinary.com/kejk/image/upload/v1590259517/Stint-1_jlep2m.png"
     }
 ]

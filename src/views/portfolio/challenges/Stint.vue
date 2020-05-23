@@ -20,10 +20,15 @@
           <v-col cols="12" sm="2">
             <h3 class="mb-4 mt-8">Time</h3>
             <p><em>6 hours.</em></p>
-            
+
           </v-col>
         </v-row>
-
+        <h3 class="mb-4">The current design</h3>
+        <v-row class="text-left">
+          <v-col v-for="image in images.slice(0, 2)" :key="`${image.id}`" cols="12">
+            <v-img :src="`${image.img}`" class="img" />
+          </v-col>
+        </v-row>
         <h4 class="mb-4">My process</h4>
         <p class="mb-4">This challenge involved entirely reimagining the approval process of Stints for businesses to increase the rating/approval process</p>
         <ul>
@@ -42,7 +47,7 @@
       </v-col>
     </v-row>
     <v-row class="text-left">
-      <v-col v-for="image in images" :key="`${image.id}`" cols="12">
+      <v-col v-for="image in images.slice(2, 4)" :key="`${image.id}`" cols="12">
         <v-img :src="`${image.img}`" class="img" />
       </v-col>
     </v-row>
