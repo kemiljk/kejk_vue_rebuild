@@ -6,7 +6,11 @@ $line-height-root: 1.75;
 @font-face {
     font-family: 'Archia';
     src: url('/assets/archia.woff2') format('woff2'),
-         url('/assets/archia.woff') format('woff');
+         url('/assets/archia.woff') format('woff'),
+         url('/assets/archia-regular.ttf')  format('truetype'),
+         url('/assets/archia-medium.ttf')  format('truetype'),
+         url('/assets/archia-semibold.ttf')  format('truetype'),
+         url('/assets/archia-bold.ttf')  format('truetype');
     font-weight: normal;
     font-style: normal;
 }
