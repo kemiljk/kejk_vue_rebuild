@@ -28,7 +28,7 @@
         </v-btn>
       </v-col>
     </v-row>
-    <v-row class="mt-3 mb-5">
+    <v-row class="mt-3 mb-10">
       <v-col v-for="project in projects" :key="`${project.id}`" cols="12" sm="6">
         <Projects :project="project" class="justify-center" />
       </v-col>

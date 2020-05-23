@@ -21,11 +21,18 @@
           <v-icon class="mr-2 white--text" small>mdi-github</v-icon>TrueLayer Press Page
           <v-icon class="ml-2 white--text" small>mdi-open-in-new</v-icon>
         </v-btn>
-        <h3 class="mb-4 mt-8">What was the challenge?</h3>
-        <p>We would like you to create a new static page for our website called "Press".</p>
-
+        <v-row>
+          <v-col cols="12" sm="10">
+            <h3 class="mb-4 mt-8">What was the challenge?</h3>
+            <p>We would like you to create a new static page for our website called "Press".</p>
+          </v-col>
+          <v-col cols="12" sm="2">
+            <h3 class="mb-4 mt-8">Time</h3>
+            <p><em>10 hours.</em></p>
+          </v-col>
+        </v-row>
         <h4 class="mb-4">My process</h4>
-        <p>This challenge involved created the page with no mockups provided, no access to source code and simply a brand guidelines PDF to work from.</p>
+        <p>This challenge involved creating the page with no mockups provided, no access to source code and simply a brand guidelines PDF to work from.</p>
         <h4 class="mt-4">Wayfinding/Research/References:</h4>
         <ul>
           <li>I chose to reference a non-exhaustive list of press pages and news organisations to help influence structuring of the page</li>
@@ -45,6 +52,15 @@
           <li>Once this was done, I could build the relevant blocks up inline, following the TrueLayer styleguide as best as I could from inspecting source and reviewing the CSS files</li>
           <li>Finally, once I had a clear structure and all blocks and classes in place, I could go about creating the custom classes I needed and designing some bespoke illustrations</li>
         </ul>
+      </v-col>
+    </v-row>
+    <v-row class="text-left">
+      <v-col v-for="image in images" :key="`${image.id}`" cols="12">
+        <v-img :src="`${image.img}`" class="img" />
+      </v-col>
+    </v-row>
+    <v-row class="text-left">
+      <v-col cols="12">
         <h3 id="main-content" class="mt-4 mb-2">Main content</h3>
         <h4 id="article-hero">Article hero</h4>
         <ul>
@@ -105,11 +121,6 @@
         </ul>
       </v-col>
     </v-row>
-    <v-row class="text-left">
-      <v-col v-for="image in images" :key="`${image.id}`" cols="12">
-        <v-img :src="`${image.img}`" class="img" />
-      </v-col>
-    </v-row>
   </v-container>
 </template>
 
@@ -122,7 +133,7 @@ export default {
     return {
       images: truelayerImages,
       hero:
-        "https://res.cloudinary.com/kejk/image/upload/v1590253047/bright-office-enviroment-with-macbook-air_uwt4w7.png"
+        "https://res.cloudinary.com/kejk/image/upload/v1590262028/front-view-of-dell-display-on-white-table_utzls0.jpg"
     };
   }
 };
