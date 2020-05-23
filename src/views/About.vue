@@ -149,19 +149,15 @@
         <h3 class="mb-3">Make Me A Cocktail</h3>
         <p
           class="body-1"
-        >
-          I'm the Chief Designer for Make Me A Cocktail. We're currently in the process of redesigning and rebuilding the site from the ground up but many of my designs are now implemented across the core screens.
-        </p>
+        >I'm the Chief Designer for Make Me A Cocktail. We're currently in the process of redesigning and rebuilding the site from the ground up but many of my designs are now implemented across the core screens.</p>
       </v-col>
       <v-col class="mb-3 py-0" cols="12" sm="6" md="4" lg="4">
-       <v-card href="https://www.lazypdf.tech" target="_blank" rel="noreferrer" class="mb-3">
+        <v-card href="https://www.lazypdf.tech" target="_blank" rel="noreferrer" class="mb-3">
           <v-img alt="Lazy PDF logo visual" src="../assets/lazyPDF.webp" />
           <v-card-title class="subtitle-1">
             Lazy PDF
             <v-spacer />
-            <v-icon class="ml-4">
-              mdi-open-in-new
-            </v-icon>
+            <v-icon class="ml-4">mdi-open-in-new</v-icon>
           </v-card-title>
         </v-card>
       </v-col>
@@ -169,9 +165,7 @@
         <h3 class="mb-3">Lazy PDF</h3>
         <p
           class="body-1"
-        >
-          A free interfaceless macOS utility that allows you to effortlessly create a PDF from a set of selected images.
-        </p>
+        >A free interfaceless macOS utility that allows you to effortlessly create a PDF from a set of selected images.</p>
       </v-col>
     </v-row>
     <v-divider />
@@ -271,11 +265,11 @@
         <p class="body-1">
           The font rendered throughout is
           <a
-            href="https://tribby.com/fonts/barlow/"
+            href="http://atipofoundry.com/fonts/archia"
             target="_blank"
             rel="noreferrer"
             class="teal--text"
-          >Barlow</a> by Jeremy Tribby. Many thanks to him for making it available open-source.
+          >Archia</a> by Atipo.
         </p>
         <p
           class="body-1"

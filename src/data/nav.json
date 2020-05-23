@@ -14,10 +14,10 @@
     "extTrue": true
   },
   {
-  "id": 3,
-  "label": "Login",
-  "url": "/login",
-  "ext": "",
-  "extTrue": false
+    "id": 3,
+    "label": "Login",
+    "url": "/login",
+    "ext": "",
+    "extTrue": false
   }
 ]

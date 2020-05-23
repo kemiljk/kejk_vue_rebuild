@@ -7,6 +7,7 @@
           class="display font-weight-bold mb-3 mt-10"
           aria-label="Karl's projects"
         >A sample collection of my work.</h2>
+        <p>You can see some work in progress projects on my Dribbble account. All portfolio pieces here are finished projects or based on my current employment.</p>
         <v-btn
           ref="noreferrer"
           color="teal"
@@ -15,6 +16,15 @@
           target="_blank"
         >
           <v-icon class="mr-2 white--text" small>mdi-file-document-outline</v-icon>Résumé
+        </v-btn>
+        <v-btn
+          ref="noreferrer"
+          color="pink"
+          href="http://_kejk.dribbble.com/"
+          class="mt-4 ml-4 white--text"
+          target="_blank"
+        >
+          <v-icon class="mr-2 white--text" small>mdi-basketball</v-icon>Dribbble
         </v-btn>
       </v-col>
     </v-row>
