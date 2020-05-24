@@ -40,7 +40,6 @@
         <p class="mb-4">Version 4 offers a new paradigm whilst also maintaining some behaviour from the existing approach. This ensures that the mental models developed by current users aren’t greatly impacted by the changes and that equally, the experience is both consistent and better.</p>
         <p>One of the fundamentally important aspects for me is that it follows the mantra of ‘less, but better’. One that I swear by in both life and in design.</p>
         <p>I also chose to promote some page-level features up to this new nav to make them more accessible. This includes any other “create new” functions that were top level on the page but not surfaced in the original nav. This provides consistency of experience.</p>
-        <p>Please note: The prototype showcases functionality end-to-end for adding a new Work Item inside the Boards menu. If you hover on this menu item and click the plus icon for a new Work Item, you’ll get a modal to add a new item. You’ll see from this also that the top navigation breadcrumb menu contains a clear view of where you are and where you’ve been.</p>
       </v-col>
     </v-row>
     <v-row class="text-left">
