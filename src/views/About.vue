@@ -86,7 +86,16 @@
       <v-col cols="12" lg="8" md="8" sm="6">
         <p
           class="body-1"
-        >If you would like to see my portfolio or CV, you can request access by clicking the request access card. Due to the sensitivity of the projects I've worked on, I'm not permitted to list them here so I'll provide you with login access as required.</p>
+        >If you would like to see my portfolio or CV, you can request access by clicking the request access card. Due to the sensitivity of the projects I've worked on, I'm not permitted to list them here. You can see some of my other work in progess via Dribbble.</p>
+        <v-btn
+          ref="noreferrer"
+          color="pink"
+          href="http://_kejk.dribbble.com/"
+          class="mt-4 ml-4 white--text"
+          target="_blank"
+        >
+          <v-icon class="mr-2 white--text" small>mdi-basketball</v-icon>Dribbble
+        </v-btn>
       </v-col>
       <v-col class="mb-3 py-0" cols="12" sm="6" md="4" lg="4">
         <v-card href="https://calendly.com/kejk/60min" target="_blank" rel="noreferrer">
