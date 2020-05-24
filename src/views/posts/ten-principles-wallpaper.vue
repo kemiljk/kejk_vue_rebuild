@@ -29,7 +29,12 @@
             target="_blank"
             rel="noreferrer"
             class="teal--text"
-          >Archia</a> by Atipo that I wanted to reimagine for the digital screen as a reminder of the principles. This allowed me to have a constant reminder to ensure my designs are always refined and focus on delivering maximum value in a minimal form.</p>
+          >Archia</a> by Atipo (I believe it might be <a
+            href="https://fonts.google.com/specimen/Space+Mono?query=space+m"
+            target="_blank"
+            rel="noreferrer"
+            class="teal--text"
+          >Space Mono</a> by Colophon) that I wanted to reimagine for the digital screen as a reminder of the principles. This allowed me to have a constant reminder to ensure my designs are always refined and focus on delivering maximum value in a minimal form.</p>
         <p>I've made this wallpaper available to download in three sizes for mobile, tablet and desktop. You can grab them below. In my version, I've set this in Archia.</p>
       </v-col>
       <v-btn
