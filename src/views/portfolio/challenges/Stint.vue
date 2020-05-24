@@ -8,19 +8,14 @@
         <v-img :src="`${hero}`" class="mt-10 img cropped" alt="Stint website page" />
         <h1 class="display-2 font-weight-bold mb-3 mt-10">Stint design challenge.</h1>
         <h2 class="headline mb-3 mt-2">Redesign our rating feature</h2>
-      </v-col>
-    </v-row>
-    <v-row class="text-left">
-      <v-col cols="12">
-        <v-row>
+        <v-row class="mb-4 mt-8 text-left">
           <v-col cols="12" sm="10">
-            <h3 class="mb-4 mt-8">What was the challenge?</h3>
+            <h3>What was the challenge?</h3>
             <p>We would like you to make is as quick as possible for businesses to rate 'Stints'.</p>
           </v-col>
           <v-col cols="12" sm="2">
-            <h3 class="mb-4 mt-8">Time</h3>
+            <h3>Time</h3>
             <p><em>6 hours.</em></p>
-
           </v-col>
         </v-row>
         <h3 class="mb-4">The current design</h3>

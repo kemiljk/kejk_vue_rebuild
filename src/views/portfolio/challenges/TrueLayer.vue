@@ -21,13 +21,13 @@
           <v-icon class="mr-2 white--text" small>mdi-github</v-icon>TrueLayer Press Page
           <v-icon class="ml-2 white--text" small>mdi-open-in-new</v-icon>
         </v-btn>
-        <v-row>
+        <v-row class="mb-4 mt-8">
           <v-col cols="12" sm="10">
-            <h3 class="mb-4 mt-8">What was the challenge?</h3>
+            <h3>What was the challenge?</h3>
             <p>We would like you to create a new static page for our website called "Press".</p>
           </v-col>
           <v-col cols="12" sm="2">
-            <h3 class="mb-4 mt-8">Time</h3>
+            <h3>Time</h3>
             <p><em>10 hours.</em></p>
           </v-col>
         </v-row>
@@ -133,7 +133,7 @@ export default {
     return {
       images: truelayerImages,
       hero:
-        "https://res.cloudinary.com/kejk/image/upload/v1590262028/front-view-of-dell-display-on-white-table_utzls0.jpg"
+        "https://res.cloudinary.com/kejk/image/upload/v1590341602/ipad-pro-on-blue-background-landscape-shadow-2_h08abg.jpg"
     };
   }
 };
