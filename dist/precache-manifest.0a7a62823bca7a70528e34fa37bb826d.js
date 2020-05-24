@@ -80,7 +80,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/browserconfig.xml"
   },
   {
-    "revision": "e11df2078a337edef3ba",
+    "revision": "a79987b1228b7f3a248f",
     "url": "/css/app.css"
   },
   {
@@ -220,7 +220,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/img/mmac.webp"
   },
   {
-    "revision": "16278262a151ad6e4a3fbe1e8bccd443",
+    "revision": "38d6fb48b56672d05178cfd6ef75bbf9",
     "url": "/img/portfolio.webp"
   },
   {
@@ -228,7 +228,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/index.html"
   },
   {
-    "revision": "e11df2078a337edef3ba",
+    "revision": "a79987b1228b7f3a248f",
     "url": "/js/app.js"
   },
   {
