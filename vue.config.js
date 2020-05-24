@@ -4,7 +4,7 @@ module.exports = {
   "transpileDependencies": [
     "vuetify"
   ],
-  
+
   lintOnSave: true,
   filenameHashing: false,
   chainWebpack: config => {
