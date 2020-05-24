@@ -24,46 +24,51 @@
             class="teal--text"
           >Kickstarter.</a>
         </p>
-        <p>One of the perks was to get a letterpress of the ten principles on card. This was set in a beautiful monospace font that I wanted to reimagine for the digital screen as a reminder of the principles. This allowed me to have a constant reminder to ensure my designs are always refined and focus on delivering maximum value in a minimal form.</p>
-        <p>I've made this wallpaper available to download in three sizes for mobile, tablet and desktop. You can grab them below.</p>
+        <p>One of the perks was to get a letterpress of the ten principles on card. This was set in a beautiful font close to <a
+            href="http://atipofoundry.com/fonts/archia"
+            target="_blank"
+            rel="noreferrer"
+            class="teal--text"
+          >Archia</a> by Atipo that I wanted to reimagine for the digital screen as a reminder of the principles. This allowed me to have a constant reminder to ensure my designs are always refined and focus on delivering maximum value in a minimal form.</p>
+        <p>I've made this wallpaper available to download in three sizes for mobile, tablet and desktop. You can grab them below. In my version, I've set this in Archia.</p>
       </v-col>
       <v-btn
         color="teal"
         class="ml-2 mb-4"
-        href="https://res.cloudinary.com/kejk/raw/upload/v1587501020/Rams-Ten-Principles-Wallpapers_z2yut7.zip"
+        href="https://res.cloudinary.com/kejk/raw/upload/v1590345921/Rams_Ten_Principles_Wallpapers_god3jk.zip"
       >
         Download all
         <v-icon class="ml-2">mdi-download</v-icon>
       </v-btn>
       <v-col cols="12">
         <a
-          href="https://res.cloudinary.com/kejk/image/upload/v1587500606/Desktop_k8cevn.png"
+          href="https://res.cloudinary.com/kejk/image/upload/v1590345853/Desktop_bwwsio.png"
           target="_blank"
         >
           <v-img
-            src="https://res.cloudinary.com/kejk/image/upload/v1587500606/Desktop_k8cevn.png"
+            src="https://res.cloudinary.com/kejk/image/upload/v1590345853/Desktop_bwwsio.png"
             class="img"
           />
         </a>
       </v-col>
       <v-col cols="6">
         <a
-          href="https://res.cloudinary.com/kejk/image/upload/v1587500605/iPhone_nqp4ev.png"
+          href="https://res.cloudinary.com/kejk/image/upload/v1590345851/iPhone_uu2rlk.png"
           target="_blank"
         >
           <v-img
-            src="https://res.cloudinary.com/kejk/image/upload/v1587500605/iPhone_nqp4ev.png"
+            src="https://res.cloudinary.com/kejk/image/upload/v1590345851/iPhone_uu2rlk.png"
             class="img"
           />
         </a>
       </v-col>
       <v-col cols="6">
         <a
-          href="https://res.cloudinary.com/kejk/image/upload/v1587500606/iPad_qnpful.png"
+          href="https://res.cloudinary.com/kejk/image/upload/v1590345852/iPad_uh3sg1.png"
           target="_blank"
         >
           <v-img
-            src="https://res.cloudinary.com/kejk/image/upload/v1587500606/iPad_qnpful.png"
+            src="https://res.cloudinary.com/kejk/image/upload/v1590345852/iPad_uh3sg1.png"
             class="img"
           />
         </a>
