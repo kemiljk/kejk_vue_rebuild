@@ -114,7 +114,7 @@
         </ul>
         <ul class="body-1 mb-6">
           <li class="mb-3">
-            <a href="https://hyper.is" target="_blank" rel="noreferrer" class="teal--text">Hyper</a> is my terminal of choice with Operator set as my font of choice as well as some custom colour rules.
+            <a href="https://hyper.is" target="_blank" rel="noreferrer" class="teal--text">Hyper</a> is my terminal of choice with JetBrains Mono set as my font of choice as well as some custom colour rules.
           </li>
         </ul>
         <ul class="body-1 mb-6">
