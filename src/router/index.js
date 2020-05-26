@@ -50,6 +50,11 @@ const routes = [
     component: () => import('../views/Portfolio.vue')
   },
   {
+    path: '/public-projects',
+    name: 'Public Projects',
+    component: () => import('../views/PublicProjects.vue')
+  },
+  {
     path: '/lazy-pdf',
     name: 'Lazy PDF',
     component: () => import('../views/LazyPDF.vue')

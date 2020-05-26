@@ -3,24 +3,56 @@
         "id": 1,
         "title": "NeuerEnergy product development",
         "url": "/portfolio/neuerenergy",
-        "img": "https://res.cloudinary.com/kejk/image/upload/v1586968508/NeuerEnergy_1_cm7cmo.png"
-    },
-    {
-        "id": 3,
-        "title": "Make Me A Cocktail website",
-        "url": "/portfolio/make-me-a-cocktail",
-        "img": "https://res.cloudinary.com/kejk/image/upload/v1585330459/MMAC_2_vbym6l.png"
+        "img": "https://res.cloudinary.com/kejk/image/upload/v1586968508/NeuerEnergy_1_cm7cmo.png",
+        "ext": "",
+        "extTrue": false
     },
     {
         "id": 2,
+        "title": "Make Me A Cocktail website",
+        "url": "/portfolio/make-me-a-cocktail",
+        "img": "https://res.cloudinary.com/kejk/image/upload/v1585330459/MMAC_2_vbym6l.png",
+        "ext": "",
+        "extTrue": false
+    },
+    {
+        "id": 3,
         "title": "Duchenne and Me app",
         "url": "/portfolio/duchenne-and-me",
-        "img": "https://res.cloudinary.com/kejk/image/upload/v1585330461/D_Me_1_nmyck1.png"
+        "img": "https://res.cloudinary.com/kejk/image/upload/v1585330461/D_Me_1_nmyck1.png",
+        "ext": "",
+        "extTrue": false
+    },
+    {
+        "id": 4,
+        "title": "Dyed app",
+        "url": "/portfolio/santen-dyed",
+        "img": "https://res.cloudinary.com/kejk/image/upload/v1585330460/DyeD_1_o7cnx2.png",
+        "ext": "",
+        "extTrue": false
     },
     {
         "id": 5,
-        "title": "Dyed app",
-        "url": "/portfolio/santen-dyed",
-        "img": "https://res.cloudinary.com/kejk/image/upload/v1585330460/DyeD_1_o7cnx2.png"
+        "title": "Livery Management System rebuild",
+        "url": "https://dribbble.com/shots/11616408-LMS-Individual-user-management",
+        "img": "https://cdn.dribbble.com/users/252548/screenshots/11616408/media/47784864c00ff7310471e1bd6b97c411.png",
+        "ext": "_blank",
+        "extTrue": true
+    },
+    {
+        "id": 7,
+        "title": "Make Me A Cocktail app",
+        "url": "https://dribbble.com/_kejk/projects/2135484-Make-Me-A-Cocktail",
+        "img": "https://cdn.dribbble.com/users/252548/screenshots/11585601/dribbble_shot_4x.png?compress=1&resize=1200x900",
+        "ext": "_blank",
+        "extTrue": true
+    },
+    {
+        "id": 6,
+        "title": "The Big Small Shop redesign",
+        "url": "https://dribbble.com/_kejk/projects/2135493-The-Big-Small-Shop-Redesign",
+        "img": "https://cdn.dribbble.com/users/252548/screenshots/11611729/tbss_screen.png",
+        "ext": "_blank",
+        "extTrue": true
     }
 ]

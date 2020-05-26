@@ -86,12 +86,20 @@
       <v-col cols="12" lg="8" md="8" sm="6">
         <p
           class="body-1"
-        >If you would like to see my portfolio or CV, you can request access by clicking the request access card. Due to the sensitivity of the projects I've worked on, I'm not permitted to list them here. You can see some of my other work in progess via Dribbble.</p>
+        >If you would like to see my portfolio or CV, you can request access by clicking the request access card. Due to the sensitivity of the projects I've worked on, I'm not permitted to list them here. You can see some of my other work in progess via the public access projects or my Dribbble.</p>
+        <v-btn
+          ref="noreferrer"
+          color="orange"
+          to="/public-projects"
+          class="mt-2 mb-4 black--text" 
+        >
+          <v-icon class="mr-2 black--text" small>mdi-pencil-ruler</v-icon>Public Projects
+        </v-btn>
         <v-btn
           ref="noreferrer"
           color="pink"
           href="http://_kejk.dribbble.com/"
-          class="mt-2 mb-4 white--text"
+          class="mt-2 ml-4 mb-4 white--text"
           target="_blank"
         >
           <v-icon class="mr-2 white--text" small>mdi-basketball</v-icon>Dribbble
