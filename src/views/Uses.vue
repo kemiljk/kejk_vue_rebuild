@@ -2,6 +2,11 @@
   <v-container>
     <v-row class="text-left">
       <v-col class="mb-4">
+            <v-btn @click="$router.go(-1)" outlined>
+          <v-icon class="mr-2">
+            mdi-chevron-left
+          </v-icon>Back
+        </v-btn>
         <h1 class="display-2 font-weight-bold mb-12 mt-10">/Uses.</h1>
         <p
           class="body-1 mb-3"
