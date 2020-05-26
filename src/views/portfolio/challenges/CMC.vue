@@ -37,7 +37,7 @@
         <h4 class="mb-4">A new reality</h4>
         <p class="mb-4">Context is king, so whilst all four options focus on greater contextual awareness, the solution in Version 4 is the one that I’m choosing to develop further.</p>
         <h4 class="mb-4">Rationale</h4>
-        <p class="mb-4">Version 4 offers a new paradigm whilst also maintaining some behaviour from the existing approach. This ensures that the mental models developed by current users aren’t greatly impacted by the changes and that equally, the experience is both consistent and better.</p>
+        <p class="mb-4">This approach offers a new paradigm whilst also maintaining some behaviour from the existing approach. This ensures that the mental models developed by current users aren’t greatly impacted by the changes and that equally, the experience is both consistent and better.</p>
         <p>One of the fundamentally important aspects for me is that it follows the mantra of ‘less, but better’. One that I swear by in both life and in design.</p>
         <p>I also chose to promote some page-level features up to this new nav to make them more accessible. This includes any other “create new” functions that were top level on the page but not surfaced in the original nav. This provides consistency of experience.</p>
       </v-col>
