@@ -47,6 +47,12 @@
         <v-img :src="`${image.img}`" class="img" />
       </v-col>
     </v-row>
+    <v-row class="d-sm-none d-md-flex">
+        <h3 class="ml-3 mt-4">Prototype built in Figma</h3>
+      <v-col cols="12">
+        <iframe style="border: 1px solid rgba(0, 0, 0, 0.1); border-radius:8px;" width="890" height="650" src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2FJAgQ0W58e62GIcegDdP6xZ%2FCMC-Task%3Fnode-id%3D7%253A572%26viewport%3D482%252C180%252C0.16739873588085175%26scaling%3Dmin-zoom%26hotspot-hints%3D0&chrome=DOCUMENTATION" allowfullscreen></iframe>
+      </v-col>
+    </v-row>
   </v-container>
 </template>
 
