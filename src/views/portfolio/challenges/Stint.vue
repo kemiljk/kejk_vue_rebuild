@@ -25,9 +25,9 @@
           </v-col>
         </v-row>
         <h4 class="mb-4">My process</h4>
-        <p class="mb-4">This challenge involved entirely reimagining the approval process of Stints for businesses to increase the rating/approval process</p>
+        <p class="mb-4">This challenge involved entirely reimagining the approval process of Stints for businesses, to increase the rating/approval process</p>
         <ul>
-          <li>my focus was on trying to simplify the journey of rating multiple users from a given day without having to dig into each one individually. I wanted to begin a page earlier than stated in the brief as I felt that it enabled a much more effecient way to bulk review a set of stints for a given date.</li>
+          <li>My initial focus was on trying to simplify the journey of rating multiple users from a given day without having to dig into each one individually. I wanted to begin a page earlier than stated in the brief as I felt that it enabled a much more effecient way to bulk review a set of stints for a given date.</li>
           <li>The calendar at the top of the first view now shows, with a maximum of 8, how many stints happened on a given day. This plays nicely when viewed as a full calendar view for quick assessment.</li>
           <li>The rating in this example focuses on overall star rating as this feels like the most important value to capture about every stint as it enables a high level picture of how good the student is. The employer is now also able to easily rate all Stints for that date as the same rating, so at a high level, at least each student receives a score.</li>
           <li>By default, 3 cards are shown for a date to maximise space whilst also ensuring quick rating and provide a little more information about a given user than the current implementation.</li>
