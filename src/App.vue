@@ -15,7 +15,7 @@
         <router-view />
       </v-responsive>
     </v-content>
-    <v-footer app>
+    <v-footer app color="transparent">
       <v-col class="text-left" cols="12">
         <v-row justify="end" no-gutters>
           <v-speed-dial v-model="fab" absolute bottom right alt="Contact Karl">
@@ -85,10 +85,6 @@
             </v-btn>
           </v-speed-dial>
         </v-row>
-        <strong>
-          Made with
-          <v-icon>mdi-vuejs</v-icon>&nbsp;in London.
-        </strong>
       </v-col>
     </v-footer>
   </v-app>
