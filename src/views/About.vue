@@ -104,7 +104,7 @@
         >
           <v-icon class="mr-2 white--text" small>mdi-basketball</v-icon>Dribbble
         </v-btn>
-      </v-col>
+      </v-col><!-- 
       <v-col class="mb-3 py-0" cols="12" sm="6" md="4" lg="4">
         <v-card href="https://calendly.com/kejk/60min" target="_blank" rel="noreferrer">
           <v-img alt="Calendar visual" src="../assets/calendly.webp" />
@@ -126,7 +126,7 @@
           <li>Minimalism, meditation, mindfulness</li>
           <li>Guitars, metal or post rock</li>
         </ul>
-      </v-col>
+      </v-col> -->
     </v-row>
     <v-row class="text-left">
       <v-col cols="12">
@@ -151,8 +151,13 @@
     <v-row class="text-left">
       <v-col cols="12" aria-label="Karl's other interests">
         <h2 class="display font-weight-bold mb-3 mt-6">On the side.</h2>
+        <p
+          class="body-1"
+        >
+          In my downtime I lead design at  <strong>Make Me A Cocktail</strong> and have released both a Figma plugin and a standalone macOS app. <strong>Px ›› Em</strong> is a plugin for Figma that converts either a text selection or an entered value from <code>pixels</code> to the related <code>em</code> value.  <strong>Lazy PDF</strong> is a free interfaceless macOS utility that allows you to effortlessly create a PDF from a set of selected images.
+        </p>
       </v-col>
-      <v-col class="mb-3 py-0" cols="12" sm="6" md="4" lg="4">
+      <v-col class="mb-3 py-0" cols="12" md="4">
         <v-card href="https://www.makemeacocktail.com/" target="_blank" rel="noreferrer">
           <v-img alt="Make Me A Cocktail visual" src="../assets/mmac.webp" />
           <v-card-title class="subtitle-1">
@@ -162,27 +167,26 @@
           </v-card-title>
         </v-card>
       </v-col>
-      <v-col cols="12" lg="8" md="8" sm="6">
-        <h3 class="mb-3">Make Me A Cocktail</h3>
-        <p
-          class="body-1"
-        >I'm the Chief Designer for Make Me A Cocktail. We're currently in the process of redesigning and rebuilding the site from the ground up but many of my designs are now implemented across the core screens.</p>
-      </v-col>
-      <v-col class="mb-3 py-0" cols="12" sm="6" md="4" lg="4">
-        <v-card href="https://www.lazypdf.tech" target="_blank" rel="noreferrer" class="mb-3">
-          <v-img alt="Lazy PDF logo visual" src="../assets/lazyPDF.webp" />
+      <v-col class="mb-3 py-0" cols="12" md="4">
+        <v-card href="https://www.figma.com/community/plugin/837070613195594890/Px-%E2%80%BA%E2%80%BA-Em" target="_blank" rel="noreferrer" class="mb-3">
+          <v-img alt="Lazy PDF logo visual" src="../assets/px2em.webp" />
           <v-card-title class="subtitle-1">
-            Lazy PDF
+            Px ›› Em Figma Plugin
             <v-spacer />
             <v-icon class="ml-4">mdi-open-in-new</v-icon>
           </v-card-title>
         </v-card>
       </v-col>
-      <v-col cols="12" lg="8" md="8" sm="6">
-        <h3 class="mb-3">Lazy PDF</h3>
-        <p
-          class="body-1"
-        >A free interfaceless macOS utility that allows you to effortlessly create a PDF from a set of selected images.</p>
+      </v-col>
+      <v-col class="mb-3 py-0" cols="12" md="4">
+        <v-card href="https://www.lazypdf.tech" target="_blank" rel="noreferrer" class="mb-3">
+          <v-img alt="Lazy PDF logo visual" src="../assets/lazyPDF.webp" />
+          <v-card-title class="subtitle-1">
+            Lazy PDF app
+            <v-spacer />
+            <v-icon class="ml-4">mdi-open-in-new</v-icon>
+          </v-card-title>
+        </v-card>
       </v-col>
     </v-row>
     <v-divider />

@@ -63,6 +63,16 @@
             </v-btn>
             <v-btn
               fab
+              small
+              color="#f24e1d"
+              href="https://www.figma.com/@_kejk"
+              target="_blank"
+              alt="Karl's Figma"
+            >
+            <img src="../src/assets/figma.svg" alt="Figma icon" />
+            </v-btn>
+            <v-btn
+              fab
               dark
               small
               color="blue"
