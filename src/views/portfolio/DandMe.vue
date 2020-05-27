@@ -2,11 +2,14 @@
   <v-container>
     <v-row class="text-left">
       <v-col cols="12">
-       <v-btn @click="$router.go(-1)" outlined>
+        <v-btn 
+          text
+          @click="$router.go(-1)" 
+        >
           <v-icon class="mr-2">
-            mdi-chevron-left
+            mdi-arrow-left
           </v-icon>Back
-        </v-btn>
+        </v-btn>>
         <v-img
           :src="`${hero}`"
           class="mt-10 img"

@@ -1,5 +1,17 @@
 <template>
   <v-container>
+    <v-row class="text-left">
+      <v-col cols="12">
+        <v-btn 
+          text
+          @click="$router.go(-1)" 
+        >
+          <v-icon class="mr-2">
+            mdi-arrow-left
+          </v-icon>Back
+        </v-btn>
+      </v-col>
+    </v-row>
     <v-img
       src="../assets/portfolio.webp"
       class="mt-10 img cropped"

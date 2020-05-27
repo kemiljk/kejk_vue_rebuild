@@ -2,8 +2,13 @@
   <v-container>
     <v-row class="text-left">
       <v-col cols="12">
-       <v-btn @click="$router.go(-1)" outlined>
-          <v-icon class="mr-2">mdi-chevron-left</v-icon>Back
+        <v-btn 
+          text
+          @click="$router.go(-1)" 
+        >
+          <v-icon class="mr-2">
+            mdi-arrow-left
+          </v-icon>Back
         </v-btn>
         <v-img :src="`${hero}`" class="mt-10 img cropped" alt="Stint website page" />
         <h1 class="display-2 font-weight-bold mb-3 mt-10">CMC design challenge.</h1>
