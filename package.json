@@ -17,7 +17,7 @@
     "storage-helper": "^1.4.1",
     "vue": "^2.6.11",
     "vue-material-design-icons": "^4.4.0",
-    "vue-router": "^3.1.5",
+    "vue-router": "^3.3.1",
     "vuelidate": "^0.7.5",
     "vuetify": "^2.2.14"
   },
