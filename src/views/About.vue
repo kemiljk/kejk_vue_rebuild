@@ -168,7 +168,7 @@
         </v-card>
       </v-col>
       <v-col class="mb-3 py-0" cols="12" md="4">
-        <v-card href="https://www.figma.com/community/plugin/837070613195594890/Px-%E2%80%BA%E2%80%BA-Em" target="_blank" rel="noreferrer" class="mb-3">
+        <v-card href="https://www.figma.com/community/plugin/837070613195594890/Px-%E2%80%BA%E2%80%BA-Em" target="_blank" rel="noreferrer">
           <v-img alt="Lazy PDF logo visual" src="../assets/px2em.webp" />
           <v-card-title class="subtitle-1">
             Px ›› Em Figma Plugin
@@ -179,7 +179,7 @@
       </v-col>
       </v-col>
       <v-col class="mb-3 py-0" cols="12" md="4">
-        <v-card href="https://www.lazypdf.tech" target="_blank" rel="noreferrer" class="mb-3">
+        <v-card href="https://www.lazypdf.tech" target="_blank" rel="noreferrer">
           <v-img alt="Lazy PDF logo visual" src="../assets/lazyPDF.webp" />
           <v-card-title class="subtitle-1">
             Lazy PDF app
