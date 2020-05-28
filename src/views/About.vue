@@ -189,7 +189,7 @@
         </v-card>
       </v-col>
     </v-row>
-    <v-divider />
+    <v-divider class="mt-4" />
     <v-row class="ml-1 mr-1">
       <v-col cols="6">
         <h2
