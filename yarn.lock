@@ -11535,10 +11535,10 @@ vue-material-design-icons@^4.4.0:
   resolved "https://registry.yarnpkg.com/vue-material-design-icons/-/vue-material-design-icons-4.6.0.tgz#869068037ac9c24801fdb9916345653d246977de"
   integrity sha512-b0Js/C4WHFnpcuH8goxl0bM7mjuSNClAYvsijUwfMfWXjW663ZvcQj3Int5H9rgRwZjPXPTJVxbFn+4sWJKMVA==
 
-vue-router@^3.1.5:
-  version "3.2.0"
-  resolved "https://registry.yarnpkg.com/vue-router/-/vue-router-3.2.0.tgz#da35195ffe37fdf0bec9f5f8f72781d2a7718815"
-  integrity sha512-khkrcUIzMcI1rDcNtqkvLwfRFzB97GmJEsPAQdj7t/VvpGhmXLOkUfhc+Ah8CvpSXGXwuWuQO+x8Sy/xDhXZIA==
+vue-router@^3.3.2:
+  version "3.3.2"
+  resolved "https://registry.yarnpkg.com/vue-router/-/vue-router-3.3.2.tgz#0099de402edb2fe92f9711053ab5a2156f239cad"
+  integrity sha512-5sEbcfb7MW8mY8lbUVbF4kgcipGXsagkM/X+pb6n0MhjP+RorWIUTPAPSqgPaiPOxVCXgAItBl8Vwz8vq78faA==
 
 vue-sfc-descriptor-to-string@^1.0.0:
   version "1.0.0"
