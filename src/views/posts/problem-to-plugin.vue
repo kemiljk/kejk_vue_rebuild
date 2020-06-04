@@ -60,10 +60,11 @@ export default {
   name: "ProblemToPlugin",
   components: {
     Posts
-    },
-    data() {
+  },
+  data() {
     return {
-      posts: postsData,
+      posts: postsData
     }
+  }
 };
 </script>
