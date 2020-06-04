@@ -47,8 +47,7 @@
           <li>Development of sitemap and information architecture</li>
           <li>Creation of high-fidelity wireframes and prototype in Adobe XD</li>
           <li>Creation of final UI in Adobe XD</li>
-          <li>Creation of prototype in Adobe XD</li>
-          <li>Provision of files to development</li>
+          <li>Provision of files to development and functional documentation</li>
           <li>Some minor frontend development in lit-element/Web Components</li>
         </ul>
         <section aria-label="summary">
