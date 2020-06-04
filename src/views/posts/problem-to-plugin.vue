@@ -57,7 +57,7 @@ import Posts from '../../components/Posts';
 import postsData from "../../data/pxToEmImages.json";
 
 export default {
-  name: "ProblemToPlugin"
+  name: "ProblemToPlugin",
   components: {
     Posts
     },
