@@ -43,27 +43,23 @@
           <li>Change the scale by which you want to convert based on common scales used</li>
         </ul>
       </v-col>
-      <v-row class="mt-3 mb-5">
-      <v-col v-for="post in posts" :key="`${post.id}`" cols="12" sm="6">
-        <Posts :post="post" class="justify-center" />
-      </v-col>
     </v-row>
+    <v-row class="text-left">
+      <v-col v-for="image in images" :key="`${image.id}`" cols="12">
+        <v-img :src="`${image.img}`" class="img" />
+      </v-col>
     </v-row>
   </v-container>
 </template>
 
 <script>
-import Posts from '../../components/Posts';
-import postsData from "../../data/pxToEmImages.json";
+import pxToEmImages from '../../data/pxToEmImages.json';
 
 export default {
   name: "ProblemToPlugin",
-  components: {
-    Posts
-  },
   data() {
     return {
-      posts: postsData
+      images: pxToEmImages,
     }
   }
 };
