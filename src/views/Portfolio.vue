@@ -33,7 +33,7 @@
         <Projects :project="project" class="justify-center" />
       </v-col>
     </v-row>
-   <!--  <v-divider />
+   <v-divider />
     <v-row class="text-left">
       <v-col cols="12">
         <h2
@@ -46,7 +46,7 @@
       <v-col v-for="challenge in challenges" :key="`${challenge.id}`" cols="12" sm="6">
         <Challenges :challenge="challenge" class="justify-center" />
       </v-col>
-    </v-row> -->
+    </v-row>
   </v-container>
 </template>
 
