@@ -25,8 +25,24 @@
     <v-row class="text-left">
       <v-col cols="12">
         <p>As I've mentioned before, I've long had a passion for learning new skills and that's especially true when it comes to picking up new frontend development skills.</p>
-        <p>When I started learning Vue, I chose to utilise the Vuetify library to speed up the process and allow me to focus less on creating CSS and more on learning the necessary JavaScript and language specifics. Using the Vuetify library taught me the basics of working with APIs to leverage specific behaviour.</p>
-        <p>When I moved over to using Figma as my main design tool outside of my day job, I wanted to find ways to make the process of handing over to development easier. Although Figma does a great job of providing CSS directly to a developer, it renders the font sizes as pixels much like any other design tool does.</p>
+        <p>When I started learning <a
+            href="https://www.vuejs.org"
+            target="_blank"
+            class="teal--text"
+          >Vue</a>, I chose to utilise the <a
+            href="https://www.vuetifyjs.com"
+            target="_blank"
+            class="teal--text"
+          >Vuetify</a> library to speed up the process and allow me to focus less on creating CSS and more on learning the necessary JavaScript and language specifics. Using the Vuetify library taught me the basics of working with APIs to leverage specific behaviour.</p>
+        <p>When I moved over to using <a
+            href="https://www.figma.com"
+            target="_blank"
+            class="teal--text"
+          >Figma</a> as my main design tool outside of my day job, I wanted to find ways to make the process of handing over to development easier. Although Figma does a great job of handling <a
+            href="https://www.figma.com/best-practices/guide-to-developer-handoff/"
+            target="_blank"
+            class="teal--text"
+          >developer handoff</a>, it renders the font sizes as pixels much like any other design tool does.</p>
         <p>I was desperate to have an easier way to provide the relevant Rem or Em values to developers (including myself) so that I didn't have to find an online converter or just make up random values to try and find the closest match. And that's how <a
             href="https://www.figma.com/community/plugin/837070613195594890/Px-%E2%80%BA%E2%80%BA-Em"
             target="_blank"
