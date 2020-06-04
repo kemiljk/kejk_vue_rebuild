@@ -25,9 +25,9 @@
     },
     {
         "id": 4,
-        "title": "Dyed app",
-        "url": "/portfolio/santen-dyed",
-        "img": "https://res.cloudinary.com/kejk/image/upload/v1590673776/DyeD_lkencn.png",
+        "title": "Enel predictive maintenance",
+        "url": "/portfolio/enel-battery-storage",
+        "img": "https://res.cloudinary.com/kejk/image/upload/v1585330457/Enel_1_il7vqp.png",
         "ext": "",
         "extTrue": false
     },

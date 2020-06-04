@@ -9,7 +9,7 @@
           <v-icon class="mr-2">
             mdi-arrow-left
           </v-icon>Back
-        </v-btn>>
+        </v-btn>
         <v-img
           :src="`${hero}`"
           class="mt-10 img"
