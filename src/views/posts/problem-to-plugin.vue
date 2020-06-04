@@ -49,7 +49,7 @@
             class="teal--text"
           >Px ›› Em</a> was born.</p>
         <p>Over one evening, I was able to dig into the Figma API documentation, make sense of what was possible and create a basic proof of concept that did what I needed it to do.</p>
-        <p>Over the course of the following few days, I made adjustments and updates to the plugin, enabling some extra functionality for changing the base Px value from the browser default of 16px and also allowing for the conversion ration to be changed based on some common scales (including the Golden Ratio).</p>
+        <p>Over the course of the following few days, I made adjustments and updates to the plugin, enabling some extra functionality for changing the base Px value from the browser default of 16px and also allowing for the conversion ratio to be changed based on some common scales (including the Golden Ratio).</p>
         <p>The core Px ›› Em functionality is:</p>
         <ul>
           <li>Open the plugin without selections to convert any number to ems</li>
