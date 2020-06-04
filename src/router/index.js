@@ -45,6 +45,11 @@ const routes = [
     component: () => import('../views/posts/ten-principles-wallpaper.vue')
   },
   {
+    path: '/posts/problem-to-plugin',
+    name: 'From problem to plugin',
+    component: () => import('../views/posts/problem-to-plugin.vue')
+  },
+  {
     path: '/portfolio',
     name: 'Portfolio',
     component: () => import('../views/Portfolio.vue')
