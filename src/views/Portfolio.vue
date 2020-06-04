@@ -39,7 +39,7 @@
         <h2
           class="display font-weight-bold mb-3 mt-10"
           aria-label="Karl's projects"
-        >Design tasks I've completed.</h2>
+        >Other projects I've completed.</h2>
       </v-col>
     </v-row>
     <v-row class="mt-3 mb-5">
