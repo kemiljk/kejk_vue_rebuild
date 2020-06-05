@@ -35,6 +35,7 @@
             mdi-open-in-new
           </v-icon>
         </v-btn>
+        <p>Installed: <span id="install-count"></span></p>
       </v-col>
     </v-row>
     <v-row class="text-left">
