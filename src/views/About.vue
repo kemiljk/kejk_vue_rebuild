@@ -159,7 +159,7 @@
       </v-col>
       <v-col class="mb-3 py-0" cols="12" md="4">
         <v-card href="https://www.makemeacocktail.com/" target="_blank" rel="noreferrer">
-          <v-img alt="Make Me A Cocktail visual" src="../assets/mmac.webp" />
+          <v-img alt="Make Me A Cocktail visual" src="../assets/mmac.png" />
           <v-card-title class="subtitle-1">
             Make Me A Cocktail
             <v-spacer />
@@ -169,7 +169,7 @@
       </v-col>
       <v-col class="mb-3 py-0" cols="12" md="4">
         <v-card href="https://www.figma.com/community/plugin/837070613195594890/Px-%E2%80%BA%E2%80%BA-Em" target="_blank" rel="noreferrer">
-          <v-img alt="Lazy PDF logo visual" src="../assets/px2em.webp" />
+          <v-img alt="Lazy PDF logo visual" src="../assets/px2em.png" />
           <v-card-title class="subtitle-1">
             Px ›› Em Figma Plugin
             <v-spacer />
@@ -180,7 +180,7 @@
       </v-col>
       <v-col class="mb-3 py-0" cols="12" md="4">
         <v-card href="https://www.lazypdf.tech" target="_blank" rel="noreferrer">
-          <v-img alt="Lazy PDF logo visual" src="../assets/lazyPDF.webp" />
+          <v-img alt="Lazy PDF logo visual" src="../assets/lazyPDF.png" />
           <v-card-title class="subtitle-1">
             Lazy PDF app
             <v-spacer />
