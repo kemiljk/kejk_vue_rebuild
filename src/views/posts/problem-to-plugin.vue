@@ -20,6 +20,21 @@
         >
           Solving a personal problem by winging it.
         </h2>
+        <v-btn
+          ref="noreferrer"
+          color="purple"
+          href="https://www.figma.com/community/plugin/837070613195594890/Px-%E2%80%BA%E2%80%BA-Em"
+          class="mt-2 mb-4 white--text"
+          target="_blank"
+        ><img src="../../../src/assets/figma.svg" alt="Figma icon" style="height: 16px" class="mr-2" />
+          Px ›› Em
+          <v-icon 
+            class="ml-2" 
+            small
+          >
+            mdi-open-in-new
+          </v-icon>
+        </v-btn>
       </v-col>
     </v-row>
     <v-row class="text-left">
