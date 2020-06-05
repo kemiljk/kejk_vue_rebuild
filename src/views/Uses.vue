@@ -10,16 +10,24 @@
             mdi-arrow-left
           </v-icon>Back
         </v-btn>
-        <h1 class="display-2 font-weight-bold mb-12 mt-10">/Uses.</h1>
+        <h1 class="display-2 font-weight-bold mb-12 mt-10">
+          /Uses.
+        </h1>
         <p
           class="body-1 mb-3"
-        >I use a variety of tools to get my work done on a daily basis. Being a designer and frontend developer, I have to switch between two very different but complimentary workflows.</p>
+        >
+          I use a variety of tools to get my work done on a daily basis. Being a designer and frontend developer, I have to switch between two very different but complimentary workflows.
+        </p>
         <p
           class="body-1 mb-3"
-        >As much as possible, I try to integrate these two workflows to reduce cognitive load and improve productivity.</p>
+        >
+          As much as possible, I try to integrate these two workflows to reduce cognitive load and improve productivity.
+        </p>
         <p
           class="body-1 mb-3"
-        >I'm primarily a designer first but I learned the fundamentals of web development by hacking other peoples' MySpace pages back when that was a real thing.</p>
+        >
+          I'm primarily a designer first but I learned the fundamentals of web development by hacking other peoples' MySpace pages back when that was a real thing.
+        </p>
         <p class="body-1 mb-3">
           Now, I'm exploring building frontends in
           <a
@@ -39,11 +47,18 @@
     </v-row>
     <v-divider />
     <v-row class="text-left">
-      <v-col class="mb-4 mt-4" cols="12">
-        <h2 class="display font-weight-bold mb-3">Design.</h2>
+      <v-col
+        class="mb-4 mt-4"
+        cols="12"
+      >
+        <h2 class="display font-weight-bold mb-3">
+          Design.
+        </h2>
         <p
           class="body-1 mb-3"
-        >My design tools are simple and straightforward. I keep it lean and minimal.</p>
+        >
+          My design tools are simple and straightforward. I keep it lean and minimal.
+        </p>
         <ul class="body-1 mb-4">
           <li class="mb-3">
             <a
@@ -82,11 +97,18 @@
     </v-row>
     <v-divider />
     <v-row class="text-left">
-      <v-col class="mb-4 mt-4" cols="12">
-        <h2 class="display font-weight-bold mb-3">Development.</h2>
+      <v-col
+        class="mb-4 mt-4"
+        cols="12"
+      >
+        <h2 class="display font-weight-bold mb-3">
+          Development.
+        </h2>
         <p
           class="body-1 mb-3"
-        >Like with design, I keep my development toolset minimal but have a few more pieces of software I need.</p>
+        >
+          Like with design, I keep my development toolset minimal but have a few more pieces of software I need.
+        </p>
         <ul class="body-1 mb-4">
           <li class="mb-3">
             <strong>Languages:</strong> HTML, CSS/SASS/SCSS, JavaScript and a small amount of PHP
@@ -117,12 +139,22 @@
         </ul>
         <ul class="body-1 mb-6">
           <li class="mb-3">
-            <a href="https://hyper.is" target="_blank" rel="noreferrer" class="teal--text">Hyper</a> is my terminal of choice with JetBrains Mono set as my font of choice as well as some custom colour rules.
+            <a
+              href="https://hyper.is"
+              target="_blank"
+              rel="noreferrer"
+              class="teal--text"
+            >Hyper</a> is my terminal of choice with JetBrains Mono set as my font of choice as well as some custom colour rules.
           </li>
         </ul>
         <ul class="body-1 mb-6">
           <li class="mb-3">
-            <a href="https://ohmyz.sh" target="_blank" rel="noreferrer" class="teal--text">ZSH</a> is my default terminal shell
+            <a
+              href="https://ohmyz.sh"
+              target="_blank"
+              rel="noreferrer"
+              class="teal--text"
+            >ZSH</a> is my default terminal shell
             in Hyper with a basic custom theme set.
           </li>
           <li>
@@ -141,11 +173,18 @@
     </v-row>
     <v-divider />
     <v-row class="text-left">
-      <v-col class="mb-4 mt-4" cols="12">
-        <h2 class="display font-weight-bold mb-3">Hardware.</h2>
+      <v-col
+        class="mb-4 mt-4"
+        cols="12"
+      >
+        <h2 class="display font-weight-bold mb-3">
+          Hardware.
+        </h2>
         <p
           class="body-1 mb-3"
-        >I don't use a lot of hardware, and it varies if I'm travelling but here's my common EDC.</p>
+        >
+          I don't use a lot of hardware, and it varies if I'm travelling but here's my common EDC.
+        </p>
         <ul class="body-1 mb-6">
           <li class="mb-3">
             <a

@@ -2,12 +2,23 @@
   <v-container>
     <v-row class="text-left">
       <v-col>
-        <h1 class="display-2 font-weight-bold mb-3 mt-10" aria-label="Lazy PDF product">/Lazy-PDF.</h1>
+        <h1
+          class="display-2 font-weight-bold mb-3 mt-10"
+          aria-label="Lazy PDF product"
+        >
+          /Lazy-PDF.
+        </h1>
         <h2
           class="display font-weight-bold mb-3 mt-10"
           aria-label="Karl's posts"
-        >Effortless and interfaceless PDF creation.</h2>
-        <v-img :src="`${hero}`" class="mt-10 img" alt="image of Lazy PDF app in use" />
+        >
+          Effortless and interfaceless PDF creation.
+        </h2>
+        <v-img
+          :src="`${hero}`"
+          class="mt-10 img"
+          alt="image of Lazy PDF app in use"
+        />
       </v-col>
     </v-row>
     <v-row class="text-left">
@@ -18,8 +29,16 @@
         md="4" 
         lg="4"
       >
-        <v-card href="https://www.lazypdf.tech" target="_blank" rel="noreferrer" class="mb-3">
-          <v-img alt="Lazy PDF logo visual" src="../assets/lazyPDF.webp" />
+        <v-card
+          href="https://www.lazypdf.tech"
+          target="_blank"
+          rel="noreferrer"
+          class="mb-3"
+        >
+          <v-img
+            alt="Lazy PDF logo visual"
+            src="../assets/lazyPDF.webp"
+          />
           <v-card-title class="subtitle-1">
             Lazy PDF
             <v-spacer />
@@ -33,13 +52,21 @@
         cols="12" 
         lg="8" 
         md="8" 
-        sm="6">
-        <h3 class="mb-3">Lazy PDF</h3>
+        sm="6"
+      >
+        <h3 class="mb-3">
+          Lazy PDF
+        </h3>
         <p
           class="body-1"
-        >I wrote a little free macOS utility that allows you to effortlessly create a PDF from a set of selected images. It's interfaceless and relies only on a Finder selection UI. This is designed to be simple and have a low overhead to make it easier to grab a set of design files and throw them together into a PDF. It'll listen to your logical file order, so number your files if you want to order in sequence, otherwise, you can move them around afterwards in Preview. Lazy PDF respects your image sizes so doesn't try to compress everything to printable sizes, ideal for sharing work to teammates and management.</p>
+        >
+          I wrote a little free macOS utility that allows you to effortlessly create a PDF from a set of selected images. It's interfaceless and relies only on a Finder selection UI. This is designed to be simple and have a low overhead to make it easier to grab a set of design files and throw them together into a PDF. It'll listen to your logical file order, so number your files if you want to order in sequence, otherwise, you can move them around afterwards in Preview. Lazy PDF respects your image sizes so doesn't try to compress everything to printable sizes, ideal for sharing work to teammates and management.
+        </p>
       </v-col>
-      <v-col cols="12" sm="6">
+      <v-col
+        cols="12"
+        sm="6"
+      >
         <a 
           href="https://www.producthunt.com/posts/lazy-pdf?utm_source=badge-featured&utm_medium=badge&utm_souce=badge-lazy-pdf" 
           target="_blank"
@@ -56,7 +83,8 @@
       </v-col>
       <v-spacer />
       <v-col 
-        cols="12" sm="6" 
+        cols="12"
+        sm="6" 
         class="text-right"
       >
         <v-btn
@@ -77,8 +105,15 @@
       </v-col>
     </v-row>
     <v-row class="text-left">
-      <v-col v-for="image in images" :key="`${image.id}`" cols="12">
-        <v-img :src="`${image.img}`" class="img" />
+      <v-col
+        v-for="image in images"
+        :key="`${image.id}`"
+        cols="12"
+      >
+        <v-img
+          :src="`${image.img}`"
+          class="img"
+        />
       </v-col>
     </v-row>
   </v-container>

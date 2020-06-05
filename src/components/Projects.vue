@@ -37,7 +37,8 @@ export default {
   name: "Projects",
   props: {
     project: {
-      type: String
+      type: String,
+      default: 'No projects are loaded'
     }
   }
 };

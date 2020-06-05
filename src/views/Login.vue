@@ -17,9 +17,14 @@
       class="mt-10 img cropped"
       alt="Portfolio overview on mobile devices"
     />
-    <v-card width="400" class="mx-auto mt-5">
+    <v-card
+      width="400"
+      class="mx-auto mt-5"
+    >
       <v-card-title class="pb-0">
-        <h1 class="mb-6">Login</h1>
+        <h1 class="mb-6">
+          Login
+        </h1>
       </v-card-title>
       <v-card-text>
         <v-form>
@@ -38,8 +43,16 @@
       <v-divider />
       <v-card-actions @submit.prevent="submit">
         <v-spacer />
-        <v-btn href="mailto:karl@kejk.tech" class="mr-2">
-          <v-icon class="mr-2" small>mdi-email</v-icon>Request access
+        <v-btn
+          href="mailto:karl@kejk.tech"
+          class="mr-2"
+        >
+          <v-icon
+            class="mr-2"
+            small
+          >
+            mdi-email
+          </v-icon>Request access
         </v-btn>
         <div v-if="password === correctPassword">
           <v-btn
@@ -50,12 +63,26 @@
             type="submit"
             class="white--text"
           >
-            <v-icon class="mr-2 white-text" small>mdi-lock-open</v-icon>Login
+            <v-icon
+              class="mr-2 white-text"
+              small
+            >
+              mdi-lock-open
+            </v-icon>Login
           </v-btn>
         </div>
         <div v-else>
-          <v-btn type="submit" text :disabled="submitStatus">
-            <v-icon class="mr-2" small>mdi-lock</v-icon>Login
+          <v-btn
+            type="submit"
+            text
+            :disabled="submitStatus"
+          >
+            <v-icon
+              class="mr-2"
+              small
+            >
+              mdi-lock
+            </v-icon>Login
           </v-btn>
         </div>
         <v-spacer />

@@ -10,18 +10,38 @@
             mdi-arrow-left
           </v-icon>Back
         </v-btn>
-        <v-img :src="`${hero}`" class="mt-10 img" alt="core NeuerEnergy Scenario Analysis page" />
-        <h1 class="display-2 font-weight-bold mb-3 mt-10">NeuerEnergy.</h1>
-        <h2 class="headline mb-3 mt-2">Removing the barriers to corporate carbon neutrality.</h2>
+        <v-img
+          :src="`${hero}`"
+          class="mt-10 img"
+          alt="core NeuerEnergy Scenario Analysis page"
+        />
+        <h1 class="display-2 font-weight-bold mb-3 mt-10">
+          NeuerEnergy.
+        </h1>
+        <h2 class="headline mb-3 mt-2">
+          Removing the barriers to corporate carbon neutrality.
+        </h2>
       </v-col>
     </v-row>
     <v-row class="text-left">
       <v-col cols="12">
-        <v-btn href="https://www.neuerenergy.com" color="teal" target="_blank" class="white--text">
+        <v-btn
+          href="https://www.neuerenergy.com"
+          color="teal"
+          target="_blank"
+          class="white--text"
+        >
           NeuerEnergy
-          <v-icon class="ml-2 white--text" small>mdi-open-in-new</v-icon>
+          <v-icon
+            class="ml-2 white--text"
+            small
+          >
+            mdi-open-in-new
+          </v-icon>
         </v-btn>
-        <h3 class="mb-4 mt-8">What is it?</h3>
+        <h3 class="mb-4 mt-8">
+          What is it?
+        </h3>
         <p>NeuerEnergy transforms businesses carbon footprint in a single step.</p>
 
         <p>Selecting the right energy mix to meet a businesses sustainability goals without impacting their business operations can be an enormous, resource-heavy burden.</p>
@@ -65,8 +85,15 @@
       </v-col>
     </v-row>
     <v-row class="text-left">
-      <v-col v-for="image in images" :key="`${image.id}`" cols="12">
-        <v-img :src="`${image.img}`" class="img" />
+      <v-col
+        v-for="image in images"
+        :key="`${image.id}`"
+        cols="12"
+      >
+        <v-img
+          :src="`${image.img}`"
+          class="img"
+        />
       </v-col>
     </v-row>
   </v-container>

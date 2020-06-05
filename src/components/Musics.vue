@@ -21,7 +21,8 @@ export default {
   name: "Music",
   props: {
     music: {
-      type: String
+      type: String,
+      default: 'No music is loaded'
     }
   }
 };

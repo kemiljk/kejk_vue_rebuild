@@ -1,5 +1,3 @@
-const path = require('path');
-
 module.exports = {
   "transpileDependencies": [
     "vuetify"
@@ -7,6 +5,7 @@ module.exports = {
 
   lintOnSave: true,
   filenameHashing: false,
+
   chainWebpack: config => {
     config.optimization.delete('splitChunks')
   },
@@ -21,5 +20,10 @@ module.exports = {
     workboxOptions: {
       skipWaiting: true
     }
+  },
+
+  css: {
+    modules: true,
+    extract: false
   }
 }

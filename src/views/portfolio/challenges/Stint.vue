@@ -10,27 +10,54 @@
             mdi-arrow-left
           </v-icon>Back
         </v-btn>
-        <v-img :src="`${hero}`" class="mt-10 img cropped" alt="Stint website page" />
-        <h1 class="display-2 font-weight-bold mb-3 mt-10">Stint design challenge.</h1>
-        <h2 class="headline mb-3 mt-2">Redesign our rating feature</h2>
+        <v-img
+          :src="`${hero}`"
+          class="mt-10 img cropped"
+          alt="Stint website page"
+        />
+        <h1 class="display-2 font-weight-bold mb-3 mt-10">
+          Stint design challenge.
+        </h1>
+        <h2 class="headline mb-3 mt-2">
+          Redesign our rating feature
+        </h2>
         <v-row class="mb-4 mt-8 text-left">
-          <v-col cols="12" sm="10">
+          <v-col
+            cols="12"
+            sm="10"
+          >
             <h3>What was the challenge?</h3>
             <p>We would like you to make is as quick as possible for businesses to rate 'Stints'.</p>
           </v-col>
-          <v-col cols="12" sm="2">
+          <v-col
+            cols="12"
+            sm="2"
+          >
             <h3>Time</h3>
             <p><em>6 hours.</em></p>
           </v-col>
         </v-row>
-        <h3 class="mb-4">The current design</h3>
+        <h3 class="mb-4">
+          The current design
+        </h3>
         <v-row class="text-left">
-          <v-col v-for="image in images.slice(0, 2)" :key="`${image.id}`" cols="12">
-            <v-img :src="`${image.img}`" class="img" />
+          <v-col
+            v-for="image in images.slice(0, 2)"
+            :key="`${image.id}`"
+            cols="12"
+          >
+            <v-img
+              :src="`${image.img}`"
+              class="img"
+            />
           </v-col>
         </v-row>
-        <h4 class="mb-4">My process</h4>
-        <p class="mb-4">This challenge involved entirely reimagining the approval process of Stints for businesses, to increase the rating/approval process</p>
+        <h4 class="mb-4">
+          My process
+        </h4>
+        <p class="mb-4">
+          This challenge involved entirely reimagining the approval process of Stints for businesses, to increase the rating/approval process
+        </p>
         <ul>
           <li>My initial focus was on trying to simplify the journey of rating multiple users from a given day without having to dig into each one individually. I wanted to begin a page earlier than stated in the brief as I felt that it enabled a much more effecient way to bulk review a set of stints for a given date.</li>
           <li>The calendar at the top of the first view now shows, with a maximum of 8, how many stints happened on a given day. This plays nicely when viewed as a full calendar view for quick assessment.</li>
@@ -47,8 +74,15 @@
       </v-col>
     </v-row>
     <v-row class="text-left">
-      <v-col v-for="image in images.slice(2, 4)" :key="`${image.id}`" cols="12">
-        <v-img :src="`${image.img}`" class="img" />
+      <v-col
+        v-for="image in images.slice(2, 4)"
+        :key="`${image.id}`"
+        cols="12"
+      >
+        <v-img
+          :src="`${image.img}`"
+          class="img"
+        />
       </v-col>
     </v-row>
   </v-container>

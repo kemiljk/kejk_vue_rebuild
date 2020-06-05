@@ -2,7 +2,7 @@
   <v-container>
     <v-row class="text-left">
       <v-col cols="12">
-        <v-btn 
+        <v-btn
           text
           @click="$router.go(-1)" 
         >
@@ -30,7 +30,13 @@
           href="https://www.figma.com/community/plugin/837070613195594890/Px-%E2%80%BA%E2%80%BA-Em"
           class="mt-2 mb-4 white--text"
           target="_blank"
-        ><img src="../../../src/assets/figma.svg" alt="Figma icon" style="height: 16px" class="mr-2" />
+        >
+          <img
+            src="../../../src/assets/figma.svg"
+            alt="Figma icon"
+            style="height: 16px"
+            class="mr-2"
+          >
           Px ›› Em
           <v-icon 
             class="ml-2" 
@@ -40,8 +46,16 @@
           </v-icon>
         </v-btn>
       </v-col>
-      <v-col cols="6" class="text-right">
-        <h3>Installed: <span id="install-count" class="black--text badge"></span></h3>
+      <v-col
+        cols="6"
+        class="text-right"
+      >
+        <h3>
+          Installed: <span
+            id="install-count"
+            class="black--text badge"
+          />
+        </h3>
       </v-col>
     </v-row>
     <v-row class="text-left">
@@ -106,8 +120,10 @@
         <h3 class="mb-3">
           The final output
         </h3>
-        <p>Over the course of the following few days, I made adjustments and updates to the plugin, enabling some extra functionality for changing the base Px value from the browser default of 16px and also allowing for the conversion ratio to be changed based on some common scales (including the Golden Ratio).</h3>
-        <p>The core Px ›› Em functionality is:</p>
+        <p>
+          Over the course of the following few days, I made adjustments and updates to the plugin, enabling some extra functionality for changing the base Px value from the browser default of 16px and also allowing for the conversion ratio to be changed based on some common scales (including the Golden Ratio).
+        </p>
+        <h4>The core Px ›› Em functionality is:</h4>
         <ul>
           <li>Open the plugin without selections to convert any number to ems</li>
           <li>Select a text node anywhere in your files and open the plugin to see the current pixel value and convert it to ems</li>
@@ -122,16 +138,23 @@
               <iframe
                 src="https://carbon.now.sh/embed/hGewflU5VcULx6Z7GmFK"
                 style="width:100%; height:20rem; border:0; overflow:hidden;"
-                sandbox="allow-scripts allow-same-origin">
-              </iframe>
+                sandbox="allow-scripts allow-same-origin"
+              />
             </v-col>
           </v-row>
         </p>
       </v-col>
     </v-row>
     <v-row class="text-left">
-      <v-col v-for="image in images" :key="`${image.id}`" cols="12">
-        <v-img :src="`${image.img}`" class="img" />
+      <v-col
+        v-for="image in images"
+        :key="`${image.id}`"
+        cols="12"
+      >
+        <v-img
+          :src="`${image.img}`"
+          class="img"
+        />
       </v-col>
     </v-row>
   </v-container>

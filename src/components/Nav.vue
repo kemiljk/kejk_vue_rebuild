@@ -30,7 +30,8 @@ export default {
   name: "Nav",
   props: {
     nav: {
-      type: String
+      type: String,
+      default: 'No nav is loaded'
     }
   }
 };
