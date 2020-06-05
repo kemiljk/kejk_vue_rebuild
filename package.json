@@ -1,6 +1,7 @@
 {
   "name": "kejk",
   "version": "1.0.0",
+  "license": "UNLICENSED",
   "private": false,
   "scripts": {
     "serve": "vue-cli-service serve",
@@ -8,6 +9,8 @@
     "lint": "vue-cli-service lint"
   },
   "dependencies": {
+    "@babel/core": "^7.0.0-0",
+    "@babel/preset-env": "^7.1.6",
     "@mdi/font": "^4.9.95",
     "@vue/cli": "^4.2.2",
     "core-js": "^3.6.4",
@@ -19,7 +22,8 @@
     "vue-material-design-icons": "^4.4.0",
     "vue-router": "^3.1.5",
     "vuelidate": "^0.7.5",
-    "vuetify": "^2.2.14"
+    "vuetify": "^2.2.14",
+    "webpack": "^4.43.0"
   },
   "devDependencies": {
     "@vue/cli-plugin-babel": "~4.2.0",

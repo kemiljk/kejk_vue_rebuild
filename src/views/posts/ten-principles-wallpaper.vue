@@ -13,12 +13,12 @@
         <h1
           class="display-2 font-weight-bold mb-3 mt-10"
         >
-        Dieter Rams 'Ten Principles for Good Design' Wallpaper.
+          Dieter Rams 'Ten Principles for Good Design' Wallpaper.
         </h1>
         <h2
           class="headline font-weight-bold mb-3 mt-10"
         >
-        A free minimal wallpaper of Ram's ten principles.
+          A free minimal wallpaper of Ram's ten principles.
         </h2>
       </v-col>
     </v-row>
@@ -33,7 +33,8 @@
             class="teal--text"
           >Kickstarter.</a>
         </p>
-        <p>One of the perks was to get a letterpress of the ten principles on card. This was set in a beautiful font close to <a
+        <p>
+          One of the perks was to get a letterpress of the ten principles on card. This was set in a beautiful font close to <a
             href="http://atipofoundry.com/fonts/archia"
             target="_blank"
             rel="noreferrer"
@@ -43,7 +44,8 @@
             target="_blank"
             rel="noreferrer"
             class="teal--text"
-          >Space Mono</a> by Colophon) that I wanted to reimagine for the digital screen as a reminder of the principles. This allowed me to have a constant reminder to ensure my designs are always refined and focus on delivering maximum value in a minimal form.</p>
+          >Space Mono</a> by Colophon) that I wanted to reimagine for the digital screen as a reminder of the principles. This allowed me to have a constant reminder to ensure my designs are always refined and focus on delivering maximum value in a minimal form.
+        </p>
         <p>I've made this wallpaper available to download in three sizes for mobile, tablet and desktop. You can grab them below. In my version, I've set this in Archia.</p>
       </v-col>
       <v-btn
@@ -52,7 +54,9 @@
         href="https://res.cloudinary.com/kejk/raw/upload/v1590345921/Rams_Ten_Principles_Wallpapers_god3jk.zip"
       >
         Download all
-        <v-icon class="ml-2">mdi-download</v-icon>
+        <v-icon class="ml-2">
+          mdi-download
+        </v-icon>
       </v-btn>
       <v-col cols="12">
         <a

@@ -19,7 +19,8 @@ export default {
   name: "Book",
   props: {
     book: {
-      type: String
+      type: String,
+      default: 'No books are loaded'
     }
   }
 };

@@ -1,15 +1,14 @@
-const path = require('path');
-
 module.exports = {
   "transpileDependencies": [
     "vuetify"
   ],
 
   lintOnSave: true,
-  filenameHashing: false,
-  chainWebpack: config => {
+  filenameHashing: true,
+
+ /*  chainWebpack: config => {
     config.optimization.delete('splitChunks')
-  },
+  }, */
 
   runtimeCompiler: true,
   productionSourceMap: false,

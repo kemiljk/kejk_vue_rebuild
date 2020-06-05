@@ -33,6 +33,12 @@ $line-height-root: 1.75;
   object-fit: cover;
 }
 
+.badge {
+  background-color: orange; 
+  border-radius: 50px; 
+  padding: 5px 10px;
+}
+
 li {
   margin-bottom: 12px;
 }
