@@ -20,10 +20,5 @@ module.exports = {
     workboxOptions: {
       skipWaiting: true
     }
-  },
-
-  css: {
-    modules: true,
-    extract: false
   }
 }
