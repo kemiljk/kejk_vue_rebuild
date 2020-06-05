@@ -1,11 +1,7 @@
 {
   "name": "kejk",
   "version": "1.0.0",
-  "licenses": [
-    {
-      "type": "Copyright© KEJK 2020"
-    }
-  ],
+  "license": "UNLICENSED",
   "private": false,
   "scripts": {
     "serve": "vue-cli-service serve",

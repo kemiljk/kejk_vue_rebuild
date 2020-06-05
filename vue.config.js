@@ -4,7 +4,7 @@ module.exports = {
   ],
 
   lintOnSave: true,
-  filenameHashing: false,
+  filenameHashing: true,
 
   chainWebpack: config => {
     config.optimization.delete('splitChunks')
