@@ -20,6 +20,10 @@
         >
           Solving a personal problem by winging it.
         </h2>
+      </v-col>
+    </v-row>
+    <v-row class="text-left">
+      <v-col cols="6">
         <v-btn
           ref="noreferrer"
           color="purple"
@@ -35,7 +39,9 @@
             mdi-open-in-new
           </v-icon>
         </v-btn>
-        <p>Installed: <span id="install-count"></span></p>
+      </v-col>
+      <v-col cols="6" class="text-right align-center">
+        <h3>Installed: <span id="install-count"></span></h3>
       </v-col>
     </v-row>
     <v-row class="text-left">
@@ -141,6 +147,15 @@ export default {
     return {
       images: pxToEmImages,
     }
+  },
+  mounted() {
+    fetch('../../../api/plugin-stats.js')
+    .then(response => response.json())
+    .then(data => {
+      console.log(data)
+      document.getElementById('install-count').prepend(data.install_count)
+    })
+    .catch(error => console.error(error));
   }
 };
 </script>

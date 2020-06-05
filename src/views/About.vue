@@ -156,6 +156,15 @@
         >
           In my downtime I lead design at  <strong>Make Me A Cocktail</strong> and have released both a Figma plugin and a standalone macOS app. <strong>Px ›› Em</strong> is a plugin for Figma that converts either a text selection or an entered value from <code>pixels</code> to the related <code>em</code> value.  <strong>Lazy PDF</strong> is a free interfaceless macOS utility that allows you to effortlessly create a PDF from a set of selected images.
         </p>
+        <p class="body-1">
+          Currently, <strong><span id="install-count" class="black--text badge"></span></strong> people have installed 
+            <a
+              href="https://www.figma.com/community/plugin/837070613195594890/Px-%E2%80%BA%E2%80%BA-Em"
+              target="_blank" 
+              rel="noreferrer"
+              class="teal--text"
+            >Px ›› Em</a>.
+        </p>
       </v-col>
       <v-col class="mb-3 py-0" cols="12" md="4">
         <v-card href="https://www.makemeacocktail.com/" target="_blank" rel="noreferrer">
@@ -321,6 +330,15 @@ export default {
       books: booksData,
       musics: musicsData
     };
+  },
+  mounted() {
+    fetch('../../api/plugin-stats.js')
+    .then(response => response.json())
+    .then(data => {
+      console.log(data)
+      document.getElementById('install-count').prepend(data.install_count)
+    })
+    .catch(error => console.error(error));
   }
 };
 </script>
