@@ -40,8 +40,8 @@
           </v-icon>
         </v-btn>
       </v-col>
-      <v-col cols="6" class="text-right align-center">
-        <h3>Installed: <span id="install-count"></span></h3>
+      <v-col cols="6" class="text-right">
+        <h3>Installed: <span id="install-count" class="black--text badge"></span></h3>
       </v-col>
     </v-row>
     <v-row class="text-left">
