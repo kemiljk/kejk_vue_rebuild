@@ -100,8 +100,7 @@
             target="_blank"
             class="teal--text"
           >
-            Figma API documentation
-          </a>, 
+            Figma API documentation</a>, 
           make sense of what was possible and create a basic proof of concept that did what I needed it to do.
         </p>
         <h3 class="mb-3">
