@@ -16,10 +16,10 @@
           alt="Stint website page"
         />
         <h1 class="display-2 font-weight-bold mb-3 mt-10">
-          CMC design challenge.
+          Azure DevOps design challenge.
         </h1>
         <h2 class="headline mb-3 mt-2">
-          Redesign a feature of any product
+          Redesign a feature of DevOps
         </h2>
         <v-row class="mb-4 mt-8 text-left">
           <v-col
@@ -27,7 +27,7 @@
             sm="10"
           >
             <h3>What was the challenge?</h3>
-            <p>Re-think and redesign a single feature within a digital product of your choice that showcases your skills and abilities to solve a complex problem as a designer.</p>
+            <p>Re-think and redesign a single feature within Azure DevOps to showcase your skills and abilities to solve a complex problem as a designer.</p>
           </v-col>
           <v-col
             cols="12"

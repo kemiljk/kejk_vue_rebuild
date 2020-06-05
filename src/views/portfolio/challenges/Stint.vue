@@ -19,7 +19,7 @@
           Stint design challenge.
         </h1>
         <h2 class="headline mb-3 mt-2">
-          Redesign our rating feature
+          Redesign the rating feature
         </h2>
         <v-row class="mb-4 mt-8 text-left">
           <v-col
@@ -27,7 +27,7 @@
             sm="10"
           >
             <h3>What was the challenge?</h3>
-            <p>We would like you to make is as quick as possible for businesses to rate 'Stints'.</p>
+            <p>Make it as quick as possible for businesses to rate 'Stints'.</p>
           </v-col>
           <v-col
             cols="12"

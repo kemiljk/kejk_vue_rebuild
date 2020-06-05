@@ -19,7 +19,7 @@
           TrueLayer design challenge.
         </h1>
         <h2 class="headline mb-3 mt-2">
-          Build our Press page
+          Build the Press page
         </h2>
       </v-col>
     </v-row>
@@ -50,7 +50,7 @@
             sm="10"
           >
             <h3>What was the challenge?</h3>
-            <p>We would like you to create a new static page for our website called "Press".</p>
+            <p>Create a new static page for the website called "Press".</p>
           </v-col>
           <v-col
             cols="12"
