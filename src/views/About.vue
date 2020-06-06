@@ -231,7 +231,11 @@
             target="_blank" 
             rel="noreferrer"
             class="teal--text"
-          >Px ›› Em</a>.
+          >Px ›› Em</a> and 
+          <span
+            id="like-count"
+            class="black--text badge"
+          /> have liked it.
         </p>
       </v-col>
       <v-col class="mb-3 py-0" cols="12" md="4">
@@ -467,6 +471,7 @@ export default {
     .then(data => {
       console.log(data)
       document.getElementById('install-count').prepend(data.install_count)
+      document.getElementById('like-count').prepend(data.like_count)
     })
     .catch(error => console.error(error));
   }

@@ -56,6 +56,12 @@
             class="black--text badge"
           />
         </h3>
+        <h3>
+          <v-icon color="red">mdi-heart</v-icon> Liked: <span
+            id="like-count"
+            class="black--text badge"
+          />
+        </h3>
       </v-col>
     </v-row>
     <v-row class="text-left">
@@ -176,6 +182,7 @@ export default {
     .then(data => {
       console.log(data)
       document.getElementById('install-count').prepend(data.install_count)
+      document.getElementById('like-count').prepend(data.like_count)
     })
     .catch(error => console.error(error));
   }
