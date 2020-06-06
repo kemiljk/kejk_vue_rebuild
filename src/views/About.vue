@@ -232,10 +232,10 @@
             rel="noreferrer"
             class="teal--text"
           >Px ›› Em</a> and 
-          <span
+          <strong><span
             id="like-count"
             class="black--text badge"
-          /> have liked it.
+          /></strong> have liked it.
         </p>
       </v-col>
       <v-col class="mb-3 py-0" cols="12" md="4">

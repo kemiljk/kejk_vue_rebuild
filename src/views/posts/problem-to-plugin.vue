@@ -56,7 +56,7 @@
             class="black--text badge"
           />
         </h3>
-        <h3>
+        <h3 class="mt-3">
           <v-icon color="red">mdi-heart</v-icon> Liked: <span
             id="like-count"
             class="black--text badge"
