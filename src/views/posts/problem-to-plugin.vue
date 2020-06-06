@@ -51,13 +51,13 @@
         class="text-right"
       >
         <h3>
-          Installed: <span
+          <v-icon color="red">mdi-install</v-icon> Installed <span
             id="install-count"
             class="black--text badge"
           />
         </h3>
         <h3 class="mt-3">
-          <v-icon color="red">mdi-heart</v-icon> Liked: <span
+          <v-icon color="teal">mdi-cloud-download</v-icon> Liked <span
             id="like-count"
             class="black--text badge"
           />
