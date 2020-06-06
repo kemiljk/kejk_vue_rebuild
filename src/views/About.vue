@@ -34,7 +34,6 @@
         </h2>
       </v-col>
       <v-col
-        class="mb-5"
         cols="12"
       >
         <p
@@ -92,7 +91,7 @@
       >
         <v-btn
           text
-          class="mt-10 ml-4 mb-2"
+          class="ml-4 mb-2"
           to="/login"
         >
           Login
@@ -209,7 +208,7 @@
       </v-col>
     </v-row>
     <v-divider class="mt-10 mb-10"/>
-    <v-row class="text-left">
+    <v-row class="text-left mb-3">
       <v-col
         cols="12"
         aria-label="Karl's other interests"
@@ -259,7 +258,6 @@
           </v-card-title>
         </v-card>
       </v-col>
-      </v-col>
       <v-col class="mb-3 py-0" cols="12" md="4">
         <v-card href="https://www.lazypdf.tech" target="_blank" rel="noreferrer">
           <v-img alt="Lazy PDF logo visual" src="../assets/lazyPDF.webp" />
@@ -290,7 +288,7 @@
       >
         <v-btn
           text
-          class="mt-10 ml-4 mb-2"
+          class="ml-4 mb-2"
           to="/posts"
         >
           More
