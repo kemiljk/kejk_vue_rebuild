@@ -58,7 +58,7 @@
         >
           I closely follow Dieter Rams' Ten Principles For Good Design, using these as a wayfinder when planning and executing on any design or development decision and any implementation detail. As true as they were in the 1970's, these declarations are even more relevant today in a world of complexity and abundance.
         </p>
-        <p class="body-1 mb-3">
+        <p class="body-1">
           Previously, I've worked for
           <a
             href="https://www.cognite.co"
@@ -75,11 +75,11 @@
         </p>
       </v-col>
     </v-row>
-    <v-divider />
+    <v-divider class="mt-10 mb-10"/>
     <v-row class="text-left">
       <v-col cols="6">
         <h2
-          class="text-left display font-weight-bold mb-3 mt-10"
+          class="text-left display font-weight-bold mb-3"
           aria-label="Karl's portfolio"
         >
           Portfolio.
@@ -191,7 +191,7 @@
     </v-row>
     <v-row class="text-left">
       <v-col cols="12">
-        <p class="body-1 mt-3 mb-3">
+        <p class="body-1">
           This website was designed and built by me in
           <a
             href="https://vuejs.org/"
@@ -208,13 +208,13 @@
         </p>
       </v-col>
     </v-row>
-    <v-divider />
+    <v-divider class="mt-10 mb-10"/>
     <v-row class="text-left">
       <v-col
         cols="12"
         aria-label="Karl's other interests"
       >
-        <h2 class="display font-weight-bold mb-3 mt-6">
+        <h2 class="display font-weight-bold mb-3">
           On the side.
         </h2>
         <p
@@ -273,11 +273,11 @@
         </v-card>
       </v-col>
     </v-row>
-    <v-divider class="mt-4" />
+    <v-divider class="mt-10 mb-10" />
     <v-row class="ml-1 mr-1">
       <v-col cols="6">
         <h2
-          class="text-left display font-weight-bold mb-3 mt-10"
+          class="text-left display font-weight-bold mb-3"
           aria-label="Karl's posts"
         >
           Latest Posts.
@@ -300,7 +300,7 @@
         </v-btn>
       </v-col>
     </v-row>
-    <v-row class="mt-3 mb-5">
+    <v-row class="mt-3">
       <v-col
         v-for="post in posts.slice(0, 2)"
         :key="`${post.id}`"
@@ -313,8 +313,8 @@
         />
       </v-col>
     </v-row>
-    <v-divider />
-    <v-row class="text-left mt-10">
+    <v-divider class="mt-10 mb-10" />
+    <v-row class="text-left">
       <v-col cols="6">
         <h2
           class="display font-weight-bold"
@@ -341,16 +341,16 @@
       </v-col>
       <v-col cols="12">
         <p
-          class="body-1 mb-3"
+          class="body-1"
         >
           As a frontend designer, I use a variety of things to stay productive. Check out my hardware and software setup and get in touch if you have any questions.
         </p>
       </v-col>
     </v-row>
-    <v-divider />
+    <v-divider class="mt-10 mb-10"/>
     <v-row class="ml-1 mr-1">
       <h2
-        class="display font-weight-bold mb-3 mt-10"
+        class="display font-weight-bold mb-3"
         aria-label="Karl's posts"
       >
         Currently reading.
@@ -369,14 +369,14 @@
           v-for="book in books"
           :key="`${book.id}`"
           cols="6"
-          md="3"
+          md="4"
         >
           <Books :book="book" />
         </v-col>
       </v-row>
     </v-row>
     <v-row class="text-left">
-      <v-col class="mb-5">
+      <v-col class="mt-10">
         <h2
           class="display font-weight-bold mb-3"
           aria-label="Karl's music playlist"
@@ -395,11 +395,11 @@
         </v-row>
       </v-col>
     </v-row>
-    <v-divider />
+    <v-divider class="mt-10 mb-10"/>
     <v-row class="text-left">
       <v-col
         cols="12"
-        class="mt-5 mb-5"
+        class="mb-3"
       >
         <p class="body-1">
           This site was built in
