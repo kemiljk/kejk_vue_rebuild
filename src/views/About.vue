@@ -74,7 +74,7 @@
         </p>
       </v-col>
     </v-row>
-    <v-divider class="mt-10 mb-10"/>
+    <v-divider class="my-10" />
     <v-row class="text-left">
       <v-col cols="6">
         <h2
@@ -164,29 +164,7 @@
             mdi-basketball
           </v-icon>Dribbble
         </v-btn>
-      </v-col><!-- 
-      <v-col class="mb-3 py-0" cols="12" sm="6" md="4" lg="4">
-        <v-card href="https://calendly.com/kejk/60min" target="_blank" rel="noreferrer">
-          <v-img alt="Calendar visual" src="../assets/calendly.webp" />
-          <v-card-title class="subtitle-1">
-            Book an appointment
-            <v-spacer />
-            <v-icon class="ml-4">mdi-calendar-clock</v-icon>
-          </v-card-title>
-        </v-card>
       </v-col>
-      <v-col cols="12" lg="8" md="8" sm="6">
-        <p
-          class="body-1"
-        >If you want to book some time to have a chat, you can book a slot. I'll always make myself available for questions, advice or mentorship if I can.</p>
-        <p class="body-1">We could talk about:</p>
-        <ul>
-          <li>User experience, user interface, a11y, design leadership</li>
-          <li>HTML, CSS/SCSS, Vue.js, Git</li>
-          <li>Minimalism, meditation, mindfulness</li>
-          <li>Guitars, metal or post rock</li>
-        </ul>
-      </v-col> -->
     </v-row>
     <v-row class="text-left">
       <v-col cols="12">
@@ -207,8 +185,8 @@
         </p>
       </v-col>
     </v-row>
-    <v-divider class="mt-10 mb-10"/>
-    <v-row class="text-left mb-3">
+    <v-divider class="my-10" />
+    <v-row class="text-left">
       <v-col
         cols="12"
         aria-label="Karl's other interests"
@@ -238,7 +216,7 @@
           /></strong> have liked it.
         </p>
       </v-col>
-      <v-col class="mb-3 py-0" cols="12" md="4">
+      <v-col class="mb-3 py-0" cols="12" sm="6" md="4">
         <v-card href="https://www.makemeacocktail.com/" target="_blank" rel="noreferrer">
           <v-img alt="Make Me A Cocktail visual" src="../assets/mmac.webp" />
           <v-card-title class="subtitle-1">
@@ -250,7 +228,7 @@
           </v-card-title>
         </v-card>
       </v-col>
-      <v-col class="mb-3 py-0" cols="12" md="4">
+      <v-col class="mb-3 py-0" cols="12" sm="6" md="4">
         <v-card href="https://www.figma.com/community/plugin/837070613195594890/Px-%E2%80%BA%E2%80%BA-Em" target="_blank" rel="noreferrer">
           <v-img alt="Lazy PDF logo visual" src="../assets/px2em.webp" />
           <v-card-title class="subtitle-1">
@@ -262,7 +240,7 @@
           </v-card-title>
         </v-card>
       </v-col>
-      <v-col class="mb-3 py-0" cols="12" md="4">
+      <v-col class="mb-3 py-0" cols="12" sm="6" md="4">
         <v-card href="https://www.lazypdf.tech" target="_blank" rel="noreferrer">
           <v-img alt="Lazy PDF logo visual" src="../assets/lazyPDF.webp" />
           <v-card-title class="subtitle-1">
@@ -275,7 +253,7 @@
         </v-card>
       </v-col>
     </v-row>
-    <v-divider class="mt-10 mb-10" />
+    <v-divider class="my-10" />
     <v-row class="ml-1 mr-1">
       <v-col cols="6">
         <h2
@@ -315,7 +293,7 @@
         />
       </v-col>
     </v-row>
-    <v-divider class="mt-10 mb-10" />
+    <v-divider class="my-10" />
     <v-row class="text-left">
       <v-col cols="6">
         <h2
@@ -371,7 +349,7 @@
           v-for="book in books"
           :key="`${book.id}`"
           cols="6"
-          md="4"
+          sm="4"
         >
           <Books :book="book" />
         </v-col>

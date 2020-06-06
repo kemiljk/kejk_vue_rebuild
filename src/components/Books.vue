@@ -4,7 +4,7 @@
     :href="`${book.url}`"
     target="_blank"
     rel="noreferrer"
-    :color="book.color"
+    color="transparent"
     alt="Books Karl is reading"
   >
     <v-img
