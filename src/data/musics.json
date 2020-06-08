@@ -1,15 +1,15 @@
 [
     {
         "id": 1,
-        "img": "https://res.cloudinary.com/kejk/image/upload/v1582388030/puremetal_jfpltn.png",
+        "img": "https://res.cloudinary.com/kejk/image/upload/v1591645667/puremetal_znrbi4.png",
         "url": "https://music.apple.com/gb/playlist/pure-metal/pl.u-jZgo9Tqqaarj",
         "ext": "_blank",
         "title": "Listen on Apple Music"
     },
     {
         "id": 2,
-        "img": "https://res.cloudinary.com/kejk/image/upload/v1582388030/pureangst_uty5tf.png",
-        "url": "https://music.apple.com/gb/playlist/pure-angst/pl.u-xr9yYCppoobA",
+        "img": "https://res.cloudinary.com/kejk/image/upload/v1591645664/pureambience_bqgk9f.png",
+        "url": "https://music.apple.com/gb/playlist/pure-ambience/pl.83c0731cbf694b5890dcd1a3c9b64fec",
         "ext": "_blank",
         "title": "Listen on Apple Music"
     }
