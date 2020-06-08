@@ -48,6 +48,14 @@
         "extTrue": true
     },
     {
+        "id": 8,
+        "title": "Px ›› Em plugin",
+        "url": "https://www.figma.com/community/plugin/837070613195594890/Px-%E2%80%BA%E2%80%BA-Em",
+        "img": "https://res.cloudinary.com/kejk/image/upload/c_scale,h_1200,w_1600/v1591644672/Screenshot_2020-06-08_at_20.28.50_x3ntd0.png",
+        "ext": "_blank",
+        "extTrue": true
+    },
+    {
         "id": 5,
         "title": "Livery Management System rebuild",
         "url": "https://dribbble.com/_kejk/projects/2130220-LMS-Redesign-and-Rebuild",

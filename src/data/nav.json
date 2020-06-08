@@ -8,14 +8,14 @@
   },
   {
     "id": 2,
-    "label": "LazyPDF",
-    "url": "https://www.lazypdf.tech",
-    "ext": "_blank",
-    "extTrue": true
+    "label": "Posts",
+    "url": "/posts",
+    "ext": "",
+    "extTrue": false
   },
   {
     "id": 3,
-    "label": "Login",
+    "label": "Work",
     "url": "/login",
     "ext": "",
     "extTrue": false

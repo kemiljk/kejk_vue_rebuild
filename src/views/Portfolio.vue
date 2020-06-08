@@ -47,7 +47,7 @@
     </v-row>
     <v-row class="mt-3 mb-10">
       <v-col
-        v-for="project in projects"
+        v-for="project in projects.slice(0,4)"
         :key="`${project.id}`"
         cols="12"
         sm="6"
@@ -66,6 +66,30 @@
           aria-label="Karl's projects"
         >
           Other projects I've completed.
+        </h2>
+      </v-col>
+    </v-row>
+    <v-row class="mt-3 mb-10">
+      <v-col
+        v-for="project in projects.slice(4,8)"
+        :key="`${project.id}`"
+        cols="12"
+        sm="6"
+      >
+        <Projects
+          :project="project"
+          class="justify-center"
+        />
+      </v-col>
+    </v-row>
+    <v-divider />
+    <v-row class="text-left">
+      <v-col cols="12">
+        <h2
+          class="display font-weight-bold mb-3 mt-10"
+          aria-label="Karl's projects"
+        >
+          Timed challenges I've completed.
         </h2>
       </v-col>
     </v-row>
