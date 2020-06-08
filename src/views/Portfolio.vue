@@ -65,13 +65,39 @@
           class="display font-weight-bold mb-3 mt-10"
           aria-label="Karl's projects"
         >
-          Other projects I've completed.
+          Things I've made.
         </h2>
+        <p>Apps and plugins that I've created for myself but distributed for everyone.</p>
       </v-col>
     </v-row>
     <v-row class="mt-3 mb-10">
       <v-col
-        v-for="project in projects.slice(4,8)"
+        v-for="project in projects.slice(4,6)"
+        :key="`${project.id}`"
+        cols="12"
+        sm="6"
+      >
+        <Projects
+          :project="project"
+          class="justify-center"
+        />
+      </v-col>
+    </v-row>
+    <v-divider />
+    <v-row class="text-left">
+      <v-col cols="12">
+        <h2
+          class="display font-weight-bold mb-3 mt-10"
+          aria-label="Karl's projects"
+        >
+          Other projects I've completed.
+        </h2>
+        <p>Freelance work I've been fortunate to work on.</p>
+      </v-col>
+    </v-row>
+    <v-row class="mt-3 mb-10">
+      <v-col
+        v-for="project in projects.slice(6,9)"
         :key="`${project.id}`"
         cols="12"
         sm="6"
@@ -91,6 +117,7 @@
         >
           Timed challenges I've completed.
         </h2>
+        <p>Challenges I've worked on to test what I can deliver in set time windows.</p>
       </v-col>
     </v-row>
     <v-row class="mt-3 mb-5">

@@ -32,6 +32,22 @@
         "extTrue": false
     },
     {
+        "id": 8,
+        "title": "Px ›› Em Figma plugin",
+        "url": "https://www.figma.com/community/plugin/837070613195594890/Px-%E2%80%BA%E2%80%BA-Em",
+        "img": "https://res.cloudinary.com/kejk/image/upload/v1591306550/Px_to_Em_fb2cfu.png",
+        "ext": "_blank",
+        "extTrue": true
+    },
+    {
+        "id": 8,
+        "title": "LazyPDF macOS app",
+        "url": "www.lazypdf.tech",
+        "img": "https://res.cloudinary.com/kejk/image/upload/v1586191713/Frame_1_ropmi7.png",
+        "ext": "_blank",
+        "extTrue": true
+    },
+    {
         "id": 6,
         "title": "Locally redesign",
         "url": "https://dribbble.com/_kejk/projects/2135493-The-Big-Small-Shop-Redesign",
@@ -44,14 +60,6 @@
         "title": "Make Me A Cocktail app",
         "url": "https://dribbble.com/_kejk/projects/2135484-Make-Me-A-Cocktail",
         "img": "https://cdn.dribbble.com/users/252548/screenshots/11585601/dribbble_shot_4x.png?compress=1&resize=1200x900",
-        "ext": "_blank",
-        "extTrue": true
-    },
-    {
-        "id": 8,
-        "title": "Px ›› Em plugin",
-        "url": "https://www.figma.com/community/plugin/837070613195594890/Px-%E2%80%BA%E2%80%BA-Em",
-        "img": "https://res.cloudinary.com/kejk/image/upload/c_scale,h_1200,w_1600/v1591644672/Screenshot_2020-06-08_at_20.28.50_x3ntd0.png",
         "ext": "_blank",
         "extTrue": true
     },
