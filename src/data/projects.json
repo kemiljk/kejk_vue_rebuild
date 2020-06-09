@@ -42,7 +42,7 @@
     {
         "id": 8,
         "title": "LazyPDF macOS app",
-        "url": "www.lazypdf.tech",
+        "url": "https://www.lazypdf.tech",
         "img": "https://res.cloudinary.com/kejk/image/upload/v1586191713/Frame_1_ropmi7.png",
         "ext": "_blank",
         "extTrue": true
