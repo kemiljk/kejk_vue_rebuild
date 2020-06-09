@@ -152,19 +152,19 @@
         </ul>
         <p>
           Creating the code wasn't as complex as first anticipated, so here's a snippet of how the actual calculation works as a function.
-          <v-row class="text-left mt-6">
+          <v-row class="text-left">
             <v-col cols="12"> 
-              <pre>
-                <span class="red--text">function</span> <span class="purple--text text--lighten-2">pxToEms</span>(<span class="orange--text">px</span>) {
-                <span class="red--text">var</span> baseValue <span class="red--text">=</span> document.<span class="purple--text text--lighten-2">getElementById</span>(<span class="light-blue--text text--lighten-3">'newPx'</span>).value;
-                <span class="red--text">var</span> scale <span class="red--text">=</span> document.<span class="purple--text text--lighten-2">getElementById</span>(<span class="light-blue--text text--lighten-3">'scale'</span>).value;
+              <pre class="pt-6 grey darken-4 img">
+                <span class="red--text">function</span> <span class="purple--text text--lighten-2">pxToEms</span><span class="white--text">(</span><span class="orange--text">px</span><span class="white--text">)</span> <span class="white--text">{</span>
+                <span class="red--text">var</span> <span class="white--text">baseValue</span> <span class="red--text">=</span> <span class="white--text">document.</span><span class="purple--text text--lighten-2">getElementById</span><span class="white--text">(</span><span class="light-blue--text text--lighten-2">'newPx'</span><span class="white--text">).value;</span>
+                <span class="red--text">var</span> <span class="white--text">scale</span> <span class="red--text">=</span> <span class="white--text">document.</span><span class="purple--text text--lighten-2">getElementById</span><span class="white--text">(</span><span class="light-blue--text text--lighten-2">'scale'</span><span class="white--text">).value;</span>
 
-                <span class="red--text">function</span> <span class="purple--text text--lighten-2">calculate</span>() {
-                  <span class="red--text">return</span> (<span class="orange--text">px</span> <span class="red--text">/</span> baseValue) <span class="red--text">*</span> scale;
-                }
+                <span class="red--text">function</span> <span class="purple--text text--lighten-2">calculate</span><span class="white--text">()</span> <span class="white--text">{</span>
+                  <span class="red--text">return</span> <span class="white--text">(</span><span class="orange--text">px</span> <span class="red--text">/</span> <span class="white--text">baseValue)</span> <span class="red--text">*</span> <span class="white--text">scale;</span>
+                  <span class="white--text">}</span>
 
-                <span class="red--text">return</span> <span class="purple--text text--lighten-2">calculate</span>;
-              }
+                <span class="red--text">return</span> <span class="purple--text text--lighten-2">calculate</span><span class="white--text">;</span>
+                <span class="white--text">}</span>
               </pre>
             </v-col>
           </v-row>
