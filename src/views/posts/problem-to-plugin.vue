@@ -66,6 +66,19 @@
     </v-row>
     <v-row class="text-left">
       <v-col cols="12">
+        <a 
+          href="https://www.producthunt.com/posts/px-em-figma-plugin?utm_source=badge-featured&utm_medium=badge&utm_souce=badge-px-em-figma-plugin" 
+          target="_blank">
+          <img 
+            src="https://api.producthunt.com/widgets/embed-image/v1/featured.svg?post_id=205609&theme=dark" 
+            alt="Px ›› Em Figma Plugin - Convert px to em for better Design › Dev handover in Figma | Product Hunt Embed" 
+            style="width: 250px; height: 54px;" width="250px" height="54px" 
+          />
+        </a>
+      </v-col>
+    </v-row>
+    <v-row class="text-left">
+      <v-col cols="12">
         <h3 class="mb-3">
           Background
         </h3>
