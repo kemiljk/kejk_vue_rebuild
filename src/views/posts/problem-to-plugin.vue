@@ -154,18 +154,16 @@
           Creating the code wasn't as complex as first anticipated, so here's a snippet of how the actual calculation works as a function.
           <v-row class="text-left">
             <v-col cols="12"> 
-              <pre class="pt-6 grey darken-4 img">
-                <span class="red--text">function</span> <span class="purple--text text--lighten-2">pxToEms</span><span class="white--text">(</span><span class="orange--text">px</span><span class="white--text">)</span> <span class="white--text">{</span>
-                <span class="red--text">var</span> <span class="white--text">baseValue</span> <span class="red--text">=</span> <span class="white--text">document.</span><span class="purple--text text--lighten-2">getElementById</span><span class="white--text">(</span><span class="light-blue--text text--lighten-2">'newPx'</span><span class="white--text">).value;</span>
-                <span class="red--text">var</span> <span class="white--text">scale</span> <span class="red--text">=</span> <span class="white--text">document.</span><span class="purple--text text--lighten-2">getElementById</span><span class="white--text">(</span><span class="light-blue--text text--lighten-2">'scale'</span><span class="white--text">).value;</span>
-
-                <span class="red--text">function</span> <span class="purple--text text--lighten-2">calculate</span><span class="white--text">()</span> <span class="white--text">{</span>
-                  <span class="red--text">return</span> <span class="white--text">(</span><span class="orange--text">px</span> <span class="red--text">/</span> <span class="white--text">baseValue)</span> <span class="red--text">*</span> <span class="white--text">scale;</span>
-                  <span class="white--text">}</span>
-
-                <span class="red--text">return</span> <span class="purple--text text--lighten-2">calculate</span><span class="white--text">;</span>
-                <span class="white--text">}</span>
-              </pre>
+              <div class="py-6 px-12 grey darken-4 img">
+                <p><em><span class="red--text">function</span></em> <span class="purple--text text--lighten-2">pxToEms</span><span class="white--text">(</span><span class="orange--text">px</span><span class="white--text">)</span> <span class="white--text">{</span></p>
+                <p class="py-0 my-0"><span class="red--text">var</span> <span class="white--text">baseValue</span> <span class="red--text">=</span> <span class="white--text">document.</span><span class="purple--text text--lighten-2">getElementById</span><span class="white--text">(</span><span class="light-blue--text text--lighten-2">'newPx'</span><span class="white--text">).value;</span></p>
+                <p><span class="red--text">var</span> <span class="white--text">scale</span> <span class="red--text">=</span> <span class="white--text">document.</span><span class="purple--text text--lighten-2">getElementById</span><span class="white--text">(</span><span class="light-blue--text text--lighten-2">'scale'</span><span class="white--text">).value;</span></p>
+                <p class="py-0 my-0"><em><span class="red--text">function</span></em> <span class="purple--text text--lighten-2">calculate</span><span class="white--text">()</span> <span class="white--text">{</span></p>
+                <p class="py-0 my-0"><span class="red--text">return</span> <span class="white--text">(</span><span class="orange--text">px</span> <span class="red--text">/</span> <span class="white--text">baseValue)</span> <span class="red--text">*</span> <span class="white--text">scale;</span></p> 
+                <p><span class="white--text">}</span></p>
+                <p class="py-0 my-0"><span class="red--text">return</span> <span class="purple--text text--lighten-2">calculate</span><span class="white--text">;</span></p>
+                <p><span class="white--text">}</span></p>
+              </div>
             </v-col>
           </v-row>
         </p>
