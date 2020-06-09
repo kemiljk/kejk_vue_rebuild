@@ -72,7 +72,8 @@
           <li>Creation of blockframes</li>
           <li>Creation of final UI in Adobe XD</li>
           <li>Creation of initial prototype in HTML, CSS & JS</li>
-          <li>Creation of second prototype/project scaffold in Vue.js</li>
+          <li>Creation of <a href="https://neuerenergy-pwa.now.sh" target="_blank"
+            class="teal--text">second prototype/project scaffold</a> in Vue.js</li>
           <li>Design and frontend development contribution and leadership</li>
           <li>Data visualisation design (in collaboration with Data Science)</li>
           <li>Production-ready code in CSS and Web Components using lit-element</li>
