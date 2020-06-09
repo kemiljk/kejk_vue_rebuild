@@ -423,11 +423,8 @@
 
 <script>
 import Posts from "../components/Posts";
-import postsData from "../data/posts.json";
 import Books from "../components/Books";
-import booksData from "../data/books.json";
 import Musics from "../components/Musics";
-import musicsData from "../data/musics.json";
 
 export default {
   name: "About",
@@ -438,12 +435,16 @@ export default {
   },
   data() {
     return {
-      posts: postsData,
-      books: booksData,
-      musics: musicsData
+      posts: [],
+      books: [],
+      musics: []
     };
   },
   mounted() {
+    this.getPostsData();
+    this.getBooksData();
+    this.getMusicsData();
+    
     fetch('../../api/plugin-stats.js')
     .then(response => response.json())
     .then(data => {
@@ -452,6 +453,23 @@ export default {
       document.getElementById('like-count').prepend(data.like_count)
     })
     .catch(error => console.error(error));
-  }
+  },
+  methods: {
+    getPostsData: function () {
+      fetch('/data/posts.json')
+        .then(response => response.json())
+        .then(data => (this.posts = data));
+    },
+    getBooksData: function () {
+      fetch('/data/books.json')
+        .then(response => response.json())
+        .then(data => (this.books = data));
+    },
+    getMusicsData: function () {
+      fetch('/data/musics.json')
+        .then(response => response.json())
+        .then(data => (this.musics = data));
+    }
+  },
 };
 </script>

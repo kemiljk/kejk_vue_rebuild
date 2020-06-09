@@ -167,16 +167,17 @@
 </template>
 
 <script>
-import pxToEmImages from '../../data/pxToEmImages.json';
 
 export default {
   name: "ProblemToPlugin",
   data() {
     return {
-      images: pxToEmImages,
+      images: []
     }
   },
   mounted() {
+    this.getPxImages()
+
     fetch('../../../api/plugin-stats.js')
     .then(response => response.json())
     .then(data => {
@@ -185,6 +186,13 @@ export default {
       document.getElementById('like-count').prepend(data.like_count)
     })
     .catch(error => console.error(error));
+  },
+  methods: {
+    getPxImages: function () {
+      fetch('../data/pxToEmImages.json')
+        .then(response => response.json())
+        .then(data => (this.images = data));
+    },
   }
 };
 </script>

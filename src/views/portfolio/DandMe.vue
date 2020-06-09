@@ -112,16 +112,25 @@
 </template>
 
 <script>
-import duchenneImages from '../../data/duchenneImages.json'
 
 export default {
   name: "DuchenneAndMe",
   data() {
     return {
-      images: duchenneImages,
+      images: [],
       hero: "https://res.cloudinary.com/kejk/image/upload/v1563370319/woman-standing-with-iphone-x_stxmmn.jpg",
       url: "https://itunes.apple.com/us/app/duchenne-and-me/id1285029104?ls=1&mt=8",
     };
+  },
+  mounted() {
+    this.getDuchenneImages()
+  },
+  methods: {
+    getDuchenneImages: function () {
+      fetch('../data/duchenneImages.json')
+        .then(response => response.json())
+        .then(data => (this.images = data));
+    },
   }
 };
 </script>

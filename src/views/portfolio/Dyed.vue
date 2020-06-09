@@ -94,15 +94,24 @@
 </template>
 
 <script>
-import dyedImages from '../../data/dyedImages.json'
 
 export default {
   name: "Dyed",
   data() {
     return {
-      images: dyedImages,
+      images: [],
       hero: "https://res.cloudinary.com/kejk/image/upload/v1584049333/iphone-xs-with-a-journal-on-the-right-side_afo3ki.jpg",
     }
-  }
+  },
+  mounted() {
+      this.getDyedImages()
+    },
+    methods: {
+      getDyedImages: function () {
+        fetch('../data/dyedImages.json')
+          .then(response => response.json())
+          .then(data => (this.images = data));
+      },
+    }
 };
 </script>

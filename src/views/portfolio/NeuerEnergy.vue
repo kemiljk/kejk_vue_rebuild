@@ -100,16 +100,25 @@
 </template>
 
 <script>
-import neuerEnergyImages from "../../data/neuerEnergyImages.json";
 
 export default {
   name: "NeuerEnergy",
   data() {
     return {
-      images: neuerEnergyImages,
+      images: [],
       hero:
         "https://res.cloudinary.com/kejk/image/upload/v1586968513/NeuerEnergy_Header_y4tafc.png"
     };
+  },
+  mounted() {
+    this.getNEImages()
+  },
+  methods: {
+    getNEImages: function () {
+      fetch('../data/neuerenergyImages.json')
+        .then(response => response.json())
+        .then(data => (this.images = data));
+    },
   }
 };
 </script>

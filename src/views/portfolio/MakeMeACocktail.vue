@@ -115,16 +115,25 @@
 </template>
 
 <script>
-import mmacImages from '../../data/mmacImages.json'
 
 export default {
   name: "MakeMeACocktail",
   data() {
     return {
-      images: mmacImages,
+      images: [],
       hero: "https://res.cloudinary.com/kejk/image/upload/v1566072477/Mockup_mkblp7.png",
       url: "https://www.makemeacocktail.com"
     };
+  },
+  mounted() {
+    this.getMMACImages()
+  },
+  methods: {
+    getMMACImages: function () {
+      fetch('../data/mmacImages.json')
+        .then(response => response.json())
+        .then(data => (this.images = data));
+    },
   }
 };
 </script>

@@ -139,8 +139,6 @@
 <script>
 import Projects from "../components/Projects";
 import Challenges from "../components/Challenges";
-import projectsData from "../data/projects.json";
-import challengesData from "../data/challenges.json";
 
 export default {
   name: "Portfolio",
@@ -156,9 +154,25 @@ export default {
           url: "/portfolio"
         }
       ],
-      projects: projectsData,
-      challenges: challengesData
+      projects: [],
+      challenges: []
     };
+  },
+  mounted() {
+    this.getProjectsData();
+    this.getChallengesData();
+  },
+  methods: {
+    getProjectsData: function () {
+      fetch('/data/projects.json')
+        .then(response => response.json())
+        .then(data => (this.projects = data));
+    },
+    getChallengesData: function () {
+      fetch('/data/challenges.json')
+        .then(response => response.json())
+        .then(data => (this.challenges = data));
+    }
   }
 };
 </script>

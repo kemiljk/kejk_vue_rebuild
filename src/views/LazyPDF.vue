@@ -120,17 +120,26 @@
 </template>
 
 <script>
-import lazyPDF from "./../data/lazyPDF.json";
 
 export default {
   name: "LazyPDF",
   data() {
     return {
-      images: lazyPDF,
+      images: [],
       hero:
         "https://res.cloudinary.com/kejk/image/upload/v1585992488/macbook-pro-space-gray-on-the-wooden-table_e6bu8w.jpg",
       url: "https://res.cloudinary.com/kejk/raw/upload/v1585911201/Lazy_PDF.zip"
     };
+  },
+  mounted() {
+    this.getLazyPDFImages()
+  },
+  methods: {
+    getLazyPDFImages: function () {
+      fetch('../data/lazypdfImages.json')
+        .then(response => response.json())
+        .then(data => (this.images = data));
+    },
   }
 };
 </script>

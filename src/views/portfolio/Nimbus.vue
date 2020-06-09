@@ -95,15 +95,24 @@
 </template>
 
 <script>
-import nimbusImages from '../../data/nimbusImages.json'
 
 export default {
   name: "Nimbus",
   data() {
     return {
-      images: nimbusImages,
+      images: [],
       hero: "https://res.cloudinary.com/kejk/image/upload/v1564640894/nimbusHeader_lkufvy.png"
     };
+  },
+  mounted() {
+    this.getNimbusImages()
+  },
+  methods: {
+    getNimbusImages: function () {
+      fetch('../data/nimbusImages.json')
+        .then(response => response.json())
+        .then(data => (this.images = data));
+    },
   }
 };
 </script>

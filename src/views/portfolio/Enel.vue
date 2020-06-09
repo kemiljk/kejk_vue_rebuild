@@ -88,15 +88,24 @@
 </template>
 
 <script>
-import enelImages from '../../data/enelImages.json'
 
 export default {
   name: "Enel",
   data() {
     return {
-      images: enelImages,
+      images: [],
       hero: "https://res.cloudinary.com/kejk/image/upload/v1583872652/Enel_Header_ckjyvm.png",
     };
+  },
+  mounted() {
+    this.getEnelImages()
+  },
+  methods: {
+    getEnelImages: function () {
+      fetch('../data/enelImages.json')
+        .then(response => response.json())
+        .then(data => (this.images = data));
+    },
   }
 };
 </script>

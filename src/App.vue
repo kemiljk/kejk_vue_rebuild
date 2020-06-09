@@ -158,7 +158,6 @@
 
 <script>
 import Nav from "./components/Nav.vue";
-import navLinks from "./data/nav.json";
 
 export default {
   name: "App",
@@ -167,13 +166,21 @@ export default {
   },
   data() {
     return {
-      navs: navLinks
+      navs: []
     };
+  },
+  mounted() {
+    this.getNavLinks()
   },
   methods: {
     toggleTheme() {
       this.$vuetify.theme.dark = !this.$vuetify.theme.dark;
+    },
+    getNavLinks: function () {
+      fetch('../data/nav.json')
+        .then(response => response.json())
+        .then(data => (this.navs = data));
     }
-  }
+  },
 };
 </script>

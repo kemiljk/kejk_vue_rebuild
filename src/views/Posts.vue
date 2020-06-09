@@ -42,7 +42,7 @@
 
 <script>
 import Posts from "../components/Posts";
-import postsData from "../data/posts.json";
+/* import postsData from "../data/posts.json"; */
 
 export default {
   name: "CurrentlyThinking",
@@ -51,8 +51,18 @@ export default {
   },
   data() {
     return {
-      posts: postsData
+      posts: []
     };
+  },
+  mounted() {
+    this.getPostsData();
+  },
+  methods: {
+    getPostsData: function () {
+      fetch('/data/posts.json')
+        .then(response => response.json())
+        .then(data => (this.posts = data));
+    }
   }
 };
 </script>
