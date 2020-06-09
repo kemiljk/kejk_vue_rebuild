@@ -39,6 +39,20 @@
             mdi-open-in-new
           </v-icon>
         </v-btn>
+        <v-btn
+          href="https://neuerenergy-pwa.now.sh"
+          color="yellow darken-1"
+          target="_blank"
+          class="ml-4 black--text"
+        >
+          NeuerEnergy Vue Prototype
+          <v-icon
+            class="ml-2 black--text"
+            small
+          >
+            mdi-open-in-new
+          </v-icon>
+        </v-btn>
         <h3 class="mb-4 mt-8">
           What is it?
         </h3>
