@@ -122,16 +122,25 @@
 </template>
 
 <script>
-import cmcImages from "../../../data/challenges/cmcImages.json";
 
 export default {
   name: "CMC",
   data() {
     return {
-      images: cmcImages,
+      images: [],
       hero:
         "https://res.cloudinary.com/kejk/image/upload/v1590260460/dark-environment-with-imac_poutvu.jpg"
     };
+  },
+  mounted() {
+    this.getCMCImages()
+  },
+  methods: {
+    getCMCImages: function () {
+      fetch('../../data/challenges/cmcImages.json')
+        .then(response => response.json())
+        .then(data => (this.images = data));
+    },
   }
 };
 </script>

@@ -196,16 +196,25 @@
 </template>
 
 <script>
-import truelayerImages from "../../../data/challenges/truelayerImages.json";
 
 export default {
   name: "TrueLayer",
   data() {
     return {
-      images: truelayerImages,
+      images: [],
       hero:
         "https://res.cloudinary.com/kejk/image/upload/v1590341602/ipad-pro-on-blue-background-landscape-shadow-2_h08abg.jpg"
     };
+  },
+  mounted() {
+    this.getTrueLayerImages()
+  },
+  methods: {
+    getTrueLayerImages: function () {
+      fetch('../../data/challenges/truelayerImages.json')
+        .then(response => response.json())
+        .then(data => (this.images = data));
+    },
   }
 };
 </script>

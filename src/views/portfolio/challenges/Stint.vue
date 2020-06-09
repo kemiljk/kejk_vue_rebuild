@@ -89,16 +89,25 @@
 </template>
 
 <script>
-import stintImages from "../../../data/challenges/stintImages.json";
 
 export default {
   name: "Stint",
   data() {
     return {
-      images: stintImages,
+      images: [],
       hero:
         "https://res.cloudinary.com/kejk/image/upload/v1590258809/iphone-xs-with-macbook-air-in-the-background_l8n1pm.jpg"
     };
+  },
+  mounted() {
+    this.getStintImages()
+  },
+  methods: {
+    getStintImages: function () {
+      fetch('../../data/challenges/stintImages.json')
+        .then(response => response.json())
+        .then(data => (this.images = data));
+    },
   }
 };
 </script>
