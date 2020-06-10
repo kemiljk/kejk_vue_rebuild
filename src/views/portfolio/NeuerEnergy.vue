@@ -40,7 +40,7 @@
           </v-icon>
         </v-btn>
         <v-btn
-          href="https://neuerenergy-pwa.now.sh"
+          href="https://neuerenergy.kejk.tech"
           color="yellow darken-1"
           target="_blank"
           class="mb-2 black--text"
