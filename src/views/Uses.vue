@@ -62,35 +62,39 @@
         <ul class="body-1 mb-4">
           <li class="mb-3">
             <a
-              href="https://www.adobe.com/products/xd.html"
-              target="_blank"
-              rel="noreferrer"
-              class="teal--text"
-            >Adobe XD</a> is my design tool for work projects. Its flexibility as a wireframing, prototyping and full featured design tool make it work for our needs.
-            The new collaboration beta is a little funky at the moment, but it's going to make for a solid solution when it's ready.
-          </li>
-          <li class="mb-3">
-            <a
               href="https://www.figma.com"
               target="_blank"
               rel="noreferrer"
               class="teal--text"
-            >Figma</a> is my design tool for personal projects. Its constantly updated and has such a flexible and vast ecosystem of plugins that I can't see myself using anything else. You can find me over at
+            >Figma</a> is my design tool for most projects. Its constantly updated and has such a flexible and vast ecosystem of plugins that I can't see myself using anything else. You can find me over at
             <a
               href="https://www.figma.com/@_kejk"
               target="_blank"
               rel="noreferrer"
               class="teal--text"
-            >@_kejk</a>.
+            >@_kejk</a> where I've released the <a
+            href="https://www.figma.com/community/plugin/837070613195594890/Px-%E2%80%BA%E2%80%BA-Em"
+            target="_blank" 
+            rel="noreferrer"
+            class="teal--text"
+          >Px ›› Em</a> plugin.
           </li>
-          <li>
+          <li class="mb-3">
             <a
-              href="https://overflow.io/"
+              href="https://www.adobe.com/products/xd.html"
               target="_blank"
               rel="noreferrer"
               class="teal--text"
-            >Overflow</a> I sometimes utilise Overflow to create Adobe XD-derived user flows for better visual explanation of page linking and process.
-            Usually this is used if a prototype can't convey the idea (i.e. it's too complex) or the team/client needs a visual depiction of all linkages.
+            >Adobe XD</a> is my design tool for my current work at NeuerEnergy. Its flexibility as a wireframing, prototyping and full featured design tool make it work for our needs.
+            The new collaboration beta is a little funky at the moment, but it's going to make for a solid solution when it's ready.
+          </li>
+          <li>
+            <a
+              href="https://framer.com/"
+              target="_blank"
+              rel="noreferrer"
+              class="teal--text"
+            >Framer</a> is slowly becoming a tool I use more often for more complex prototyping. It's now eaiser than ever to build complex interactions using just the tools at hand whilst also being able to modify and amplify those interactions with knowledge of JavaScript and primarily React.
           </li>
         </ul>
       </v-col>
