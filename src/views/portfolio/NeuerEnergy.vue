@@ -43,7 +43,7 @@
           href="https://neuerenergy-pwa.now.sh"
           color="yellow darken-1"
           target="_blank"
-          class="black--text"
+          class="mb-2 black--text"
         >
           NeuerEnergy Vue Prototype
           <v-icon
