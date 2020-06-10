@@ -31,7 +31,7 @@
           target="_blank"
           class="mr-4 mb-2 white--text"
         >
-          NeuerEnergy
+          NeuerEnergy Website
           <v-icon
             class="ml-2 white--text"
             small
