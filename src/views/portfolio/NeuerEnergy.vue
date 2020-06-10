@@ -130,7 +130,7 @@ export default {
   },
   methods: {
     getNEImages: function () {
-      fetch('../data/neuerenergyImages.json')
+      fetch('../data/neuerEnergyImages.json')
         .then(response => response.json())
         .then(data => (this.images = data));
     },
