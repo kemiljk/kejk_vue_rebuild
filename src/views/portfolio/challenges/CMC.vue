@@ -104,7 +104,7 @@
         />
       </v-col>
     </v-row>
-    <v-row class="d-sm-none d-md-flex">
+    <v-row class="d-none d-md-flex">
       <h3 class="ml-3 mt-4">
         Prototype built in Figma
       </h3>
