@@ -1,10 +1,10 @@
 <template>
   <v-app>
     <v-app-bar app>
-      <v-toolbar-title class="logo d-none d-sm-block font-weight-black">
+      <v-toolbar-title to="/" class="logo d-none d-sm-block font-weight-black">
         KEJK
       </v-toolbar-title>
-      <v-toolbar-title class="logo d-sm-none font-weight-black">
+      <v-toolbar-title to="/" class="logo d-sm-none font-weight-black">
         KK.
       </v-toolbar-title>
       <v-spacer />
