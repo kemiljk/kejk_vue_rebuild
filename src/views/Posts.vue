@@ -1,6 +1,6 @@
 <template>
   <v-container>
-    <v-row class="text-left ml-1 mr-1">
+    <v-row class="text-left">
       <v-col cols="12">
         <v-btn 
           text

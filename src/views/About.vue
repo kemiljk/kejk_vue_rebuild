@@ -254,7 +254,7 @@
       </v-col>
     </v-row>
     <v-divider class="my-10" />
-    <v-row class="ml-1 mr-1">
+    <v-row class="text-left">
       <v-col cols="6">
         <h2
           class="text-left display font-weight-bold mb-3"
