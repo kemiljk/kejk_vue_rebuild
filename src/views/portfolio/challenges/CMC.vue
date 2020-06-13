@@ -80,7 +80,7 @@
           A new reality
         </h4>
         <p class="mb-4">
-          Context is king, so whilst all four options focus on greater contextual awareness, the solution in Version 4 is the one that I’m choosing to develop further.
+          Context is king, so I chose to focus on adding greater affordances and context to the actions that can take place.
         </p>
         <h4 class="mb-4">
           Rationale
