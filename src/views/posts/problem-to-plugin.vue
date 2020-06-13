@@ -26,7 +26,7 @@
       <v-col cols="6">
         <v-btn
           ref="noreferrer"
-          color="purple"
+          color="#f24e1d"
           href="https://www.figma.com/community/plugin/837070613195594890/Px-%E2%80%BA%E2%80%BA-Em"
           class="mt-2 mb-4 white--text"
           target="_blank"
