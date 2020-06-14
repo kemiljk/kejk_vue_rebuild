@@ -50,7 +50,7 @@
         <p
           class="body-1 mb-3"
         >
-          I regularly practice mindfulness and meditation, and I’m an art, design and architecture nerd that absolutely loves exploring and learning about how anything is built.
+          I regularly practice mindfulness and meditation, and I’m an art, design, programming and architecture nerd that absolutely loves learning about how anything is built.
         </p>
         <p
           class="body-1 mb-3"
@@ -135,7 +135,7 @@
         <p
           class="body-1"
         >
-          If you would like to see my portfolio or CV, you can request access by clicking the request access card. Due to the sensitivity of the projects I've worked on, I'm not permitted to list them here. You can see some of my other work in progess via the public access projects or my Dribbble.
+        Due to the sensitivity of the projects I've worked on, I'm not permitted to list a lot of them here. 
         </p>
         <v-btn
           ref="noreferrer"
@@ -194,11 +194,6 @@
         <h2 class="display font-weight-bold mb-3">
           On the side.
         </h2>
-        <p
-          class="body-1"
-        >
-          In my downtime I lead design at  <strong>Make Me A Cocktail</strong> and have released both a Figma plugin and a standalone macOS app. <strong>Px ›› Em</strong> is a plugin for Figma that converts either a text selection or an entered value from <code>pixels</code> to the related <code>em</code> value.  <strong>Lazy PDF</strong> is a free interfaceless macOS utility that allows you to effortlessly create a PDF from a set of selected images.
-        </p>
         <p class="body-1">
           Currently, <strong><span
             id="install-count"
@@ -244,7 +239,7 @@
         <v-card href="https://www.lazypdf.tech" target="_blank" rel="noreferrer">
           <v-img alt="Lazy PDF logo visual" src="../assets/lazyPDF.webp" />
           <v-card-title class="subtitle-1">
-            Lazy PDF app
+            Lazy PDF macOS app
             <v-spacer />
             <v-icon class="ml-4">
               mdi-open-in-new
