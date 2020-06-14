@@ -118,7 +118,7 @@
             src="../assets/portfolio.webp"
           />
           <v-card-title class="subtitle-1">
-            Request access
+            Request full access
             <v-spacer />
             <v-icon class="ml-4">
               mdi-email
