@@ -92,7 +92,7 @@
         >
           Other projects I've completed.
         </h2>
-        <p>Freelance work I've been fortunate to work on.</p>
+        <p>Freelance work I've been fortunate to work on. Working out in the open.</p>
       </v-col>
     </v-row>
     <v-row class="mt-3 mb-10">
