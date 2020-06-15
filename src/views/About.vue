@@ -40,26 +40,22 @@
           class="body-1 mb-3"
           aria-label="about Karl"
         >
-          I started out my career with a deep love of psychology and a Masters in Fine Art creating behaviour-influencing sculptures and digital installations.
+          I started out my career with training in psychology and a Masters in Fine Art, creating behaviour-influencing sculptures and digital installations.
         </p>
         <p
           class="body-1 mb-3"
         >
-          Now, having spent 6 years bringing experience design practices to rare diseases, I lead a product design team delivering elegant AI and persona-driven solutions to change the face of renewable energy.
-        </p>
-        <p
-          class="body-1 mb-3"
-        >
-          I closely follow Dieter Rams' Ten Principles For Good Design, using these as a wayfinder when planning and executing on any design or development decision and any implementation detail. As true as they were in the 1970's, these declarations are even more relevant today in a world of complexity and abundance.
+          Now, having spent 6 years bringing experience design practices to rare diseases, I lead a product design team delivering elegant AI-driven solutions to change the face of renewable energy.
         </p>
         <ul
           class="body-1 mb-3"
         >
-        <li>
-          Practitioner of mindfulness and meditation</li>
         <li>Art, design, and architecture nerd</li>
         <li>Self-taught frontend programmer and tinkerer</li>
+        <li>Dedicated to Rams' ten principles</li>
         <li>Believer that Designers should understand code</li>
+        <li>
+          Practitioner of mindfulness and meditation</li>
         </ul>
         <p class="body-1">
           Previously, I've worked for
