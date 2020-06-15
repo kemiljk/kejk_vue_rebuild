@@ -45,7 +45,7 @@
         <p
           class="body-1 mb-3"
         >
-          Now, having spent 6 years bringing experience design practices to rare diseases, I lead a product design team delivering elegant AI-driven solutions to change the face of renewable energy.
+          Now, having spent 4 years bringing experience design practices to rare diseases, I lead a product design team delivering elegant AI-driven solutions to change the face of renewable energy.
         </p>
         <p class="body-1">
           Previously, I've worked for
