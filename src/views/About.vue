@@ -184,22 +184,6 @@
         <h2 class="display font-weight-bold mb-3">
           On the side.
         </h2>
-        <p class="body-1">
-          Currently, <strong><span
-            id="install-count"
-            class="black--text badge"
-          /></strong> people have installed 
-          <a
-            href="https://www.figma.com/community/plugin/837070613195594890/Px-%E2%80%BA%E2%80%BA-Em"
-            target="_blank" 
-            rel="noreferrer"
-            class="teal--text"
-          >Px ›› Em</a> and 
-          <strong><span
-            id="like-count"
-            class="black--text badge"
-          /></strong> have liked it.
-        </p>
       </v-col>
       <v-col class="mb-3 py-0" cols="12" sm="6" md="4">
         <v-card href="https://www.makemeacocktail.com/" target="_blank" rel="noreferrer">
