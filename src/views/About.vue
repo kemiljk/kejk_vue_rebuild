@@ -17,7 +17,7 @@
           Karl Emil James Koch.
         </h1>
         <h2 class="display-1 font-weight-medium pt-10 mb-3">
-          I currently lead product design at
+          Frontend Designer currently leading product and experience design at
           <a
             href="https://www.neuerenergy.com"
             class="teal--text font-weight-bold"
