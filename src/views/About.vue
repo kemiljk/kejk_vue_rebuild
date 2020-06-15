@@ -205,7 +205,7 @@
         <v-card href="https://www.makemeacocktail.com/" target="_blank" rel="noreferrer">
           <v-img alt="Make Me A Cocktail visual" src="../assets/mmac.webp" />
           <v-card-title class="subtitle-1">
-            Make Me A Cocktail
+            Designer @ Make Me A Cocktail
             <v-spacer />
             <v-icon class="ml-4">
               mdi-open-in-new
@@ -217,7 +217,7 @@
         <v-card href="https://www.figma.com/community/plugin/837070613195594890/Px-%E2%80%BA%E2%80%BA-Em" target="_blank" rel="noreferrer">
           <v-img alt="Lazy PDF logo visual" src="../assets/px2em.webp" />
           <v-card-title class="subtitle-1">
-            Px ›› Em Figma Plugin
+            Creator @ Px ›› Em Figma Plugin
             <v-spacer />
             <v-icon class="ml-4">
               mdi-open-in-new
@@ -229,7 +229,7 @@
         <v-card href="https://www.lazypdf.tech" target="_blank" rel="noreferrer">
           <v-img alt="Lazy PDF logo visual" src="../assets/lazyPDF.webp" />
           <v-card-title class="subtitle-1">
-            Lazy PDF macOS app
+            Creator @ Lazy PDF macOS app
             <v-spacer />
             <v-icon class="ml-4">
               mdi-open-in-new
