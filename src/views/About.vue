@@ -45,18 +45,22 @@
         <p
           class="body-1 mb-3"
         >
-          Now, having spent 6 years bringing design thinking practices to rare diseases, I lead a product design team delivering elegant persona-driven solutions to change the face of renewable energy.
-        </p>
-        <p
-          class="body-1 mb-3"
-        >
-          I regularly practice mindfulness and meditation, and I’m an art, design, programming and architecture nerd that absolutely loves learning about how anything is built.
+          Now, having spent 6 years bringing experience design practices to rare diseases, I lead a product design team delivering elegant AI and persona-driven solutions to change the face of renewable energy.
         </p>
         <p
           class="body-1 mb-3"
         >
           I closely follow Dieter Rams' Ten Principles For Good Design, using these as a wayfinder when planning and executing on any design or development decision and any implementation detail. As true as they were in the 1970's, these declarations are even more relevant today in a world of complexity and abundance.
         </p>
+        <ul
+          class="body-1 mb-3"
+        >
+        <li>
+          Practitioner of mindfulness and meditation</li>
+        <li>Art, design, and architecture nerd</li>
+        <li>Self-taught frontend programmer and tinkerer</li>
+        <li>Believer that Designers should understand code</li>
+        </ul>
         <p class="body-1">
           Previously, I've worked for
           <a
