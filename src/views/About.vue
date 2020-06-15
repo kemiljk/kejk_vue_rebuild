@@ -330,15 +330,6 @@
       >
         Currently reading.
       </h2>
-      <p class="body-1 mb-3 text-left">
-        I don't make any money from these links, but if you buy a book through one of the Amazon links then a portion of your purchase goes to charity thanks to
-        <a
-          href="https://smile.amazon.com"
-          target="_blank"
-          rel="noreferrer"
-          class="teal--text"
-        >Amazon Smile</a>.
-      </p>
       <v-row>
         <v-col
           v-for="book in books"
