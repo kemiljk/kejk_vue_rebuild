@@ -47,16 +47,6 @@
         >
           Now, having spent 6 years bringing experience design practices to rare diseases, I lead a product design team delivering elegant AI-driven solutions to change the face of renewable energy.
         </p>
-        <ul
-          class="body-1 mb-3"
-        >
-        <li>Art, design, and architecture nerd</li>
-        <li>Self-taught frontend programmer and tinkerer</li>
-        <li>Dedicated to Rams' ten principles</li>
-        <li>Believer that Designers should understand code</li>
-        <li>
-          Practitioner of mindfulness and meditation</li>
-        </ul>
         <p class="body-1">
           Previously, I've worked for
           <a
