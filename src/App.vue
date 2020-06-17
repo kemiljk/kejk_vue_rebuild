@@ -36,6 +36,17 @@
       app
       color="transparent"
     >
+    <v-col
+        class="text-left"
+        cols="12"
+      >
+      <!-- <div v-html="desc">
+        <button data-apple-music-pause></button>
+        <button data-apple-music-play></button>
+        <button data-apple-music-skip-to-next-item></button>
+        <button data-apple-music-skip-to-previous-item></button>
+      </div> -->
+    </v-col>
       <v-col
         class="text-left"
         cols="12"
@@ -156,6 +167,10 @@
   </v-app>
 </template>
 
+<!--
+<script src="https://js-cdn.music.apple.com/musickit/v1/musickit.js"></script>
+-->
+
 <script>
 import Nav from "./components/Nav.vue";
 
@@ -180,7 +195,7 @@ export default {
       fetch('../data/nav.json')
         .then(response => response.json())
         .then(data => (this.navs = data));
-    }
+    },
   },
 };
 </script>
