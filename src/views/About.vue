@@ -184,12 +184,24 @@
         <h2 class="display font-weight-bold mb-3">
           On the side.
         </h2>
+      <p class="body-1">
+        Currently, <strong><span
+          id="install-count"
+          class="black--text badge"
+        /></strong> people have installed 
+        <a
+          href="https://www.figma.com/community/plugin/837070613195594890/Px-%E2%80%BA%E2%80%BA-Em"
+          target="_blank" 
+          rel="noreferrer"
+          class="teal--text"
+        >Px ›› Em</a> for Figma
+      </p>
       </v-col>
-      <v-col class="mb-3 py-0" cols="12" sm="6" md="4">
-        <v-card href="https://www.makemeacocktail.com/" target="_blank" rel="noreferrer">
-          <v-img alt="Make Me A Cocktail visual" src="../assets/mmac.webp" />
+      <v-col class="mb-3 py-0" cols="12" sm="6">
+        <v-card href="#" target="_blank" rel="noreferrer" disabled>
+          <v-img alt="Lazy PDF logo visual" src="../assets/pxtoem.webp" />
           <v-card-title class="subtitle-1">
-            Make Me A Cocktail
+            Px ›› Em iOS and macOS app
             <v-spacer />
             <v-icon class="ml-4">
               mdi-open-in-new
@@ -197,7 +209,7 @@
           </v-card-title>
         </v-card>
       </v-col>
-      <v-col class="mb-3 py-0" cols="12" sm="6" md="4">
+      <v-col class="mb-3 py-0" cols="12" sm="6">
         <v-card href="https://www.figma.com/community/plugin/837070613195594890/Px-%E2%80%BA%E2%80%BA-Em" target="_blank" rel="noreferrer">
           <v-img alt="Lazy PDF logo visual" src="../assets/px2em.webp" />
           <v-card-title class="subtitle-1">
@@ -209,11 +221,23 @@
           </v-card-title>
         </v-card>
       </v-col>
-      <v-col class="mb-3 py-0" cols="12" sm="6" md="4">
+      <v-col class="mb-3 py-0" cols="12" sm="6">
         <v-card href="https://www.lazypdf.tech" target="_blank" rel="noreferrer">
           <v-img alt="Lazy PDF logo visual" src="../assets/lazyPDF.webp" />
           <v-card-title class="subtitle-1">
             Lazy PDF macOS app
+            <v-spacer />
+            <v-icon class="ml-4">
+              mdi-open-in-new
+            </v-icon>
+          </v-card-title>
+        </v-card>
+      </v-col>
+      <v-col class="mb-3 py-0" cols="12" sm="6">
+        <v-card href="https://www.makemeacocktail.com/" target="_blank" rel="noreferrer">
+          <v-img alt="Make Me A Cocktail visual" src="../assets/mmac.webp" />
+          <v-card-title class="subtitle-1">
+            Make Me A Cocktail
             <v-spacer />
             <v-icon class="ml-4">
               mdi-open-in-new

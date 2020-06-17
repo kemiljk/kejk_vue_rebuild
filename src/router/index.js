@@ -110,6 +110,11 @@ const routes = [
     component: () => import('../views/portfolio/challenges/CMC.vue')
   },
   {
+    path: '/portfolio/moneybox-challenge',
+    name: 'Moneybox',
+    component: () => import('../views/portfolio/challenges/Moneybox.vue')
+  },
+  {
     path: '/portfolio/stint-challenge',
     name: 'Stint',
     component: () => import('../views/portfolio/challenges/Stint.vue')
