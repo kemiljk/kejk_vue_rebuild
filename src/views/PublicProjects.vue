@@ -61,8 +61,9 @@
           class="display font-weight-bold mb-3 mt-10"
           aria-label="Karl's projects"
         >
-          Design tasks I've completed.
+          Timed challenges I've completed.
         </h2>
+        <p>Challenges I've worked on to test what I can deliver in set time windows.</p>
       </v-col>
     </v-row>
     <v-row class="mt-3 mb-5">
