@@ -198,7 +198,7 @@
       </p>
       </v-col>
       <v-col class="mb-3 py-0" cols="12" sm="6">
-        <v-card href="#" target="_blank" rel="noreferrer" disabled>
+        <v-card href="https://apps.apple.com/app/id1518887590" target="_blank" rel="noreferrer" disabled>
           <v-img alt="Lazy PDF logo visual" src="../assets/pxtoem.webp" />
           <v-card-title class="subtitle-1">
             Px ›› Em iOS and macOS app
