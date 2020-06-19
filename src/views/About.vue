@@ -185,6 +185,9 @@
           On the side.
         </h2>
       <p class="body-1">
+        In my spare time I like to make things.
+      </p>
+      <p class="body-1">
         Currently, <strong><span
           id="install-count"
           class="black--text badge"
@@ -194,7 +197,7 @@
           target="_blank" 
           rel="noreferrer"
           class="teal--text"
-        >Px ›› Em</a> for Figma
+        >Px ›› Em</a> for Figma.
       </p>
       </v-col>
       <v-col class="mb-3 py-0" cols="12" sm="6">
