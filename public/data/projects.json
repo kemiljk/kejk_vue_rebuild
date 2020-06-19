@@ -1,7 +1,7 @@
 [
     {
         "id": 1,
-        "title": "NeuerEnergy",
+        "title": "NeuerEnergy SaaS",
         "url": "/portfolio/neuerenergy",
         "img": "https://res.cloudinary.com/kejk/image/upload/v1592411350/mobile-signup_6_cuym9p.png",
         "ext": "",
@@ -9,7 +9,7 @@
     },
     {
         "id": 3,
-        "title": "Duchenne and Me",
+        "title": "Duchenne and Me app",
         "url": "/portfolio/duchenne-and-me",
         "img": "https://res.cloudinary.com/kejk/image/upload/v1592569691/D_Me_2_jwspqs.png",
         "ext": "",
@@ -17,7 +17,7 @@
     },
     {
         "id": 4,
-        "title": "DyeD",
+        "title": "DyeD app",
         "url": "/portfolio/santen-dyed",
         "img": "https://res.cloudinary.com/kejk/image/upload/v1592568549/DyeD_1_gr1zgl.png",
         "ext": "",
@@ -25,7 +25,7 @@
     },
     {
         "id": 4,
-        "title": "Enel predictive maintenance",
+        "title": "Enel ML dashboard",
         "url": "/portfolio/enel-battery-storage",
         "img": "https://res.cloudinary.com/kejk/image/upload/v1585330457/Enel_1_il7vqp.png",
         "ext": "",
@@ -73,7 +73,7 @@
     },
     {
         "id": 2,
-        "title": "Make Me A Cocktail",
+        "title": "Make Me A Cocktail website",
         "url": "/portfolio/make-me-a-cocktail",
         "img": "https://res.cloudinary.com/kejk/image/upload/v1592562023/Desktop-login_2_h7lbuc.png",
         "ext": "",
