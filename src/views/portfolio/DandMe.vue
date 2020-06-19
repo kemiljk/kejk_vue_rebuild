@@ -84,6 +84,7 @@
             :href="`${url}`"
             target="_blank"
             alt="link to app store"
+            color="light-blue"
           >
             Duchenne and Me
             <v-icon 
@@ -118,7 +119,7 @@ export default {
   data() {
     return {
       images: [],
-      hero: "https://res.cloudinary.com/kejk/image/upload/v1563370319/woman-standing-with-iphone-x_stxmmn.jpg",
+      hero: "https://res.cloudinary.com/kejk/image/upload/v1592561504/NeuerEnergy_Header_2_u3bazt.png",
       url: "https://itunes.apple.com/us/app/duchenne-and-me/id1285029104?ls=1&mt=8",
     };
   },

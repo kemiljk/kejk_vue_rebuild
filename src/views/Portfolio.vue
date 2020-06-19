@@ -97,7 +97,7 @@
     </v-row>
     <v-row class="mt-3 mb-10">
       <v-col
-        v-for="project in projects.slice(7,10)"
+        v-for="project in projects.slice(7,11)"
         :key="`${project.id}`"
         cols="12"
         sm="6"
