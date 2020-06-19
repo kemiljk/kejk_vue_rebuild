@@ -122,7 +122,7 @@
     </v-row>
     <v-row class="mt-3 mb-5">
       <v-col
-        v-for="challenge in challenges.slice(1,4)"
+        v-for="challenge in challenges"
         :key="`${challenge.id}`"
         cols="12"
         sm="6"
