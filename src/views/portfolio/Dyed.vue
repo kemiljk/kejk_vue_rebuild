@@ -100,7 +100,7 @@ export default {
   data() {
     return {
       images: [],
-      hero: "https://res.cloudinary.com/kejk/image/upload/v1584049333/iphone-xs-with-a-journal-on-the-right-side_afo3ki.jpg",
+      hero: "https://res.cloudinary.com/kejk/image/upload/v1592565325/Dyed_Header_1_ki7dah.png",
     }
   },
   mounted() {

@@ -1,14 +1,14 @@
 [
     {
+        "id": 4,
+        "img": "https://res.cloudinary.com/kejk/image/upload/v1592568273/mobile-signup_13_h3sfvz.png"
+    },
+    {
         "id": 1,
-        "img": "https://res.cloudinary.com/kejk/image/upload/v1588513049/mobile-signup_4_xe1yts.png"
+        "img": "https://res.cloudinary.com/kejk/image/upload/v1592565608/mobile-signup_5_byexl3.png"
     },
     {
         "id": 2,
-        "img": "https://res.cloudinary.com/kejk/image/upload/v1588513050/mobile-signup_5_j1dfaj.png"
-    },
-    {
-        "id": 4,
-        "img": "https://res.cloudinary.com/kejk/image/upload/v1565541249/smartmockups_jz76q7en_pmbhrc.jpg"
+        "img": "https://res.cloudinary.com/kejk/image/upload/v1592565607/mobile-signup_12_xubx97.png"
     }
 ]
