@@ -18,7 +18,7 @@
         <h1
           class="display-2 font-weight-bold mb-3 mt-10"
         >
-          Dyed.
+          DyeD.
         </h1>
         <h2
           class="headline mb-3 mt-2"
