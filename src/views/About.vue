@@ -204,7 +204,7 @@
         <v-card href="https://apps.apple.com/us/app/id1518887590" target="_blank" rel="noreferrer">
           <v-img alt="Lazy PDF logo visual" src="../assets/pxtoem.webp" />
           <v-card-title class="subtitle-1">
-            Px ›› Em iOS and macOS app
+            Px ›› Em iOS app
             <v-spacer />
             <v-icon class="ml-4">
               mdi-open-in-new
