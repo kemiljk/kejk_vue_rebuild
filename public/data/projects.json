@@ -56,6 +56,22 @@
         "extTrue": true
     },
     {
+        "id": 7,
+    "title": "Make Me A Cocktail app",
+    "url": "https://dribbble.com/_kejk/projects/2135484-Make-Me-A-Cocktail",
+    "img": "https://cdn.dribbble.com/users/252548/screenshots/12158151/media/4176b1eafb7b6b3babf6ba98eff97004.png",
+    "ext": "_blank",
+    "extTrue": true
+    },
+    {
+        "id": 2,
+        "title": "Make Me A Cocktail website",
+        "url": "/portfolio/make-me-a-cocktail",
+        "img": "https://res.cloudinary.com/kejk/image/upload/v1592562023/Desktop-login_2_h7lbuc.png",
+        "ext": "",
+        "extTrue": false
+    },
+    {
         "id": 6,
         "title": "Locally redesign",
         "url": "https://dribbble.com/_kejk/projects/2135493-The-Big-Small-Shop-Redesign",
@@ -70,21 +86,5 @@
         "img": "https://cdn.dribbble.com/users/252548/screenshots/11948820/media/78880fd4c53e9d182633b3c0d9caada8.png",
         "ext": "_blank",
         "extTrue": true
-    },
-    {
-        "id": 2,
-        "title": "Make Me A Cocktail website",
-        "url": "/portfolio/make-me-a-cocktail",
-        "img": "https://res.cloudinary.com/kejk/image/upload/v1592562023/Desktop-login_2_h7lbuc.png",
-        "ext": "",
-        "extTrue": false
-    },
-    {
-        "id": 7,
-    "title": "Make Me A Cocktail app",
-    "url": "https://dribbble.com/_kejk/projects/2135484-Make-Me-A-Cocktail",
-    "img": "https://cdn.dribbble.com/users/252548/screenshots/11585946/media/9d130f636cb37ee1b38f22caa877f684.png",
-    "ext": "_blank",
-    "extTrue": true
     }
 ]
