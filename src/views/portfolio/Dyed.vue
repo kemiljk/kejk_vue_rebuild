@@ -89,18 +89,34 @@
           class="img"
         />
       </v-col>
+      <my-video :sources="video.sources" :options="video.options"></my-video>
     </v-row>
   </v-container>
 </template>
 
 <script>
+import myVideo from 'vue-video'
 
 export default {
   name: "Dyed",
+  components: {
+    myVideo
+  },
   data() {
     return {
       images: [],
       hero: "https://res.cloudinary.com/kejk/image/upload/v1592565325/Dyed_Header_1_ki7dah.png",
+      video: {
+                sources: [{
+                    src: 'https://res.cloudinary.com/kejk/video/upload/v1592683737/Screen_Recording_2020-06-20_at_05.44_pm_jfntyl.mp4',
+                    type: 'video/mp4'
+                }],
+                options: {
+                    autoplay: true,
+                    volume: 0,
+                    poster: ''
+                }
+            }
     }
   },
   mounted() {
