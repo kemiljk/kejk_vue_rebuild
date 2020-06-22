@@ -114,7 +114,7 @@ export default {
                 options: {
                     autoplay: true,
                     volume: 0,
-                    poster: ''
+                    poster: 'https://res.cloudinary.com/kejk/image/upload/v1592825872/Screenshot_2020-06-22_at_12.37.09_lr1edb.png'
                 }
             }
     }

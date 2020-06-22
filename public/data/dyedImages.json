@@ -1,14 +1,14 @@
 [
     {
         "id": 4,
-        "img": "https://res.cloudinary.com/kejk/image/upload/v1592651767/mobile-signup_13_3x_rdxtzm.png"
+        "img": "https://res.cloudinary.com/kejk/image/upload/c_scale,w_2000/v1592651767/mobile-signup_13_3x_rdxtzm.png"
     },
     {
         "id": 1,
-        "img": "https://res.cloudinary.com/kejk/image/upload/v1592651764/mobile-signup_5_3x_lxhlh4.png"
+        "img": "https://res.cloudinary.com/kejk/image/upload/c_scale,w_2000/v1592651764/mobile-signup_5_3x_lxhlh4.png"
     },
     {
         "id": 2,
-        "img": "https://res.cloudinary.com/kejk/image/upload/v1592651762/mobile-signup_12_3x_hawdde.png"
+        "img": "https://res.cloudinary.com/kejk/image/upload/c_scale,w_2000/v1592651762/mobile-signup_12_3x_hawdde.png"
     }
 ]
