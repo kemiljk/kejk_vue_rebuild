@@ -6,9 +6,9 @@
           class="text-uppercase title mt-10"
           style="line-height: 16pt"
         >
-          Senior UX/UI Designer
+          Product Designer
           <br>at
-          <strong>NeuerEnergy</strong>
+          <strong>HomeHero</strong>
         </p>
         <h1
           class="display-3 font-weight-bold mb-10 pt-10"
@@ -17,13 +17,13 @@
           Karl Emil James Koch.
         </h1>
         <h2 class="display-1 font-weight-medium pt-10 mb-3">
-          Frontend Designer currently leading product and experience design at
+          Product Designer currently leading product design at
           <a
-            href="https://www.neuerenergy.com"
-            class="teal--text font-weight-bold"
+            href="https://www.homehero.co.uk"
+            class="purple--text font-weight-bold"
             target="_blank"
             rel="noreferrer"
-          >NeuerEnergy</a>
+          >HomeHero</a>
           &nbsp;
           <sup>
             <v-icon
@@ -45,10 +45,16 @@
         <p
           class="body-1 mb-3"
         >
-          Now, having spent 4 years bringing experience design practices to rare diseases, I lead a product design team delivering elegant AI-driven solutions to change the face of renewable energy.
+          Now, having spent my career bringing experience design practices to rare diseases and delivering elegant AI-driven solutions to change the face of renewable energy, I'm designing the future of Home as a Service at HomeHero.
         </p>
         <p class="body-1">
           Previously, I've worked for
+          <a
+            href="https://www.neuerenergy.com"
+            target="_blank"
+            rel="noreferrer"
+            class="teal--text"
+          >NeuerEnergy</a>, 
           <a
             href="https://www.cognite.co"
             target="_blank"
