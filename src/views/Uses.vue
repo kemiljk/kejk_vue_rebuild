@@ -43,6 +43,14 @@
             class="teal--text"
           >Vuetify</a> library. As a developer who started with bare HTML and CSS and stayed that way for a while, I couldn't recommend Vue more to designers who're looking to code. Primarily building your application in semantic HTML whilst leveraging the power of JavaScript makes it a one of a kind framework that allows me to write fast, performant code.
         </p>
+        <p class="body-1 mb-3">
+            I'm also now exploring the wonders of <a
+            href="https://developer.apple.com/documentation/swiftui"
+            target="_blank"
+            rel="noreferrer"
+            class="teal--text"
+          >SwiftUI</a> which is leading to a whole new experience of developing. 
+        </p>
       </v-col>
     </v-row>
     <v-divider />
@@ -81,12 +89,11 @@
           </li>
           <li class="mb-3">
             <a
-              href="https://www.adobe.com/products/xd.html"
+              href="https://developer.apple.com/documentation/swiftui"
               target="_blank"
               rel="noreferrer"
               class="teal--text"
-            >Adobe XD</a> is my design tool for my current work at NeuerEnergy. Its flexibility as a wireframing, prototyping and full featured design tool make it work for our needs.
-            The new collaboration beta is a little funky at the moment, but it's going to make for a solid solution when it's ready.
+            >SwiftUI</a> is slowly becoming a prototyping and design/build tool for me. It allows me to create custom designs and production-ready code, whilst utilising the constraints of iOS by default. This increases the rate of design exploration but also helps with the final real-world application when working with engineers.
           </li>
           <li>
             <a
@@ -94,7 +101,7 @@
               target="_blank"
               rel="noreferrer"
               class="teal--text"
-            >Framer</a> is slowly becoming a tool I use more often for more complex prototyping. It's now eaiser than ever to build complex interactions using just the tools at hand whilst also being able to modify and amplify those interactions with knowledge of JavaScript and primarily React.
+            >Framer</a> is slowly becoming a tool I use more often for more complex prototyping when not building direct in SwiftUI. It's now eaiser than ever to build complex interactions using just the tools at hand whilst also being able to modify and amplify those interactions with knowledge of JavaScript and primarily React.
           </li>
         </ul>
       </v-col>
@@ -149,6 +156,16 @@
               rel="noreferrer"
               class="teal--text"
             >Hyper</a> is my terminal of choice with JetBrains Mono set as my font of choice as well as some custom colour rules.
+          </li>
+        </ul>
+        <ul class="body-1 mb-6">
+          <li class="mb-3">
+            <a
+              href="https://developer.apple.com/xcode/"
+              target="_blank"
+              rel="noreferrer"
+              class="teal--text"
+            >Xcode</a> has gotten so much better recently, and Xcode 12 is set to be even more powerful. Live previews of SwiftUI code make it the defacto choice for iOS prototyping and dev.
           </li>
         </ul>
         <ul class="body-1 mb-6">
