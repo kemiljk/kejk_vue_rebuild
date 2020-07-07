@@ -27,7 +27,7 @@
           &nbsp;
           <sup>
             <v-icon
-              class="teal--text"
+              class="purple--text"
               small
             >mdi-open-in-new</v-icon>
           </sup> in London, UK.
