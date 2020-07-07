@@ -236,7 +236,7 @@
             >first generation Apple Pencil</a>.
           </li>
           <li class="mb-3">
-            MacBook Pro 15" (2019) in silver [no longer sold] with the
+            MacBook Pro 13" (2020) in space grey with the
             <a
               href="https://www.keychron.com/pages/k6"
               target="_blank"
@@ -248,8 +248,22 @@
               target="_blank"
               rel="noreferrer"
               class="teal--text"
-            >Logitech MX Master 3 mouse</a> and the TwelveSouth Ghost
-            Stand [no longer sold].
+            >Logitech MX Master 3 mouse</a> and a <a
+              href="https://smile.amazon.co.uk/dp/B084XR8RPB/ref=cm_sw_r_cp_tai_W4bbFbAX7S70V"
+              target="_blank"
+              rel="noreferrer"
+              class="teal--text"
+            >Lenovo L28u-30</a> monitor with a <a
+              href="https://smile.amazon.co.uk/dp/B07KSH97ND/ref=cm_sw_r_cp_tai_Y5bbFb737VPXW"
+              target="_blank"
+              rel="noreferrer"
+              class="teal--text"
+            >Macally VCSTAND</a> and a <a
+              href="https://smile.amazon.co.uk/dp/B087TKC8D3/ref=cm_sw_r_cp_tai_96bbFbP4FW0KQ"
+              target="_blank"
+              rel="noreferrer"
+              class="teal--text"
+            >ZasLuke 1080p webcam</a>.
           </li>
         </ul>
       </v-col>
