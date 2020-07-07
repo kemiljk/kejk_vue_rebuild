@@ -122,10 +122,10 @@
         </p>
         <ul class="body-1 mb-4">
           <li class="mb-3">
-            <strong>Languages:</strong> HTML, CSS/SASS/SCSS, JavaScript and SwiftUI
+            <strong>Languages:</strong> HTML, CSS/SCSS, JavaScript and Swift
           </li>
           <li class="mb-3">
-            <strong>Frameworks / Libraries / Tools:</strong> Vue.js, Veutify, Git
+            <strong>Frameworks / Libraries / Tools:</strong> Vue.js, Veutify, Git, SwiftUI
           </li>
           <li class="mb-3">
             <a
@@ -149,19 +149,19 @@
           </li>
           <li class="mb-3">
             <a
-              href="https://hyper.is"
-              target="_blank"
-              rel="noreferrer"
-              class="teal--text"
-            >Hyper</a> is my terminal of choice with JetBrains Mono set as my font of choice as well as some custom colour rules.
-          </li>
-          <li class="mb-3">
-            <a
               href="https://developer.apple.com/xcode/"
               target="_blank"
               rel="noreferrer"
               class="teal--text"
             >Xcode</a> has gotten so much better recently, and Xcode 12 is set to be even more powerful. Live previews of SwiftUI code make it the defacto choice for iOS prototyping and dev.
+          </li>
+          <li class="mb-3">
+            <a
+              href="https://hyper.is"
+              target="_blank"
+              rel="noreferrer"
+              class="teal--text"
+            >Hyper</a> is my terminal of choice with JetBrains Mono set as my font of choice as well as some custom colour rules.
           </li>
           <li class="mb-3">
             <a
