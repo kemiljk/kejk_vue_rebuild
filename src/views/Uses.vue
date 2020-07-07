@@ -236,7 +236,12 @@
             >first generation Apple Pencil</a>.
           </li>
           <li class="mb-3">
-            MacBook Pro 13" (2020) in space grey with the
+            <a
+              href="https://www.apple.com/uk/macbook-pro-13/"
+              target="_blank"
+              rel="noreferrer"
+              class="teal--text"
+            >MacBook Pro 13" (2020)</a> in space grey with the
             <a
               href="https://www.keychron.com/pages/k6"
               target="_blank"
