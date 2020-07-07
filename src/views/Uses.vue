@@ -122,10 +122,10 @@
         </p>
         <ul class="body-1 mb-4">
           <li class="mb-3">
-            <strong>Languages:</strong> HTML, CSS/SASS/SCSS, JavaScript and a small amount of PHP
+            <strong>Languages:</strong> HTML, CSS/SASS/SCSS, JavaScript and SwiftUI
           </li>
           <li class="mb-3">
-            <strong>Frameworks / Libraries / Tools:</strong> Vue.js, Veutify, Git, Web Components
+            <strong>Frameworks / Libraries / Tools:</strong> Vue.js, Veutify, Git
           </li>
           <li class="mb-3">
             <a
@@ -147,8 +147,6 @@
               class="teal--text"
             >JetBrains Mono</a> as my default code font with ligatures set to true.
           </li>
-        </ul>
-        <ul class="body-1 mb-6">
           <li class="mb-3">
             <a
               href="https://hyper.is"
@@ -157,8 +155,6 @@
               class="teal--text"
             >Hyper</a> is my terminal of choice with JetBrains Mono set as my font of choice as well as some custom colour rules.
           </li>
-        </ul>
-        <ul class="body-1 mb-6">
           <li class="mb-3">
             <a
               href="https://developer.apple.com/xcode/"
@@ -167,8 +163,6 @@
               class="teal--text"
             >Xcode</a> has gotten so much better recently, and Xcode 12 is set to be even more powerful. Live previews of SwiftUI code make it the defacto choice for iOS prototyping and dev.
           </li>
-        </ul>
-        <ul class="body-1 mb-6">
           <li class="mb-3">
             <a
               href="https://ohmyz.sh"
