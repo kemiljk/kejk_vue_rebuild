@@ -20,14 +20,14 @@
           Product Designer currently leading product design at
           <a
             href="https://www.homehero.co.uk"
-            class="purple--text font-weight-bold"
+            class="purple--text text--darken-2 font-weight-bold"
             target="_blank"
             rel="noreferrer"
           >HomeHero</a>
           &nbsp;
           <sup>
             <v-icon
-              class="purple--text darken-2"
+              class="purple--text text--darken-2"
               small
             >mdi-open-in-new</v-icon>
           </sup> in London, UK.
