@@ -20,7 +20,7 @@
           Product Designer currently leading product design at
           <a
             href="https://www.homehero.co.uk"
-            class="purple--text text--darken-2 font-weight-bold"
+            class="purple--text text--darken-3 font-weight-bold"
             target="_blank"
             rel="noreferrer"
           >HomeHero</a>
