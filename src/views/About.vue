@@ -24,7 +24,6 @@
             target="_blank"
             rel="noreferrer"
           >HomeHero</a>
-          &nbsp;
           <sup>
             <v-icon
               class="red--text accent-2"
