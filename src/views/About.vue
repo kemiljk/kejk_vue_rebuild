@@ -17,7 +17,7 @@
           Karl Emil James Koch.
         </h1>
         <h2 class="display-1 font-weight-medium pt-10 mb-3">
-          Product Designer, creating the future of the home-as-a-service, at
+          Designing the home-as-a-service at
           <a
             href="https://www.homehero.co.uk"
             class="red--text accent-2 font-weight-bold"
