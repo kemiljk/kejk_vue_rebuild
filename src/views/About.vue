@@ -324,7 +324,7 @@
         <p
           class="body-1"
         >
-          As a frontend designer, I use a variety of things to stay productive. Check out my hardware and software setup and get in touch if you have any questions.
+          As a product and frontend designer, I use a variety of things to stay productive. Check out my hardware and software setup and get in touch if you have any questions.
         </p>
       </v-col>
     </v-row>
