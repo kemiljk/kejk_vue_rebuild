@@ -39,7 +39,7 @@
           class="body-1 mb-3"
           aria-label="about Karl"
         >
-          I started out my career with training in psychology and a Masters in Fine Art, creating behaviour-influencing sculptures and digital installations.
+          I started out my career with training in psychology and a Masters in Fine Art creating surrealist, behaviour-influencing sculptures and digital installations.
         </p>
         <p
           class="body-1 mb-3"
