@@ -6,9 +6,9 @@
           class="text-uppercase title mt-10"
           style="line-height: 16pt"
         >
-          Senior UX/UI Designer
-          <br>at
-          <strong>NeuerEnergy</strong>
+          Product Designer
+          <br />at
+          <strong>HomeHero</strong>
         </p>
         <h1
           class="display-3 font-weight-bold mb-10 pt-10"
@@ -17,17 +17,16 @@
           Karl Emil James Koch.
         </h1>
         <h2 class="display-1 font-weight-medium pt-10 mb-3">
-          Frontend Designer currently leading product and experience design at
+          Designing the Home as a Service at
           <a
-            href="https://www.neuerenergy.com"
-            class="teal--text font-weight-bold"
+            href="https://www.homehero.co.uk"
+            class="red--text accent-2 font-weight-bold"
             target="_blank"
             rel="noreferrer"
-          >NeuerEnergy</a>
-          &nbsp;
+          >HomeHero</a>
           <sup>
             <v-icon
-              class="teal--text"
+              class="red--text accent-2"
               small
             >mdi-open-in-new</v-icon>
           </sup> in London, UK.
@@ -40,15 +39,21 @@
           class="body-1 mb-3"
           aria-label="about Karl"
         >
-          I started out my career with training in psychology and a Masters in Fine Art, creating behaviour-influencing sculptures and digital installations.
+          I started out my career with training in psychology and a Masters in Fine Art creating surrealist, behaviour-influencing sculptures and digital installations.
         </p>
         <p
           class="body-1 mb-3"
         >
-          Now, having spent 4 years bringing experience design practices to rare diseases, I lead a product design team delivering elegant AI-driven solutions to change the face of renewable energy.
+          Now, having spent my career bringing experience design practices to rare diseases and delivering elegant AI-driven solutions to change the face of renewable energy, I'm designing the future of Home as a Service at HomeHero.
         </p>
         <p class="body-1">
           Previously, I've worked for
+          <a
+            href="https://www.neuerenergy.com"
+            target="_blank"
+            rel="noreferrer"
+            class="teal--text"
+          >NeuerEnergy</a>, 
           <a
             href="https://www.cognite.co"
             target="_blank"
@@ -319,7 +324,7 @@
         <p
           class="body-1"
         >
-          As a frontend designer, I use a variety of things to stay productive. Check out my hardware and software setup and get in touch if you have any questions.
+          As a product and frontend designer, I use a variety of things to stay productive. Check out my hardware and software setup and get in touch if you have any questions.
         </p>
       </v-col>
     </v-row>
