@@ -35,17 +35,6 @@
       <v-col
         cols="12"
       >
-        <p
-          class="body-1 mb-3"
-          aria-label="about Karl"
-        >
-          I started out my career with training in psychology and a Masters in Fine Art creating surrealist, behaviour-influencing sculptures and digital installations.
-        </p>
-        <p
-          class="body-1 mb-3"
-        >
-          Now, having spent my career bringing experience design practices to rare diseases and delivering elegant AI-driven solutions to change the face of renewable energy, I'm designing the future of Home as a Service at HomeHero.
-        </p>
         <p class="body-1">
           Previously, I've worked for
           <a
@@ -324,7 +313,7 @@
         <p
           class="body-1"
         >
-          As a product and frontend designer, I use a variety of things to stay productive. Check out my hardware and software setup and get in touch if you have any questions.
+          As a product designer and developer, I use a variety of things to stay productive. Check out my hardware and software setup and get in touch if you have any questions.
         </p>
       </v-col>
     </v-row>
