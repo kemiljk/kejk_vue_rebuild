@@ -12,5 +12,19 @@
     "url": "/login",
     "ext": "",
     "extTrue": false
+  },
+  {
+    "id": 3,
+    "label": "Posts",
+    "url": "/posts",
+    "ext": "",
+    "extTrue": false
+  },
+  {
+    "id": 4,
+    "label": "Uses",
+    "url": "/uses",
+    "ext": "",
+    "extTrue": false
   }
 ]

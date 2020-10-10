@@ -19,6 +19,10 @@ $line-height-root: 1.75;
   }
 }
 
+.br-8 {
+  border-radius: 8px;
+}
+
 .v-card__text, .v-card__title {
   word-break: normal !important; /* maybe !important  */
   text-align: left !important;
