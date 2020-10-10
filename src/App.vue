@@ -13,7 +13,7 @@
         <Nav v-for="nav in navs" :key="`${nav.id}`" :nav="nav" class="white--text d-none d-md-flex" />
         <v-navigation-drawer v-model="drawer" class="d-md-none" right absolute temporary app>
             <v-app-bar-icon @click.stop="drawer = !drawer" class="white--text d-md-none">
-                <v-btn class="white--text mt-2 mr-4" right absolute icon>
+                <v-btn class="white--text mt-2" right absolute icon>
                     <v-icon class="text-right">mdi-close</v-icon>
                 </v-btn>
             </v-app-bar-icon>
