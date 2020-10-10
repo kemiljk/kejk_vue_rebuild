@@ -9,7 +9,7 @@
             </v-icon>
             <v-icon v-else> mdi-brightness-3 </v-icon>
         </v-btn>
-        <v-app-bar-nav-icon @click.stop="drawer = !drawer" class="d-md-none mr-4"></v-app-bar-nav-icon>
+        <v-app-bar-nav-icon @click.stop="drawer = !drawer" class="d-md-none" />
         <Nav v-for="nav in navs" :key="`${nav.id}`" :nav="nav" class="d-none d-md-flex" />
         <v-navigation-drawer v-model="drawer" class="d-md-none" right absolute temporary app>
             <v-app-bar-icon @click.stop="drawer = !drawer" class="d-md-none">
