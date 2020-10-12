@@ -1,6 +1,14 @@
 [
     {
-        "id": 0,
+        "id": 7,
+        "title": "Good artists borrow, great artists steal...",
+        "url": "https://blog.homehero.co.uk/good-artists-borrow-great-artists-steal-we-do-neither",
+        "img": "https://res.cloudinary.com/kejk/image/upload/v1602512127/picasso_zeksns.png",
+        "ext": "_blank",
+        "extTrue": true
+    },
+    {
+        "id": 6,
         "title": "From problem to plugin",
         "url": "/posts/problem-to-plugin",
         "img": "https://res.cloudinary.com/kejk/image/upload/v1591306550/Px_to_Em_fb2cfu.png",
@@ -8,7 +16,7 @@
         "extTrue": false
     },
     {
-        "id": 6,
+        "id": 5,
         "title": "Ten Principles for Good Design",
         "url": "/posts/ten-principles-wallpaper",
         "img": "https://res.cloudinary.com/kejk/image/upload/v1587500427/tenprinciples_cqzyt8.png",
@@ -16,7 +24,7 @@
         "extTrue": false
     },
     {
-        "id": 1,
+        "id": 4,
         "title": "From designer to frontend designer",
         "url": "/posts/frontend-designer",
         "img": "https://res.cloudinary.com/kejk/image/upload/v1582376976/Frontend_Designer_b19tbo.png",
@@ -24,7 +32,7 @@
         "extTrue": false
     },
     {
-        "id": 5,
+        "id": 3,
         "title": "Getting to yes",
         "url": "/posts/getting-to-yes",
         "img": "https://res.cloudinary.com/kejk/image/upload/v1582376977/Sales_lcttki.png",
@@ -40,7 +48,7 @@
         "extTrue": false
     },
     {
-        "id": 3,
+        "id": 1,
         "title": "VR vs. MR vs. AR",
         "url": "https://cognite.co/what-reality-help-story-break-through/",
         "img": "https://res.cloudinary.com/kejk/image/upload/v1582376976/Reality_hrvz6b.png",
@@ -48,7 +56,7 @@
         "extTrue": true
     },
     {
-        "id": 4,
+        "id": 0,
         "title": "AI and rare disease",
         "url": "https://cognite.co/ai-and-rare-disease/",
         "img": "https://res.cloudinary.com/kejk/image/upload/v1582376975/AI_puorfo.png",
