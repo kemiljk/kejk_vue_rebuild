@@ -1,405 +1,227 @@
 <template>
-  <v-container>
+<v-container>
     <v-row class="text-left">
-      <v-col>
-        <p
-          class="text-uppercase title mt-10"
-          style="line-height: 16pt"
-        >
-          Product Designer
-          <br />at
-          <strong>HomeHero</strong>
-        </p>
-        <h1
-          class="display-3 font-weight-bold mb-10 pt-10"
-          aria-label="intro to Karl"
-        >
-          Karl Emil James Koch.
-        </h1>
-        <h2 class="display-1 font-weight-medium pt-10 mb-3">
-          Designing the Home as a Service at
-          <a
-            href="https://www.homehero.co.uk"
-            class="red--text accent-2 font-weight-bold"
-            target="_blank"
-            rel="noreferrer"
-          >HomeHero</a>
-          <sup>
-            <v-icon
-              class="red--text accent-2"
-              small
-            >mdi-open-in-new</v-icon>
-          </sup> in London, UK.
-        </h2>
-      </v-col>
-      <v-col
-        cols="12"
-      >
-        <p class="body-1">
-          Previously, I've worked for
-          <a
-            href="https://www.neuerenergy.com"
-            target="_blank"
-            rel="noreferrer"
-            class="teal--text"
-          >NeuerEnergy</a>, 
-          <a
-            href="https://www.cognite.co"
-            target="_blank"
-            rel="noreferrer"
-            class="teal--text"
-          >Cognite</a>, Incuna and
-          <a
-            href="https://www.apple.com/retail/"
-            target="_blank"
-            rel="noreferrer"
-            class="teal--text"
-          >Apple</a>.
-        </p>
-      </v-col>
+        <v-col>
+            <p class="text-uppercase title mt-10" style="line-height: 16pt">
+                Product Designer
+                <br />at
+                <strong>HomeHero</strong>
+            </p>
+            <h1 class="display-3 font-weight-bold mb-10 pt-10" aria-label="intro to Karl">
+                Karl Emil James Koch.
+            </h1>
+            <h2 class="display-1 font-weight-medium pt-10 mb-3">
+                Designing the Home as a Service at
+                <a href="https://www.homehero.co.uk" class="red--text accent-2 font-weight-bold" target="_blank" rel="noreferrer">HomeHero</a>
+                <sup>
+                    <v-icon class="red--text accent-2" small>mdi-open-in-new</v-icon>
+                </sup>
+                in London, UK.
+            </h2>
+        </v-col>
+        <v-col cols="12">
+            <p class="body-1">
+                Previously, I've worked for
+                <a href="https://www.neuerenergy.com" target="_blank" rel="noreferrer" class="teal--text">NeuerEnergy</a>,
+                <a href="https://www.cognite.co" target="_blank" rel="noreferrer" class="teal--text">Cognite</a>, Incuna and
+                <a href="https://www.apple.com/retail/" target="_blank" rel="noreferrer" class="teal--text">Apple</a>.
+            </p>
+        </v-col>
     </v-row>
     <v-divider class="my-10" />
     <v-row class="text-left">
-      <v-col cols="6">
-        <h2
-          class="text-left display font-weight-bold mb-3"
-          aria-label="Karl's portfolio"
-        >
-          Portfolio.
-        </h2>
-      </v-col>
-      <v-spacer />
-      <v-col
-        cols="6"
-        class="text-right mb-2"
-      >
-        <v-btn
-          text
-          class="ml-4 mb-2"
-          to="/login"
-        >
-          Login
-          <v-icon
-            class="ml-2"
-            small
-          >
-            mdi-lock
-          </v-icon>
-        </v-btn>
-      </v-col>
+        <v-col cols="6">
+            <h2 class="text-left display font-weight-bold mb-3" aria-label="Karl's portfolio">
+                Portfolio.
+            </h2>
+        </v-col>
+        <v-spacer />
+        <v-col cols="6" class="text-right mb-2">
+            <v-btn text class="ml-4 mb-2" to="/login">
+                Login
+                <v-icon class="ml-2" small> mdi-lock </v-icon>
+            </v-btn>
+        </v-col>
     </v-row>
     <v-row class="text-left">
-      <v-col
-        class="mb-3 py-0"
-        cols="12"
-        sm="6"
-        md="4"
-        lg="4"
-      >
-        <v-card href="mailto:karl@kejk.tech">
-          <v-img
-            alt="Portfolio visual"
-            src="../assets/portfolio.webp"
-          />
-          <v-card-title class="subtitle-1">
-            Request full access
-            <v-spacer />
-            <v-icon class="ml-4">
-              mdi-email
-            </v-icon>
-          </v-card-title>
-        </v-card>
-      </v-col>
-      <v-col
-        cols="12"
-        lg="8"
-        md="8"
-        sm="6"
-      >
-        <p
-          class="body-1"
-        >
-        Due to the sensitivity of the projects I've worked on, I'm not permitted to list a lot of them here. 
-        </p>
-        <v-btn
-          ref="noreferrer"
-          color="orange"
-          to="/public-projects"
-          class="mt-2 mb-4 black--text" 
-        >
-          <v-icon
-            class="mr-2 black--text"
-            small
-          >
-            mdi-pencil-ruler
-          </v-icon>Public Projects
-        </v-btn>
-        <v-btn
-          ref="noreferrer"
-          color="pink"
-          href="http://_kejk.dribbble.com/"
-          class="mt-2 ml-4 mb-4 white--text"
-          target="_blank"
-        >
-          <v-icon
-            class="mr-2 white--text"
-            small
-          >
-            mdi-basketball
-          </v-icon>Dribbble
-        </v-btn>
-      </v-col>
+        <v-col class="mb-3 py-0" cols="12" sm="6" md="4" lg="4">
+            <v-card href="mailto:karl@kejk.tech">
+                <v-img alt="Portfolio visual" src="../assets/portfolio.webp" />
+                <v-card-title class="subtitle-1">
+                    Request full access
+                    <v-spacer />
+                    <v-icon class="ml-4"> mdi-email </v-icon>
+                </v-card-title>
+            </v-card>
+        </v-col>
+        <v-col cols="12" lg="8" md="8" sm="6">
+            <p class="body-1">
+                Due to the sensitivity of the projects I've worked on, I'm not
+                permitted to list a lot of them here.
+            </p>
+            <v-btn ref="noreferrer" color="orange" to="/public-projects" class="mt-2 mb-4 black--text">
+                <v-icon class="mr-2 black--text" small> mdi-pencil-ruler </v-icon>Public Projects
+            </v-btn>
+            <v-btn ref="noreferrer" color="pink" href="http://_kejk.dribbble.com/" class="mt-2 ml-4 mb-4 white--text" target="_blank">
+                <v-icon class="mr-2 white--text" small> mdi-basketball </v-icon>Dribbble
+            </v-btn>
+        </v-col>
     </v-row>
     <v-row class="text-left">
-      <v-col cols="12">
-        <p class="body-1">
-          This website was designed and built by me in
-          <a
-            href="https://vuejs.org/"
-            target="_blank"
-            rel="noreferrer"
-            class="teal--text"
-          >Vue</a> utilising the
-          <a
-            href="https://vuetifyjs.com"
-            target="_blank"
-            rel="noreferrer"
-            class="teal--text"
-          >Vuetify</a> library. It's a good indicator of my personal design aesthetic and approach to development.
-        </p>
-      </v-col>
+        <v-col cols="12">
+            <p class="body-1">
+                This website was designed and built by me in
+                <a href="https://vuejs.org/" target="_blank" rel="noreferrer" class="teal--text">Vue</a>
+                utilising the
+                <a href="https://vuetifyjs.com" target="_blank" rel="noreferrer" class="teal--text">Vuetify</a>
+                library. It's a good indicator of my personal design aesthetic and
+                approach to development.
+            </p>
+        </v-col>
     </v-row>
     <v-divider class="my-10" />
     <v-row class="text-left">
-      <v-col
-        cols="12"
-        aria-label="Karl's other interests"
-      >
-        <h2 class="display font-weight-bold mb-3">
-          On the side.
-        </h2>
-      <p class="body-1">
-        In my spare time I like to make things.
-      </p>
-      <p class="body-1">
-        Currently, <strong><span
-          id="install-count"
-          class="black--text badge"
-        /></strong> people have installed 
-        <a
-          href="https://www.figma.com/community/plugin/837070613195594890/Px-%E2%80%BA%E2%80%BA-Em"
-          target="_blank" 
-          rel="noreferrer"
-          class="teal--text"
-        >Px ›› Em</a> for Figma.
-      </p>
-      </v-col>
-      <v-col class="mb-3 py-0" cols="12" sm="6">
-        <v-card href="https://apps.apple.com/us/app/id1518887590" target="_blank" rel="noreferrer">
-          <v-img alt="Px to Em logo visual" src="../assets/pxtoem.webp" />
-          <v-card-title class="subtitle-1">
-            Px ›› Em iOS and macOS app
-            <v-spacer />
-            <v-icon class="ml-4">
-              mdi-open-in-new
-            </v-icon>
-          </v-card-title>
-        </v-card>
-      </v-col>
-      <v-col class="mb-3 py-0" cols="12" sm="6">
-        <v-card href="https://www.figma.com/community/plugin/837070613195594890/Px-%E2%80%BA%E2%80%BA-Em" target="_blank" rel="noreferrer">
-          <v-img alt="Px to Em plugin logo visual" src="../assets/px2em.webp" />
-          <v-card-title class="subtitle-1">
-            Px ›› Em Figma Plugin
-            <v-spacer />
-            <v-icon class="ml-4">
-              mdi-open-in-new
-            </v-icon>
-          </v-card-title>
-        </v-card>
-      </v-col>
-      <v-col class="mb-3 py-0" cols="12" sm="6">
-        <v-card href="https://www.lazypdf.tech" target="_blank" rel="noreferrer">
-          <v-img alt="Lazy PDF logo visual" src="../assets/lazyPDF.webp" />
-          <v-card-title class="subtitle-1">
-            Lazy PDF macOS app
-            <v-spacer />
-            <v-icon class="ml-4">
-              mdi-open-in-new
-            </v-icon>
-          </v-card-title>
-        </v-card>
-      </v-col>
-      <v-col class="mb-3 py-0" cols="12" sm="6">
-        <v-card href="https://www.makemeacocktail.com/" target="_blank" rel="noreferrer">
-          <v-img alt="Make Me A Cocktail visual" src="../assets/mmac.webp" />
-          <v-card-title class="subtitle-1">
-            Make Me A Cocktail
-            <v-spacer />
-            <v-icon class="ml-4">
-              mdi-open-in-new
-            </v-icon>
-          </v-card-title>
-        </v-card>
-      </v-col>
+        <v-col cols="12" aria-label="Karl's other interests">
+            <h2 class="display font-weight-bold mb-3">On the side.</h2>
+            <p class="body-1">In my spare time I like to make things.</p>
+            <p class="body-1">
+                Currently,
+                <strong><span id="install-count" class="black--text badge" /></strong>
+                people have installed
+                <a href="https://www.figma.com/community/plugin/837070613195594890/Px-%E2%80%BA%E2%80%BA-Em" target="_blank" rel="noreferrer" class="teal--text">Px ›› Em</a>
+                for Figma.
+            </p>
+        </v-col>
+        <v-col class="mb-3 py-0" cols="12" sm="6">
+            <v-card href="https://apps.apple.com/us/app/id1518887590" target="_blank" rel="noreferrer">
+                <v-img alt="Px to Em logo visual" src="../assets/pxtoem.webp" />
+                <v-card-title class="subtitle-1">
+                    Hand››over iOS and macOS app
+                    <v-spacer />
+                    <v-icon class="ml-4"> mdi-open-in-new </v-icon>
+                </v-card-title>
+            </v-card>
+        </v-col>
+        <v-col class="mb-3 py-0" cols="12" sm="6">
+            <v-card href="https://www.figma.com/community/plugin/837070613195594890/Px-%E2%80%BA%E2%80%BA-Em" target="_blank" rel="noreferrer">
+                <v-img alt="Px to Em plugin logo visual" src="../assets/px2em.webp" />
+                <v-card-title class="subtitle-1">
+                    Px ›› Em Figma Plugin
+                    <v-spacer />
+                    <v-icon class="ml-4"> mdi-open-in-new </v-icon>
+                </v-card-title>
+            </v-card>
+        </v-col>
+        <v-col class="mb-3 py-0" cols="12" sm="6">
+            <v-card href="https://www.lazypdf.tech" target="_blank" rel="noreferrer">
+                <v-img alt="Lazy PDF logo visual" src="../assets/lazyPDF.webp" />
+                <v-card-title class="subtitle-1">
+                    Lazy PDF macOS app
+                    <v-spacer />
+                    <v-icon class="ml-4"> mdi-open-in-new </v-icon>
+                </v-card-title>
+            </v-card>
+        </v-col>
+        <v-col class="mb-3 py-0" cols="12" sm="6">
+            <v-card href="https://www.makemeacocktail.com/" target="_blank" rel="noreferrer">
+                <v-img alt="Make Me A Cocktail visual" src="../assets/mmac.webp" />
+                <v-card-title class="subtitle-1">
+                    Make Me A Cocktail
+                    <v-spacer />
+                    <v-icon class="ml-4"> mdi-open-in-new </v-icon>
+                </v-card-title>
+            </v-card>
+        </v-col>
     </v-row>
     <v-divider class="my-10" />
     <v-row class="text-left">
-      <v-col cols="6">
-        <h2
-          class="text-left display font-weight-bold mb-3"
-          aria-label="Karl's posts"
-        >
-          Latest Posts.
-        </h2>
-      </v-col>
-      <v-spacer />
-      <v-col
-        cols="6"
-        class="text-right mb-2"
-      >
-        <v-btn
-          text
-          class="ml-4 mb-2"
-          to="/posts"
-        >
-          More
-          <v-icon class="ml-2">
-            mdi-arrow-right
-          </v-icon>
-        </v-btn>
-      </v-col>
+        <v-col cols="6">
+            <h2 class="text-left display font-weight-bold mb-3" aria-label="Karl's posts">
+                Latest Posts.
+            </h2>
+        </v-col>
+        <v-spacer />
+        <v-col cols="6" class="text-right mb-2">
+            <v-btn text class="ml-4 mb-2" to="/posts">
+                More
+                <v-icon class="ml-2"> mdi-arrow-right </v-icon>
+            </v-btn>
+        </v-col>
     </v-row>
     <v-row class="mt-3">
-      <v-col
-        v-for="post in posts.slice(0, 2)"
-        :key="`${post.id}`"
-        cols="12"
-        sm="6"
-      >
-        <Posts
-          :post="post"
-          class="justify-center"
-        />
-      </v-col>
+        <v-col v-for="post in posts.slice(0, 2)" :key="`${post.id}`" cols="12" sm="6">
+            <Posts :post="post" class="justify-center" />
+        </v-col>
     </v-row>
     <v-divider class="my-10" />
     <v-row class="text-left">
-      <v-col cols="6">
-        <h2
-          class="display font-weight-bold"
-          aria-label="Karl's tech setup"
-        >
-          Uses.
-        </h2>
-      </v-col>
-      <v-spacer />
-      <v-col
-        cols="6"
-        class="text-right mb-2"
-      >
-        <v-btn
-          text
-          class="ml-4 mb-2"
-          to="/uses"
-        >
-          My setup
-          <v-icon class="ml-2">
-            mdi-arrow-right
-          </v-icon>
-        </v-btn>
-      </v-col>
-      <v-col cols="12">
-        <p
-          class="body-1"
-        >
-          As a product designer and developer, I use a variety of things to stay productive. Check out my hardware and software setup and get in touch if you have any questions.
-        </p>
-      </v-col>
-    </v-row>
-    <v-divider class="mt-10 mb-10"/>
-    <v-row class="ml-1 mr-1">
-      <h2
-        class="display font-weight-bold mb-3"
-        aria-label="Karl's posts"
-      >
-        Currently reading.
-      </h2>
-      <v-row>
-        <v-col
-          v-for="book in books"
-          :key="`${book.id}`"
-          cols="6"
-          sm="4"
-        >
-          <Books :book="book" />
+        <v-col cols="6">
+            <h2 class="display font-weight-bold" aria-label="Karl's tech setup">
+                Uses.
+            </h2>
         </v-col>
-      </v-row>
+        <v-spacer />
+        <v-col cols="6" class="text-right mb-2">
+            <v-btn text class="ml-4 mb-2" to="/uses">
+                My setup
+                <v-icon class="ml-2"> mdi-arrow-right </v-icon>
+            </v-btn>
+        </v-col>
+        <v-col cols="12">
+            <p class="body-1">
+                As a product designer and developer, I use a variety of things to stay
+                productive. Check out my hardware and software setup and get in touch
+                if you have any questions.
+            </p>
+        </v-col>
     </v-row>
-    <v-row class="text-left">
-      <v-col class="mt-10">
-        <h2
-          class="display font-weight-bold mb-3"
-          aria-label="Karl's music playlist"
-        >
-          Currently playing.
+    <v-divider class="mt-10 mb-10" />
+    <v-row class="ml-1 mr-1">
+        <h2 class="display font-weight-bold mb-3" aria-label="Karl's posts">
+            Currently reading.
         </h2>
         <v-row>
-          <v-col
-            v-for="music in musics"
-            :key="`${music.id}`"
-            cols="12"
-            sm="6"
-          >
-            <Musics :music="music" />
-          </v-col>
+            <v-col v-for="book in books" :key="`${book.id}`" cols="6" sm="4">
+                <Books :book="book" />
+            </v-col>
         </v-row>
-      </v-col>
     </v-row>
-    <v-divider class="mt-10 mb-10"/>
     <v-row class="text-left">
-      <v-col
-        cols="12"
-        class="mb-3"
-      >
-        <p class="body-1">
-          This site was built in
-          <a
-            href="https://vuejs.org/"
-            target="_blank"
-            rel="noreferrer"
-            class="teal--text"
-          >Vue</a> utilising the
-          <a
-            href="https://vuetifyjs.com"
-            target="_blank"
-            rel="noreferrer"
-            class="teal--text"
-          >Vuetify</a> library and is deployed via
-          <a
-            href="https://vercel.com/"
-            target="_blank"
-            rel="noreferrer"
-            class="teal--text"
-          >Vercel Now</a>.
-        </p>
-        <p class="body-1">
-          The font rendered throughout is
-          <a
-            href="http://atipofoundry.com/fonts/archia"
-            target="_blank"
-            rel="noreferrer"
-            class="teal--text"
-          >Archia</a> by Atipo.
-        </p>
-        <p
-          class="body-1"
-        >
-          This website doesn't use cookies or analytics scripts because I don't need to track you. All it does is use localstorage to save session state for faster re-loading.
-        </p>
-      </v-col>
+        <v-col class="mt-10">
+            <h2 class="display font-weight-bold mb-3" aria-label="Karl's music playlist">
+                Currently playing.
+            </h2>
+            <v-row>
+                <v-col v-for="music in musics" :key="`${music.id}`" cols="12" sm="6">
+                    <Musics :music="music" />
+                </v-col>
+            </v-row>
+        </v-col>
     </v-row>
-  </v-container>
+    <v-divider class="mt-10 mb-10" />
+    <v-row class="text-left">
+        <v-col cols="12" class="mb-3">
+            <p class="body-1">
+                This site was built in
+                <a href="https://vuejs.org/" target="_blank" rel="noreferrer" class="teal--text">Vue</a>
+                utilising the
+                <a href="https://vuetifyjs.com" target="_blank" rel="noreferrer" class="teal--text">Vuetify</a>
+                library and is deployed via
+                <a href="https://vercel.com/" target="_blank" rel="noreferrer" class="teal--text">Vercel Now</a>.
+            </p>
+            <p class="body-1">
+                The font rendered throughout is
+                <a href="http://atipofoundry.com/fonts/archia" target="_blank" rel="noreferrer" class="teal--text">Archia</a>
+                by Atipo.
+            </p>
+            <p class="body-1">
+                This website doesn't use cookies or analytics scripts because I don't
+                need to track you. All it does is use localstorage to save session
+                state for faster re-loading.
+            </p>
+        </v-col>
+    </v-row>
+</v-container>
 </template>
 
 <script>
@@ -408,49 +230,49 @@ import Books from "../components/Books";
 import Musics from "../components/Musics";
 
 export default {
-  name: "About",
-  components: {
-    Posts,
-    Books,
-    Musics
-  },
-  data() {
-    return {
-      posts: [],
-      books: [],
-      musics: []
-    };
-  },
-  mounted() {
-    this.getPostsData();
-    this.getBooksData();
-    this.getMusicsData();
-    
-    fetch('../../api/plugin-stats.js')
-    .then(response => response.json())
-    .then(data => {
-      console.log(data)
-      document.getElementById('install-count').prepend(data.install_count)
-      document.getElementById('like-count').prepend(data.like_count)
-    })
-    .catch(error => console.error(error));
-  },
-  methods: {
-    getPostsData: function () {
-      fetch('/data/posts.json')
-        .then(response => response.json())
-        .then(data => (this.posts = data));
+    name: "About",
+    components: {
+        Posts,
+        Books,
+        Musics,
     },
-    getBooksData: function () {
-      fetch('/data/books.json')
-        .then(response => response.json())
-        .then(data => (this.books = data));
+    data() {
+        return {
+            posts: [],
+            books: [],
+            musics: [],
+        };
     },
-    getMusicsData: function () {
-      fetch('/data/musics.json')
-        .then(response => response.json())
-        .then(data => (this.musics = data));
-    }
-  },
+    mounted() {
+        this.getPostsData();
+        this.getBooksData();
+        this.getMusicsData();
+
+        fetch("../../api/plugin-stats.js")
+            .then((response) => response.json())
+            .then((data) => {
+                console.log(data);
+                document.getElementById("install-count").prepend(data.install_count);
+                document.getElementById("like-count").prepend(data.like_count);
+            })
+            .catch((error) => console.error(error));
+    },
+    methods: {
+        getPostsData: function () {
+            fetch("/data/posts.json")
+                .then((response) => response.json())
+                .then((data) => (this.posts = data));
+        },
+        getBooksData: function () {
+            fetch("/data/books.json")
+                .then((response) => response.json())
+                .then((data) => (this.books = data));
+        },
+        getMusicsData: function () {
+            fetch("/data/musics.json")
+                .then((response) => response.json())
+                .then((data) => (this.musics = data));
+        },
+    },
 };
 </script>
