@@ -203,37 +203,37 @@
         <ul class="body-1 mb-6">
           <li class="mb-3">
             <a
-              href="https://www.apple.com/shop/buy-iphone/iphone-xr"
+              href="https://www.apple.com/uk/iphone-12/"
               target="_blank"
               rel="noreferrer"
               class="teal--text"
             >
               iPhone
-              XR
+              12
             </a> in black.
           </li>
-          <li class="mb-3">
-            <a
-              href="https://www.apple.com/apple-watch-series-5/"
-              target="_blank"
-              rel="noreferrer"
-              class="teal--text"
-            >Apple Watch Series 5</a> in Space Grey.
+          <li class="mb-3">Apple Watch Series 5 [no longer sold] in Space Grey.
           </li>
           <li class="mb-3">
-            iPad 9.7" (2018) in Space Grey [no longer sold] with the
             <a
-              href="https://smile.amazon.co.uk/gp/product/B07FB33XWT/ref=ppx_yo_dt_b_search_asin_title?ie=UTF8&psc=1"
+              href="https://www.apple.com/uk/ipad-air/"
               target="_blank"
               rel="noreferrer"
               class="teal--text"
-            >Logitech Slim Folio iPad case</a> and
+            >
+            iPad Air (2020)</a> in Space Grey with the
             <a
-              href="https://www.apple.com/shop/product/MK0C2/apple-pencil-1st-generation"
+              href="https://www.apple.com/uk/ipad-keyboards/"
               target="_blank"
               rel="noreferrer"
               class="teal--text"
-            >first generation Apple Pencil</a>.
+            >Magic Keyboard</a> and
+            <a
+              href="https://www.apple.com/uk/apple-pencil"
+              target="_blank"
+              rel="noreferrer"
+              class="teal--text"
+            >second generation Apple Pencil</a>.
           </li>
           <li class="mb-3">
             <a
@@ -258,17 +258,7 @@
               target="_blank"
               rel="noreferrer"
               class="teal--text"
-            >Lenovo L28u-30</a> monitor with a <a
-              href="https://smile.amazon.co.uk/dp/B07KSH97ND/ref=cm_sw_r_cp_tai_Y5bbFb737VPXW"
-              target="_blank"
-              rel="noreferrer"
-              class="teal--text"
-            >Macally VCSTAND</a> and a <a
-              href="https://smile.amazon.co.uk/dp/B087TKC8D3/ref=cm_sw_r_cp_tai_96bbFbP4FW0KQ"
-              target="_blank"
-              rel="noreferrer"
-              class="teal--text"
-            >ZasLuke 1080p webcam</a>.
+            >Lenovo L28u-30</a> monitor
           </li>
         </ul>
       </v-col>
