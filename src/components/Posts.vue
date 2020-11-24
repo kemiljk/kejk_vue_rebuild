@@ -6,7 +6,7 @@
     rel="noreferrer"
     hover
   >
-    <v-img :src="`${post.img}`" />
+    <v-img :src="`${post.img}`" height="732" />
     <v-card-title class="subtitle-1">
       {{ post.title }}
       <v-spacer />
@@ -22,7 +22,7 @@
     rel="noreferrer"
     hover
   >
-    <v-img :src="`${post.img}`" />
+    <v-img :src="`${post.img}`" height="732" />
     <v-card-title class="subtitle-1">
       {{ post.title }}
       <v-spacer />
