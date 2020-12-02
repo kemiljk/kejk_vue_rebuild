@@ -123,10 +123,10 @@
             </v-card>
         </v-col>
         <v-col class="mb-3 py-0" cols="12" sm="6">
-            <v-card href="https://www.makemeacocktail.com/" target="_blank" rel="noreferrer">
+            <v-card href="https://apps.apple.com/gb/app/make-me-a-cocktail/id1541820377" target="_blank" rel="noreferrer">
                 <v-img alt="Make Me A Cocktail visual" src="../assets/mmac.webp" />
                 <v-card-title class="subtitle-1">
-                    Make Me A Cocktail
+                    Make Me A Cocktail iOS app
                     <v-spacer />
                     <v-icon class="ml-4"> mdi-open-in-new </v-icon>
                 </v-card-title>
