@@ -97,6 +97,9 @@ export default {
     this.getBlogsData();
     this.getPostsData();
   },
+  watch: {
+    '$route': ['getBlogsData', 'getPostsData']
+  },
   methods: {
     getBlogsData() {
       this.error = this.blog = null;

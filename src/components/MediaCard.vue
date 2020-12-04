@@ -11,7 +11,7 @@
     <v-col cols="5">
     <v-img
       :src="media.metadata.cover.imgix_url"
-      class="img ml-4 my-auto"
+      class="img-small ml-4 my-auto"
       height="120px"
     />
     </v-col>

@@ -173,7 +173,6 @@ export default {
             .then((data) => {
                 console.log(data);
                 document.getElementById("install-count").prepend(data.install_count);
-                document.getElementById("like-count").prepend(data.like_count);
         })
         .catch((error) => console.error(error));
     },
@@ -182,6 +181,9 @@ export default {
         this.getBlogsData();
         this.getPostsData();
         this.getMediasData();
+    },
+    watch: {
+    '$route': ['getBlogsData', 'getPostsData', 'getMediasData']
     },
     methods: {
         getBlogsData() {
@@ -200,7 +202,7 @@ export default {
         },
         getPostsData() {
             this.error = this.post = null;
-            this.loading = true;
+            this.loading = false;
             bucket
             .getObjects({
                 type: "posts",
@@ -214,11 +216,12 @@ export default {
         },
         getMediasData() {
             this.error = this.media = null;
-            this.loading = true;
+            this.loading = false;
             bucket
             .getObjects({
                 type: "medias",
-                props: "_id,title,metadata"
+                props: "_id,title,metadata",
+                limit: 3,
             })
             .then(data => {
                 const medias = data.objects;
