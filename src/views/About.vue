@@ -114,11 +114,11 @@
         <h2 class="display font-weight-bold mb-3" aria-label="Karl's posts">
             Currently reading.
         </h2>
-        <v-row>
-            <v-col v-for="book in books" :key="`${book.id}`" cols="6" sm="4">
-                <Books :book="book" />
-            </v-col>
-        </v-row>
+    </v-row>
+    <v-row class="mt-3">
+        <v-col v-for="book in books" :key="`${book.id}`" cols="6" sm="6">
+            <Books :book="book" />
+        </v-col>
     </v-row>
     <v-row class="text-left">
         <v-col class="mt-10">
