@@ -30,11 +30,6 @@ const routes = [
     props: true,
     component: () => import('../views/BlogView.vue')
   },
-  // {
-  //   path: '/posts/getting-to-yes',
-  //   name: 'Getting to yes',
-  //   component: () => import('../views/posts/sales-sales-sales.vue')
-  // },
   {
     path: '/portfolio',
     name: 'Portfolio',

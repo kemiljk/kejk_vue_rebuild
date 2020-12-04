@@ -116,7 +116,7 @@
         </h2>
     </v-row>
     <v-row class="mt-3">
-        <v-col v-for="media in medias" :key="media._id" cols="6" sm="4">
+        <v-col v-for="media in medias" :key="media._id" cols="12" sm="4">
             <MediaCard :media="media" />
         </v-col>
     </v-row>
