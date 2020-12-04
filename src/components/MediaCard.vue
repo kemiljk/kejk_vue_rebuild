@@ -15,7 +15,7 @@
     />
     </v-col>
     <v-col cols="7">
-      <v-card-text class="mt-0 pt-0">
+      <v-card-text class="mt-0 pt-4">
       <strong>{{ media.title }}</strong>
       </v-card-text>
       <v-card-text>
