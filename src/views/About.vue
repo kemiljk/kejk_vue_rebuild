@@ -112,12 +112,12 @@
     <v-divider class="mt-10 mb-10" />
     <v-row class="ml-1 mr-1">
         <h2 class="display font-weight-bold mb-3" aria-label="Karl's posts">
-            Currently reading.
+            Currently enjoying.
         </h2>
     </v-row>
     <v-row class="mt-3">
-        <v-col v-for="book in books" :key="book._id" cols="6" sm="4">
-            <Books :book="book" />
+        <v-col v-for="media in medias" :key="media._id" cols="6" sm="4">
+            <MediaCard :media="media" />
         </v-col>
     </v-row>
     <v-row class="text-left">
@@ -141,7 +141,7 @@
 <script>
 import PostCard from "../components/PostCard";
 import BlogCard from "../components/BlogCard";
-import Books from "../components/Books";
+import MediaCard from "../components/MediaCard";
 
 const Cosmic = require("cosmicjs");
 const api = Cosmic();
@@ -156,12 +156,12 @@ export default {
     components: {
         PostCard,
         BlogCard,
-        Books,
+        MediaCard,
     },
     data() {
         return {
             loading: false,
-            blogs: {},
+            medias: {},
             posts: {},
             books: {},
             slug: "",
@@ -171,7 +171,7 @@ export default {
         this.slug = this.$route.params.slug;
         this.getBlogsData();
         this.getPostsData();
-        this.getBooksData();
+        this.getMediasData();
     },
     mounted() {
         fetch("../../api/plugin-stats.js")
@@ -212,18 +212,18 @@ export default {
                 this.posts = posts;
             });
         },
-        getBooksData() {
-            this.error = this.book = null;
+        getMediasData() {
+            this.error = this.media = null;
             this.loading = true;
             bucket
             .getObjects({
-                type: "books",
+                type: "medias",
                 props: "_id,title,metadata"
             })
             .then(data => {
-                const books = data.objects;
+                const medias = data.objects;
                 this.loading = false;
-                this.books = books;
+                this.medias = medias;
             });
         },
         getMusicsData: function () {

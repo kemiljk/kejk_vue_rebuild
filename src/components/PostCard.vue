@@ -26,8 +26,8 @@ export default {
   name: "Posts",
   props: {
     post: {
-      type: String,
-      default: 'No posts are loaded'
+      type: Object,
+      default: () => {}
     }
   }
 };
