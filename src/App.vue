@@ -10,7 +10,7 @@
         </v-btn>
         <v-app-bar-nav-icon @click.stop="drawer = !drawer" class="d-md-none" />
         <Nav v-for="nav in navs" :key="`${nav.id}`" :nav="nav" class="d-none d-md-flex" />
-        <v-spacer />
+        <v-spacer class="d-none d-md-flex" />
         <v-navigation-drawer v-model="drawer" class="d-md-none" right absolute temporary app>
             <v-app-bar-icon @click.stop="drawer = !drawer" class="d-md-none">
                 <v-btn class="mt-2" right absolute icon>
