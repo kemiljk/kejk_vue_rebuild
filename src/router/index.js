@@ -25,30 +25,16 @@ const routes = [
     component: () => import('../views/Posts.vue')
   },
   {
-    path: '/posts/getting-to-yes',
-    name: 'Getting to yes',
-    component: () => import('../views/posts/sales-sales-sales.vue')
+    path: '/posts/:slug',
+    name: 'BlogView',
+    props: true,
+    component: () => import('../views/BlogView.vue')
   },
-  {
-    path: '/posts/frontend-designer',
-    name: 'Frontend Designer',
-    component: () => import('../views/posts/frontend-designer.vue')
-  },
-  {
-    path: '/posts/human-centricity',
-    name: 'Human Centricity',
-    component: () => import('../views/posts/human-centricity.vue')
-  },
-  {
-    path: '/posts/ten-principles-wallpaper',
-    name: 'Ten Principles Wallpaper',
-    component: () => import('../views/posts/ten-principles-wallpaper.vue')
-  },
-  {
-    path: '/posts/problem-to-plugin',
-    name: 'From problem to plugin',
-    component: () => import('../views/posts/problem-to-plugin.vue')
-  },
+  // {
+  //   path: '/posts/getting-to-yes',
+  //   name: 'Getting to yes',
+  //   component: () => import('../views/posts/sales-sales-sales.vue')
+  // },
   {
     path: '/portfolio',
     name: 'Portfolio',

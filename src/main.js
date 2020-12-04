@@ -7,6 +7,8 @@ import 'vue-material-design-icons/styles.css'
 
 Vue.config.productionTip = false;
 
+Vue.use(require('vue-moment'));
+
 new Vue({
   vuetify,
   router,

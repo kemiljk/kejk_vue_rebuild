@@ -8,22 +8,22 @@
   },
   {
     "id": 2,
-    "label": "Portfolio",
-    "url": "/login",
-    "ext": "",
-    "extTrue": false
-  },
-  {
-    "id": 3,
     "label": "Posts",
     "url": "/posts",
     "ext": "",
     "extTrue": false
   },
   {
-    "id": 4,
+    "id": 3,
     "label": "Uses",
     "url": "/uses",
+    "ext": "",
+    "extTrue": false
+  },
+  {
+    "id": 4,
+    "label": "Portfolio",
+    "url": "/login",
     "ext": "",
     "extTrue": false
   }

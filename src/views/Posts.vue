@@ -4,7 +4,7 @@
       <v-col cols="12">
         <v-btn 
           text
-          @click="$router.go(-1)" 
+          to="/"
         >
           <v-icon class="mr-2">
             mdi-arrow-left
@@ -24,6 +24,32 @@
         </h2>
       </v-col>
     </v-row>
+    <v-row class="text-left">
+      <v-col cols="12">
+        <v-row class="mt-3 mb-5">
+      <v-col
+        v-for="blog in blogs"
+        :key="blog._id"
+        cols="12"
+        sm="6"
+      >
+        <BlogCard
+          :blog="blog"
+          class="justify-center"
+        />
+      </v-col>
+    </v-row>
+      </v-col>
+    </v-row>
+    <v-row class="text-left">
+      <v-col cols="12">
+      <h3
+          class="headline font-weight-bold mb-3 mt-10"
+        >
+          External posts.
+        </h3>
+      </v-col>
+    </v-row>
     <v-row class="mt-3 mb-5">
       <v-col
         v-for="post in posts"
@@ -31,7 +57,7 @@
         cols="12"
         sm="6"
       >
-        <Posts
+        <PostCard
           :post="post"
           class="justify-center"
         />
@@ -41,23 +67,51 @@
 </template>
 
 <script>
-import Posts from "../components/Posts";
-/* import postsData from "../data/posts.json"; */
+import PostCard from "../components/PostCard";
+import BlogCard from "../components/BlogCard";
+
+const Cosmic = require("cosmicjs");
+const api = Cosmic();
+// Set these values, found in Bucket > Settings after logging in at https://app.cosmicjs.com/login
+const bucket = api.bucket({
+  slug: "d1ffcb90-35a5-11eb-b56f-05f2cd29bdde",
+  read_key: "uNXYQDbNTCWQyEaFjq44PUolieGKBuzePTaEdnDl0CHLcnJtPK"
+});
 
 export default {
-  name: "CurrentlyThinking",
+  name: "Posts",
   components: {
-    Posts
+    PostCard,
+    BlogCard
   },
   data() {
     return {
-      posts: []
+      posts: [],
+      loading: false,
+      blogs: {},
+      slug: ""
     };
   },
-  mounted() {
+  created() {
+    this.slug = this.$route.params.slug;
+    this.getBlogsData();
     this.getPostsData();
   },
   methods: {
+    getBlogsData() {
+      this.error = this.blog = null;
+      this.loading = true;
+      bucket
+        .getObjects({
+          type: "blogs",
+          props: "_id,slug,title,content,metadata"
+        })
+        .then(data => {
+          const blogs = data.objects;
+          this.loading = false;
+          this.blogs = blogs;
+        });
+    },
     getPostsData: function () {
       fetch('/data/posts.json')
         .then(response => response.json())

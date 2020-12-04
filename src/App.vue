@@ -1,7 +1,6 @@
 <template>
 <v-app>
     <v-app-bar app>
-        <v-toolbar-title class="logo font-weight-black"> KEJK </v-toolbar-title>
         <v-spacer />
         <v-btn icon class="mr-1" alt="Toggle colour theme" @click="toggleTheme">
             <v-icon v-if="this.$vuetify.theme.dark">
@@ -11,6 +10,7 @@
         </v-btn>
         <v-app-bar-nav-icon @click.stop="drawer = !drawer" class="d-md-none" />
         <Nav v-for="nav in navs" :key="`${nav.id}`" :nav="nav" class="d-none d-md-flex" />
+        <v-spacer />
         <v-navigation-drawer v-model="drawer" class="d-md-none" right absolute temporary app>
             <v-app-bar-icon @click.stop="drawer = !drawer" class="d-md-none">
                 <v-btn class="mt-2" right absolute icon>
