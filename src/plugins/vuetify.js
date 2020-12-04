@@ -11,13 +11,15 @@ export default new Vuetify({
         primary: "#000",
         secondary: "",
         accent: "",
-        success: ""
+        success: "",
+        anchor: '#039688',
       },
       dark: {
         primary: "#fff",
         secondary: "",
         accent: "",
-        success: ""
+        success: "",
+        anchor: '#039688',
       },
     },
   }
