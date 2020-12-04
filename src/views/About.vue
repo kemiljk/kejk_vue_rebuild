@@ -36,7 +36,7 @@
                 <v-card-title class="subtitle-1">
                     Px ›› Em
                     <v-spacer />
-                    <strong><span id="install-count" class="black--text badge" /> installs</strong>
+                    <strong><span id="install-count" class="black--text badge" /></strong>
                     <v-spacer />
                 </v-card-title>
             </v-card>
