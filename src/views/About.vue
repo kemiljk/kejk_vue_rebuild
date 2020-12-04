@@ -20,7 +20,7 @@
         <v-col cols="12" aria-label="Karl's other interests">
             <h2 class="display font-weight-bold mb-3">Things I've made.</h2>
         </v-col>
-        <v-col class="mb-3 py-0" cols="12" sm="3">
+        <v-col class="mb-3 py-0" cols="6" sm="3">
             <v-card href="https://apps.apple.com/us/app/id1518887590" target="_blank" rel="noreferrer">
                 <v-img alt="Px to Em logo visual" src="../assets/pxtoem.webp" />
                 <v-card-title class="subtitle-1">
@@ -30,7 +30,7 @@
                 </v-card-title>
             </v-card>
         </v-col>
-        <v-col class="mb-3 py-0" cols="12" sm="3">
+        <v-col class="mb-3 py-0" cols="6" sm="3">
             <v-card href="https://www.figma.com/community/plugin/837070613195594890/Px-%E2%80%BA%E2%80%BA-Em" target="_blank" rel="noreferrer">
                 <v-img alt="Px to Em plugin logo visual" src="../assets/px2em.webp" />
                 <v-card-title class="subtitle-1">
@@ -42,7 +42,7 @@
                 </v-card-title>
             </v-card>
         </v-col>
-        <v-col class="mb-3 py-0" cols="12" sm="3">
+        <v-col class="mb-3 py-0" cols="6" sm="3">
             <v-card href="https://www.lazypdf.tech" target="_blank" rel="noreferrer">
                 <v-img alt="Lazy PDF logo visual" src="../assets/lazyPDF.webp" />
                 <v-card-title class="subtitle-1">
@@ -52,12 +52,13 @@
                 </v-card-title>
             </v-card>
         </v-col>
-        <v-col class="mb-3 py-0" cols="12" sm="3">
+        <v-col class="mb-3 py-0" cols="6" sm="3">
             <v-card href="https://apps.apple.com/gb/app/make-me-a-cocktail/id1541820377" target="_blank" rel="noreferrer">
                 <v-img alt="Make Me A Cocktail visual" src="https://res.cloudinary.com/kejk/image/upload/v1606907284/mmac_z5flxv.png" />
                 <v-card-title class="subtitle-1">
                     <v-spacer />
-                    Make Me A Cocktail
+                    <span class="d-none d-md-flex">Make Me A Cocktail</span>
+                    <span class="d-flex d-md-none">MMAC</span>
                     <v-spacer />
                 </v-card-title>
             </v-card>
@@ -122,11 +123,17 @@
     <v-row class="text-left">
         <v-col class="mt-10">
             <h2 class="display font-weight-bold mb-3" aria-label="Karl's music playlist">
-                Currently playing.
+                Music I've written.
             </h2>
             <v-row>
-                <v-col v-for="music in musics" :key="`${music.id}`" cols="12" sm="6">
+                <!-- <v-col v-for="music in musics" :key="`${music.id}`" cols="12" sm="6">
                     <Musics :music="music" />
+                </v-col> -->
+                <v-col cols="12" sm="9">
+                    <iframe src="https://embed.music.apple.com/us/album/cornerstone/1300802348?app=music&amp;itsct=music_box&amp;itscg=30200&amp;ct=albums_cornerstone&amp;ls=1" height="240px" frameborder="0" sandbox="allow-forms allow-popups allow-same-origin allow-scripts allow-top-navigation-by-user-activation" allow="autoplay *; encrypted-media *;" style="width: 100%; max-width: 660px; overflow: hidden; border-top-left-radius: 10px; border-top-right-radius: 10px; border-bottom-right-radius: 10px; border-bottom-left-radius: 10px; background-color: transparent; background-position: initial initial; background-repeat: initial initial;"></iframe>
+                </v-col>
+                <v-col cols="12" sm="3">
+                    <a href="https://music.apple.com/us/artist/echoes/79207344?itsct=music_box&amp;itscg=30200&amp;ct=artists_echoes&amp;app=music&amp;ls=1" style="display: inline-block; overflow: hidden; border-top-left-radius: 13px; border-top-right-radius: 13px; border-bottom-right-radius: 13px; border-bottom-left-radius: 13px; width: 250px; height: 83px;"><img src="https://tools.applemediaservices.com/api/badges/listen-on-apple-music/badge/en-US?size=250x83&h=207e623eaf008efd22162551a091d459" alt="Listen on Apple Music" style="border-top-left-radius: 13px; border-top-right-radius: 13px; border-bottom-right-radius: 13px; border-bottom-left-radius: 13px; width: 200px; height:auto;"></a>
                 </v-col>
             </v-row>
         </v-col>
@@ -138,7 +145,7 @@
 import PostCard from "../components/PostCard";
 import BlogCard from "../components/BlogCard";
 import Books from "../components/Books";
-import Musics from "../components/Musics";
+// import Musics from "../components/Musics";
 
 const Cosmic = require("cosmicjs");
 const api = Cosmic();
@@ -154,7 +161,7 @@ export default {
         PostCard,
         BlogCard,
         Books,
-        Musics,
+        // Musics,
     },
     data() {
         return {

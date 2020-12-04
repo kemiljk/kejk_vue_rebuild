@@ -2,6 +2,14 @@ $body-font-family: 'Archia', -apple-system, BlinkMacSystemFont, "Segoe UI", Robo
 $border-radius-root: 8px !default;
 $line-height-root: 1.75;
 
+$material-light: (
+  'background': #f6f7f8
+);
+
+$material-dark: (
+  'background': #0E0E0E
+);
+
 .logo {
   font-family: 'Archia', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
   font-size: 3rem;

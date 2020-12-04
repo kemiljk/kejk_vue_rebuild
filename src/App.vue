@@ -1,6 +1,6 @@
 <template>
 <v-app>
-    <v-app-bar app>
+    <v-app-bar app dense elevate-on-scroll>
         <v-spacer />
         <v-btn icon class="mr-1" alt="Toggle colour theme" @click="toggleTheme">
             <v-icon v-if="this.$vuetify.theme.dark">

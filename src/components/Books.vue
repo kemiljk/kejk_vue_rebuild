@@ -1,11 +1,11 @@
 <template>
   <v-card
-    hover
     :href="`${book.url}`"
     target="_blank"
     rel="noreferrer"
     color="transparent"
     alt="Books Karl is reading"
+    flat
   >
     <v-img
       :src="`${book.img}`"
