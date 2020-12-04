@@ -34,6 +34,7 @@
             <v-card href="https://www.figma.com/community/plugin/837070613195594890/Px-%E2%80%BA%E2%80%BA-Em" target="_blank" rel="noreferrer">
                 <v-img alt="Px to Em plugin logo visual" src="../assets/px2em.webp" />
                 <v-card-title class="subtitle-1">
+                    <v-spacer />
                     Px ›› Em
                     <v-spacer />
                     <strong><span id="install-count" class="black--text badge" /></strong>
