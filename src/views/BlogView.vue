@@ -40,7 +40,7 @@ export default {
       slug: ""
     };
   },
-  created() {
+  mounted() {
     this.slug = this.$route.params.slug;
     this.fetchData();
   },

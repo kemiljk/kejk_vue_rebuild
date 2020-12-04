@@ -167,13 +167,11 @@ export default {
             slug: "",
         };
     },
-    created() {
+    mounted() {
         this.slug = this.$route.params.slug;
         this.getBlogsData();
         this.getPostsData();
         this.getMediasData();
-    },
-    mounted() {
         fetch("../../api/plugin-stats.js")
             .then((response) => response.json())
             .then((data) => {
@@ -225,11 +223,6 @@ export default {
                 this.loading = false;
                 this.medias = medias;
             });
-        },
-        getMusicsData: function () {
-            fetch("/data/musics.json")
-                .then((response) => response.json())
-                .then((data) => (this.musics = data));
         },
     },
 };
