@@ -167,12 +167,8 @@ export default {
             slug: "",
         };
     },
-    mounted() {
-        this.slug = this.$route.params.slug;
-        this.getBlogsData();
-        this.getPostsData();
-        this.getMediasData();
-        fetch("../../api/plugin-stats.js")
+    created() {
+    fetch("../../api/plugin-stats.js")
             .then((response) => response.json())
             .then((data) => {
                 console.log(data);
@@ -180,6 +176,12 @@ export default {
                 document.getElementById("like-count").prepend(data.like_count);
         })
         .catch((error) => console.error(error));
+    },
+    mounted() {
+        this.slug = this.$route.params.slug;
+        this.getBlogsData();
+        this.getPostsData();
+        this.getMediasData();
     },
     methods: {
         getBlogsData() {
