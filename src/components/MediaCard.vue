@@ -18,9 +18,7 @@
     <v-col cols="7">
       <v-card-text class="pt-4">
       <strong>{{ media.title }}</strong>
-      </v-card-text>
-      <v-card-text>
-        {{ media.metadata.subtitle }}
+        <p class="pt-2 text--secondary">{{ media.metadata.subtitle }}</p>
       </v-card-text>
     </v-col>
   </v-row>
