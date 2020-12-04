@@ -80,7 +80,7 @@
         </v-col>
     </v-row>
     <v-row class="mt-3">
-        <v-col v-for="post in posts.slice(0, 1)" :key="`${post.id}`" cols="12" sm="6">
+        <v-col v-for="post in posts.slice(0, 1)" :key="post._id" cols="12" sm="6">
             <PostCard :post="post" class="text-left" />
         </v-col>
         <v-col v-for="blog in blogs.slice(0, 1)" :key="blog._id" cols="12" sm="6">
@@ -116,7 +116,7 @@
         </h2>
     </v-row>
     <v-row class="mt-3">
-        <v-col v-for="book in books" :key="`${book.id}`" cols="6" sm="6">
+        <v-col v-for="book in books" :key="book._id" cols="6" sm="4">
             <Books :book="book" />
         </v-col>
     </v-row>
@@ -126,9 +126,6 @@
                 Music I've written.
             </h2>
             <v-row>
-                <!-- <v-col v-for="music in musics" :key="`${music.id}`" cols="12" sm="6">
-                    <Musics :music="music" />
-                </v-col> -->
                 <v-col cols="12" sm="9">
                     <iframe src="https://embed.music.apple.com/us/album/cornerstone/1300802348?app=music&amp;itsct=music_box&amp;itscg=30200&amp;ct=albums_cornerstone&amp;ls=1" height="240px" frameborder="0" sandbox="allow-forms allow-popups allow-same-origin allow-scripts allow-top-navigation-by-user-activation" allow="autoplay *; encrypted-media *;" style="width: 100%; max-width: 660px; overflow: hidden; border-top-left-radius: 10px; border-top-right-radius: 10px; border-bottom-right-radius: 10px; border-bottom-left-radius: 10px; background-color: transparent; background-position: initial initial; background-repeat: initial initial;"></iframe>
                 </v-col>
@@ -145,14 +142,13 @@
 import PostCard from "../components/PostCard";
 import BlogCard from "../components/BlogCard";
 import Books from "../components/Books";
-// import Musics from "../components/Musics";
 
 const Cosmic = require("cosmicjs");
 const api = Cosmic();
 // Set these values, found in Bucket > Settings after logging in at https://app.cosmicjs.com/login
 const bucket = api.bucket({
-  slug: "d1ffcb90-35a5-11eb-b56f-05f2cd29bdde",
-  read_key: "uNXYQDbNTCWQyEaFjq44PUolieGKBuzePTaEdnDl0CHLcnJtPK"
+    slug: "d1ffcb90-35a5-11eb-b56f-05f2cd29bdde",
+    read_key: "uNXYQDbNTCWQyEaFjq44PUolieGKBuzePTaEdnDl0CHLcnJtPK"
 });
 
 export default {
@@ -161,15 +157,13 @@ export default {
         PostCard,
         BlogCard,
         Books,
-        // Musics,
     },
     data() {
         return {
-            posts: [],
-            books: [],
-            musics: [],
             loading: false,
             blogs: {},
+            posts: {},
+            books: {},
             slug: "",
         };
     },
@@ -178,18 +172,16 @@ export default {
         this.getBlogsData();
         this.getPostsData();
         this.getBooksData();
-        this.getMusicsData();
     },
     mounted() {
-
         fetch("../../api/plugin-stats.js")
             .then((response) => response.json())
             .then((data) => {
                 console.log(data);
                 document.getElementById("install-count").prepend(data.install_count);
                 document.getElementById("like-count").prepend(data.like_count);
-            })
-            .catch((error) => console.error(error));
+        })
+        .catch((error) => console.error(error));
     },
     methods: {
         getBlogsData() {
@@ -206,15 +198,33 @@ export default {
                 this.blogs = blogs;
             });
         },
-        getPostsData: function () {
-            fetch("/data/posts.json")
-                .then((response) => response.json())
-                .then((data) => (this.posts = data));
+        getPostsData() {
+            this.error = this.post = null;
+            this.loading = true;
+            bucket
+            .getObjects({
+                type: "posts",
+                props: "_id,slug,title,content,metadata"
+            })
+            .then(data => {
+                const posts = data.objects;
+                this.loading = false;
+                this.posts = posts;
+            });
         },
-        getBooksData: function () {
-            fetch("/data/books.json")
-                .then((response) => response.json())
-                .then((data) => (this.books = data));
+        getBooksData() {
+            this.error = this.book = null;
+            this.loading = true;
+            bucket
+            .getObjects({
+                type: "books",
+                props: "_id,title,metadata"
+            })
+            .then(data => {
+                const books = data.objects;
+                this.loading = false;
+                this.books = books;
+            });
         },
         getMusicsData: function () {
             fetch("/data/musics.json")

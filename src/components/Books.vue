@@ -1,6 +1,6 @@
 <template>
   <v-card
-    :href="`${book.url}`"
+    :href="book.metadata.url"
     target="_blank"
     rel="noreferrer"
     color="transparent"
@@ -8,7 +8,7 @@
     flat
   >
     <v-img
-      :src="`${book.img}`"
+      :src="book.metadata.cover.imgix_url"
       max-width="220px"
     />
   </v-card>

@@ -53,7 +53,7 @@
     <v-row class="mt-3 mb-5">
       <v-col
         v-for="post in posts"
-        :key="`${post.id}`"
+        :key="post._id"
         cols="12"
         sm="6"
       >
@@ -86,8 +86,8 @@ export default {
   },
   data() {
     return {
-      posts: [],
       loading: false,
+      posts: {},
       blogs: {},
       slug: ""
     };
@@ -112,11 +112,20 @@ export default {
           this.blogs = blogs;
         });
     },
-    getPostsData: function () {
-      fetch('/data/posts.json')
-        .then(response => response.json())
-        .then(data => (this.posts = data));
-    }
+    getPostsData() {
+            this.error = this.post = null;
+            this.loading = true;
+            bucket
+            .getObjects({
+                type: "posts",
+                props: "_id,slug,title,content,metadata"
+            })
+            .then(data => {
+                const posts = data.objects;
+                this.loading = false;
+                this.posts = posts;
+            });
+        },
   }
 };
 </script>

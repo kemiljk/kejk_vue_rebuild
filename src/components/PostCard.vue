@@ -1,7 +1,7 @@
 <template>
   <v-card
-    :href="`${post.url}`"
-    :target="`${post.ext}`"
+    :href="post.metadata.url"
+    target="`_blank"
     rel="noreferrer"
     hover
   >
@@ -13,10 +13,10 @@
       </v-icon>
     </v-card-title>
     <v-card-text>
-      {{ post.published | moment("DD MMM, YYYY") }}
+      {{ post.metadata.published | moment("DD MMM, YYYY") }}
     </v-card-text>
     <v-card-subtitle class="primary--text text-left">
-      {{ post.snippet }}
+      {{ post.metadata.snippet }}
     </v-card-subtitle>
   </v-card>
 </template>
