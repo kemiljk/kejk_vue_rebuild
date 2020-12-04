@@ -13,6 +13,7 @@
     "@babel/preset-env": "^7.1.6",
     "@mdi/font": "^4.9.95",
     "@vue/cli": "^4.2.2",
+    "clear-cache": "^1.0.1",
     "core-js": "^3.6.4",
     "cosmicjs": "^3.3.2",
     "install": "^0.13.0",
