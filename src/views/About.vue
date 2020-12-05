@@ -2,10 +2,10 @@
 <v-container>
     <v-row class="text-left">
         <v-col>
-            <h1 class="display-3 font-weight-bold mb-10 pt-12 mt-12" aria-label="intro to Karl">
+            <h1 class="display-3 font-weight-bold pt-12 mt-12" aria-label="intro to Karl">
                 Hey, I'm Karl.
             </h1>
-            <h2 class="headline font-weight-medium pt-10 mb-3">
+            <h2 class="headline font-weight-medium pt-4 mb-3">
                 Currently, I'm designing and helping define the Home as a Service at
                 <a href="https://www.homehero.co.uk" class="teal--text accent-2 font-weight-bold" target="_blank" rel="noreferrer">HomeHero</a>
                 <sup>
@@ -13,6 +13,10 @@
                 </sup>
                 in London, UK.
             </h2>
+            <v-btn color="teal" class="white--text">
+            <v-icon class="white--text">mdi-twitter</v-icon>
+            Follow me on Twitter
+            </v-btn>
         </v-col>
     </v-row>
     <v-divider class="my-10" />
