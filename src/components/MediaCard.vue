@@ -30,8 +30,8 @@ export default {
   name: "MediaCard",
   props: {
     media: {
-      type: Object,
-      default: () => {}
+      type: String,
+      default: "No posts are loaded"
     }
   }
 };

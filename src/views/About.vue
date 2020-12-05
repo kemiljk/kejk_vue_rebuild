@@ -79,12 +79,16 @@
             </v-btn>
         </v-col>
     </v-row>
-    <v-row class="mt-3">
+    <v-row class="mt-3" v-show="loading = true">
         <v-col v-for="post in posts.slice(0, 1)" :key="post._id" cols="12" sm="6">
-            <PostCard :post="post" class="text-left" />
+            <keep-alive>
+                <PostCard :post="post" class="text-left" />
+            </keep-alive>
         </v-col>
         <v-col v-for="blog in blogs.slice(0, 1)" :key="blog._id" cols="12" sm="6">
-            <BlogCard :blog="blog" class="text-left" />
+            <keep-alive>
+                <BlogCard :blog="blog" class="text-left" />
+            </keep-alive>
         </v-col>
     </v-row>
     <v-divider class="my-10" />
@@ -115,9 +119,11 @@
             Currently enjoying.
         </h2>
     </v-row>
-    <v-row class="mt-3">
+    <v-row class="mt-3" v-show="loading = true">
         <v-col v-for="media in medias" :key="media._id" cols="12" sm="4">
-            <MediaCard :media="media" />
+            <keep-alive>
+                <MediaCard :media="media" />
+            </keep-alive>
         </v-col>
     </v-row>
     <v-row class="text-left">
@@ -168,15 +174,13 @@ export default {
         };
     },
     created() {
-    fetch("../../api/plugin-stats.js")
+        fetch("../../api/plugin-stats.js")
             .then((response) => response.json())
             .then((data) => {
                 console.log(data);
                 document.getElementById("install-count").prepend(data.install_count);
         })
         .catch((error) => console.error(error));
-    },
-    mounted() {
         this.slug = this.$route.params.slug;
         this.getBlogsData();
         this.getPostsData();
@@ -202,7 +206,7 @@ export default {
         },
         getPostsData() {
             this.error = this.post = null;
-            this.loading = false;
+            this.loading = true;
             bucket
             .getObjects({
                 type: "posts",
@@ -216,7 +220,7 @@ export default {
         },
         getMediasData() {
             this.error = this.media = null;
-            this.loading = false;
+            this.loading = true;
             bucket
             .getObjects({
                 type: "medias",

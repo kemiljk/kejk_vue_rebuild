@@ -92,7 +92,7 @@ export default {
       slug: ""
     };
   },
-  mounted() {
+  created() {
     this.slug = this.$route.params.slug;
     this.getBlogsData();
     this.getPostsData();
@@ -117,7 +117,7 @@ export default {
     },
     getPostsData() {
             this.error = this.post = null;
-            this.loading = true;
+            this.loading = false;
             bucket
             .getObjects({
                 type: "posts",
