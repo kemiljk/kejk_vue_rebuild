@@ -3,10 +3,10 @@
     <v-row class="text-left">
         <v-col>
             <h1 class="display-3 font-weight-bold mb-10 pt-12 mt-12" aria-label="intro to Karl">
-                Karl Emil James Koch.
+                Hey, I'm Karl.
             </h1>
             <h2 class="headline font-weight-medium pt-10 mb-3">
-                Currently designing the Home as a Service at
+                Currently, I'm designing and helping define the Home as a Service at
                 <a href="https://www.homehero.co.uk" class="teal--text accent-2 font-weight-bold" target="_blank" rel="noreferrer">HomeHero</a>
                 <sup>
                     <v-icon class="teal--text accent-2" small>mdi-open-in-new</v-icon>
