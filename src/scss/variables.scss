@@ -3,6 +3,17 @@ $heading-font-family: 'Archia', -apple-system, BlinkMacSystemFont, "Segoe UI", R
 $border-radius-root: 8px !default;
 $line-height-root: 1.75;
 
+$headings: (
+  'h2': (
+    'size': 2.25rem,
+    'line-height': 1.25em
+  ),
+  'h3': (
+    'size': 1.75rem,
+    'line-height': 1.0em
+  )
+);
+
 $material-light: (
   'background': #f6f7f8
 );
