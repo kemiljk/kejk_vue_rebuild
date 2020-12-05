@@ -9,7 +9,7 @@
           /Portfolio.
         </h1>
         <h2
-          class="display font-weight-bold mb-3 mt-10"
+          class="headline font-weight-bold mb-3 mt-10"
           aria-label="Karl's projects"
         >
           A sample collection of my work.
@@ -62,7 +62,7 @@
     <v-row class="text-left">
       <v-col cols="12">
         <h2
-          class="display font-weight-bold mb-3 mt-10"
+          class="headline font-weight-bold mb-3 mt-10"
           aria-label="Karl's projects"
         >
           Things I've made.
@@ -87,7 +87,7 @@
     <v-row class="text-left">
       <v-col cols="12">
         <h2
-          class="display font-weight-bold mb-3 mt-10"
+          class="headline font-weight-bold mb-3 mt-10"
           aria-label="Karl's projects"
         >
           Other projects I've completed.
@@ -112,7 +112,7 @@
     <v-row class="text-left">
       <v-col cols="12">
         <h2
-          class="display font-weight-bold mb-3 mt-10"
+          class="headline font-weight-bold mb-3 mt-10"
           aria-label="Karl's projects"
         >
           Timed challenges I've completed.

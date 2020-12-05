@@ -22,9 +22,9 @@
       class="mx-auto mt-5"
     >
       <v-card-title class="pb-0">
-        <h1 class="mb-6">
+        <h3 class="headline font-weight-bold mb-3">
           Login
-        </h1>
+        </h3>
       </v-card-title>
       <v-card-text>
         <v-form>

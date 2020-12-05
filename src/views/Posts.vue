@@ -16,12 +16,11 @@
         >
           /Posts.
         </h1>
-        <h2
-          class="display font-weight-bold mb-3 mt-10"
-          aria-label="Karl's posts"
+        <h3
+          class="headline font-weight-bold mb-3 mt-10"
         >
           Thoughts on development and design.
-        </h2>
+        </h3>
       </v-col>
     </v-row>
     <v-row class="text-left">

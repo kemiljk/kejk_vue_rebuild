@@ -59,9 +59,9 @@
         class="mb-4 mt-4"
         cols="12"
       >
-        <h2 class="display font-weight-bold mb-3">
+        <h3 class="headline font-weight-bold mb-3">
           Design.
-        </h2>
+        </h3>
         <p
           class="body-1 mb-3"
         >
@@ -112,9 +112,9 @@
         class="mb-4 mt-4"
         cols="12"
       >
-        <h2 class="display font-weight-bold mb-3">
+        <h3 class="headline font-weight-bold mb-3">
           Development.
-        </h2>
+        </h3>
         <p
           class="body-1 mb-3"
         >
@@ -153,15 +153,7 @@
               target="_blank"
               rel="noreferrer"
               class="teal--text"
-            >Xcode</a> has gotten so much better recently, and Xcode 12 is set to be even more powerful. Live previews of SwiftUI code make it the defacto choice for iOS prototyping and dev.
-          </li>
-          <li class="mb-3">
-            <a
-              href="https://hyper.is"
-              target="_blank"
-              rel="noreferrer"
-              class="teal--text"
-            >Hyper</a> is my terminal of choice with JetBrains Mono set as my font of choice as well as some custom colour rules.
+            >Xcode</a> has gotten so much better recently, especially with Xcode 12. Live previews of SwiftUI code make it the defacto choice for iOS prototyping and dev.
           </li>
           <li class="mb-3">
             <a
@@ -192,9 +184,9 @@
         class="mb-4 mt-4"
         cols="12"
       >
-        <h2 class="display font-weight-bold mb-3">
+        <h3 class="headline font-weight-bold mb-3">
           Hardware.
-        </h2>
+        </h3>
         <p
           class="body-1 mb-3"
         >

@@ -18,7 +18,7 @@
     <v-divider class="my-10" />
     <v-row class="text-left">
         <v-col cols="12" aria-label="Karl's other interests">
-            <h2 class="display font-weight-bold mb-3">Things I've made.</h2>
+            <h3 class="headline font-weight-bold mb-3">Things I've made.</h3>
         </v-col>
         <v-col class="mb-3 py-0" cols="6" sm="3">
             <v-card href="https://apps.apple.com/us/app/id1518887590" target="_blank" rel="noreferrer">
@@ -67,9 +67,9 @@
     <v-divider class="my-10" />
     <v-row class="text-left">
         <v-col cols="6">
-            <h2 class="text-left display font-weight-bold mb-3" aria-label="Karl's posts">
+            <h3 class="headline font-weight-bold mb-3">
                 Latest Posts.
-            </h2>
+            </h3>
         </v-col>
         <v-spacer />
         <v-col cols="6" class="text-right mb-2">
@@ -94,9 +94,9 @@
     <v-divider class="my-10" />
     <v-row class="text-left">
         <v-col cols="6">
-            <h2 class="display font-weight-bold" aria-label="Karl's tech setup">
+            <h3 class="headline font-weight-bold mb-3">
                 Uses.
-            </h2>
+            </h3>
         </v-col>
         <v-spacer />
         <v-col cols="6" class="text-right mb-2">
@@ -115,9 +115,9 @@
     </v-row>
     <v-divider class="mt-10 mb-10" />
     <v-row class="ml-1 mr-1">
-        <h2 class="display font-weight-bold mb-3" aria-label="Karl's posts">
+        <h3 class="headline font-weight-bold mb-3">
             Currently enjoying.
-        </h2>
+        </h3>
     </v-row>
     <v-row class="mt-3" v-show="loading = true">
         <v-col v-for="media in medias" :key="media._id" cols="12" sm="4">
@@ -128,9 +128,9 @@
     </v-row>
     <v-row class="text-left">
         <v-col class="mt-10">
-            <h2 class="display font-weight-bold mb-3" aria-label="Karl's music playlist">
+            <h3 class="headline font-weight-bold mb-3">
                 Music I've written.
-            </h2>
+            </h3>
             <v-row>
                 <v-col cols="12" sm="9">
                     <iframe src="https://embed.music.apple.com/us/album/cornerstone/1300802348?app=music&amp;itsct=music_box&amp;itscg=30200&amp;ct=albums_cornerstone&amp;ls=1" height="240px" frameborder="0" sandbox="allow-forms allow-popups allow-same-origin allow-scripts allow-top-navigation-by-user-activation" allow="autoplay *; encrypted-media *;" style="width: 100%; max-width: 660px; overflow: hidden; border-top-left-radius: 10px; border-top-right-radius: 10px; border-bottom-right-radius: 10px; border-bottom-left-radius: 10px; background-color: transparent; background-position: initial initial; background-repeat: initial initial;"></iframe>
