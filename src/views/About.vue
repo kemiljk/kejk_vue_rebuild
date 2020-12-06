@@ -13,8 +13,8 @@
                 </sup>
                 in London, UK.
             </h2>
-            <v-btn color="teal" class="white--text">
-            <v-icon class="white--text">mdi-twitter</v-icon>
+            <v-btn color="blue lighten-2" class="white--text mt-4" href="https://www.twitter.com/_kejk" target="_blank">
+            <v-icon class="white--text mr-2">mdi-twitter</v-icon>
             Follow me on Twitter
             </v-btn>
         </v-col>

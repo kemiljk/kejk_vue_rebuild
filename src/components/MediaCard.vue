@@ -7,7 +7,7 @@
     alt="Media Karl is enjoying"
     height="160px"
   >
-  <v-row class="text-left my-auto" align="center">
+  <v-row class="text-left my-auto align-center" align="center">
     <v-col cols="5">
     <v-img
       :src="media.metadata.cover.imgix_url"
