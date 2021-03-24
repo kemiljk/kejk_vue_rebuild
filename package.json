@@ -28,7 +28,7 @@
     "vue-router": "^3.1.5",
     "vue-video": "^0.1.7",
     "vuelidate": "^0.7.5",
-    "vuetify": "^2.2.14",
+    "vuetify": "^2.4.8",
     "webpack": "^4.43.0"
   },
   "devDependencies": {
